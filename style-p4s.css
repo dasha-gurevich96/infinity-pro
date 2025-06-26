@@ -481,15 +481,15 @@ h1.site-title {
     display: flex;
     	justify-content: space-between;
     	align-items: center;
-	max-width: 196%;
+	max-width: 96%;
+	margin: auto;
     width: 1000px;
 }
 
 .genesis-nav-menu a {
-    color: var(--black);
-    font-size: 18px;
-    font-weight: 500 !important;
-    padding: 8px 9px;
+    color: white;
+    font-size: 22px;
+    font-weight: 600 !important;
     text-transform: none;
     letter-spacing: normal;
 }
