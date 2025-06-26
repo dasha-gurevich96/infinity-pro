@@ -1194,7 +1194,6 @@ img.alignright,
 .header-image .site-title > a {
 	background-size: contain !important;
 	float: left;
-	min-height: 65px;
 	width: 200px;
 }
 
