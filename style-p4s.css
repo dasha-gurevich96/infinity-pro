@@ -47,44 +47,28 @@ main .custom-container,
 }
 
 :root {
-	--black: #1b1b1a;
-	--yellow: #FCEB4E;
-	--cream: #FFFFF8;
-	--blue: #6CCFD1;
-	--lilac: #B3C5F6;
-	--light-lilac: #f2f4f8;
-	--light-pink: #fdf4f3;
-	--grey: #E5E5E3;
-	--pink: #F1BBD2;
-	--purple: #B41E78;
-	--charcoal-grey: #3D3E3D;
+	
+	--font: 'Nunito-Var';
 }
 
 
 
 @font-face {
-    font-family: 'Figtree-Var';
+    font-family: 'Nunito-Var';
     font-style: normal;
     font-weight: 300 400 500 600 700 800 900;
     font-display: fallback;
-    src: url('https://www.thecatalyst.org.uk/wp-content/themes/infinity-pro/fonts/Figtree-Var.woff2') format('woff2');
+    src: url('https://scldw-com.stackstaging.com/wp-content/themes/infinity-pro/fonts/Nunito.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: 'Figtree-Var';
+    font-family: 'Nunto-Italic';
     font-style: italic;
     font-weight: 300 400 500 600 700 800 900;
     font-display: fallback;
-    src: url('https://www.thecatalyst.org.uk/wp-content/themes/infinity-pro/fonts/Figtree-Italic-VariableFont_wght.woff2') format('woff2');
+    src: url('https://scldw-com.stackstaging.com/wp-content/themes/infinity-pro/fonts/Nunito-Italic.woff2') format('woff2');
 }
 
-@font-face {
-    font-family: 'Inter-Var';
-    font-style: normal;
-    font-weight: 300 400 500 600 700 800 900;
-    font-display: fallback;
-    src: url('https://www.thecatalyst.org.uk/wp-content/themes/infinity-pro/fonts/Inter-Var.woff2') format('woff2');
-}
 
 
 body,
@@ -96,7 +80,7 @@ span,
 div,
 button,
 label {
-	font-family: 'Figtree-Var', sans-serif !important;
+	font-family: var(--font), sans-serif !important;
 }
 
 input[type="email"], input[type="search"], input[type="submit"], input[type="text"], input[type="url"], textarea {
