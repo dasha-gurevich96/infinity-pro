@@ -1,0 +1,151 @@
+<?php
+
+$text_above = get_sub_field('text_above_collapsibles');
+$background_colour = get_sub_field('select_background_colour');
+$add_pattern = get_sub_field('add_pattern');
+$pattern_position = get_sub_field('show_pattern_on_the');
+$size = get_sub_field('select_pattern_size');
+$pattern_colour = get_sub_field('select_pattern_colour');
+$pattern ='';
+if($add_pattern) {
+	if($background_colour === 'pink'  || $pattern_colour === 'pink' ) {
+		$pattern = '/wp-content/uploads/2025/03/Inner-pages_pattern_zigzaG.svg';
+	} elseif($background_colour === 'blue' || $pattern_colour === 'blue') {
+		if($pattern_position === 'left') {
+			$pattern = '/wp-content/uploads/2025/03/Inner-pages_pattern_circles.svg';
+		} else {
+			$pattern = '/wp-content/uploads/2025/03/Inner-pages_pattern-circle-flipped.svg';
+		}
+	} elseif($background_colour === 'lilac' || $pattern_colour === 'lilac') {
+		if($size === 'large') {
+			$pattern = '/wp-content/uploads/2025/03/Inner-pages_pattern_crosses_lager.svg';
+		} else {
+			$pattern = '/wp-content/uploads/2025/03/Inner-pages_pattern_cross.svg';
+		}
+
+	}
+}
+
+if (have_rows('collapsibles')) {
+	?> <div class="full-container <?php echo $background_colour;?> shaped text-container">
+	
+	<?php if(!empty($pattern)) {
+		?><img src="<?php echo $pattern;?>" alt="" class="position-absolute pattern pattern-<?php echo $pattern_position;?>"/><?php
+	}
+    $counter = rand(1, 10000);
+    $counter_tabs = rand(1, 10000);
+?> <div class=""><div class="custom-container two-cols-container"><div class="limit-width"><?php
+	if(!empty($text_above)) {
+		?>
+				<?php echo $text_above;?>
+	
+		<?php
+	}
+    ?>
+    <div class="collapsibles" <?php if (!empty($id)) { ?>id="<?php echo $id; ?>"<?php } ?>>
+
+        <div class="accordion accordion-flush" id="accordion-<?php echo $counter; ?>">
+            <?php 
+            while (have_rows('collapsibles')) {
+                the_row();
+                $collapsible_title = get_sub_field('collapsible_title');
+				$icon = get_sub_field('icon');
+                $counter_tabs++;
+                if (!empty($collapsible_title) && have_rows('collapsible_description')) { ?>
+                    <div class="accordion-item tab">
+                        <h2 class="accordion-header exclude" id="heading-<?php echo $counter_tabs; ?>">
+                            <button class="accordion-button d-flex collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-<?php echo $counter_tabs; ?>" aria-expanded="false" aria-controls="collapse-<?php echo $counter_tabs; ?>">
+								<?php if(!empty($icon)) {
+									?><img class="icon" src="<?php echo $icon;?>" alt="" /><?php
+									}
+								?>
+                                <span class="tab-title"><?php echo $collapsible_title; ?></span>
+                            </button>
+                        </h2>
+                        <div id="collapse-<?php echo $counter_tabs; ?>" class="accordion-collapse collapse" aria-labelledby="heading-<?php echo $counter_tabs; ?>" data-bs-parent="#accordion-<?php echo $counter; ?>" role="tabpanel">
+                            <div class="accordion-body">
+                                <?php 
+                                while (have_rows('collapsible_description')) {
+                                    the_row(); 
+                                    if(get_row_layout() === 'text') {
+										$text = get_sub_field('text');
+										if(!empty($text)) {
+											?>
+												<div class="custom-container">
+													<?php echo $text;?>
+												</div>	
+											
+										<?php
+										}
+									} elseif(get_row_layout() === 'buttons') {
+										if(have_rows('buttons')) {
+											?>
+											<div class="custom-container">
+														<div class="buttons-container d-flex">
+																	<?php while(have_rows('buttons')) {
+																		the_row();
+																		$btn_link = get_sub_field('button_link');
+																		$btn_text = get_sub_field('button_text');
+																		$bg = get_sub_field('button_background_colour');
+																		if(!empty($btn_link) && !empty($btn_text)) {
+																			?>
+																			<a href="<?php echo $btn_link;?>" class="button button-<?php echo $bg;?>">
+																				<?php echo $btn_text;?>
+																			</a>
+																		<?php
+																		}
+																	}
+																?>
+																</div>
+											</div>
+											
+										<?php
+										}
+									} elseif(get_row_layout() === 'images') {
+										if(have_rows('images')) {
+											?>
+											<div class="custom-container">
+												<div class="d-flex images-container justify-content-center align-items-stretch gap-5">
+																<?php while(have_rows('images')) {
+																	the_row();
+																	$img = get_sub_field('image_tab');
+																	$link = get_sub_field('link');
+																	$logo = get_sub_field('is_image_a_logo');
+																	$class = $logo ? 'logo object-fit-contain' : '';
+																	if(!empty($img) && !empty($link)) {
+																		?>
+																		<a href="<?php echo $link;?>" class="clickable-link">
+																			<img class="img <?php echo $class;?>" src="<?php echo $img['url'];?>" alt="<?php echo $img['alt'];?>" />
+																		</a>
+																<?php
+																	} elseif(!empty($img)) {
+																		?>
+																		<img class="img <?php echo $class;?>" src="<?php echo $img['url'];?>" alt="<?php echo $img['alt'];?>" />
+																	<?php
+																	}
+																}
+													?>
+													</div>
+											</div>
+										<?php
+										}
+										
+									}
+                                } 
+                                ?>
+                            </div>
+                        </div>
+                    </div>
+                <?php 
+                } 
+            } 
+            ?>
+        </div>
+    </div>
+	</div>
+	</div>
+</div>
+</div>
+<?php
+}
+?>
