@@ -372,40 +372,21 @@ html {
 
 
 .custom-button {
-	border-radius: 5px;
-	background-color: #3d3e3d;
-	color: white;
+	border-radius: 20px;
 	display: inline-block;
 	font-weight:  400;
 	font-size: 22px;
 	text-align: center;
 	text-decoration: none;
 	padding: 7px 25px;
-	margin-top: 20px;
-	transition: transform 0.2s ease;
+}
+
+.custom-button.dark-green {
+	background-color: var(--dark-green);
+	color: white;
 }
 
 
-a.custom-button.Black,
-a.custom-button.black {
-    background-color: #3D3E3D;
-}
-
-.custom-button:hover,
-.custom-button:focus {
-	transform: translateY(-5px);
-}
-
-a.custom-button.Purple,
-a.custom-button.purple {
-    background-color: #6130bf;
-}
-
-a.custom-button.Pink,
-a.custom-button.pink {
-	color: black;
-    background-color: #D81966;
-}
 
 @media (max-width: 700px) {
 	.custom-button {

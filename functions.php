@@ -517,7 +517,7 @@ function logo_button() {
     $button = get_field('button', 'options');
   
         ?><div class="full-container logo-btn-container">
-            <div class="custom-container d-flex justify-content-between">
+            <div class="custom-container d-flex justify-content-between align-items-center">
                <div class="title-area"><h1 itemprop="headline"><a  class="site-title" href="/"><?php bloginfo('name'); ?></a> </h1></div>  
           
             <?php if(!empty($button)) {
