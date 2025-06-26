@@ -470,57 +470,9 @@ add_filter('upload_mimes', 'add_svg_to_upload_mimes');
 // Remove the default Genesis header function
 remove_action( 'genesis_header', 'genesis_do_header' );
 
-// Add a custom header function without link around logo
-add_action( 'genesis_header', 'custom_genesis_header' );
-function custom_genesis_header() {
-    ?><div class="title-area"><h1 itemprop="headline"><a  class="site-title" href="/"><?php bloginfo('name'); ?></a> </h1></div>
-<?php
-}
-
-
-add_action('genesis_header', 'search_icon', 12);
-function search_icon() {
-	?><div class="search-icon">
-			
-				<button class="search move-up" aria-label="Open site search" aria-expanded="false">
-					
-				</button>
-			
-		</div>
-<?php
-}
-
-
-
-add_action( 'genesis_after_header', 'display_search_bar' );
-
-add_action('genesis_after_header', 'buttons_header');
-
-function display_search_bar() {
-	?>
-	<div class="site-search pre-header d-none">
-		<div class="custom-container">
-			<?php 
-	if (!is_page('site-search-results')) {
-		 echo do_shortcode('[searchandfilter field="Search"]');
-	}
-	?>
-		</div>
-	</div>
-<?php
-}
 
 function buttons_header() {
-	$button_text = get_field('button_text', 'options');
-	$button_link = get_field('button_link', 'options');
-	?><div class="buttons-header">
-		<div class="custom-container">
-			<?php if(!empty($button_text) && !empty($button_link)) {
-				?><a href="<?php echo $button_link;?>" class="move-up header-btn lilac">
-					<?php echo $button_text;?></a>
-				<?php
-			}
-		if(have_rows('social_media_buttons', 'options')) {
+    	if(have_rows('social_media_buttons', 'options')) {
 			?><div class="social-media d-flex">
 			<?php while(have_rows('social_media_buttons','options')) {
 				the_row();
@@ -543,6 +495,17 @@ function buttons_header() {
 			</div>
 			<?php
 		}
+
+	$button_text = get_field('button_text', 'options');
+	$button_link = get_field('button_link', 'options');
+	?><div class="buttons-header">
+		<div class="custom-container">
+			<?php if(!empty($button_text) && !empty($button_link)) {
+				?><a href="<?php echo $button_link;?>" class="move-up header-btn lilac">
+					<?php echo $button_text;?></a>
+				<?php
+			}
+	
 			?>
 			
 	  </div>
@@ -551,8 +514,14 @@ function buttons_header() {
 }
 
 
-add_action('genesis_header', 'buttons_header', 1);
+//add_action('genesis_header', 'buttons_header', 2);
 
+// Add a custom header function without link around logo
+//add_action( 'genesis_header', 'custom_genesis_header' );
+function custom_genesis_header() {
+    ?><div class="title-area"><h1 itemprop="headline"><a  class="site-title" href="/"><?php bloginfo('name'); ?></a> </h1></div>
+<?php
+}
 
 /*** FOOTER
 ================*/
