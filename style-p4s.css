@@ -433,7 +433,7 @@ a.social-icon img {
 .site-header {
     background-color: var(--purple);
     border-bottom: 0px;
-    padding: 17px 0;
+    padding: 13px 0;
 }
 
 .title-area {
@@ -460,7 +460,7 @@ header .title-area {
     padding-bottom: 0;
     padding-top: 0;
     width: 311px;
-    height: 78px;
+    height: 67px;
     text-indent: -9999px;
 }
 
