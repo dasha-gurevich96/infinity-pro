@@ -379,6 +379,7 @@ html {
     text-align: center;
     text-decoration: none;
     padding: 4px 23px;
+	outline-offset: 2px;
 	transition: all 0.3s;
 }
 
@@ -390,7 +391,7 @@ html {
 a.custom-button:hover, a.custom-button:focus {
     transform: none;
     outline: 2px solid  black;
-	outline-offset: 2px;
+	
 }
 
 
