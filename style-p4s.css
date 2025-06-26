@@ -444,26 +444,6 @@ a.social-icon img {
 /*header > .wrap,*/
 /** MENU 
 --------------------------*/
-header .wrap {
-    display: flex;
-	justify-content: space-between;
-    margin: 0 auto;
-}
-
-header .wrap,
-.buttons-header .custom-container {
-	margin: auto;
-	max-width: 100%;
-    width: 1045px;
-}
-
-
-
-.site-search .custom-container {
-	margin: auto;
-	max-width: 100%;
-    width: 900px !important;
-}
 
 .title-area {
 	display: flex;
@@ -475,8 +455,12 @@ header .wrap,
     width: 26%;
 }
 
+header .title-area {
+	display: none;
+}
+
 .site-title {
-    background-image: url(/wp-content/uploads/2025/03/CAT_logo_horiz_black.png);
+    background-image: url(/wp-content/uploads/2025/06/Scottish-Learning-Disability-week_Logo_social-media-sizes_Logo_fitted-scaled.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
@@ -999,8 +983,4 @@ button.sub-menu-toggle.ionicons-before.ion-chevron-down {
 ================*/
 header.entry-header {
     display: none;
-}
-
-header .title-area {
-	display: none;
 }
