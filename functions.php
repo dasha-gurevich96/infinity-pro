@@ -476,8 +476,8 @@ add_action('genesis_before_header', 'infinity_socials', 12 );
 function infinity_socials() {
     if(have_rows('social','options')) {
         ?> 
-        <div class="top-bar blue-bg d-flex justify-content-end">
-            <div class="custom-container">
+        <div class="top-bar blue-bg">
+            <div class="custom-container d-flex justify-content-end">
                 <?php while(have_rows('social', 'options')) {
                     the_row();
                     $media = get_sub_field('select_channel');

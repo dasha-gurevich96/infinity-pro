@@ -27,7 +27,8 @@
 /*** 1 GLOBAL SETTINGS
 ===========================*/
 main .custom-container,
-.post-type-archive-product .page-description {
+.post-type-archive-product .page-description,
+.top-bar .custom-container {
 	max-width: 100%;
 	margin: auto;
 	width: 1037px; 
