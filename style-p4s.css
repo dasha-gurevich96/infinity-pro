@@ -47,7 +47,9 @@ main .custom-container,
 }
 
 :root {
-	
+	--blue: #4BC4DB;
+	--dark-green: #0E5660;
+	--purple: #591144;
 	--font: 'Nunito-Var';
 }
 
@@ -407,6 +409,15 @@ a.custom-button.pink {
 		font-size: 19px;
 		width: 100%;
 	}
+}
+
+
+
+/** HEADER
+==================*/
+.top-bar {
+	background-color: var(--blue);
+	padding: 20px 0;
 }
 
 /*header > .wrap,*/
