@@ -514,6 +514,7 @@ a span {
 
 @media (min-width: 1100px) {
 	nav ul {
+		display: flex;
 		gap: 20px;
 	}
 }
