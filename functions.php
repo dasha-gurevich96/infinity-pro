@@ -471,6 +471,40 @@ add_filter('upload_mimes', 'add_svg_to_upload_mimes');
 remove_action( 'genesis_header', 'genesis_do_header' );
 remove_action( 'genesis_header', 'genesis_do_nav', 12 );
 
+add_action('genesis_before_header', 'infinity_socials', 12 );
+
+function infinity_socials() {
+    if(have_rows('social')) {
+        ?> 
+        <div class="top-bar blue-bg">
+            <?php while(have_rows('socials')) {
+                the_row();
+                $media = get_sub_field('select_channel');
+                $link = get_sub_field('link');
+                if(!empty($media) && !empty($link)) {
+					$src= '';
+                    $class = 'flickr';
+					if($media ==='Facebook') {
+						$src="/wp-content/uploads/2025/06/Asset-1.svg";
+					} elseif($media ==='X') {
+						$src="/wp-content/uploads/2025/06/Asset-2.svg";
+					} elseif($media ==='Vimeo') {
+						$src="/wp-content/uploads/2025/06/Asset-4.svg";
+					} elseif($media ==='Flickr') {
+						$src="/wp-content/uploads/2025/06/Asset-3.svg";
+                        $class="flickr";
+					}
+                    ?><a class="social-icon <?php echo $class;?>" href="<?php echo $link;?>" aria-label="<?php echo $media;?> profile - opens in a new window"><img src="<?php echo $src;?>" alt="" /></a>
+                    <?php
+				}
+
+            }
+            ?>
+        </div>
+        <?php
+    }
+}
+
 function buttons_header() {
     	if(have_rows('social_media_buttons', 'options')) {
 			?><div class="social-media d-flex">
@@ -480,7 +514,7 @@ function buttons_header() {
 				$link = get_sub_field('link');
 				if(!empty($media) && !empty($link)) {
 					$src= '';
-					if($media ==='Youtube') {
+					if($media ==='Facebook') {
 						$src="/wp-content/uploads/2025/03/Youtube_icon_grey-e1742386530501.png";
 					} elseif($media ==='Instagram') {
 						$src="/wp-content/uploads/2025/03/linked-in-icon_grey-e1742386512950.png";
@@ -521,7 +555,7 @@ function buttons_header() {
 function custom_genesis_header() {
     ?><div class="title-area"><h1 itemprop="headline"><a  class="site-title" href="/"><?php bloginfo('name'); ?></a> </h1></div>
 <?php
-}
+} 
 
 /*** FOOTER
 ================*/
