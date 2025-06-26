@@ -519,16 +519,16 @@ function logo_button() {
         ?><div class="full-container logo-btn-container">
             <div class="custom-container d-flex justify-content-between">
                <div class="title-area"><h1 itemprop="headline"><a  class="site-title" href="/"><?php bloginfo('name'); ?></a> </h1></div>  
-            </div>
+          
             <?php if(!empty($button)) {
-                echo 'test';
+            
                 $link = $button['link'];
                 $text = $button['text'];
                 if(!empty($link) && !empty($text)) {
                     ?><a class="custom-button dark-green" href="<?php echo $link;?>"><?php echo $text;?></a><?php
                 }
             }
-            ?></div><?php
+            ?></div></div><?php
     
 }
 
