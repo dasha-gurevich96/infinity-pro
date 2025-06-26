@@ -423,6 +423,10 @@ a.social-icon img {
 	width: 25px;
 }
 
+.full-container.logo-btn-container {
+	padding: 20px 0;
+}
+
 /*header > .wrap,*/
 /** MENU 
 --------------------------*/
