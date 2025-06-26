@@ -521,6 +521,7 @@ function logo_button() {
                <div class="title-area"><h1 itemprop="headline"><a  class="site-title" href="/"><?php bloginfo('name'); ?></a> </h1></div>  
             </div>
             <?php if(!empty($button)) {
+                echo 'test';
                 $link = $button['link'];
                 $text = $button['text'];
                 if(!empty($link) && !empty($text)) {
