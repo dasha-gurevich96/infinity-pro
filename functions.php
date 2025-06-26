@@ -527,6 +527,7 @@ function logo_button() {
                     ?><a class="custom-button dark-green" href="<?php echo $link;?>"><?php echo $text;?></a><?php
                 }
             }
+            ?></div><?php
     
 }
 
