@@ -417,7 +417,23 @@ a.custom-button.pink {
 ==================*/
 .top-bar {
 	background-color: var(--blue);
-	padding: 20px 0;
+	padding: 10px 0;
+	gap: 20px;
+}
+
+a.social-icon {
+	border-radius: 100%;
+	border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.social-icon img {
+	height: 20px;
+	width: 20px;
 }
 
 /*header > .wrap,*/

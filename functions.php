@@ -476,7 +476,7 @@ add_action('genesis_before_header', 'infinity_socials', 12 );
 function infinity_socials() {
     if(have_rows('social','options')) {
         ?> 
-        <div class="top-bar blue-bg d-flex jusitfy-content-end">
+        <div class="top-bar blue-bg d-flex justify-content-end">
             <?php while(have_rows('social', 'options')) {
                 the_row();
                 $media = get_sub_field('select_channel');
@@ -485,11 +485,14 @@ function infinity_socials() {
 					$src= '';
                     $class = 'flickr';
 					if($media ==='Facebook') {
+                        $class="";
 						$src="/wp-content/uploads/2025/06/Asset-1.svg";
 					} elseif($media ==='X') {
+                        $class="";
 						$src="/wp-content/uploads/2025/06/Asset-2.svg";
 					} elseif($media ==='Vimeo') {
 						$src="/wp-content/uploads/2025/06/Asset-4.svg";
+                        $class="";
 					} elseif($media ==='Flickr') {
 						$src="/wp-content/uploads/2025/06/Asset-3.svg";
                         $class="flickr";
