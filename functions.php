@@ -477,7 +477,7 @@ function infinity_socials() {
     if(have_rows('social','options')) {
         ?> 
         <div class="top-bar blue-bg">
-            <?php while(have_rows('socials', 'options')) {
+            <?php while(have_rows('social', 'options')) {
                 the_row();
                 $media = get_sub_field('select_channel');
                 $link = get_sub_field('link');
