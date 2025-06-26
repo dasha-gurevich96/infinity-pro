@@ -510,48 +510,25 @@ function infinity_socials() {
     }
 }
 
-function buttons_header() {
-    	if(have_rows('social_media_buttons', 'options')) {
-			?><div class="social-media d-flex">
-			<?php while(have_rows('social_media_buttons','options')) {
-				the_row();
-				$media = get_sub_field('media');
-				$link = get_sub_field('link');
-				if(!empty($media) && !empty($link)) {
-					$src= '';
-					if($media ==='Facebook') {
-						$src="/wp-content/uploads/2025/03/Youtube_icon_grey-e1742386530501.png";
-					} elseif($media ==='Instagram') {
-						$src="/wp-content/uploads/2025/03/linked-in-icon_grey-e1742386512950.png";
-					} elseif($media ==='Medium') {
-						$src="/wp-content/uploads/2025/03/medium_icon_grey-e1742386489104.png";
-					}
-			?><a class="social-icon move-up" href="<?php echo $link;?>" aria-label="<?php echo $media;?> profile - opens in a new window"><img src="<?php echo $src;?>" alt="" /></a>
-			<?php
-				}
-			}
-			?>
-			</div>
-			<?php
-		}
+add_action('genesis_header', 'logo_button', 2);
 
-	$button_text = get_field('button_text', 'options');
-	$button_link = get_field('button_link', 'options');
-	?><div class="buttons-header">
-		<div class="custom-container">
-			<?php if(!empty($button_text) && !empty($button_link)) {
-				?><a href="<?php echo $button_link;?>" class="move-up header-btn lilac">
-					<?php echo $button_text;?></a>
-				<?php
-			}
-	
-			?>
-			
-	  </div>
-	</div>
-<?php
+function logo_button() {
+    $logo = get_field('logo', 'options');
+    $button = get_field('button', 'options');
+  
+        ?><div class="full-container logo-btn-container">
+            <div class="custom-container d-flex justify-content-between">
+               <div class="title-area"><h1 itemprop="headline"><a  class="site-title" href="/"><?php bloginfo('name'); ?></a> </h1></div>  
+            </div>
+            <?php if(!empty($button)) {
+                $link = get_sub_field('link');
+                $text = get_sub_field('text');
+                if(!empty($link) && !empty($text)) {
+                    ?><a class="custom-button dark-green" href="<?php echo $link;?>"><?php echo $text;?></a><?php
+                }
+            }
+    
 }
-
 
 //add_action('genesis_header', 'buttons_header', 2);
 

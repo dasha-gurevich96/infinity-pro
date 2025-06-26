@@ -420,22 +420,25 @@ a.custom-button.pink {
 .top-bar {
 	background-color: var(--blue);
 	padding: 10px 0;
+}
+
+.top-bar .custom-container {
 	gap: 20px;
 }
 
 a.social-icon {
 	border-radius: 100%;
 	border: 1px solid black;
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 a.social-icon img {
-	height: 20px;
-	width: 20px;
+	height: 25x;
+	width: 25px;
 }
 
 /*header > .wrap,*/
@@ -989,4 +992,11 @@ button.sub-menu-toggle.ionicons-before.ion-chevron-down {
 	.search-filter-input-text, .search-filter-field__input {
 		width: 100%;
 	}
+}
+
+
+/*** HOME
+================*/
+header.entry-header {
+    display: none;
 }
