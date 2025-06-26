@@ -378,7 +378,7 @@ html {
     font-size: 20px;
     text-align: center;
     text-decoration: none;
-    padding: 7px 23px;
+    padding: 4px 23px;
 }
 
 .custom-button.dark-green {
@@ -401,7 +401,7 @@ html {
 ==================*/
 .top-bar {
 	background-color: var(--blue);
-	padding: 10px 0;
+	padding: 5px 0;
 }
 
 .top-bar .custom-container {
