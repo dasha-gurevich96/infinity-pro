@@ -477,32 +477,34 @@ function infinity_socials() {
     if(have_rows('social','options')) {
         ?> 
         <div class="top-bar blue-bg d-flex justify-content-end">
-            <?php while(have_rows('social', 'options')) {
-                the_row();
-                $media = get_sub_field('select_channel');
-                $link = get_sub_field('link');
-                if(!empty($media) && !empty($link)) {
-					$src= '';
-                    $class = 'flickr';
-					if($media ==='Facebook') {
-                        $class="";
-						$src="/wp-content/uploads/2025/06/Asset-1.svg";
-					} elseif($media ==='X') {
-                        $class="";
-						$src="/wp-content/uploads/2025/06/Asset-2.svg";
-					} elseif($media ==='Vimeo') {
-						$src="/wp-content/uploads/2025/06/Asset-4.svg";
-                        $class="";
-					} elseif($media ==='Flickr') {
-						$src="/wp-content/uploads/2025/06/Asset-3.svg";
-                        $class="flickr";
-					}
-                    ?><a class="social-icon <?php echo $class;?>" href="<?php echo $link;?>" aria-label="<?php echo $media;?> profile - opens in a new window"><img src="<?php echo $src;?>" alt="" /></a>
-                    <?php
-				}
+            <div class="custom-container">
+                <?php while(have_rows('social', 'options')) {
+                    the_row();
+                    $media = get_sub_field('select_channel');
+                    $link = get_sub_field('link');
+                    if(!empty($media) && !empty($link)) {
+                        $src= '';
+                        $class = 'flickr';
+                        if($media ==='Facebook') {
+                            $class="";
+                            $src="/wp-content/uploads/2025/06/Asset-1.svg";
+                        } elseif($media ==='X') {
+                            $class="";
+                            $src="/wp-content/uploads/2025/06/Asset-2.svg";
+                        } elseif($media ==='Vimeo') {
+                            $src="/wp-content/uploads/2025/06/Asset-4.svg";
+                            $class="";
+                        } elseif($media ==='Flickr') {
+                            $src="/wp-content/uploads/2025/06/Asset-3.svg";
+                            $class="flickr";
+                        }
+                        ?><a class="social-icon <?php echo $class;?>" href="<?php echo $link;?>" aria-label="<?php echo $media;?> profile - opens in a new window"><img src="<?php echo $src;?>" alt="" /></a>
+                        <?php
+                    }
 
-            }
-            ?>
+                }
+                ?>
+            </div>
         </div>
         <?php
     }
