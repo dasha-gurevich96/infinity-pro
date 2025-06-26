@@ -513,7 +513,7 @@ a span {
 }
 
 @media (min-width: 1100px) {
-	nav ul {
+	ul#menu-header {
 		display: flex;
 		gap: 20px;
 	}
