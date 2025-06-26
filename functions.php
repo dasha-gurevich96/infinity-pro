@@ -468,7 +468,7 @@ add_filter('upload_mimes', 'add_svg_to_upload_mimes');
 /*** HEADER
 ================================*/
 // Remove the default Genesis header function
-remove_action( 'genesis_header', 'genesis_do_header' );
+//remove_action( 'genesis_header', 'genesis_do_header' );
 remove_action( 'genesis_header', 'genesis_do_nav', 12 );
 
 add_action('genesis_before_header', 'infinity_socials', 12 );
