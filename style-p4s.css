@@ -461,10 +461,9 @@ h1.site-title {
 }
 
 .site-header {
-    background-color: var(--cream);
+    background-color: var(--purple);
     border-bottom: 0px;
-    padding-top: 0px;
-	padding-bottom: 10px;
+    padding: 20px 0;
 }
 
 .header-image .site-title > a {
@@ -480,9 +479,10 @@ h1.site-title {
 .nav-primary {
     float: unset;
     display: flex;
-    	justify-content: center;
+    	justify-content: space-between;
     	align-items: center;
-    width: 69%;
+	max-width: 196%;
+    width: 1000px;
 }
 
 .genesis-nav-menu a {
