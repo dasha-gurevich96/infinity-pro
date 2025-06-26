@@ -474,10 +474,10 @@ remove_action( 'genesis_header', 'genesis_do_nav', 12 );
 add_action('genesis_before_header', 'infinity_socials', 12 );
 
 function infinity_socials() {
-    if(have_rows('social')) {
+    if(have_rows('social','options')) {
         ?> 
         <div class="top-bar blue-bg">
-            <?php while(have_rows('socials')) {
+            <?php while(have_rows('socials', 'options')) {
                 the_row();
                 $media = get_sub_field('select_channel');
                 $link = get_sub_field('link');
