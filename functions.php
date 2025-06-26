@@ -521,8 +521,8 @@ function logo_button() {
                <div class="title-area"><h1 itemprop="headline"><a  class="site-title" href="/"><?php bloginfo('name'); ?></a> </h1></div>  
             </div>
             <?php if(!empty($button)) {
-                $link = get_sub_field('link');
-                $text = get_sub_field('text');
+                $link = $button['link'];
+                $text = $button['text'];
                 if(!empty($link) && !empty($text)) {
                     ?><a class="custom-button dark-green" href="<?php echo $link;?>"><?php echo $text;?></a><?php
                 }
