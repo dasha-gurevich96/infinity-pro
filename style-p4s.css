@@ -389,7 +389,8 @@ html {
 
 a.custom-button:hover, a.custom-button:focus {
     transform: none;
-    outline: 2px solid var(--purple);
+    outline: 2px solid  black;
+	outline-offset: 2px;
 }
 
 
