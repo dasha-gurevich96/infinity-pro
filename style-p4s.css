@@ -437,7 +437,7 @@ a.social-icon {
 }
 
 a.social-icon img {
-	height: 25x;
+	height: 25px;
 	width: 25px;
 }
 
@@ -999,4 +999,8 @@ button.sub-menu-toggle.ionicons-before.ion-chevron-down {
 ================*/
 header.entry-header {
     display: none;
+}
+
+header .title-area {
+	display: none;
 }
