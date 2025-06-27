@@ -894,6 +894,10 @@ div#front-page-1 {
     position: relative;
 }
 
+.placeholder-container img {
+	box-shadow: 1px 12px 8px rgba(0, 0, 0, 0.4);
+}
+
 .play-btn {
 	position: absolute;
 		top: 50%;
