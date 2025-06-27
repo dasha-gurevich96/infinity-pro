@@ -886,7 +886,7 @@ div#front-page-1 {
 
 .hero {
 	background-color: var(--yellow);
-    height: 400px;
+    height: 485px;
     overflow: hidden;
 }
 
@@ -899,8 +899,10 @@ div#front-page-1 {
 	height: 100%;
 }
 
-.placeholder-container img {
+.placeholder-container img:first-of-type {
     box-shadow: 1px 12px 8px 8px rgb(43 41 41 / 30%);
+	object-fit: cover;
+	width: 100%;
 }
 
 .play-btn {
