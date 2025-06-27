@@ -960,3 +960,19 @@ img.wave {
 		background-position: -14% 0 !important;
 	}
 }
+
+
+/***FRONT PAGE 2
+---------------------*/
+
+.title-diamond  {
+  position: relative;
+  display: inline-block;
+  background-color: #5e0d47; /* dark purple */
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 40% / 20%;
+  transform: rotate(45deg);
+  overflow: hidden;
+}
