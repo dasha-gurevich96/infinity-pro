@@ -1040,7 +1040,7 @@ img.wave {
     margin-top: -90px;
 }
 
-.diamond-content p {
+.diamond-content p:not(:last-of-type) {
 	margin-bottom: 30px;
 }
 
