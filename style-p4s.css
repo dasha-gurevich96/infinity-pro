@@ -912,6 +912,7 @@ div#front-page-1 {
 }
 
 .play-btn img {
+	box-shadow: none;
 	height: 65px;
 	width: 65px;
 }
