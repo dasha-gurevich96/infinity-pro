@@ -878,6 +878,14 @@ header.entry-header {
     display: none;
 }
 
+h2.home-title {
+    font-weight: 700;
+    padding-bottom: 100px;
+    text-align: center;
+    width: 603px;
+    margin: auto;
+}
+
 /*** FRONT PAGE 1
 ----------------------*/
 div#front-page-1   {
