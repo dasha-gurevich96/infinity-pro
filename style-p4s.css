@@ -966,13 +966,30 @@ img.wave {
 ---------------------*/
 
 .title-diamond  {
-	background: #3c3838;
-	height: 60px;
-	text-align: center;
-	transform:rotate(45deg);
-	width:60px;
+	position: relative;
+}
+
+.title-diamond::before,
+.title-diamond::after {
+	content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.title-diamond:before {
+  border-right: solid 25vw red;
+  border-top: solid 12.5vw transparent;
+  border-bottom: solid 12.5vw transparent;
+}
+
+.title-diamond:after {
+  right: 0;
+  border-left: solid 25vw red;
+  border-top: solid 12.5vw transparent;
+  border-bottom: solid 12.5vw transparent;
 }
 
 .title-diamond h3 {
-	rotate(-45deg);
+	transform: (-45deg);
 }
