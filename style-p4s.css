@@ -987,7 +987,7 @@ img.wave {
 	content: '';
 }
 
-.diamond-card:nth-child(3n+1) .title-diamond:before {
+.diamond-card:nth-child(3n+1) .title-diamond-cont .title-diamond:before {
 	background-image: url(/wp-content/uploads/2025/06/Purple-Diamond.svg);
 }
 
