@@ -980,7 +980,7 @@ img.wave {
 .diamond-cards {
     display: grid;
     grid-template-columns: repeat(3, minmax(250px, 1fr));
-	gap: 30px;
+	gap: 10px;
 }
 
 .title-diamond {
