@@ -972,7 +972,9 @@ img.wave {
 
 /***FRONT PAGE 2
 ---------------------*/
-
+.front-page-2 .custom-container {
+	width: 1100px;
+}
 .title-diamond  {
 	position: relative;
 }
