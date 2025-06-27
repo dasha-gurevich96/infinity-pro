@@ -907,6 +907,7 @@ div#front-page-1 {
 }
 
 .play-btn {
+	border: 2px solid transparent;
 	background-color: transparent !important;
 	position: absolute;
 		top: 50%;
@@ -914,8 +915,13 @@ div#front-page-1 {
 	transform: translate(-50%, -50%);
 }
 
+.play-btn:hover,
+.play-btn:focus {
+	border: 2px solid black;
+}
+
 .play-btn img {
 	box-shadow: none;
-	height: 65px;
-	width: 65px;
+	height: 70px;
+	width: 70px;
 }
