@@ -983,6 +983,12 @@ img.wave {
 	gap: 10px;
 }
 
+.diamond-card {
+	height: 100%;
+    display: flex;
+    	flex-direction: column;
+}
+
 .title-diamond {
     position: relative;
     height: 179px;
