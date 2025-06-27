@@ -896,6 +896,7 @@ div#front-page-1 {
 
 .placeholder-container {
     position: relative;
+	height: 100%;
 }
 
 .placeholder-container img {
