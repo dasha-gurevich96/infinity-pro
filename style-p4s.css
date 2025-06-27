@@ -1032,6 +1032,7 @@ img.wave {
 
 .diamond-content {
     border-radius: 14px;
+	height: 100%;
     padding: 99px 30px 50px 30px;
     margin-top: -90px;
 }
