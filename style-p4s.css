@@ -902,6 +902,7 @@ div#front-page-1 .hero .diamonds {
     background-repeat: no-repeat;
     background-image: url(/wp-content/uploads/2025/06/Left-Diamonds.svg);
 	background-position: -7% 0;
+	position: relative;
     height: 485px;
     overflow: hidden;
 }
