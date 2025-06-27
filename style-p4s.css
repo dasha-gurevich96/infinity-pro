@@ -947,6 +947,13 @@ div#front-page-1 .hero .diamonds {
 	width: 70px;
 }
 
+img.wave {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    top: -52px;
+}
+
 @media (max-width: 1440px) {
 	.hero,
 	.diamonds  {
