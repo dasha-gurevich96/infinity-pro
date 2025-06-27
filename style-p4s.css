@@ -966,13 +966,13 @@ img.wave {
 ---------------------*/
 
 .title-diamond  {
-  position: relative;
-  display: inline-block;
-  background-color: #5e0d47; /* dark purple */
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-  border-radius: 40% / 20%;
-  transform: rotate(45deg);
-  overflow: hidden;
+	background: #3c3838;
+	height: 60px;
+	text-align: center;
+	transform:rotate(45deg);
+	width:60px;
+}
+
+.title-diamond h3 {
+	rotate(-45deg);
 }
