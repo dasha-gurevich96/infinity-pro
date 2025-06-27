@@ -145,7 +145,7 @@ h4 {
 }
 
 .site-inner {
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 body,
@@ -875,4 +875,10 @@ nav .wrap {
 ================*/
 header.entry-header {
     display: none;
+}
+
+/*** FRONT PAGE 1
+----------------------*/
+div#front-page-1 {
+	padding-top: 0 !important;
 }
