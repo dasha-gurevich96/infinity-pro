@@ -1014,9 +1014,9 @@ img.wave {
 }
 
 .diamond-content {
-    border-radius: 20px;
-    padding: 80px 30px 50px 30px;
-    margin-top: -61px;
+    border-radius: 14px;
+    padding: 117px 30px 50px 30px;
+    margin-top: -90px;
 }
 
 .diamond-card:nth-child(3n+1) .diamond-content {
