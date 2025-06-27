@@ -984,6 +984,7 @@ img.wave {
 .title-diamond:before {
     background-repeat: no-repeat;
     background-size: 100%;
+	display: block;
 	height: 100%;
 	width: 100%;
 	content: '';
