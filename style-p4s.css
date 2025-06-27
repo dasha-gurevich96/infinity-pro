@@ -882,3 +882,19 @@ header.entry-header {
 div#front-page-1 {
 	padding-top: 0 !important;
 }
+
+.hero {
+    height: 600px;
+    overflow: hidden;
+}
+
+.placeholder-container {
+    position: relative;
+}
+
+.play-btn {
+	position: absolute;
+		top: 50%;
+		left: 50%;
+	transform: translate(-50%, -50%);
+}
