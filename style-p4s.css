@@ -1022,9 +1022,10 @@ img.wave {
     font-size: 23px;
     font-weight: 700;
     text-align: center;
+	padding: 0 11px;
     position: absolute;
-    top: 46%;
-    left: 49%;
+    top: 50%;
+    left: 47%;
     transform: translate(-50%, -50%);
     width: 90%;
     margin: auto;
