@@ -880,22 +880,28 @@ header.entry-header {
 
 /*** FRONT PAGE 1
 ----------------------*/
-div#front-page-1 .wrap  {
+div#front-page-1   {
 	padding-top: 0 !important;
 }
 
 div#front-page-1 .hero .diamonds {
 	background-image: url(/wp-content/uploads/2025/06/Left-Diamonds.svg);
-	background-position: top right;
-	background-repeat: no-repeat;
+	background-position: -7% 0;
 	height: 100%;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 0;
+    transform: scaleX(-1);
+	background-repeat: no-repeat;
+	width: 100%;
 }
 
 .hero {
     background-color: var(--yellow);
     background-repeat: no-repeat;
     background-image: url(/wp-content/uploads/2025/06/Left-Diamonds.svg);
-	background-position: top left;
+	background-position: -7% 0;
     height: 485px;
     overflow: hidden;
 }
@@ -906,6 +912,7 @@ div#front-page-1 .hero .diamonds {
 
 .placeholder-container {
     position: relative;
+	z-index: 2;
 	height: 100%;
 }
 
