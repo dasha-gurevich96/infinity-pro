@@ -972,11 +972,12 @@ img.wave {
 .diamond-cards {
     display: grid;
     grid-template-columns: repeat(3, minmax(250px, 1fr));
+	gap: 30px;
 }
 
 .title-diamond {
     position: relative;
-    height: 191px;
+    height: 179px;
     width: 100%;
 }
 
@@ -986,7 +987,7 @@ img.wave {
 	content: '';
 }
 
-.title-diamond:nth-child(3n+1):before {
+.diamond-card:nth-child(3n+1) .title-diamond:before {
 	background-image: url(/wp-content/uploads/2025/06/Purple-Diamond.svg);
 }
 
@@ -999,6 +1000,16 @@ img.wave {
     left: 47%;
     transform: translate(-50%, -50%);
     width: 100%;
+}
+
+.diamond-content {
+    border-radius: 20px;
+    padding: 80px 30px 50px 30px;
+    margin-top: -61px;
+}
+
+.diamond-card:nth-child(3n+1) .diamond-content {
+	background-color: #FFEEF3;
 }
 
 
