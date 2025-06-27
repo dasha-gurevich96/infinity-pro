@@ -890,17 +890,27 @@ div#front-page-1 {
     overflow: hidden;
 }
 
+.hero .custom-container {
+	height: 100%;
+}
+
 .placeholder-container {
     position: relative;
 }
 
 .placeholder-container img {
-	box-shadow: 1px 12px 8px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 12px 8px 8px rgb(43 41 41 / 30%);
 }
 
 .play-btn {
+	background-color: transparent;
 	position: absolute;
 		top: 50%;
 		left: 50%;
 	transform: translate(-50%, -50%);
+}
+
+.play-btn img {
+	height: 65px;
+	width: 65px;
 }
