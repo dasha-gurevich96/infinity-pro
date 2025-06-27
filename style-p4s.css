@@ -946,3 +946,10 @@ div#front-page-1 .hero .diamonds {
 	height: 70px;
 	width: 70px;
 }
+
+@media (max-width: 1440px) {
+	.hero,
+	.diamonds  {
+		background-position: -14% 0;
+	}
+}
