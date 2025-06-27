@@ -950,6 +950,6 @@ div#front-page-1 .hero .diamonds {
 @media (max-width: 1440px) {
 	.hero,
 	.diamonds  {
-		background-position: -14% 0;
+		background-position: -14% 0 !important;
 	}
 }
