@@ -1003,6 +1003,14 @@ img.wave {
 	background-image: url(/wp-content/uploads/2025/06/Purple-Diamond.svg);
 }
 
+.diamond-card:nth-child(3n+2) .title-diamond-cont .title-diamond:before {
+	background-image: url(/wp-content/uploads/2025/06/Purple-Diamond.svg);
+}
+
+.diamond-card:nth-child(3n+3) .title-diamond-cont .title-diamond:before {
+	background-image: url(/wp-content/uploads/2025/06/Purple-Diamond.svg);
+}
+
 .title-diamond h3 {
     color: white;
     font-size: 23px;
