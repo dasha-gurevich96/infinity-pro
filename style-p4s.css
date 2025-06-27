@@ -884,6 +884,7 @@ h2.home-title {
     text-align: center;
     width: 617px;
     margin: auto;
+	max-width: 100%;
 }
 
 /*** FRONT PAGE 1
