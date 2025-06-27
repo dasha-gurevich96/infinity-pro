@@ -880,12 +880,17 @@ header.entry-header {
 
 /*** FRONT PAGE 1
 ----------------------*/
-div#front-page-1 {
+div#front-page-1 .wrap {
 	padding-top: 0 !important;
+	background-image: url(/wp-content/uploads/2025/06/Left-Diamonds.svg);
+	background-position: top right;
 }
 
 .hero {
-	background-color: var(--yellow);
+    background-color: var(--yellow);
+    background-repeat: no-repeat;
+    background-image: url(/wp-content/uploads/2025/06/Left-Diamonds.svg);
+	background-position: top left;
     height: 485px;
     overflow: hidden;
 }
