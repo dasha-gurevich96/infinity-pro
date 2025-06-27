@@ -52,6 +52,7 @@ main .custom-container,
 	--blue: #4BC4DB;
 	--dark-green: #0E5660;
 	--purple: #591144;
+	--yellow: #F0AD21;
 	--font: 'Nunito-Var';
 }
 
@@ -884,6 +885,7 @@ div#front-page-1 {
 }
 
 .hero {
+	background-color: var(--yellow);
     height: 600px;
     overflow: hidden;
 }
