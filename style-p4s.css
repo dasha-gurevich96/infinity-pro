@@ -1030,5 +1030,9 @@ img.wave {
 	background-color: #FFEEF3;
 }
 
+.diamond-card:nth-child(3n+2) .diamond-content {
+	background-color: #E6F8FC;
+}
+
 
 
