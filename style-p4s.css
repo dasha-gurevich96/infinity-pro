@@ -1022,6 +1022,10 @@ img.wave {
     margin-top: -90px;
 }
 
+.diamond-content p {
+	margin-bottom: 30px;
+}
+
 .diamond-card:nth-child(3n+1) .diamond-content {
 	background-color: #FFEEF3;
 }
