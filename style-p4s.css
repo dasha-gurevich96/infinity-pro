@@ -898,7 +898,53 @@ nav .wrap {
 }
 
 
+.slick-next .slick-next-icon:before, .slick-next .slick-prev-icon:before, .slick-prev .slick-next-icon:before, .slick-prev .slick-prev-icon:before {
+  font-size: 33px;
+}
 
+.slick-next, .slick-prev {
+  z-index: 9;
+}
+
+.slick-dots li button .slick-dot-icon:before {
+  font-size: 18px !important;
+  margin: 0 !important;
+}
+
+.widget ul > li {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.slick-dots li button:focus .slick-dot-icon:before {
+  color: black !important;
+}
+
+/*Custom slick slider*/
+
+button.slick-arrow {
+    height: 60px;
+	opacity: 1;
+    width: 60px;
+}
+
+
+.slick-next .slick-next-icon, .slick-next .slick-prev-icon, .slick-prev .slick-next-icon, .slick-prev .slick-prev-icon {
+	opacity: 1 !important;
+}
+
+
+.slick-prev .slick-prev-icon:before,
+.slick-next .slick-next-icon:before {
+    display: block;
+    content: "";
+	opacity: 1;
+    width: 60px;
+    height: 60px;
+    background-size: 29px;
+	background-position: center;
+    background-repeat: no-repeat;
+}
 
 
 
