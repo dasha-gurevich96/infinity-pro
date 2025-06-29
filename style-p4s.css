@@ -1243,13 +1243,17 @@ img.card-img {
 -----------------------*/
 .graphics {
     border-radius: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
     height: 150px;
     width: 100%;
 }
 
 img.vector-img {
-    height: 70px;
-    width: 79px;
+    height: 121px;
+    object-fit: contain;
+    width: auto;
 }
 
 @media (min-width: 1001px) {
