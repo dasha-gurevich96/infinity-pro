@@ -1273,7 +1273,7 @@ img.vector-img {
 img.vector-img.healthcare {
     position: relative;
     height: 142px;
-    bottom: -27px;
+    bottom: -18px;
 }
 
 @media (min-width: 1001px) {
