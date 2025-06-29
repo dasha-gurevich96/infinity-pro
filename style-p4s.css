@@ -1401,7 +1401,7 @@ a#backToTop {
 }
 
 img.footer-logo {
-	width: 300px;
+	width: 225px;
 }
 
 .site-footer .details {
@@ -1441,4 +1441,10 @@ a:has(.footer-logo) {
 a:has(.footer-logo) {
     position: relative;
     z-index: 9;
+}
+
+h2.footer-title {
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
 }
