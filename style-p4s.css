@@ -907,7 +907,7 @@ nav .wrap {
 }
 
 .slick-dots li button .slick-dot-icon:before {
-  font-size: 18px !important;
+  font-size: 25px !important;
   margin: 0 !important;
 }
 
@@ -960,6 +960,9 @@ button.slick-arrow {
 /*Dots*/
 .slick-dots {
 	bottom: -56px;
+	display: flex;
+	justify-content: center;
+	gap: 12px;
 	padding: 0 !important;
 	margin: 0 !important;
 }
