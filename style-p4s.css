@@ -1464,33 +1464,22 @@ h2.footer-title {
     top: -9px;
 }
 
+.shape-diamond {
+	max-height: 169px;
+	position: absolute;
+	height: 124%;
+	top: -21px;
+}
+
 img.yellow-1 {
-    position: absolute;
     left: -2%;
-    height: 115%;
-    object-fit: cover;
-    top: -21px;
-    /* max-height: 140px; */
 }
 
 img.green-1 {
-    position: absolute;
     left: 0%;
-    /* transform: scale(1.5); */
-    max-height: 163px;
-    height: 124%;
-    /* object-fit: cover; */
-    /* object-position: left; */
-    top: -15px;
 }
 
 img.blue-1 {
-    position: absolute;
     left: 13%;
-    height: 115%;
-    max-height: 169px;
-    object-fit: cover;
-    object-position: left;
-    top: -21px;
 }
 
