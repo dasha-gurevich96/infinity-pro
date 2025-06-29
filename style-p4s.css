@@ -1469,6 +1469,7 @@ h2.footer-title {
 	max-height: 169px;
 	position: absolute;
 	height: 124%;
+	top: 5px;
 }
 
 img.yellow-1 {
