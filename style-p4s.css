@@ -1250,15 +1250,15 @@ img.card-img {
     width: 100%;
 }
 
-.card.importance-card:nth-of-type(3n+1) {
+.card.importance-card:nth-of-type(3n+1) .graphics {
 	background-image: url(/wp-content/uploads/2025/06/yellow-bg.png);
 }
 
-.card.importance-card:nth-of-type(3n+2) {
+.card.importance-card:nth-of-type(3n+2) .graphics {
 	background-image: url(/wp-content/uploads/2025/06/Scottish-Learning-Disability-Week_website_assets_Healthcare_Background.png);
 }
 
-.card.importance-card:nth-of-type(3n+3) {
+.card.importance-card:nth-of-type(3n+3) .graphics {
 	background-image: url(/wp-content/uploads/2025/06/green-pattern.svg);
 }
 
