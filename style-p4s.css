@@ -1419,8 +1419,26 @@ img.footer-logo {
     width: 50%;
 }
 
-img.diamond.position-absolute {
+a:has(.footer-logo) {
+    position: relative;
+    z-index: 9;
+}
+
+.logo-footer-cont {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.site-footer img.diamond {
     top: -21px;
     height: 114%;
     object-fit: contain;
+}
+
+a:has(.footer-logo) {
+    position: relative;
+    z-index: 9;
 }
