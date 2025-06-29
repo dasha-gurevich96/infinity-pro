@@ -923,6 +923,7 @@ nav .wrap {
 /*Custom slick slider*/
 
 button.slick-arrow {
+	outline-offset: 2px;
     height: 60px;
 	opacity: 1;
     width: 60px;
@@ -1247,6 +1248,12 @@ img.card-img {
 	justify-content: space-between;
 	gap: 25px;
 	border: 1px solid var(--purple);
+}
+
+.front-page-4 button.slick-arrow:hover,
+.front-page-4 button.slick-arrow:focus {
+	outline: 2px solid var(--yellow);
+	outline-offset: 2px;
 }
 
 .card.importance-card p {
