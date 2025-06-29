@@ -269,6 +269,10 @@ h1.white-shape {
 }
 
 .full-container {
+	margin: 40px 0;
+}
+
+.full-container.bg {
 	padding: 40px 0;
 }
 
