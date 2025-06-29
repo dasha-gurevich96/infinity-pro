@@ -27,6 +27,42 @@ let initSlick = function() {
 
 initSlick();
 $(window).on('resize', initSlick);
+
+//Home slider for why important 
+let mobileSlider = $('.slider-mobile');
+
+function initMobileSlick() {
+  if ($(window).width() < 1000) {
+    if (!mobileSlider.hasClass('slick-initialized')) {
+      mobileSlider.slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 700,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            }
+          }
+        ]
+      });
+    }
+  } else {
+    if (mobileSlider.hasClass('slick-initialized')) {
+      mobileSlider.slick('unslick');
+    }
+  }
+}
+initMobileSlick();
+
+// Re-check on resize
+$(window).on('resize', initMobileSlick);
+
+
 	
 $('.logos-slider').slick({
   dots: false,
