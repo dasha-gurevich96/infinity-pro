@@ -950,11 +950,11 @@ button.slick-arrow {
 
 
 .slick-next .slick-next-icon:before {
-	background-image: url(/wp-content/uploads/2025/06/Slider_Arrows_1.svg);
+	background-image: url(wp-content/uploads/2025/06/Slider-arrows_right.svg);
 }
 
 .slick-prev .slick-prev-icon:before {
-	background-image: url(/wp-content/uploads/2025/06/Slider_Arrows.svg);
+	background-image: url(/wp-content/uploads/2025/06/Slider-arrows_left.svg);
 }
 
 /*Dots*/
