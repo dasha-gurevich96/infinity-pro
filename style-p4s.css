@@ -1364,3 +1364,7 @@ img.community {
 .front-page-5 .col.text-col {
     padding-right: 103px;
 }
+
+a#backToTop {
+    display: none !important;
+}
