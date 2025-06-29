@@ -1204,5 +1204,10 @@ img.wave {
 	padding-bottom: 20px;
 }
 
+.slider-container.two-slide-cards {
+    margin: auto;
+    width: 95%;
+}
+
 
 
