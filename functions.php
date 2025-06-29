@@ -548,15 +548,78 @@ add_action('genesis_footer', 'genesis_do_custom_footer');
 
 function genesis_do_custom_footer() {
 	$logo = get_field('logo', 'options');
-	$text_logo = get_field('text_under_logo', 'options');
-	$title_above_links = get_field('title_above_links', 'options');
-	$contact_us_title = get_field('contact_us_title', 'options');
-	$title_above_social_media = get_field('title_above_social_media', 'options')
+	$email_address = get_field('email_address', 'options');
+	$phone = get_field('phone', 'options');
+	
 	?><div class="full-container footer-container">
 		<div class="logo-col">
 			<a href="/">
 				<img class="footer-logo" alt="Scottish Learning Disability Week logo - link to the home page" src="<?php echo $logo['url'];?>"/>
 			</a>
+		</div>
+		<div class="details d-flex">
+
+			<?php if(!empty($phone) || !empty($email)) {
+				?>
+				<div class="contact">
+				<h2 class="footer-title">
+					Contact us
+				</h2>
+			<?php
+			if(!empty($email)) {
+				?><a href="<?php echo $email;?>"><?php echo $email;?></a><?php
+			}
+			if(!empty($phone)) {
+				$phone_number = $phone['phone_number'];
+				$int_phone = $phone['int_phone'];
+				if(!empty($phone_number) && !empty($int_phone)) {
+					?><a href="tel:<?php echo $int_phone;?>">
+					<?php echo $phone_number;?>
+					</a>
+					<?php
+				}
+			}
+			?></div><?php
+			}
+
+		if(have_rows('social','options')) {
+        ?> 
+        <div class="social-share">
+			<h2 class="footer-title">
+					Follow us
+				</h2>
+            <div class="custom-container d-flex justify-content-end">
+                <?php while(have_rows('social', 'options')) {
+                    the_row();
+                    $media = get_sub_field('select_channel');
+                    $link = get_sub_field('link');
+                    if(!empty($media) && !empty($link)) {
+                        $src= '';
+                        $class = 'flickr';
+                        if($media ==='Facebook') {
+                            $class="";
+                            $src="/wp-content/uploads/2025/06/Asset-1.svg";
+                        } elseif($media ==='X') {
+                            $class="";
+                            $src="/wp-content/uploads/2025/06/Asset-2.svg";
+                        } elseif($media ==='Vimeo') {
+                            $src="/wp-content/uploads/2025/06/Asset-4.svg";
+                            $class="";
+                        } elseif($media ==='Flickr') {
+                            $src="/wp-content/uploads/2025/06/Asset-3.svg";
+                            $class="flickr";
+                        }
+                        ?><a class="social-icon <?php echo $class;?>" href="<?php echo $link;?>" aria-label="<?php echo $media;?> profile - opens in a new window"><img src="<?php echo $src;?>" alt="" /></a>
+                        <?php
+                    }
+
+                }
+                ?>
+            </div>
+        </div>
+        <?php
+    }
+			?>
 		</div>
 		
 	</div>
