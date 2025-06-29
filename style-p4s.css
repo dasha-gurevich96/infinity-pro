@@ -1241,7 +1241,7 @@ img.card-img {
 
 .front-page-3 button.slick-arrow:hover,
 .front-page-3 button.slick-arrow:focus {
-	outline: 2px solid var(--yellow);
+	outline: 2px solid var(--yellow) !important;
 	outline-offset: 2px;
 }
 
