@@ -547,7 +547,7 @@ remove_action('genesis_footer', 'genesis_do_footer');
 add_action('genesis_footer', 'genesis_do_custom_footer');
 
 function genesis_do_custom_footer() {
-	$logo = get_field('footer_logo', 'options');
+	$logo_f= get_field('footer_logo', 'options');
 	$email_address = get_field('email_address', 'options');
 	$phone = get_field('phone', 'options');
 	
@@ -556,7 +556,7 @@ function genesis_do_custom_footer() {
 			<div class="logo-footer-cont position-relative">
 				<img src="/wp-content/uploads/2025/06/Footer_white.svg" alt="" class="diamond position-absolute" />
 			<a href="/">
-				<img class="footer-logo" alt="Scottish Learning Disability Week logo - link to the home page" src="<?php echo $logo['url'];?>"/>
+				<img class="footer-logo" alt="Scottish Learning Disability Week logo - link to the home page" src="<?php echo $logo_f['url'];?>"/>
 			</a>
 </div>
 		</div>
