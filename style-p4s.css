@@ -1222,5 +1222,10 @@ img.card-img {
     height: 350px;
 }
 
+.card h3 a {
+	font-weight: 700;
+	text-decoration: none;
+}
+
 
 
