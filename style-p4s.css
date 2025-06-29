@@ -1215,10 +1215,12 @@ img.wave {
 	flex-direction: column;
 	gap: 20px;
     padding: 20px;
+	padding-bottom: 30px;
 }
 
 img.card-img {
     border-radius: 24px;
+	object-fit: cover;
     height: 350px;
 }
 
