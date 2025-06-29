@@ -1319,8 +1319,10 @@ img.community {
 /***FRONT PAGE 5
 ---------------------*/
 .full-container.blue {
-	background-color: var(--light-blue);
-	background-image: url(https://scldw-com.stackstaging.com/wp-content/uploads/2025/06/Right-Diamonds.svg);
+    background-color: var(--light-blue);
+    background-image: url(wp-content/uploads/2025/06/Right-Diamonds.svg);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 
