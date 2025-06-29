@@ -1,36 +1,22 @@
 jQuery(document).ready(function ($) {
-	$('.related-content-slider').slick({
-  dots: false,
-  infinite: false,
-  speed: 300,
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 1090,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: false
+
+  /*Home page slider*/
+  $('.two-slide-cards').slick({
+    dots: true,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 890,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
       }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
- 
-  ]
+  
+    ]
 });
 	
 $('.logos-slider').slick({
@@ -168,23 +154,7 @@ $('.logos-slider-footer').slick({
   speed: 300,
   slidesToShow: 1,
   slidesToScroll: 1,
-	/*responsive: [
-    {
-      breakpoint: 900,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1
-      }
-    }
- 
-  ]*/
+	
 	
 });
 	
