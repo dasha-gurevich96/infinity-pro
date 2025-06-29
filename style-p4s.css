@@ -1239,6 +1239,11 @@ img.card-img {
 	text-transform: capitalize;
 }
 
+.front-page-3 button.slick-arrow:hover,
+.front-page-3 button.slick-arrow:focus {
+	outline: 2px solid var(--yellow);
+	outline-offset: 2px;
+}
 
 /*** FROTN PAGE 4
 -----------------------*/
@@ -1250,11 +1255,7 @@ img.card-img {
 	border: 1px solid var(--purple);
 }
 
-.front-page-4 button.slick-arrow:hover,
-.front-page-4 button.slick-arrow:focus {
-	outline: 2px solid var(--yellow);
-	outline-offset: 2px;
-}
+
 
 .card.importance-card p {
 	font-weight: 500 !important;
