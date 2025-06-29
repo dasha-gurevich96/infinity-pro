@@ -555,7 +555,7 @@ function genesis_do_custom_footer() {
 	?><div class="full-container footer-container">
 		<div class="logo-col">
 			<a href="/">
-				<img alt="Scottish Learning Disability Week logo - link to the home page" src="<?php echo $logo['url'];?>"/>
+				<img class="footer-logo" alt="Scottish Learning Disability Week logo - link to the home page" src="<?php echo $logo['url'];?>"/>
 			</a>
 		</div>
 		
