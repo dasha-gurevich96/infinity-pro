@@ -547,7 +547,7 @@ remove_action('genesis_footer', 'genesis_do_footer');
 add_action('genesis_footer', 'genesis_do_custom_footer');
 
 function genesis_do_custom_footer() {
-	$logo = get_field('logo', 'options');
+	$logo = get_field('footer_logo', 'options');
 	$email_address = get_field('email_address', 'options');
 	$phone = get_field('phone', 'options');
 	
