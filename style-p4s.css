@@ -1260,6 +1260,7 @@ img.vector-img {
 		display: flex;
 			justify-content: center;
 			gap: 10px 20px;
+			flex-wrap: wrap;
 	}
 }
 
