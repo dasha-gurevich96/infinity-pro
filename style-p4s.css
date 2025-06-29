@@ -1424,17 +1424,22 @@ a:has(.footer-logo) {
     z-index: 9;
 }
 
+.footer-combined {
+    width: 20%;
+}
+
 .logo-footer-cont {
     height: 100%;
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 80%;
     justify-content: center;
 }
 
 .site-footer img.diamond {
     top: -21px;
     height: 114%;
+	left: 6%;
     object-fit: contain;
 }
 
@@ -1449,9 +1454,43 @@ h2.footer-title {
     font-weight: 700;
 }
 
-img.footer-combined.position-absolute {
-    left: 0px;
-    /* width: 121%; */
-    height: 123%;
-    top: -33px;
+.footer-combined.d-flex {
+    position: absolute;
+    left: 0;
+    width: 51%;
+    height: 100%;
+    transform: scale(1.1);
+    max-height: 166px;
+    top: -9px;
 }
+
+img.yellow-1 {
+    position: absolute;
+    left: -2%;
+    height: 115%;
+    object-fit: cover;
+    top: -21px;
+    /* max-height: 140px; */
+}
+
+img.green-1 {
+    position: absolute;
+    left: 0%;
+    /* transform: scale(1.5); */
+    max-height: 163px;
+    height: 124%;
+    /* object-fit: cover; */
+    /* object-position: left; */
+    top: -15px;
+}
+
+img.blue-1 {
+    position: absolute;
+    left: 13%;
+    height: 115%;
+    max-height: 169px;
+    object-fit: cover;
+    object-position: left;
+    top: -21px;
+}
+
