@@ -554,9 +554,9 @@ function genesis_do_custom_footer() {
 	?><div class="full-container footer-container">
 		<div class="logo-col">
 			<div class="footer-combined d-flex">
-				<img src="https://scldw-com.stackstaging.com/wp-content/uploads/2025/06/Footer_yellow.svg" alt="" class="yellow-1">
-				<img src="https://scldw-com.stackstaging.com/wp-content/uploads/2025/06/Footer_green.svg" alt="" class="green-1">
-				<img src="https://scldw-com.stackstaging.com/wp-content/uploads/2025/06/Footer_blue.svg" alt="" class="blue-1">
+				<img src="https://scldw-com.stackstaging.com/wp-content/uploads/2025/06/Footer_yellow.svg" alt="" class="yellow-1 shape-diamond">
+				<img src="https://scldw-com.stackstaging.com/wp-content/uploads/2025/06/Footer_green.svg" alt="" class="green-1 shape-diamond">
+				<img src="https://scldw-com.stackstaging.com/wp-content/uploads/2025/06/Footer_blue.svg" alt="" class="blue-1 shape-diamond">
 			</div>
 			<div class="logo-footer-cont position-relative">
 				<img src="/wp-content/uploads/2025/06/Footer_white.svg" alt="" class="diamond position-absolute" />
