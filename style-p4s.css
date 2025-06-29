@@ -1320,9 +1320,10 @@ img.community {
 ---------------------*/
 .full-container.blue {
     background-color: var(--light-blue);
-    background-image: url(https://scldw-com.stackstaging.com/wp-content/uploads/2025/06/Diamond-Pattern_bottom-of-page.svg);
+    background-image: url(/wp-content/uploads/2025/06/Diamond-Pattern_bottom-of-page.svg);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: 100%;
+    background-size: contain;
 }
 
 .front-page-5 img.logo {
