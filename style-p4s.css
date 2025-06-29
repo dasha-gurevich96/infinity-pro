@@ -1320,7 +1320,7 @@ img.community {
 ---------------------*/
 .full-container.blue {
     background-color: var(--light-blue);
-    background-image: url(wp-content/uploads/2025/06/Right-Diamonds.svg);
+    background-image: url(/wp-content/uploads/2025/06/Right-Diamonds.svg);
     background-repeat: no-repeat;
     background-position: right;
 }
