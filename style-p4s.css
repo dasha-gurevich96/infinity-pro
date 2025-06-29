@@ -1379,7 +1379,11 @@ a#backToTop {
 .site-footer .full-container {
 	background-color: var(--purple);
 	margin: 0 !important;
-	padding: 40px 0;
+	padding: 0px 0;
+}
+
+.full-container.footer-container {
+    display: flex;
 }
 
 .site-footer .logo-col {
