@@ -588,7 +588,7 @@ function genesis_do_custom_footer() {
 			<h2 class="footer-title">
 					Follow us
 				</h2>
-            <div class="custom-container d-flex justify-content-end">
+            <div class="custom-container d-flex">
                 <?php while(have_rows('social', 'options')) {
                     the_row();
                     $media = get_sub_field('select_channel');
