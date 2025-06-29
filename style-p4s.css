@@ -1385,3 +1385,7 @@ a#backToTop {
 .site-footer .logo-col {
 	justify-content: flex-start;
 }
+
+img.footer-logo {
+	width: 300px;
+}
