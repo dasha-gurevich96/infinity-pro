@@ -1244,7 +1244,7 @@ img.card-img {
 .card.importance-card {
 	padding: 14px !important;
 	justify-content: space-between;
-	gap: 20px;
+	gap: 25px;
 	border: 1px solid var(--purple);
 }
 
