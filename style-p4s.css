@@ -1209,9 +1209,9 @@ img.wave {
     width: 88%;
 }
 
-.card.clickable-card {
+.card {
     border-radius: 34px;
-	display: flex;
+	display: inline-flex !important;
 	flex-direction: column;
 	gap: 20px;
     padding: 20px;
@@ -1223,7 +1223,7 @@ img.card-img {
 }
 
 .card h3 a {
-	font-weight: 700;
+	font-weight: 800;
 	text-decoration: none;
 }
 
