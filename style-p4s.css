@@ -1393,3 +1393,18 @@ a#backToTop {
 img.footer-logo {
 	width: 300px;
 }
+
+.site-footer .details {
+    justify-content: flex-start;
+	padding: 40px 0;
+    max-width: 600px;
+}
+
+.site-footer .contact {
+	width: 50%;
+}
+
+.site-footer .social-share {
+    max-width: 100%;
+    width: 50%;
+}
