@@ -1276,6 +1276,11 @@ img.vector-img.healthcare {
     bottom: -18px;
 }
 
+img.community {
+	position: relative;
+	bottom: -10px;
+}
+
 @media (min-width: 1001px) {
 	.card.importance-card {
     	width: 32%;
