@@ -1329,6 +1329,10 @@ img.community {
     height: 200px;
 }
 
+.logo-text {
+	gap: 20px;
+}
+
 .logo-col {
     display: flex;
     align-items: center;
