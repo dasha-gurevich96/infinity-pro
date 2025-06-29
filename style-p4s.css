@@ -1460,8 +1460,9 @@ h2.footer-title {
     width: 51%;
     height: 100%;
     transform: scale(1.1);
-    max-height: 166px;
-    top: -9px;
+    height: 157px !important;
+    overflow: clip;
+    top: -21px;
 }
 
 .shape-diamond {
@@ -1472,14 +1473,18 @@ h2.footer-title {
 }
 
 img.yellow-1 {
-    left: -2%;
+    left: 4%;
 }
 
 img.green-1 {
-    left: 0%;
+    left: 17%;
+    /* height: 158% !important; */
+    transform: scale(1.2);
+    width: 100%;
 }
 
 img.blue-1 {
-    left: 13%;
+    left: 26%;
+    transform: scale(1.2);
 }
 
