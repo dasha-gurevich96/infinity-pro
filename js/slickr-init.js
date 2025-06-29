@@ -1,23 +1,32 @@
 jQuery(document).ready(function ($) {
 
   /*Home page slider*/
-  $('.two-slide-cards').slick({
-    dots: true,
-    infinite: false,
-    speed: 300,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 890,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
+ 
+
+let sliderDiscover = $('.two-slide-cards');
+
+let initSlick = function() {
+  sliderDiscover.slick({
+      dots: true,
+      infinite: false,
+      speed: 300,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 890,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
         }
-      }
-  
-    ]
-});
+    
+      ]
+  });
+}
+
+initSlick();
+$(window).on('resize', initSlick);
 	
 $('.logos-slider').slick({
   dots: false,
