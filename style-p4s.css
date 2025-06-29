@@ -1229,5 +1229,11 @@ img.card-img {
 	text-decoration: none;
 }
 
+.card h3,
+.card h3 a {
+	font-size: 30px;
+	text-transform: capitalize;
+}
+
 
 
