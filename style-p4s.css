@@ -1397,7 +1397,7 @@ a#backToTop {
     height: 100%;
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 80%;
 }
 
 img.footer-logo {
@@ -1439,7 +1439,7 @@ a:has(.footer-logo) {
 .site-footer img.diamond {
     top: -21px;
     height: 114%;
-	left: 6%;
+	left: -7%;
     object-fit: contain;
 }
 
@@ -1459,32 +1459,33 @@ h2.footer-title {
     left: 0;
     width: 51%;
     height: 100%;
-    transform: scale(1.1);
-    height: 157px !important;
+    /* transform: scale(1.1); */
+    height: 166px !important;
     overflow: clip;
     top: -21px;
 }
 
 .shape-diamond {
-	max-height: 169px;
-	position: absolute;
-	height: 124%;
-	top: 5px;
+    max-height: 196px;
+    height: 196px !important;
+    position: absolute;
+    /* height: 124%; */
+    top: 6px;
 }
 
 img.yellow-1 {
-    left: 4%;
+    left: -1%;
 }
 
 img.green-1 {
-    left: 17%;
+    left: 11%;
     /* height: 158% !important; */
-    transform: scale(1.1);
+    transform: scale(1.4);
     width: 100%;
 }
 
 img.blue-1 {
-    left: 26%;
-    transform: scale(1.2);
+    left: 14%;
+    transform: scale(1.5);
 }
 
