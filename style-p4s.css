@@ -1062,5 +1062,16 @@ img.wave {
 	background-color: #E5F7F0;
 }
 
+/** FRONT PAGE 2
+----------------------*/
+.full-container.discover.bg {
+    background-color: var(--purple);
+}
+
+.full-container.discover h2.home-title {
+    color: var(--yellow);
+	padding-bottom: 20px;
+}
+
 
 
