@@ -1204,7 +1204,7 @@ img.wave {
 	padding-bottom: 20px;
 }
 
-.slider-container.two-slide-cards {
+.slider-container.two-slide-cards .slick-list.draggable {
     margin: auto;
     width: 95%;
 }
