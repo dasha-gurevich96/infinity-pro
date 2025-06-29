@@ -1387,7 +1387,9 @@ a#backToTop {
 }
 
 .site-footer .logo-col {
-	justify-content: flex-start;
+	position: relative;
+    justify-content: flex-start;
+    padding-left: calc((100% - 1104px) / 2);
 }
 
 img.footer-logo {
