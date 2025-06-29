@@ -1329,7 +1329,7 @@ img.community {
     height: 200px;
 }
 
-.logo-text {
+.d-flex.logo-text {
 	gap: 20px;
 }
 
