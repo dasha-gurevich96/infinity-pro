@@ -1242,6 +1242,7 @@ img.card-img {
 /*** FROTN PAGE 4
 -----------------------*/
 .card.importance-card {
+	padding: 14px;
 	gap: 20px;
 	border: 1px solid var(--purple);
 }
