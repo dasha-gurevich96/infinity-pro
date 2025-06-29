@@ -893,19 +893,10 @@ nav .wrap {
 	width: 100%;
 }
 
-.slick-slide .resource-card {
+.slick-slide .card {
   height: 100%;
 }
 
-.slick-next .slick-next-icon:before, .slick-next .slick-prev-icon:before, .slick-prev .slick-next-icon:before, .slick-prev .slick-prev-icon:before {
-  font-family: slick;
-  font-size: 28px;
-  line-height: 1;
-  color: #08041d;
-  opacity: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
 .slick-next .slick-next-icon:before, .slick-next .slick-prev-icon:before, .slick-prev .slick-next-icon:before, .slick-prev .slick-prev-icon:before {
   font-size: 33px;
@@ -920,6 +911,11 @@ nav .wrap {
   margin: 0 !important;
 }
 
+.widget ul > li {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
 .slick-dots li button:focus .slick-dot-icon:before {
   color: black !important;
 }
@@ -932,14 +928,6 @@ button.slick-arrow {
     width: 60px;
 }
 
-
-button.slick-next {
-    right: -89px;
-}
-
-.slick-prev {
-    left: -79px;
-}
 
 .slick-next .slick-next-icon, .slick-next .slick-prev-icon, .slick-prev .slick-next-icon, .slick-prev .slick-prev-icon {
 	opacity: 1 !important;
@@ -977,41 +965,25 @@ button.slick-next {
 }
 
 .slick-dots li.slick-active button .slick-dot-icon {
-    color: #c83f4d;
+    color: var(--yellow);
 }
 
 .slick-dots li button .slick-dot-icon {
-    color: #174877;
+    color: white;
     opacity: 1;
 }
 
 .slick-dots li button:focus .slick-dot-icon::before {
-    color: #c83f4d !important;
+    color: var(--yellow) !important;
 }
 
-.info-details.mt-3.mb-3 {
-    margin: 13px 0 !important;
-}
 
 @media (max-width: 990px) {
-	.custom-container.resource-cards.home-events {
-    width: 500px;
-}
-	.slick-dots {
-    width: 88%;
-		padding-left: 0 !important;
-}
+
 }
 
 @media (max-width: 600px) {
-	.services {
-    	grid-template-columns: 90%;
-		margin: auto;
-        max-width: 305px;
-	}
-	.custom-container.resource-cards.home-events {
-		max-width: 88%;
-	}
+	
 	.slick-prev .slick-prev-icon:before, 
 	.slick-next .slick-next-icon:before,
 	button.slick-arrow
@@ -1028,20 +1000,10 @@ button.slick-next {
 }
 
 @media (max-width: 700px) {
-  .resources-cards.related-content-slider {
-    max-width: 80%;
-  }
+  
 }
 @media (max-width: 390px) {
-  .resources-cards.related-content-slider {
-    max-width: 90%;
-  }
-  .slick-prev {
-    left: -14px;
-  }
-  .slick-next {
-    right: 4px;
-  }
+ 
 }
 
 
