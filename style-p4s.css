@@ -1209,5 +1209,18 @@ img.wave {
     width: 88%;
 }
 
+.card.clickable-card {
+    border-radius: 34px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+    padding: 20px;
+}
+
+img.card-img {
+    border-radius: 24px;
+    height: 350px;
+}
+
 
 
