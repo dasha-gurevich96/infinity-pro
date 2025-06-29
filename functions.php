@@ -553,7 +553,7 @@ function genesis_do_custom_footer() {
 	
 	?><div class="full-container footer-container">
 		<div class="logo-col">
-			<img src="https://scldw-com.stackstaging.com/wp-content/uploads/2025/06/Asset-2-1.svg" alt="" class="footer-combined" />
+			<img src="https://scldw-com.stackstaging.com/wp-content/uploads/2025/06/Asset-2-1.svg" alt="" class="footer-combined position-absolute" />
 			<div class="logo-footer-cont position-relative">
 				<img src="/wp-content/uploads/2025/06/Footer_white.svg" alt="" class="diamond position-absolute" />
 			<a href="/">
