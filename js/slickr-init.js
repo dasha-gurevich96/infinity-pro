@@ -25,7 +25,7 @@ let initSlick = function() {
   });
 }
 
-initSlick();
+//initSlick();
 $(window).on('resize', initSlick);
 
 //Home slider for why important 
@@ -57,7 +57,7 @@ function initMobileSlick() {
     }
   }
 }
-initMobileSlick();
+//initMobileSlick();
 
 // Re-check on resize
 $(window).on('resize', initMobileSlick);
