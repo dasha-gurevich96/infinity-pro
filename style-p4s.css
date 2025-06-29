@@ -950,7 +950,7 @@ button.slick-arrow {
 
 
 .slick-next .slick-next-icon:before {
-	background-image: url(wp-content/uploads/2025/06/Slider-arrows_right.svg);
+	background-image: url(/wp-content/uploads/2025/06/Slider-arrows_right.svg);
 }
 
 .slick-prev .slick-prev-icon:before {
