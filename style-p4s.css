@@ -1368,3 +1368,13 @@ img.community {
 a#backToTop {
     display: none !important;
 }
+
+
+
+/*** FOOTER
+================*/
+.site-footer .full-container {
+	background-color: var(--purple);
+	margin: 0 !important;
+	padding: 40px 0;
+}
