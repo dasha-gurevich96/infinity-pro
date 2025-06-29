@@ -1247,6 +1247,11 @@ img.card-img {
     width: 100%;
 }
 
+img.vector-img {
+    height: 70px;
+    width: 79px;
+}
+
 @media (min-width: 1001px) {
 	.card.importance-card {
     	width: 32%;
