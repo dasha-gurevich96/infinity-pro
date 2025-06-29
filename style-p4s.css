@@ -1387,9 +1387,17 @@ a#backToTop {
 }
 
 .site-footer .logo-col {
-	position: relative;
+    position: relative;
     justify-content: flex-start;
-    padding-left: calc((100% - 1104px) / 2);
+    padding-left: calc((100% - 1410px) / 2);
+    width: 48%;
+}
+
+.logo-footer-cont.position-relative {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
 
 img.footer-logo {
@@ -1409,4 +1417,10 @@ img.footer-logo {
 .site-footer .social-share {
     max-width: 100%;
     width: 50%;
+}
+
+img.diamond.position-absolute {
+    top: -21px;
+    height: 114%;
+    object-fit: contain;
 }
