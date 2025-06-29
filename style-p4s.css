@@ -1356,3 +1356,7 @@ img.community {
 	margin-bottom: 30px;
 	font-weight: 500 !important;
 }
+
+.front-page-5 .col.text-col {
+    padding-right: 103px;
+}
