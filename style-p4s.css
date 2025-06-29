@@ -1239,4 +1239,23 @@ img.card-img {
 }
 
 
+/*** FROTN PAGE 4
+-----------------------*/
+.graphics {
+    border-radius: 30px;
+    height: 150px;
+    width: 100%;
+}
+
+@media (min-width: 1001px) {
+	.card.importance-card {
+    	width: 32%;
+	}	
+	.cards.cards-importance {
+		display: flex;
+			justify-content: center;
+			gap: 10px 20px;
+	}
+}
+
 
