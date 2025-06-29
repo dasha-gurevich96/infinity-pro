@@ -1250,7 +1250,7 @@ img.card-img {
 }
 
 .card.importance-card p {
-	font-weight: 500;
+	font-weight: 500 !important;
 }
 
 .graphics {
