@@ -1325,8 +1325,18 @@ img.community {
     background-position: right;
 }
 
-.frnt-page-5 img.logo {
+.front-page-5 img.logo {
     height: 200px;
+}
+
+.logo-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container {
+	background-image: url(/wp-content/uploads/2025/06/Graphic_whtite-diamond.svg);
 }
 
 
