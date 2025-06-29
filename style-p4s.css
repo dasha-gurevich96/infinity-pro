@@ -1448,3 +1448,10 @@ h2.footer-title {
     font-size: 21px;
     font-weight: 700;
 }
+
+img.footer-combined.position-absolute {
+    left: 0px;
+    /* width: 121%; */
+    height: 123%;
+    top: -33px;
+}
