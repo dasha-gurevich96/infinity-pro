@@ -50,6 +50,7 @@ main .custom-container,
 
 :root {
 	--blue: #4BC4DB;
+	--light-blue: #B3E1ED;
 	--dark-green: #0E5660;
 	--purple: #591144;
 	--yellow: #F0AD21;
@@ -1318,7 +1319,7 @@ img.community {
 /***FRONT PAGE 5
 ---------------------*/
 .full-container.blue {
-	background-color: var(--blue);
+	background-color: var(--light-blue);
 	background-image: url(https://scldw-com.stackstaging.com/wp-content/uploads/2025/06/Right-Diamonds.svg);
 }
 
