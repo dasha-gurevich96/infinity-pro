@@ -1456,11 +1456,11 @@ h2.footer-title {
 
 .footer-combined.d-flex {
     position: absolute;
-    left: 0;
+    left: -23px;
     width: 51%;
     height: 169px;
     /* transform: scale(1.1); */
-    height: 166px !important;
+    height: 173px !important;
     overflow: hidden;
     top: -26px;
 }
@@ -1485,7 +1485,7 @@ img.green-1 {
 }
 
 img.blue-1 {
-    left: 21%;
+    left: 8%;
     transform: scale(1.7);
 }
 
