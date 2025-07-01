@@ -1522,6 +1522,10 @@ img.blue-1 {
     z-index: 2;
 }
 
+.inner-page .full-container .custom-container {
+	    width: 980px;
+}
+
 
 
 /*** INNER PAGE: ABOUT
