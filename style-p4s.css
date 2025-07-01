@@ -436,8 +436,10 @@ a.social-icon img {
 	width: 25px;
 }
 
+
 .full-container.logo-btn-container {
-	padding: 20px 0;
+    padding: 0;
+    margin: 19px 0;
 }
 
 /*header > .wrap,*/
@@ -1505,6 +1507,7 @@ img.blue-1 {
 
 .inner-banner .custom-container h1 {
 	color: white;
+	font-weight: 800;
 	text-align:left;
 	margin-bottom: 0 !important;
 }
