@@ -1495,7 +1495,15 @@ img.blue-1 {
     display: block; 
 }
 
+.inner-banner .custom-container  {
+	background-color: var(--purple);
+}
+
 /*** INNER PAGE: ABOUT
 ==========================*/
 
 
+.inner-banner .custom-container h1 {
+	color: white;
+	text-align:left;
+}
