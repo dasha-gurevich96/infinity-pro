@@ -19,7 +19,7 @@ remove_action('genesis_entry_header', 'genesis_do_post_title');
 // Add landing page body class to the head.
 add_filter( 'body_class', 'infinity_add_body_class' );
 function infinity_add_body_class( $classes ) {
-	$classes[] = 'about-page';
+	$classes[] = 'about-page inner-page';
 	return $classes;
 
 }
