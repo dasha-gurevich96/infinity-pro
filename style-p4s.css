@@ -1495,6 +1495,7 @@ img.blue-1 {
 ==========================*/
 .inner-page header.entry-header {
     display: block; 
+	position: relative;
 }
 
 .inner-banner   {
@@ -1519,9 +1520,7 @@ img.blue-1 {
     z-index: 2;
 }
 
-header.entry-header {
-	position: relative;
-}
+
 
 /*** INNER PAGE: ABOUT
 ==========================*/
