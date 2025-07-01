@@ -1506,5 +1506,5 @@ img.blue-1 {
 .inner-banner .custom-container h1 {
 	color: white;
 	text-align:left;
-	margin-bottom: 0;
+	margin-bottom: 0 !important;
 }
