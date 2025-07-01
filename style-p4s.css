@@ -1489,3 +1489,10 @@ img.blue-1 {
     transform: scale(1.7);
 }
 
+
+/*** INNER PAGE: ABOUT
+==========================*/
+
+.inner-page header.entry-header {
+    display: block; 
+}
