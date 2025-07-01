@@ -1500,7 +1500,8 @@ img.blue-1 {
 
 .inner-banner   {
 	background-color: var(--purple);
-    padding: 40px 0;
+    padding-top: 40px;
+	padding-bottom: 30px;
 }
 
 .inner-page .entry-header img {
