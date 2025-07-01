@@ -1499,15 +1499,27 @@ img.blue-1 {
 
 .inner-banner   {
 	background-color: var(--purple);
+    padding: 40px 0;
 }
 
-/*** INNER PAGE: ABOUT
-==========================*/
-
+.inner-page .entry-header img {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -45%;
+    z-index: 1;
+}
 
 .inner-banner .custom-container h1 {
 	color: white;
 	font-weight: 800;
 	text-align:left;
 	margin-bottom: 0 !important;
+	position: relative;
+    z-index: 2;
 }
+
+/*** INNER PAGE: ABOUT
+==========================*/
+
+
