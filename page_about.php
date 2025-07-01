@@ -26,7 +26,7 @@ function infinity_add_body_class( $classes ) {
 
 function banner() {
 	?><div class="inner-banner">
-        <div class="custom-containr">
+        <div class="custom-container">
             <h1><?php the_title();?></h1>
         </div>
     </div>
