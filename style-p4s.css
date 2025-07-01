@@ -1495,7 +1495,7 @@ img.blue-1 {
     display: block; 
 }
 
-.inner-banner .custom-container  {
+.inner-banner   {
 	background-color: var(--purple);
 }
 
