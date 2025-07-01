@@ -1529,6 +1529,8 @@ img.blue-1 {
 
 .inner-page .site-header {
 	box-shadow: rgba(14, 30, 37, 0.12) 0px 4px 4px -2px,   rgba(14, 30, 37, 0.32) 0px 6px 16px -4px;
+	position: relative;
+	z-index: 9;
 }
 
 
