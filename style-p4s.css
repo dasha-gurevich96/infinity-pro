@@ -1741,6 +1741,14 @@ img.img-mask {
     margin-bottom: -41px;
 }
 
+.diamond-container .text p strong {
+    font-weight: 900 !important;
+}
+
+.diamond-container .text p  {
+	margin-bottom: 0;
+}
+
 .diamond-container p {
 	position: relative;
 	z-index: 6;
