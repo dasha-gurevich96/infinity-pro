@@ -90,6 +90,10 @@ label {
 	font-family: var(--font), sans-serif !important;
 }
 
+b, strong {
+    font-weight: 700 !important;
+}
+
 input[type="email"], input[type="search"], input[type="submit"], input[type="text"], input[type="url"], textarea {
     -webkit-appearance: none;
 	appearance: none;
