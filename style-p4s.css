@@ -1566,7 +1566,22 @@ footer a.social-icon img {
     grid-template-columns: 1fr 1fr;
 }
 
+.inner-page  h2 {
+	font-weight: 700;
+}
+
 /*** INNER PAGE: ABOUT
 ==========================*/
+.yellow-box {
+    position: relative;
+}
 
+img.triangle {
+    position: relative;
+    width: 20px;
+}
 
+h2.text-center {
+    margin: auto;
+    width: 500px;
+}
