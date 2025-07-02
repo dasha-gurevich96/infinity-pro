@@ -1590,7 +1590,7 @@ h2.text-center.inner-page-title  {
 ==========================*/
 .yellow-box {
     position: absolute;
-	bottom: -30px;
+	bottom: -47%;
 	left: 20px;
     background-color: var(--yellow);
     border-radius: 20px;
