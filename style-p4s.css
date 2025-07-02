@@ -1617,7 +1617,7 @@ img.triangle {
     display: grid;
     grid-template-columns: 42% 54%;
     justify-content: space-between;
-	margin-top: 40px;
+	margin-top: 60px;
 }
 
 .grid.two-columns p,
