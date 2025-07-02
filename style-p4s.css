@@ -1786,3 +1786,7 @@ img.img-mask {
 .diamond-container.yellow-diamond.position-relative {
     margin-top: -76px;
 }
+
+.diamond-container.yellow-diamond {
+	padding-right: 24px;
+}
