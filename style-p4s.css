@@ -55,7 +55,6 @@ main .custom-container,
 	--purple: #591144;
 	--yellow: #F0AD21;
 	--green: #034c30;
-	--bs-accordion-btn-icon-transform: rotate(-90deg);
 	--font: 'Nunito-Var';
 }
 
@@ -1634,7 +1633,7 @@ div.accordion {
 }
 
 .accordion-button:not(.collapsed)::after {
-	background-image: url('/wp-content/uploads/2025/06/Arrow-right.svg');
+	transform: rotate(-90deg) !important;
 }
 
 .accordion-item {
