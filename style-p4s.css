@@ -1557,6 +1557,10 @@ footer a.social-icon img {
 	z-index: 9;
 }
 
+.inner-page .entry-content {
+    margin-top: 134px !important;
+}
+
 
 /*** INNER PAGE: ABOUT
 ==========================*/
