@@ -74,6 +74,18 @@ function custom_content() {
 
     <?php
     }
+
+    if(have_rows('components')) {
+		?><
+	<?php
+		while(have_rows('components')) {
+			the_row();
+			if (get_row_layout() === 'collapsible_tabs') {
+				get_template_part('/components/collapsibles');
+			}
+		}
+	?><?php
+	}
 }
 
 genesis();
