@@ -106,7 +106,7 @@ function custom_content() {
                     <div class="custom-col-1">
                     <?php if(!empty($fact_above_image)) {
                         ?><div class="diamond-container blue-diamond position-relative">
-                            <?php echo $fact_above_image;?>
+                            <div class="text"><?php echo $fact_above_image;?></div>
                             </div>
                         <?php
                     }
@@ -116,7 +116,8 @@ function custom_content() {
                     ?>
                     <?php if(!empty($fact_below_image)) {
                         ?><div class="diamond-container yellow-diamond position-relative">
-                            <?php echo $fact_below_image;?>
+                            <div class="text"><?php echo $fact_below_image;?></div>
+                            
                             </div>
                         <?php
                     }
