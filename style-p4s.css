@@ -1728,3 +1728,12 @@ img.img-mask {
 	-webkit-mask-size: 426px;
     object-fit: cover;
 }
+
+.diamond-container:before {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+    height: 100%;
+    width: 100%;
+    content: '';
+}
