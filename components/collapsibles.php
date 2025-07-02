@@ -5,7 +5,7 @@ $background_colour = get_sub_field('background_colour');
 
 
 if (have_rows('collapsibles')) {
-	?> <div class="full-container <?php echo $background_colour;?>">
+	?> <div class="full-container <?php echo $background_colour;?>-bg">
 	<?php
     $counter = rand(1, 10000);
     $counter_tabs = rand(1, 10000);
