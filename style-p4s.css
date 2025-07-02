@@ -1598,7 +1598,14 @@ h2.text-center.inner-page-title  {
 /***ACCRODION
 ------------------_*/
 .accordion-button {
+	border-radius: 20px;
 	padding: 20px;
+}
+
+div.accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
 }
 
 
