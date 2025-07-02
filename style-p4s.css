@@ -1599,6 +1599,11 @@ h2.text-center.inner-page-title  {
 	width: 414px;
 }
 
+.yellow-box h3,
+.yellow-box h3 a {
+	font-size: 23px;
+}
+
 img.triangle {
     border-radius: 0 !important;
     position: absolute;
