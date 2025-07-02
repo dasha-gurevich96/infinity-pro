@@ -1584,7 +1584,7 @@ img.triangle {
 
 .grid.two-columns {
     display: grid;
-    grid-template-columns: 42% 50%;
+    grid-template-columns: 42% 52%;
     justify-content: space-between;
 	margin-top: 40px;
 }
