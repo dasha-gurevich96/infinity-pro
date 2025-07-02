@@ -1413,6 +1413,9 @@ img.footer-logo {
 }
 
 .site-footer .contact {
+	display: flex;
+    flex-direction: column;
+    gap: 4px;
 	width: 50%;
 }
 
@@ -1510,11 +1513,7 @@ footer a.social-icon img {
     gap: 10px;
 }
 
-footer .contact {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-}
+    
 
 /*** INNER PAGES: GENERAL
 ==========================*/
