@@ -1605,6 +1605,7 @@ h2.text-center.inner-page-title  {
 
 .accordion-body {
     width: 735px;
+	padding: 30px 10px;
     max-width: 100%;
 }
 
