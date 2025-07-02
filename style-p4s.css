@@ -1491,6 +1491,11 @@ img.blue-1 {
     transform: scale(1.7);
 }
 
+footer a {
+    font-size: 18px;
+    color: white;
+}
+
 /*** INNER PAGES: GENERAL
 ==========================*/
 .inner-page header.entry-header {
