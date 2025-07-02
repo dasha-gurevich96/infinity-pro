@@ -1738,6 +1738,6 @@ img.img-mask {
     content: '';
 }
 
-blue-diamond:before {
+.blue-diamond:before {
 	background-image: url(/wp-content/uploads/2025/06/Diamond_blue.svg);
 }
