@@ -40,6 +40,38 @@ add_action( 'genesis_entry_header', 'banner');
 add_action( 'genesis_entry_content', 'custom_content' );
 
 function custom_content() {
+    $title = get_field('title');
+    $text_on_the_left = get_field('text_on_the_left');
+    $image = get_field('image');
+    $text_in_yellow_box = get_field('text_in_yellow_box');
+    if(!empty($text_on_the_left) && !empty($image)) {
+        ?><div class="full-container">
+            <div class="custom-container">
+                <?php if(!empty($title)) {
+                    ?><h2 class="text-center"><?php echo $title;?></h2><?php
+                }
+                ?>
+            </div>
+            <div class="grid two-columns">
+                <div class="text-col">
+                    <?php echo $text;?>
+            </div>
+                <div class="img-col">
+                    <img src="<?php echo $image['src'];?>" alt="<?php echo $image['alt'];?>" />
+                    <?php if(!empty($text_in_yellow_box)) {
+                        ?>
+                        <div class="yellow-box">
+                            <img alt="" src="/wp-content/uploads/2025/06/Decorative-Triangle_green.svg" class="triangle">
+                            <?php echo $text_in_yellow_box;?>
+                        </div>
+                        <?php
+                    }
+                    ?>
+                </div>
+            </div>
+
+    <?php
+    }
 }
 
 genesis();
