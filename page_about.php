@@ -51,7 +51,7 @@ function custom_content() {
                     ?><h2 class="text-center"><?php echo $title;?></h2><?php
                 }
                 ?>
-                test
+              
             </div>
             <div class="grid two-columns">
                 <div class="text-col">
