@@ -1589,7 +1589,8 @@ img.triangle {
 	margin-top: 40px;
 }
 
-.grid.two-columns p {
+.grid.two-columns p,
+.grid.two-columns p span  {
 	font-weight: 500 !important;
 }
 
