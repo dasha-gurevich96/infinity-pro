@@ -1633,7 +1633,7 @@ div.accordion {
 }
 
 .accordion-button:not(.collapsed)::after {
-	background-image: url('/wp-content/uploads/2025/06/Arrow-Up.svg');
+	background-image: url('/wp-content/uploads/2025/06/Arrow-right.svg');
 }
 
 .accordion-item {
