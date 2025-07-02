@@ -1591,6 +1591,10 @@ h2.text-center.inner-page-title  {
     padding: 63px 0;
 }
 
+.inner-page img.icon {
+    width: 40px;
+}
+
 
 /*** INNER PAGE: ABOUT
 ==========================*/
