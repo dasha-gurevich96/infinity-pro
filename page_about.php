@@ -57,7 +57,7 @@ function custom_content() {
                     <?php echo $text;?>
             </div>
                 <div class="img-col">
-                    <img src="<?php echo $image['src'];?>" alt="<?php echo $image['alt'];?>" />
+                    <img src="<?php echo $image['url'];?>" alt="<?php echo $image['alt'];?>" />
                     <?php if(!empty($text_in_yellow_box)) {
                         ?>
                         <div class="yellow-box">
