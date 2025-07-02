@@ -32,8 +32,9 @@ if (have_rows('collapsibles')) {
 					<h2 class="accordion-header">
                             <a class="accordion-button d-flex collapsed" href="<?php echo $link;?>"  >
                                 <span class="tab-title"><?php echo $collapsible_title; ?></span>
+								<img src="/wp-content/uploads/2025/06/Icon-other-page.svg" alt="" class="icon" />
 							</a>
-							<img src="/wp-content/uploads/2025/06/Icon-other-page.svg" alt="" class="icon" />
+							
                         </h2>
 					<?php
 				} elseif (!empty($collapsible_title) && have_rows('collapsible_description')) { ?>
