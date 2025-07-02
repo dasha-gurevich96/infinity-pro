@@ -25,13 +25,13 @@ function infinity_add_body_class( $classes ) {
 }
 
 function banner() {
-	?><div class="inner-banner">
-        <div class="custom-container">
-            <h1><?php the_title();?></h1>
-        </div>
-    </div>
-    <img src="/wp-content/uploads/2025/07/banner_wave_about.svg" alt="" />
-    <?php
+	$select_banner_type = get_field('select_banner_type');
+	if($select_banner_type === 'with-detail') {
+		get_template_part('/components/banner');
+	} else {
+		get_template_part('/components/banner_plain');
+	}
+
 }
 
 
