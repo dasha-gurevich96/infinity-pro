@@ -115,7 +115,7 @@ function custom_content() {
                     }
                     ?>
                     <?php if(!empty($fact_below_image)) {
-                        ?><div class="diamond-container blue-diamond position-relative">
+                        ?><div class="diamond-container yellow-diamond position-relative">
                             <?php echo $fact_below_image;?>
                             </div>
                         <?php
