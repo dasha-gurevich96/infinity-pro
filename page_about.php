@@ -104,26 +104,34 @@ function custom_content() {
             <div class="custom-container">
                 <div class="grid">
                     <div class="custom-col-1">
-                    <?php if(!empty($fact_above_image)) {
-                        ?><div class="diamond-container blue-diamond position-relative">
-                            <div class="text"><?php echo $fact_above_image;?></div>
-                            </div>
-                        <?php
-                    }
-                    if(!empty($image_know)) {
-                        ?><img class="img-mask" src="<?php echo $image_know['url'];?>" alt="<?php echo $image_know['alt'];?>" /><?php
-                    }
-                    ?>
-                    <?php if(!empty($fact_below_image)) {
-                        ?><div class="diamond-container yellow-diamond position-relative">
-                            <div class="text"><?php echo $fact_below_image;?></div>
-                            
-                            </div>
-                        <?php
-                    }
-                    ?>
+                        <?php if(!empty($fact_above_image)) {
+                            ?><div class="diamond-container blue-diamond position-relative">
+                                <div class="text"><?php echo $fact_above_image;?></div>
+                                </div>
+                            <?php
+                        }
+                        if(!empty($image_know)) {
+                            ?><img class="img-mask" src="<?php echo $image_know['url'];?>" alt="<?php echo $image_know['alt'];?>" /><?php
+                        }
+                        ?>
+                        <?php if(!empty($fact_below_image)) {
+                            ?><div class="diamond-container yellow-diamond position-relative">
+                                <div class="text"><?php echo $fact_below_image;?></div>
+                                
+                                </div>
+                            <?php
+                        }
+                        ?>
+                        </div>
                     </div>
-            </div>
+                    <div class="custom-col-2">
+                        <?php if(have_rows('facts_row_1')) {
+                            ?><div class="facts">
+                                </div>
+                                <?php
+                        }
+                        ?>
+                    </div>
             </div>
         <?php
 
