@@ -62,7 +62,7 @@ function custom_content() {
                     <?php if(!empty($text_in_yellow_box)) {
                         ?>
                         <div class="yellow-box">
-                            <img alt="" src="/wp-content/uploads/2025/06/Decorative-Triangle_green.svg" class="triangle">
+                            <img alt="" src="/wp-content/uploads/2025/07/Decorative-Triangle-2_Decorative-Triangle_green.svg" class="triangle">
                             <?php echo $text_in_yellow_box;?>
                         </div>
                         <?php
