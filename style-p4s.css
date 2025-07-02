@@ -1644,11 +1644,8 @@ div.accordion {
     border: none;
 }
 
-.accordion-item .icon {
-	margin-left: auto;
-}
 
-.accordion-item a .icon {
+.accordion-item a img.icon {
 	margin-left: auto;
 }
 
