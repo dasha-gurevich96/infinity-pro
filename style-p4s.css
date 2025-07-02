@@ -1715,5 +1715,16 @@ img.triangle {
 
 .infographics .grid {
     display: grid;
-    grid-template-columns: 40% 59%;
+    grid-template-columns: 43% 59%;
+}
+
+img.img-mask {
+    height: 468px;
+    mask: url(/wp-content/uploads/2025/06/About-Us-Image-mask.svg);
+    mask-repeat: no-repeat;
+    mask-size: 426px;
+	-webkit-mask: url(/wp-content/uploads/2025/06/About-Us-Image-mask.svg);
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-size: 426px;
+    object-fit: cover;
 }
