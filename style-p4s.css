@@ -1737,3 +1737,7 @@ img.img-mask {
     width: 100%;
     content: '';
 }
+
+blue-diamond:before {
+	background-image: url(/wp-content/uploads/2025/06/Diamond_blue.svg);
+}
