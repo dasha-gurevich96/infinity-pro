@@ -45,7 +45,7 @@ function custom_content() {
     $image = get_field('image');
     $text_in_yellow_box = get_field('text_in_yellow_box');
     if(!empty($text_on_the_left) && !empty($image)) {
-        ?><div class="full-container">
+        ?><div class="full-container what-is">
             <div class="custom-container">
                 <?php if(!empty($title)) {
                     ?><h2 class="text-center inner-page-title"><?php echo $title;?></h2><?php
@@ -71,6 +71,7 @@ function custom_content() {
                 </div>
             </div>
             </div>
+                </div>
 
     <?php
     }
