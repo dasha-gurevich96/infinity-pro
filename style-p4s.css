@@ -1566,6 +1566,11 @@ footer a.social-icon img {
 	font-weight: 700;
 }
 
+.inner-page-title h2 {
+    margin: auto;
+    width: 500px;
+}
+
 /*** INNER PAGE: ABOUT
 ==========================*/
 .yellow-box {
@@ -1577,10 +1582,6 @@ img.triangle {
     width: 20px;
 }
 
-.inner-page-title h2 {
-    margin: auto;
-    width: 500px;
-}
 
 .grid.two-columns {
     display: grid;
