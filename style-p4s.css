@@ -1571,6 +1571,11 @@ h2.text-center.inner-page-title  {
     width: 500px;
 }
 
+.inner-page p,
+.inner-page li {
+	font-weight: 500;
+}
+
 /*** INNER PAGE: ABOUT
 ==========================*/
 .yellow-box {
