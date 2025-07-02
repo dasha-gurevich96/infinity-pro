@@ -1568,6 +1568,7 @@ footer a.social-icon img {
 
 h2.text-center.inner-page-title  {
     margin: auto;
+	max-width: 95%;
     width: 500px;
 }
 
@@ -1575,6 +1576,10 @@ h2.text-center.inner-page-title  {
 .inner-page li {
 	font-weight: 500;
 }
+
+.inner-page .entry-content li {
+    margin-bottom: 2px;
+} 
 
 /*** INNER PAGE: ABOUT
 ==========================*/
