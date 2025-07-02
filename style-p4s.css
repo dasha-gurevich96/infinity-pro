@@ -1590,6 +1590,8 @@ h2.text-center.inner-page-title  {
     background-color: var(--yellow);
     border-radius: 20px;
     padding: 20px;
+	max-width: 100%;
+	width: 414px;
 }
 
 img.triangle {
