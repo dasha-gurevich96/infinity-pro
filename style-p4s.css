@@ -1561,10 +1561,6 @@ footer a.social-icon img {
     margin-top: 134px !important;
 }
 
-.grid.two-columns {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
 
 .inner-page  h2 {
 	font-weight: 700;
@@ -1581,7 +1577,18 @@ img.triangle {
     width: 20px;
 }
 
-h2.text-center {
+.inner-page-title h2 {
     margin: auto;
     width: 500px;
+}
+
+.grid.two-columns {
+    display: grid;
+    grid-template-columns: 42% 50%;
+    justify-content: space-between;
+	margin-top: 40px;
+}
+
+.grid.two-columns p {
+	font-weight: 500;
 }
