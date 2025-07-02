@@ -1742,6 +1742,7 @@ img.img-mask {
 }
 
 .diamond-container:before {
+	position: absolute;
     background-repeat: no-repeat;
     background-size: 100%;
     display: block;
