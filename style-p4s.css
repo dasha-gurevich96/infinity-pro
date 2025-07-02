@@ -1754,3 +1754,9 @@ img.img-mask {
 .blue-diamond:before {
 	background-image: url(/wp-content/uploads/2025/06/Diamond_blue.svg);
 }
+
+.diamond-container .text {
+    width: 60%;
+    padding: 0 44px;
+    margin: auto;
+}
