@@ -1498,7 +1498,7 @@ footer a {
 }
 
 footer a.social-icon {
-	border: white;
+	border-color: white;
 }
 
 footer a.social-icon img {
