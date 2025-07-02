@@ -1569,7 +1569,7 @@ footer a.social-icon img {
 /*** INNER PAGE: ABOUT
 ==========================*/
 .yellow-box {
-    position: relative;
+    position: absolute;
 }
 
 img.triangle {
@@ -1594,8 +1594,12 @@ img.triangle {
 	font-weight: 500 !important;
 }
 
+.grid.two-columns .img-col {
+	display: flex;
+	position: relative;
+}
+
 .grid.two-columns .img-col img {
     border-radius: 30px;
 	object-fit: cover;
-    height: 100%;
 }
