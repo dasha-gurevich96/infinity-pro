@@ -1712,3 +1712,8 @@ img.triangle {
 .full-container.what-is {
     margin-bottom: 172px;
 }
+
+.infographics .grid {
+    display: grid;
+    grid-template-columns: 40% 59%;
+}
