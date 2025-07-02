@@ -1454,6 +1454,7 @@ h2.footer-title {
     color: white;
     font-size: 21px;
     font-weight: 700;
+	margin-bottom: 15px;
 }
 
 .footer-combined.d-flex {
@@ -1494,6 +1495,18 @@ img.blue-1 {
 footer a {
     font-size: 18px;
     color: white;
+}
+
+footer a.social-icon {
+	border: white;
+}
+
+footer a.social-icon img {
+    filter: invert(100%);
+}
+
+.social-share .custom-container.d-flex {
+    gap: 10px;
 }
 
 /*** INNER PAGES: GENERAL
