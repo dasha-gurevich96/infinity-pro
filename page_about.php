@@ -55,7 +55,7 @@ function custom_content() {
             </div>
             <div class="grid two-columns">
                 <div class="text-col">
-                    <?php echo $text;?>
+                    <?php echo $text_on_the_left;?>
             </div>
                 <div class="img-col">
                     <img src="<?php echo $image['url'];?>" alt="<?php echo $image['alt'];?>" />
