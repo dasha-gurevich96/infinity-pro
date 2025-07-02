@@ -1645,11 +1645,11 @@ div.accordion {
 }
 
 
-.accordion-item a img.icon {
+a.accordion-button img.icon {
 	margin-left: auto;
 }
 
-.accordion-item a::after {
+a.accordion-button::after {
 	margin-left: 10px !important;
 }
 
