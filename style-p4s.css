@@ -1636,6 +1636,12 @@ div.accordion {
 	background-image: url('/wp-content/uploads/2025/06/Arrow-Up.svg');
 }
 
+.accordion-item {
+    color: black;
+    background-color: transparent;
+    border: none;
+}
+
 
 /*** INNER PAGE: ABOUT
 ==========================*/
