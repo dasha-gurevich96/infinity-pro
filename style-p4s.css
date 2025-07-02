@@ -1644,6 +1644,18 @@ div.accordion {
     border: none;
 }
 
+.accordion-item .icon {
+	margin-left: auto;
+}
+
+.accordion-item a .icon {
+	margin-left: auto;
+}
+
+.accordion-item a::after {
+	margin-left: 10px !important;
+}
+
 
 /*** INNER PAGE: ABOUT
 ==========================*/
