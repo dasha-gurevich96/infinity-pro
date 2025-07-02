@@ -1586,6 +1586,11 @@ h2.text-center.inner-page-title  {
     font-weight: 800;
 } 
 
+.full-container.blue-bg {
+    background-color: var(--light-blue);
+    padding: 63px 0;
+}
+
 
 /*** INNER PAGE: ABOUT
 ==========================*/
@@ -1634,3 +1639,4 @@ img.triangle {
     border-radius: 30px;
 	object-fit: cover;
 }
+
