@@ -1574,7 +1574,8 @@ h2.text-center.inner-page-title  {
 
 .inner-page p,
 .inner-page li {
-	font-weight: 500;
+	font-weight: 600;
+	color: black;
 }
 
 .inner-page .entry-content li {
