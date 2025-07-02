@@ -52,7 +52,7 @@ function custom_content() {
                 }
                 ?>
               
-            </div>
+            
             <div class="grid two-columns">
                 <div class="text-col">
                     <?php echo $text_on_the_left;?>
@@ -69,6 +69,7 @@ function custom_content() {
                     }
                     ?>
                 </div>
+            </div>
             </div>
 
     <?php
