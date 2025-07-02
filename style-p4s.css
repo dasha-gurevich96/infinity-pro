@@ -55,6 +55,7 @@ main .custom-container,
 	--purple: #591144;
 	--yellow: #F0AD21;
 	--green: #034c30;
+	--bs-accordion-btn-icon-transform: rotate(-90deg);
 	--font: 'Nunito-Var';
 }
 
