@@ -1495,6 +1495,7 @@ img.blue-1 {
 footer a {
     font-size: 18px;
     color: white;
+	font-weight: 500;
 }
 
 footer a.social-icon {
