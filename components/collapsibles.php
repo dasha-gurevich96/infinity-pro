@@ -23,17 +23,23 @@ if (have_rows('collapsibles')) {
             <?php 
             while (have_rows('collapsibles')) {
                 the_row();
-                $collapsible_title = get_sub_field('collapsible_title');
-				$icon = get_sub_field('icon');
+                $collapsible_title = get_sub_field('collapsible_tab_title');
+				$link_to_page = get_sub_field('link_to_page');
+				$link = get_sub_field('link');
                 $counter_tabs++;
-                if (!empty($collapsible_title) && have_rows('collapsible_description')) { ?>
+				if(!empty($collapsible_title) && $link_to_page && !empty($link)) {
+					?>
+					<h2 class="accordion-header">
+                            <a class="accordion-button d-flex collapsed" href="<?php echo $link;?>"  >
+                                <span class="tab-title"><?php echo $collapsible_title; ?></span>
+							</a>
+							<img src="/wp-content/uploads/2025/06/Icon-other-page.svg" alt="" class="icon" />
+                        </h2>
+					<?php
+				} elseif (!empty($collapsible_title) && have_rows('collapsible_description')) { ?>
                     <div class="accordion-item tab">
                         <h2 class="accordion-header exclude" id="heading-<?php echo $counter_tabs; ?>">
                             <button class="accordion-button d-flex collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-<?php echo $counter_tabs; ?>" aria-expanded="false" aria-controls="collapse-<?php echo $counter_tabs; ?>">
-								<?php if(!empty($icon)) {
-									?><img class="icon" src="<?php echo $icon;?>" alt="" /><?php
-									}
-								?>
                                 <span class="tab-title"><?php echo $collapsible_title; ?></span>
                             </button>
                         </h2>
