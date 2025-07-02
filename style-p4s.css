@@ -1604,6 +1604,7 @@ h2.text-center.inner-page-title  {
 
 h2 .accordion-button {
 	color: white;
+	text-decoration: none;
 }
 
 div.accordion {
@@ -1618,6 +1619,10 @@ div.accordion {
 
 .accordion-header:nth-child(2n+2) .accordion-button {
 	background-color: var(--dark-green);
+}
+
+.accordion-button::after {
+	background-image: url('/wp-content/uploads/2025/06/Arrow-right.svg');
 }
 
 
