@@ -80,7 +80,7 @@ function custom_content() {
 	<?php
 		while(have_rows('components')) {
 			the_row();
-			if (get_row_layout() === 'collapsible_tabs') {
+			if (get_row_layout() === 'collapsibles') {
 				get_template_part('/components/collapsibles');
 			}
 		}
