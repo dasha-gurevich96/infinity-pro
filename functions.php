@@ -548,7 +548,7 @@ add_action('genesis_footer', 'genesis_do_custom_footer');
 
 function genesis_do_custom_footer() {
 	$logo_f= get_field('footer_logo', 'options');
-	$email_address = get_field('email_address', 'options');
+	$emails = get_field('email_address', 'options');
 	$phone = get_field('phone', 'options');
 	
 	?><div class="full-container footer-container">
