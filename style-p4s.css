@@ -54,6 +54,7 @@ main .custom-container,
 	--dark-green: #0E5660;
 	--purple: #591144;
 	--yellow: #F0AD21;
+	--green: #034c30;
 	--font: 'Nunito-Var';
 }
 
@@ -1620,7 +1621,7 @@ div.accordion {
 }
 
 .accordion-header:nth-child(2n+2) .accordion-button {
-	background-color: var(--dark-green);
+	background-color: var(--green);
 }
 
 .accordion-button::after {
