@@ -1583,8 +1583,10 @@ h2.text-center.inner-page-title  {
 }
 
 img.triangle {
-    position: relative;
-    width: 20px;
+    border-radius: 0 !important;
+    position: absolute;
+    top: -19px;
+    width: 35px;
 }
 
 
