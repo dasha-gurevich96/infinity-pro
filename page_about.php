@@ -48,7 +48,7 @@ function custom_content() {
         ?><div class="full-container">
             <div class="custom-container">
                 <?php if(!empty($title)) {
-                    ?><h2 class="text-center"><?php echo $title;?></h2><?php
+                    ?><h2 class="text-center inner-page-title"><?php echo $title;?></h2><?php
                 }
                 ?>
               
