@@ -87,6 +87,47 @@ function custom_content() {
 		}
 	?><?php
 	}
+    $infographics_title = get_field('infographics_title');
+    $image_know = get_field('image_know');
+    $fact_above_image = get_field('fact_above_image');
+    $fact_below_image = get_field('fact_below_image');
+
+    ?><div class="full-container infographics-container">
+        <div class="custom-container">
+            <?php if(!empty($infographics_title)) {
+                    ?><h2 class="text-center inner-page-title"><?php echo $infographics_title;?></h2><?php
+             }
+    ?>
+        </div>
+        </div>
+        <div class="infographics full-container">
+            <div class="custom-container">
+                <div class="grid">
+                    <div class="custom-col-1">
+                    <?php if(!empty($fact_above_image)) {
+                        ?><div class="diamond-container blue-diamond position-relative">
+                            <?php echo $fact_above_image;?>
+                            </div>
+                        <?php
+                    }
+                    if(!empty($image_know)) {
+                        ?><img class="img-mask" src="<?php echo $image_know['url'];?>" alt="<?php echo $image_know['alt'];?>" /><?php
+                    }
+                    ?>
+                    <?php if(!empty($fact_below_image)) {
+                        ?><div class="diamond-container blue-diamond position-relative">
+                            <?php echo $fact_below_image;?>
+                            </div>
+                        <?php
+                    }
+                    ?>
+                    </div>
+            </div>
+            </div>
+        <?php
+
+    
+
 }
 
 genesis();
