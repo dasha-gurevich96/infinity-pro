@@ -1595,6 +1595,12 @@ h2.text-center.inner-page-title  {
     width: 40px;
 }
 
+/***ACCRODION
+------------------_*/
+.accordion-button {
+	padding: 20px;
+}
+
 
 /*** INNER PAGE: ABOUT
 ==========================*/
