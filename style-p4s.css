@@ -1734,6 +1734,7 @@ img.img-mask {
 }
 
 .diamond-container {
+	display: flex;
     height: 272px;
     width: 479px;
     z-index: 4;
