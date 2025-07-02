@@ -1590,5 +1590,11 @@ img.triangle {
 }
 
 .grid.two-columns p {
-	font-weight: 500;
+	font-weight: 500 !important;
+}
+
+.grid.two-columns .img-col img {
+    border-radius: 30px;
+	object-fit: cover;
+    height: 100%;
 }
