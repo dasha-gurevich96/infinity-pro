@@ -1729,6 +1729,18 @@ img.img-mask {
     object-fit: cover;
 }
 
+.diamond-container {
+    height: 272px;
+    width: 479px;
+    z-index: 4;
+    margin-bottom: -41px;
+}
+
+.diamond-container p {
+	position: relative;
+	z-index: 6;
+}
+
 .diamond-container:before {
     background-repeat: no-repeat;
     background-size: 100%;
