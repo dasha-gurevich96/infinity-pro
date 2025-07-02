@@ -1575,6 +1575,11 @@ h2.text-center.inner-page-title  {
 ==========================*/
 .yellow-box {
     position: absolute;
+	bottom: -30px;
+	left: 20px;
+    background-color: var(--yellow);
+    border-radius: 20px;
+    padding: 20px;
 }
 
 img.triangle {
