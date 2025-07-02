@@ -1608,6 +1608,14 @@ div.accordion {
     gap: 23px;
 }
 
+.accordion-header:nth-child(2n+1) .accordion-button {
+	background-color: var(--purple);
+}
+
+.accordion-header:nth-child(2n+2) .accordion-button {
+	background-color: var(--dark-green);
+}
+
 
 /*** INNER PAGE: ABOUT
 ==========================*/
