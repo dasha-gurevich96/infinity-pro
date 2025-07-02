@@ -26,7 +26,7 @@ function infinity_add_body_class( $classes ) {
 
 function banner() {
 	$select_banner_type = get_field('select_banner_type');
-	if($select_banner_type === 'with-detail') {
+	if($select_banner_type === 'With detail') {
 		get_template_part('/components/banner');
 	} else {
 		get_template_part('/components/banner_plain');
