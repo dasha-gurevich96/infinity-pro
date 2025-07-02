@@ -1624,7 +1624,11 @@ div.accordion {
 }
 
 .accordion-button::after {
-	background-image: url('/wp-content/uploads/2025/06/Arrow-right.svg') !important;
+    background-image: url('/wp-content/uploads/2025/06/Arrow-right.svg');
+    background-position: center;
+    background-size: 22px;
+    height: 34px;
+    width: 32px;
 }
 
 
