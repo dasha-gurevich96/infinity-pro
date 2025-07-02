@@ -1598,7 +1598,7 @@ h2.text-center.inner-page-title  {
 /***ACCRODION
 ------------------_*/
 .accordion-button {
-	border-radius: 20px;
+	border-radius: 10px !important;
 	padding: 20px;
 }
 
