@@ -1633,7 +1633,9 @@ div.accordion {
 }
 
 .accordion-button:not(.collapsed)::after {
+	background-image: url('/wp-content/uploads/2025/06/Arrow-right.svg');
 	transform: rotate(-90deg) !important;
+
 }
 
 .accordion-item {
