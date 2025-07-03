@@ -2010,6 +2010,10 @@ img.img-mask {
 	padding-bottom: 50px;
 }
 
+.inner-page.stories .entry-content {
+    margin-top: 78px !important;
+}
+
 
 .stories-cards {
 	display: flex;
