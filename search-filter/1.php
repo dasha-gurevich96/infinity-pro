@@ -18,64 +18,54 @@ if ( ! isset( $query ) ) {
 	return;
 }
 
+
 if ( $query->have_posts() ) {
-	?>
+    ?>
+    <p class="mt-5">Found <?php echo esc_html( $query->found_posts ); ?> Results </p>
 
-<p class="mt-5">Found <?php echo esc_html( $query->found_posts ); ?> Results </p>
+    <!-- Keep the `.search-filter-query-posts` class to support the load more button -->
+    <div class="search-filter-query-posts">
+        <div class="stories-cards">
+        <?php
+        while ( $query->have_posts() ) {
+            $query->the_post();
+            $image = get_field('image');
+            $intro = get_field('intro');
 
-	<!-- Keep the `.search-filter-query-posts` class to support the load more button -->
-	<div class="search-filter-query-posts">
-		<div class="stories-cards">
-		<?php
-		while ( $query->have_posts() ) {
-			$query->the_post();
-			$image = get_field('image');
-			$intro = get_field('intro');
+            $intro_no_headings = preg_replace('#<h[1-6][^>]*>.*?</h[1-6]>#is', '', $intro);
+            $intro_clean = strip_tags($intro_no_headings);
+            $words = preg_split('/\s+/', trim($intro_clean));
+            $desc  = implode(' ', array_slice($words, 0, 20));
+            ?>
+            <div class="story-card">
+                <div class="img-col">
+                    <div class="img-container">
+                        <?php if ( ! empty( $image ) ) { ?>
+                            <img class="story-img" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+                        <?php } else { ?>
+                            <img class="logo-img" src="/wp-content/uploads/2025/06/Stories_temporary-avatar.svg" alt="" />
+                        <?php } ?>
+                    </div>
+                </div>
 
-			$intro_no_headings = preg_replace('#<h[1-6][^>]*>.*?</h[1-6]>#is', '', $intro);
-			// Step 2: Strip all remaining HTML tags
-			$intro_clean = strip_tags($intro_no_headings);
-
-			$words = preg_split('/\s+/', trim($intro_clean)); // Split by any whitespace
-			$desc  = implode(' ', array_slice($words, 0, 20));
-
-			?><div class="story-card">
-					<div class="img-col">
-						<div class="img-container">
-							<?php if(!empty($image)) {
-								?><img class="story-img" src="<?php echo $image['url'];?>" alt="<?php echo $image['alt'];?>" /><?php
-							} else {
-								?><img class="logo-img" src="/wp-content/uploads/2025/06/Stories_temporary-avatar.svg" alt="" /><?php
-							}
-							?>
-						</div>
-					</div>
-
-					<div class="text-col">
-						<h3><?php the_title();?></h3>
-						<div class="text">
-							<p><?php echo $desc;?></p>
-					</div>
-					</div>
-				<div>
-						</div>
-						</div>
-					
-			<?php
-		
-			
-			}
-			wp_reset_postdata();
-			?>
-		</div>
-		</div>
-
-
-	<?php
+                <div class="text-col">
+                    <h3><?php the_title(); ?></h3>
+                    <div class="text">
+                        <p><?php echo $desc; ?></p>
+                    </div>
+                </div>
+            </div> <!-- closes .story-card -->
+            <?php
+        }
+        wp_reset_postdata();
+        ?>
+        </div> <!-- closes .stories-cards -->
+    </div> <!-- closes .search-filter-query-posts -->
+    <?php
 } else {
-	?><p class="mt-4"> 
-	<?php echo 'No Results Found';?>	
-</p>
-<?php
+    ?>
+    <p class="mt-4">No Results Found</p>
+    <?php
 }
 ?>
+
