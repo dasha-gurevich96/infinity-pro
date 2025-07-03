@@ -1569,6 +1569,9 @@ footer a.social-icon img {
 	.footer-combined.d-flex {
 		top: -48%;
 	}
+	img.yellow-1 {
+    	transform: scale(1.5);
+	}
 }
 /*** INNER PAGES: GENERAL
 ==========================*/
