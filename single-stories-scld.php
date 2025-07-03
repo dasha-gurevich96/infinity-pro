@@ -50,7 +50,7 @@ function banner() {
             </h1>
             <?php if(!empty($banner_text_1)) {
                 ?><div class="purple-bg banner-text-1">
-                    <?php echo $banner_text_1;?>
+                  <p>  <?php echo $banner_text_1;?></p>
                   </div>
                 <?php
             }
