@@ -2006,7 +2006,7 @@ img.img-mask {
 }
 
 .inner-page.stories .full-container .custom-container,
-.inner-page .site-inner .full-container .custom-container  {
+.inner-page.stories .site-inner .full-container .custom-container  {
     width: 860px;
 }
 
