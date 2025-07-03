@@ -106,7 +106,7 @@ function custom_content() {
                     if(!empty($text_in_speech_bubble)) {
                         ?><div class="speech-bubble position-relative">
                             <div class="text position-relative">
-                                <?php echo $text_in_speech_bubble;?>
+                                <p><?php echo $text_in_speech_bubble;?></p>
                             </div>
                             <img class="quote-tail" src="/wp-content/uploads/2025/06/Quote_tail.svg" alt="" />
                             </div>
