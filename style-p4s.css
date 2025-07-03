@@ -1984,13 +1984,14 @@ img.img-mask {
 .purple-bg.banner-text-1.banner-text {
     background-color: var(--purple);
     border-radius: 9px;
-    padding: 5px 30px;
+    padding: 5px 40px;
     width: fit-content;
 }
 
 .purple-bg.banner-text-1.banner-text p {
 	color: white;
 	font-weight: 800;
+	font-size: 26px;
 	text-transform: uppercase;
 }
 
