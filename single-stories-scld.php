@@ -156,7 +156,17 @@ function custom_content() {
     ?>
     </div>
     </div>
-</div><?php
+</div>
+<div class="full-container">
+    <div class="custom-contaier">
+        <div class="blue-share">
+        <h3>Share <?php the_title();?>'s story </h3>
+        <?php add_social_share_buttons_global();?>
+</div>
+</div>
+</div>
+
+<?php
 }
 
 add_action( 'genesis_entry_content', 'custom_content');
