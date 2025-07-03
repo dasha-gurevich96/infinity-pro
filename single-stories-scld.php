@@ -139,11 +139,12 @@ function custom_content() {
                 $title = get_sub_field('title');
                 $text = get_sub_field('text');
                 if(!empty($text) && !empty($title)) {
-                    ?><h2 class="content-title">
+                    ?><div class="content-cont"><h2 class="content-title">
                         <?php echo $title;?>
                       </h2>
                       <div class="text">
                         <?php echo $text;?>
+                </div>
                 </div>
                         <?php
                 }
