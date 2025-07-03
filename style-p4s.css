@@ -2138,11 +2138,11 @@ h2.content-title:nth-child(2n+1) {
 	background-color: #cee9e0;
 }
 
-h2.content-title:nth-child(2n+2) {
+h2.content-title:nth-child(2n+3) {
 	background-color: #B3E1ED;
 }
 
-h2.content-title:nth-child(2n+3) {
+h2.content-title:nth-child(2n+4) {
 	background-color: #F9DCAC;
 }
 
