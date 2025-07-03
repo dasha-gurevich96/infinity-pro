@@ -81,8 +81,10 @@ function custom_content() {
     $intro = get_field("intro");
     if(!empty($intro)) {
             ?><div class="full-container purple-bg position-relative intro-story">
-                <div class="custom-container custom-container-smaller">
-                    <?php echo $intro;?>
+                <div class="custom-container">
+                    <div class="smaller-width">
+                        <?php echo $intro;?>
+                    </div>
 
                 </div>
         </div>
