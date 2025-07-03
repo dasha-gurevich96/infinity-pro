@@ -145,6 +145,35 @@ function custom_content() {
                                 <?php
                         }
                         ?>
+                        <?php if(have_rows('facts_row_2') && !empty(get_field('fact_in_purple_diamond')) ) {
+                            ?><div class="facts facts-row-2">
+                                <?php while(have_rows('facts_row_2')) {
+                                        the_row();
+                                        $icon = get_sub_field('icon_1');
+                                        $text = get_sub_field('text');
+                                        if(!empty($icon) && !empty($text)) {
+                                            ?><div class="card fact-card">
+                                                <img src="<?php echo $icon['url'];?>" alt="<?php echo $icon['alt'];?>" />
+                                                <div>
+                                                    <?php echo $text;?>
+                                                </div>
+                                            </div>
+                                                <?php
+                                        }
+                                }
+                                if(get_field('fact_in_purple_diamond')) {
+                                    ?><div class="diamond-container purple-diamond">
+                                        <?php echo get_field('fact_in_purple_diamond');?>
+                                        </div>
+                                        <?php
+                                }
+                                ?>
+                                </div>
+                                <?php
+                        }
+                        ?>
+
+
                     </div>
             </div>
         <?php
