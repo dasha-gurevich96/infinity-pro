@@ -152,9 +152,9 @@ function custom_content() {
                 }
             }
     }
-    if(!empty($banner_title_1) && !empty($banner_title_2)) {
+    if(!empty($banner_text_1) && !empty($banner_text_2)) {
         ?><p><strong>
-            <?php echo $banner_title_1;?> - <?php echo $banner_title_2;?>
+            <?php echo $banner_text_1;?> - <?php echo $banner_text_2;?>
     </strong>
         </p>
             <?php
