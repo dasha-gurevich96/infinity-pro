@@ -2192,3 +2192,7 @@ img.logo-img {
     transform: translateX(-50%);
     height: 196px;
 }
+
+img.bio-img {
+    object-fit: cover;
+}
