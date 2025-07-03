@@ -49,6 +49,7 @@ if ( $query->have_posts() ) {
 						}
 						?>
 					</div>
+					<div>
 					<div class="text-col">
 						<h3><?php the_title();?></h3>
 						<div class="text">
