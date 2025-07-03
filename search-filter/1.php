@@ -58,6 +58,7 @@ if ( $query->have_posts() ) {
 					</div>
 				</div>
 			 </div>
+					</div>
 			<?php
 		
 			
