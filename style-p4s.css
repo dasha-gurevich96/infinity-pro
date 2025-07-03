@@ -2040,3 +2040,7 @@ img.img-mask {
 .entry-header::after {
 	display: none;
 }
+
+.inner-page.post .entry-content {
+    margin-top: 0 !important;
+}
