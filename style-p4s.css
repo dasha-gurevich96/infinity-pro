@@ -1606,6 +1606,10 @@ footer a.social-icon img {
     z-index: 1;
 }
 
+.inner-page .entry-header img.banner-plain {
+	bottom: -56%;
+}
+
 .inner-banner .custom-container h1 {
 	color: white;
 	font-weight: 800;
