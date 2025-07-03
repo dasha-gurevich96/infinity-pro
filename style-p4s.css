@@ -2032,7 +2032,7 @@ img.img-mask {
 .story-card h3,
 .story-card h3 a {
     color: var(--purple);
-    font-size: 27px;
+    font-size: 32px;
     font-weight: 700 !important;
 	text-decoration: none;
 }
