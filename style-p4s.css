@@ -1448,7 +1448,7 @@ a:has(.footer-logo) {
 
 .site-footer img.diamond {
     top: -21px;
-    height: 118%;
+    height: 116%;
 	left: -7%;
     object-fit: contain;
 }
@@ -1469,7 +1469,7 @@ h2.footer-title {
     position: absolute;
     left: -23px;
     width: 51%;
-    height: 169px;
+    height: 180px;
     /* transform: scale(1.1); */
     height: 178px !important;
     overflow: hidden;
