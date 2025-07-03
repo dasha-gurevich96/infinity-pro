@@ -1542,7 +1542,7 @@ footer a.social-icon img {
 
 @media (min-width: 2030px) {
 	.inner-page .entry-header img {
-		bottom: -66%;
+		bottom: -66% !important;
 	}
 	img.blue-1 {
 		left: 36%;
@@ -1553,6 +1553,9 @@ footer a.social-icon img {
 }
 
 @media (min-width: 2100px) {
+	.inner-page .entry-header img {
+    bottom: -87% !important;
+}
 	.shape-diamond {
     	top: 74px;
 	}
