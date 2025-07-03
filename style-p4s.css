@@ -2133,6 +2133,15 @@ h2.content-title {
     font-size: 27px;
 }
 
+.content-cont {
+    margin: 27px 0;
+}
+
+.content-cont .text {
+    padding: 0 25px;
+    padding-top: 20px;
+}
+
 .content-cont:nth-of-type(3n+1) h2.content-title {
 	background-color: #cee9e0;
 }
