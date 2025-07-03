@@ -2002,7 +2002,9 @@ img.img-mask {
 ====================+*/
 .stories article {
     background-color: var(--yellow);
+	background-image: url(/wp-content/uploads/2025/06/StoriesPattern_no-background.svg);
 }
+
 
 .stories-cards {
 	display: flex;
