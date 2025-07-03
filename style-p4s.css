@@ -1854,10 +1854,14 @@ img.img-mask {
     padding-right: 32px;
 }
 
+.facts.facts-row-2 img {
+	height: 55px;
+}
+
 .facts-3 .card:first-of-type img {
 	height: 97px;
 }
 
 .facts-3 .card:last-of-type img {
-	height: 57px;
+	height: 48px;
 }
