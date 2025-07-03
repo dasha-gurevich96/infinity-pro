@@ -1720,12 +1720,12 @@ img.triangle {
 /**Inforgraphics*/
 
 .inner-page .full-container.infographics .custom-container {
-	width: 1092px;
+	width: 1100px;
 }
 
 .inner-page .site-inner .full-container.infographics .grid {
     display: grid;
-    grid-template-columns: 43% 59%;
+    grid-template-columns: 41% 58%;
 }
 
 img.img-mask {
