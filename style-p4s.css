@@ -2005,7 +2005,7 @@ img.img-mask {
 	background-image: url(/wp-content/uploads/2025/06/StoriesPattern_no-background.svg);
 }
 
-.inner-page.stories .full-container .custom-container,
+.inner-page.stories .entry-content .full-container .custom-container,
 .inner-page.stories .inner-banner .custom-container  {
     width: 860px;
 }
