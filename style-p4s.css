@@ -2000,6 +2000,10 @@ img.img-mask {
 
 /*** STORIES
 ====================+*/
+.stories article {
+    background-color: var(--yellow);
+}
+
 .stories-cards {
 	display: flex;
 	flex-direction: column;
