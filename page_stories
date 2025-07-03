@@ -19,18 +19,15 @@ remove_action('genesis_entry_header', 'genesis_do_post_title');
 // Add landing page body class to the head.
 add_filter( 'body_class', 'infinity_add_body_class' );
 function infinity_add_body_class( $classes ) {
-	$classes[] = 'about-page inner-page';
+	$classes[] = 'stories inner-page';
 	return $classes;
 
 }
 
 function banner() {
-	$select_banner_type = get_field('select_banner_type');
-	if($select_banner_type === 'With detail') {
-		get_template_part('/components/banner');
-	} else {
+
 		get_template_part('/components/banner_plain');
-	}
+	
 
 }
 
