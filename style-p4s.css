@@ -2074,7 +2074,7 @@ img.purple-wave {
 	gap: 20px;
 }
 
-.diamond-shape::before {
+.title-img-container .diamond-container::before {
 	background-image: url(/wp-content/uploads/2025/06/Stories_image-decoration.svg);
 }
 
