@@ -21,7 +21,7 @@ if ( ! isset( $query ) ) {
 
 if ( $query->have_posts() ) {
     ?>
-    <p class="mt-5">Found <?php echo esc_html( $query->found_posts ); ?> Results </p>
+    
 
     <!-- Keep the `.search-filter-query-posts` class to support the load more button -->
     <div class="search-filter-query-posts">
