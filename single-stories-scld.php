@@ -151,8 +151,9 @@ function custom_content() {
             }
     }
     if(!empty($banner_title_1) && !empty($banner_title_2)) {
-        ?><p>
+        ?><p><strong>
             <?php echo $banner_title_1;?> <?php echo $banner_title_2;?>
+    </strong>
         </p>
             <?php
     }
