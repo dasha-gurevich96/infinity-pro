@@ -100,6 +100,7 @@ function custom_content() {
     ?>
         </div>
         </div>
+        <img src="https://scldw-com.stackstaging.com/wp-content/uploads/2025/07/Page_Stripes-with-green.svg" alt="" class="stripes">
         <div class="infographics full-container">
             <div class="custom-container">
                 <div class="grid">
