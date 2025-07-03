@@ -31,6 +31,13 @@ if ( $query->have_posts() ) {
 			$query->the_post();
 			$image = get_field('image');
 			$intro = get_field('intro');
+
+			$intro_no_headings = preg_replace('#<h[1-6][^>]*>.*?</h[1-6]>#is', '', $intro);
+			// Step 2: Strip all remaining HTML tags
+			$intro_clean = strip_tags($intro_no_headings);
+
+			$words = preg_split('/\s+/', trim($intro_clean)); // Split by any whitespace
+			$desc  = implode(' ', array_slice($words, 0, 20));
 		
 			
 			}
