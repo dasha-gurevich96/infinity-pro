@@ -1568,7 +1568,7 @@ footer a.social-icon img {
 	}
 	.footer-combined.d-flex {
 		top: -48%;
-		height: 147%;
+		height: 147% !important;
 	}
 	img.yellow-1 {
     	transform: scale(1.5);
