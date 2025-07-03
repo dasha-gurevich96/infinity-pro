@@ -2181,6 +2181,6 @@ h2.content-title {
     gap: 10px;
 }
 
-.full-container:has(.blue-share) {
-	padding-bottom: 30px;
+.full-container.mb-0:has(.blue-share) {
+    padding-bottom: 30px;
 }
