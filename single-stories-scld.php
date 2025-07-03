@@ -115,7 +115,7 @@ function custom_content() {
                     ?>
                 </div>
                 <div class="image-col">
-                    <div class="diamond-shape position-relative img-diamond">
+                    <div class="diamond-container position-relative img-diamond">
                         <?php if(!empty($image)) {
                                 ?><img class="bio-img" src="<?php echo $image['url'];?>" alt="<?php echo $image['alt'];?>" />
                                 <?php
