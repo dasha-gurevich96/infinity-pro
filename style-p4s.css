@@ -2037,6 +2037,10 @@ img.img-mask {
 
 /*** POSTS
 ------------------*/
+.purple-bg {
+	background-color: var(--purple);
+}
+
 .entry-header::after {
 	display: none;
 }
