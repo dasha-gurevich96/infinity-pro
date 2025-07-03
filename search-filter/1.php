@@ -25,6 +25,7 @@ if ( $query->have_posts() ) {
 
 	<!-- Keep the `.search-filter-query-posts` class to support the load more button -->
 	<div class="search-filter-query-posts">
+		<div class="stories-cards">
 		<?php
 		while ( $query->have_posts() ) {
 			$query->the_post();
@@ -35,6 +36,7 @@ if ( $query->have_posts() ) {
 			}
 			wp_reset_postdata();
 			?>
+		</div>
 		</div>
 
 
