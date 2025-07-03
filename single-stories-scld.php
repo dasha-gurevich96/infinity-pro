@@ -118,16 +118,17 @@ function custom_content() {
                 </div>
                 <div class="image-col">
                     <div class="diamond-container position-relative img-diamond">
-                        <div class="img-wrapper">
+                        
                         <?php if(!empty($image)) {
-                                ?><img class="bio-img" src="<?php echo $image['url'];?>" alt="<?php echo $image['alt'];?>" />
+                                ?><div class="img-wrapper"><img class="bio-img" src="<?php echo $image['url'];?>" alt="<?php echo $image['alt'];?>" />
+                                </div>
                                 <?php
                         } else {
                             ?><img src="/wp-content/uploads/2025/06/cropped-Scottish-Learning-Disability-week_Logo_social-media-sizes_Logo-mark-1.png" alt="" class="logo-img"/>
                             <?php
                         }
                         ?>
-                        </div>
+                    
                     </div>
                 </div>
             </div>
