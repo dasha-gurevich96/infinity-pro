@@ -1986,6 +1986,7 @@ img.img-mask {
 .breadcrumb {
 	color: black;
 	font-weight: 500 !important;
+	font-size: 20px;
     display: flex;
     gap: 7px;
 }
