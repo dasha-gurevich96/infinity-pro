@@ -79,6 +79,8 @@ add_action( 'genesis_entry_header', 'banner');
 
 function custom_content() {
     $intro = get_field("intro");
+    $text_in_speech_bubble = get_field('text_in_speech_bubble');
+    $image = get_field('image');
     if(!empty($intro)) {
             ?><div class="full-container purple-bg position-relative intro-story">
                 <div class="custom-container">
@@ -91,9 +93,41 @@ function custom_content() {
         <img class="purple-wave" src="/wp-content/uploads/2025/06/Stories_Purple-wave.svg" alt="" />
      <?php
     }
-    ?><h2 class="meet">Meet <?php the_title();?></h2>
-        <?php
+    ?>
+    <div class="full-container">
+        <div class="custom-container">
+            <div class="title-img-container">
+                <div class="title-quote">
+                    <h2 class="meet">
+                        <span> Meet </span>
+                        <span><?php the_title();?></span>
+                    </h2>
+                    <?php
+                    if(!empty($text_in_speech_bubble)) {
+                        ?><div class="speech-bubble position-relative">
+                            <div class="text position-relative">
+                                <?php echo $text_in_speech_bubble;?>
+                            </div>
+                            <img src="/wp-content/uploads/2025/06/Quote_tail.svg" alt="" />
+                            </div>
+                        <?php
+                    }
+                    ?>
+                </div>
+                <div class="image-col">
+                    <div class="diamond-shape position-relative img-diamond">
+                        <?php if(!empty($image)) {
+                                ?><img class="bio-img" src="<?php echo $image['url'];?>" alt="<?php echo $image['alt'];?>" />
+                                <?php
+                        }
+                        ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
     
+        <?php
 }
 
 add_action( 'genesis_entry_content', 'custom_content');
