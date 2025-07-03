@@ -37,6 +37,13 @@ add_action( 'genesis_entry_header', 'banner');
 add_action( 'genesis_entry_content', 'custom_content' );
 
 function custom_content() {
+	?><div class="full-container">
+		<div class="custom-container">
+			<?php echo do_shortcode('[searchandfilter query="1" action="show-results"]');?>
+		</div>
+		</div>
+		
+<?php
 }
 
 genesis();
