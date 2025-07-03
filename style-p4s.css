@@ -1995,6 +1995,18 @@ img.img-mask {
 	text-transform: uppercase;
 }
 
+.white-bg.banner-text-2.banner-text {
+	background-color: white;
+    border-radius: 9px;
+    padding: 5px 40px;
+    width: fit-content;
+}
+
+.white-bg.banner-text-2.banner-text p {
+	font-weight: 800;
+	font-size: 26px;
+}
+
 
 
 /*** POSTS
