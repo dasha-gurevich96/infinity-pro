@@ -2004,6 +2004,7 @@ img.img-mask {
 .white-bg.banner-text-2.banner-text {
 	background-color: white;
     border-radius: 9px;
+	margin-left: 100px;
     padding: 5px 40px;
     width: fit-content;
 }
