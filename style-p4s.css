@@ -2051,6 +2051,26 @@ img.img-mask {
     align-items: flex-end;
 }
 
+img.story-img {
+	height: 100%;
+    object-fit: cover;
+	width: 100%;
+}
+
+img.story-img {
+    width: 288px;
+    object-fit: cover;
+    height: 246px;
+}
+
+.story-card img.logo-img {
+	position: relative;
+    left: 52%;
+    top: 14%;
+    transform: translateX(-50%);
+    height: 196px;
+}
+
 /*** SINGLE STORY
 ------------------*/
 
