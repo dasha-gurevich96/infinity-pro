@@ -1521,8 +1521,12 @@ footer a.social-icon img {
     
 @media (min-width: 1680px) {
 	.footer-combined.d-flex {
-		top: 31px;
+		top: -31px;
 		height: 120% !important;
+	}
+	.site-footer img.diamond {
+		top: -36px;
+		transform: scale(1.2);
 	}
 }
 /*** INNER PAGES: GENERAL
