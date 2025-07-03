@@ -77,5 +77,22 @@ function banner() {
 
 add_action( 'genesis_entry_header', 'banner');
 
+function custom_content() {
+    $intro = get_field("intro");
+    if(!empty($intro)) {
+            ?><div class="full-container purple-bg position-relative">
+                <div class="custom-container custom-container-smaller">
+                    <?php echo $intro;?>
+
+                </div>
+        </div>
+        <img class="purple-wave" src="/wp-content/uploads/2025/06/Stories_Purple-wave.svg" alt="" />
+     <?php
+    }
+    
+}
+
+add_action( 'genesis_entry_content', 'custom_content');
+
 
 genesis();
