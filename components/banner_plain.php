@@ -1,5 +1,5 @@
 <?php 
-	?><div class="inner-banner">
+	?><div class="inner-banner plain-banner">
         <div class="custom-container">
             <h1><?php the_title();?></h1>
         </div>
