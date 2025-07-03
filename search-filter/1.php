@@ -55,7 +55,7 @@ if ( $query->have_posts() ) {
 						</a>
 					</h3>
                     <div class="text">
-                        <p><?php echo $desc; ?></p>
+                        <p><?php echo $desc; ?>...</p>
                     </div>
                 </div>
             </div> <!-- closes .story-card -->
