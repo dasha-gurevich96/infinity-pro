@@ -1613,8 +1613,16 @@ footer a.social-icon img {
 }
 
 .inner-page .site-inner .full-container .custom-container,
-.inner-page .inner-banner .custom-container {
+.inner-page .inner-banner .custom-container,
+.breadcrumb  {
 	    width: 1005px;
+}
+
+.breadcrumb {
+    padding: 10px 0;
+    margin-bottom: 0;
+	max-width: 96%;
+	margin: auto;
 }
 
 .inner-page .site-header {
