@@ -2057,7 +2057,7 @@ img.story-img {
 	width: 100%;
 }
 
-img.img-container {
+.story-card .img-container {
     width: 288px;
     object-fit: cover;
     height: 246px;
