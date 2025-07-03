@@ -2041,6 +2041,14 @@ img.img-mask {
 	background-color: var(--purple);
 }
 
+.intro {
+	margin: 0;
+}
+
+.intro p {
+	color: white;
+}
+
 .entry-header::after {
 	display: none;
 }
