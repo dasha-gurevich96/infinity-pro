@@ -1761,16 +1761,18 @@ img.stripes {
 }
 
 img.img-mask {
-    height: 405px;
+    height: 470px;
     /* margin-top: 40px; */
     width: 575px !important;
     mask: url(/wp-content/uploads/2025/06/About-Us-Image-mask.svg);
     mask-repeat: no-repeat;
-    mask-size: 447px;
+    mask-size: 449px;
     -webkit-mask: url(/wp-content/uploads/2025/06/About-Us-Image-mask.svg);
     -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: 445px;
+    -webkit-mask-size: 449px;
     position: relative;
+		left: 9px;
+		top: -20px;
     object-fit: cover;
 }
 
@@ -1825,7 +1827,7 @@ img.img-mask {
 }
 
 .diamond-container.yellow-diamond.position-relative {
-    margin-top: -76px;
+    margin-top: -128px;
 }
 
 .diamond-container.yellow-diamond {
