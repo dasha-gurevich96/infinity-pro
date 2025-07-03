@@ -1575,6 +1575,9 @@ footer a.social-icon img {
 	.site-footer .details {
 		padding: 23px 0;
 	}
+	.footer-combined.d-flex {
+		height: 147%;
+	}
 }
 /*** INNER PAGES: GENERAL
 ==========================*/
