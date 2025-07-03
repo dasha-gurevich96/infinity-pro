@@ -91,6 +91,8 @@ function custom_content() {
         <img class="purple-wave" src="/wp-content/uploads/2025/06/Stories_Purple-wave.svg" alt="" />
      <?php
     }
+    ?><h2 class="meet">Meet <?php the_title();?></h2>
+        <?php
     
 }
 
