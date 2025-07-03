@@ -28,5 +28,38 @@ function infinity_add_body_class( $classes ) {
 
 }
 
+add_action( 'genesis_entry_header', 'custom_genesis_breadcrumbs' );
+
+function custom_genesis_breadcrumbs() {
+    ?>
+    <div class="screen-reader-text">You are here:</div>
+    <nav aria-label="<?php esc_attr_e( 'Breadcrumbs', 'genesis' ); ?>">
+        <?php genesis_do_breadcrumbs(); ?>
+    </nav>
+    <?php
+}
+
+
+function banner() {
+	$banner_text_1 = get_field('banner_text_1');
+    $banner_text_2 = get_field('banner_text_2');
+    ?><div class="full-container banner-yellow">
+        <div class="custom-container">
+            <h1 class="screen-reader-text">
+                <?php the_title();?>
+            </h1>
+            <?php if(!empty($banner_text_1)) {
+                ?><div class="purple-bg banner-text-1">
+                  </div>
+                <?php
+            }
+            ?>
+        </div>
+     <?php
+}
+
+
+add_action( 'genesis_entry_header', 'banner');
+
 
 genesis();
