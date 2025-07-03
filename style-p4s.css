@@ -1822,3 +1822,7 @@ img.img-mask {
 .facts .card p strong {
 	font-weight: 800 !important;
 }
+
+.purple-diamond:before {
+	background-image: url(wp-content/uploads/2025/06/Diamond_purple.svg);
+}
