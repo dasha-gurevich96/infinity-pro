@@ -1717,6 +1717,8 @@ img.triangle {
     margin-bottom: 172px;
 }
 
+/**Inforgraphics*/
+
 .infographics .grid {
     display: grid;
     grid-template-columns: 43% 59%;
@@ -1789,4 +1791,30 @@ img.img-mask {
 
 .diamond-container.yellow-diamond {
 	padding-right: 24px;
+}
+
+/**COLUMN 2
+---------------*/
+
+.facts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    position: relative;
+    z-index: 4;
+}
+
+.facts .card img {
+    display: block;
+    margin: auto;
+    width: 100px;
+}
+
+.facts .card {
+	border-color: var(--purple);
+	padding-bottom: 20px;
+}
+
+.facts .card p strong {
+	font-weight: 800;
 }
