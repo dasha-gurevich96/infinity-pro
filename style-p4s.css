@@ -1601,6 +1601,10 @@ h2.text-center.inner-page-title  {
     width: 40px;
 }
 
+.entry, .page.page-template-page_blog .content .entry {
+	margin-bottom: 0;
+}
+
 /***ACCRODION
 ------------------_*/
 .accordion-button {
