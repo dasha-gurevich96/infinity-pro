@@ -1722,7 +1722,12 @@ img.triangle {
 
 .infographics.full-container {
     background-color: #cee9e0;
+	margin-top: 0;
     padding: 77px 0;
+}
+
+.full-container.infographics-container {
+    display: none;
 }
 
 .inner-page .full-container.infographics .custom-container {
