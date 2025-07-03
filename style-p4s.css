@@ -2078,6 +2078,14 @@ img.purple-wave {
 	background-image: url(/wp-content/uploads/2025/06/Stories_image-decoration.svg);
 }
 
+h2.meet {
+    color: #591144;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    font-weight: 900 !important;
+}
+
 .speech-bubble {
 	width: 417px;
 }
@@ -2098,7 +2106,7 @@ img.quote-tail {
     display: block;
     margin-left: auto;
     margin-right: 55px;
-    margin-top: -3px;
-    width: 70px;
+    margin-top: -7px;
+    width: 113px;
 }
 
