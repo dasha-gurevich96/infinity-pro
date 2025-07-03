@@ -2119,7 +2119,7 @@ img.quote-tail {
     height: 315px;
     width: 367px;
     object-fit: cover;
-    mask-image: url(https://scldw-com.stackstaging.com/wp-content/uploads/2025/06/Who-we-are_image-mask.svg);
+    mask-image: url(/wp-content/uploads/2025/06/Who-we-are_image-mask.svg);
     mask-repeat: no-repeat;
     mask-position: bottom;
     mask-size: 692px;
