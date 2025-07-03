@@ -2112,11 +2112,16 @@ img.quote-tail {
 
 .img-wrapper {
     position: relative;
-    left: 50%;
+    left: 47%;
+    display: flex;
     transform: translateX(-50%);
-    bottom: 48px;
-    height: 272px;
-    width: 318px;
+    bottom: 49px;
+    height: 315px;
+    width: 367px;
     object-fit: cover;
+    mask-image: url(https://scldw-com.stackstaging.com/wp-content/uploads/2025/06/Who-we-are_image-mask.svg);
+    mask-repeat: no-repeat;
+    mask-position: bottom;
+    mask-size: 692px;
 }
 
