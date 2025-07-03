@@ -1990,7 +1990,7 @@ img.img-mask {
 
 .purple-bg.banner-text-1.banner-text p {
 	color: white;
-	font-weight: 800;
+	font-weight: 800 !important;
 	font-size: 26px;
 	text-transform: uppercase;
 }
@@ -2003,7 +2003,7 @@ img.img-mask {
 }
 
 .white-bg.banner-text-2.banner-text p {
-	font-weight: 800;
+	font-weight: 800 !important;
 	font-size: 26px;
 }
 
