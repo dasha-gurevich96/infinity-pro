@@ -1730,6 +1730,7 @@ img.stripes {
 
 .info-graphics-title {
     position: absolute;
+	z-index: 4;
     left: 50%;
     top: 30px;
     transform: translateX(-50%);
