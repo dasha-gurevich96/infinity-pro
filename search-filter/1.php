@@ -37,7 +37,7 @@ if ( $query->have_posts() ) {
             $words = preg_split('/\s+/', trim($intro_clean));
             $desc  = implode(' ', array_slice($words, 0, 15));
             ?>
-            <div class="story-card">
+            <div class="story-card clickable-card">
                 <div class="img-col">
                     <div class="img-container">
                         <?php if ( ! empty( $image ) ) { ?>
