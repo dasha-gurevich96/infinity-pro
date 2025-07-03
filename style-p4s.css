@@ -2019,6 +2019,7 @@ img.img-mask {
     background-position: 0px 18px;
     background-image: url(/wp-content/uploads/2025/06/Stories_card-descoration.svg);
     background-color: white;
+	border-radius: 25px;
     display: grid;
     grid-template-columns: 1fr 3fr;
 	max-width: 100%;
