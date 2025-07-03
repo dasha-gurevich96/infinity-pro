@@ -2005,6 +2005,10 @@ img.img-mask {
 	background-image: url(/wp-content/uploads/2025/06/StoriesPattern_no-background.svg);
 }
 
+.inner-page.stories .full-container .custom-container {
+    width: 860px;
+}
+
 .inner-page.stories .entry-content > .full-container {
 	margin-bottom: 0 !important;
 	padding-bottom: 50px;
