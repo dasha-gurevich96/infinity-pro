@@ -1717,7 +1717,13 @@ img.triangle {
     margin-bottom: 172px;
 }
 
-/**Inforgraphics*/
+/**Inforgraphics
+----------------------*/
+
+.infographics.full-container {
+    background-color: #cee9e0;
+    padding: 77px 0;
+}
 
 .inner-page .full-container.infographics .custom-container {
 	width: 1117px;
