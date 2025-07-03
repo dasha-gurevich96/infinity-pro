@@ -1720,8 +1720,19 @@ img.triangle {
 
 /**Inforgraphics
 ----------------------*/
+.infographics-container {
+    position: relative;
+}
+
 img.stripes {
     background-color: white;
+}
+
+.info-graphics-title {
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    transform: translateX(-50%);
 }
 
 .infographics.full-container {
