@@ -2110,3 +2110,9 @@ img.quote-tail {
     width: 113px;
 }
 
+img.bio-img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
