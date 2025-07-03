@@ -1534,6 +1534,16 @@ footer a.social-icon img {
 	.shape-diamond {
 		top: 35px;
 	}
+	.footer-combined.d-flex {
+		top: -48px;
+		height: 131% !important;
+	}
+}
+
+@media (maax-width: 2030px) {
+	.inner-page .entry-header img {
+		bottom: -66%;
+	}
 }
 /*** INNER PAGES: GENERAL
 ==========================*/
