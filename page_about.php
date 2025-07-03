@@ -130,6 +130,7 @@ function custom_content() {
                                 <?php while(have_rows('facts_row_1')) {
                                         the_row();
                                         $icon = get_sub_field('icon');
+                                        var_dump($icon);
                                         $text = get_sub_field('text');
                                         if(!empty($icon) && !empty($text)) {
                                             ?><div class="card fact-card">
