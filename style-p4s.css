@@ -1594,6 +1594,7 @@ h2.text-center.inner-page-title  {
 .full-container.blue-bg {
     background-color: var(--light-blue);
     padding: 63px 0;
+	margin-bottom: 0;
 }
 
 .inner-page img.icon {
