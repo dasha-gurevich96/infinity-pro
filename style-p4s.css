@@ -1519,7 +1519,12 @@ footer a.social-icon img {
 }
 
     
-
+@media (min-width: 1680px) {
+	.footer-combined.d-flex {
+		top: 31px;
+		height: 31px;
+	}
+}
 /*** INNER PAGES: GENERAL
 ==========================*/
 .inner-page header.entry-header {
