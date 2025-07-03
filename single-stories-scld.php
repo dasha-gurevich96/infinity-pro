@@ -78,6 +78,8 @@ function banner() {
 add_action( 'genesis_entry_header', 'banner');
 
 function custom_content() {
+    $banner_text_1 = get_field('banner_text_1');
+    $banner_text_2 = get_field('banner_text_2');
     $intro = get_field("intro");
     $text_in_speech_bubble = get_field('text_in_speech_bubble');
     $image = get_field('image');
