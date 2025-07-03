@@ -2073,14 +2073,15 @@ img.story-img {
     height: 246px;
 }
 
-.story-card img.logo-img {
-	position: relative;
-    left: 52%;
-    top: 14%;
-    transform: translateX(-50%);
-    height: 196px;
-}
 
+
+.story-card img.logo-img {
+    position: relative;
+    left: 58%;
+    top: 7%;
+    transform: translateX(-50%);
+    height: 236px;
+}
 /*** SINGLE STORY
 ------------------*/
 
