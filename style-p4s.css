@@ -1544,6 +1544,12 @@ footer a.social-icon img {
 	.inner-page .entry-header img {
 		bottom: -66%;
 	}
+	img.blue-1 {
+		left: 36%;
+	}
+	img.green-1 {
+		left: 17%;
+	}
 }
 /*** INNER PAGES: GENERAL
 ==========================*/
