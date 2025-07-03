@@ -1997,6 +1997,20 @@ img.img-mask {
 	height: 48px;
 }
 
+
+/*** STORIES
+====================+*/
+.stories-cards {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.story-card {
+	background-color: white;
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+}
+
 /*** SINGLE STORY
 ------------------*/
 
