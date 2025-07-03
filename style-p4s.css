@@ -1838,3 +1838,7 @@ img.img-mask {
     width: 141%;
     left: -30%;
 }
+
+.diamond-container.purple-diamond.position-relative p {
+    color: white;
+}
