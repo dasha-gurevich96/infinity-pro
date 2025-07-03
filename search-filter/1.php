@@ -38,6 +38,26 @@ if ( $query->have_posts() ) {
 
 			$words = preg_split('/\s+/', trim($intro_clean)); // Split by any whitespace
 			$desc  = implode(' ', array_slice($words, 0, 20));
+
+			?><div class="story-card">
+				<div class="img-col">
+					<div class="img-container">
+						<?php if(!empty($image)) {
+							?><img class="story-img" src="<?php echo $image['url'];?>" alt="<?php echo $image['alt'];?>" /><?php
+						} else {
+							?><img class="logo-img" src="/wp-content/uploads/2025/06/Stories_temporary-avatar.svg" alt="" /><?php
+						}
+						?>
+					</div>
+					<div class="text-col">
+						<h3><?php the_title();?></h3>
+						<div class="text">
+							<p><?php echo $desc;?></p>
+					</div>
+					</div>
+				</div>
+			 </div>
+			<?php
 		
 			
 			}
