@@ -1568,6 +1568,7 @@ footer a.social-icon img {
 	}
 	.footer-combined.d-flex {
 		top: -48%;
+		height: 147%;
 	}
 	img.yellow-1 {
     	transform: scale(1.5);
@@ -1575,9 +1576,7 @@ footer a.social-icon img {
 	.site-footer .details {
 		padding: 23px 0;
 	}
-	.footer-combined.d-flex {
-		height: 147%;
-	}
+
 }
 /*** INNER PAGES: GENERAL
 ==========================*/
