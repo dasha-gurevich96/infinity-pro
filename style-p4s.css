@@ -1720,12 +1720,16 @@ img.triangle {
 
 /**Inforgraphics
 ----------------------*/
+img.stripes {
+    background-color: white;
+}
 
 .infographics.full-container {
     background-color: #cee9e0;
-	margin-top: 0;
+	margin-top: -300px;
     padding: 77px 0;
 }
+
 
 .full-container.infographics-container {
     display: none;
