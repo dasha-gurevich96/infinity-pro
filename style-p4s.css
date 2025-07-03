@@ -1816,5 +1816,5 @@ img.img-mask {
 }
 
 .facts .card p strong {
-	font-weight: 800;
+	font-weight: 800 !important;
 }
