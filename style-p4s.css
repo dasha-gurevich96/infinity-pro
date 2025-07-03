@@ -2133,15 +2133,15 @@ h2.content-title {
     font-size: 27px;
 }
 
-h2.content-title:nth-of-type(2n+1) {
+.content-cont:nth-of-type(2n+1) h2.content-title {
 	background-color: #cee9e0;
 }
 
-h2.content-title:nth-of-type(2n+2) {
+.content-cont:nth-of-type(2n+2) h2.content-title {
 	background-color: #B3E1ED;
 }
 
-h2.content-title:nth-of-type(2n+3) {
+.content-cont:nth-of-type(2n+3) h2.content-title {
 	background-color: #F9DCAC;
 }
 
