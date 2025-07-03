@@ -1607,12 +1607,16 @@ footer a.social-icon img {
 }
 
 .inner-banner.plain-banner {
-    padding-top: 15px;
-    padding-bottom: 10px;
+    padding: 0;
+}
+
+.inner-banner.plain-banner  .custom-container h1 {
+	position: relative;
+	top: 20px;
 }
 
 .inner-page .entry-header img.plain-wave {
-	bottom: -80%;
+	bottom: -113%;
 }
 
 .inner-banner .custom-container h1 {
