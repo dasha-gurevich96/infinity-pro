@@ -1529,6 +1529,12 @@ footer a.social-icon img {
 		transform: scale(1.2);
 	}
 }
+
+@media (min-width: 1920px) {
+	.shape-diamond {
+		top: 35px;
+	}
+}
 /*** INNER PAGES: GENERAL
 ==========================*/
 .inner-page header.entry-header {
