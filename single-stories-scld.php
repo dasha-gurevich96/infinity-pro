@@ -150,6 +150,12 @@ function custom_content() {
                 }
             }
     }
+    if(!empty($banner_title_1) && !empty($banner_title_2)) {
+        ?><p>
+            <?php echo $banner_title_1;?> <?php echo $banner_title_2;?>
+        </p>
+            <?php
+    }
     ?>
     </div>
     </div>
