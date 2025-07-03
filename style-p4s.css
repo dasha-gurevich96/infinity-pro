@@ -1540,7 +1540,7 @@ footer a.social-icon img {
 	}
 }
 
-@media (max-width: 2030px) {
+@media (min-width: 2030px) {
 	.inner-page .entry-header img {
 		bottom: -66%;
 	}
