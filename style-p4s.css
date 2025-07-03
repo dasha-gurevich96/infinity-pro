@@ -2067,3 +2067,14 @@ img.purple-wave {
     margin-top: -2px;
     width: 100%;
 }
+
+.title-img-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+
+.diamond-shape::before {
+	background-image: url(/wp-content/uploads/2025/06/Stories_image-decoration.svg);
+}
+
