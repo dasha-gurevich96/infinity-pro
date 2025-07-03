@@ -1853,3 +1853,7 @@ img.img-mask {
     padding-left: 0px;
     padding-right: 32px;
 }
+
+.facts-3 .card:first-of-type img {
+	height: 97px;
+}
