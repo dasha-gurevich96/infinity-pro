@@ -1799,6 +1799,11 @@ img.img-mask {
 
 /**COLUMN 2
 ---------------*/
+.custom-col-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
 
 .facts {
     display: grid;
