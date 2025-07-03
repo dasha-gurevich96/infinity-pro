@@ -1719,6 +1719,10 @@ img.triangle {
 
 /**Inforgraphics*/
 
+.infographics .custom-container {
+	width: 1082px;
+}
+
 .infographics .grid {
     display: grid;
     grid-template-columns: 43% 59%;
