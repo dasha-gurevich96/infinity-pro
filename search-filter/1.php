@@ -35,7 +35,7 @@ if ( $query->have_posts() ) {
             $intro_no_headings = preg_replace('#<h[1-6][^>]*>.*?</h[1-6]>#is', '', $intro);
             $intro_clean = strip_tags($intro_no_headings);
             $words = preg_split('/\s+/', trim($intro_clean));
-            $desc  = implode(' ', array_slice($words, 0, 20));
+            $desc  = implode(' ', array_slice($words, 0, 10));
             ?>
             <div class="story-card">
                 <div class="img-col">
