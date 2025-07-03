@@ -124,7 +124,7 @@ function custom_content() {
                                 </div>
                                 <?php
                         } else {
-                            ?><img src="/wp-content/uploads/2025/06/cropped-Scottish-Learning-Disability-week_Logo_social-media-sizes_Logo-mark-1.png" alt="" class="logo-img"/>
+                            ?><img src="/wp-content/uploads/2025/06/Stories_temporary-avatar.svg" alt="" class="logo-img"/>
                             <?php
                         }
                         ?>
