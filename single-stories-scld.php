@@ -80,7 +80,7 @@ add_action( 'genesis_entry_header', 'banner');
 function custom_content() {
     $intro = get_field("intro");
     if(!empty($intro)) {
-            ?><div class="full-container purple-bg position-relative">
+            ?><div class="full-container purple-bg position-relative intro">
                 <div class="custom-container custom-container-smaller">
                     <?php echo $intro;?>
 
