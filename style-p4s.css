@@ -1468,12 +1468,12 @@ h2.footer-title {
 .footer-combined.d-flex {
     position: absolute;
     left: -23px;
+	 top: -30px;
     width: 51%;
     height: 180px;
     /* transform: scale(1.1); */
-    height: 178px !important;
+    height: 119% !important;
     overflow: hidden;
-    top: -26px;
 }
 
 .shape-diamond {
