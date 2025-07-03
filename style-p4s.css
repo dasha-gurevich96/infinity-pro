@@ -1982,6 +1982,14 @@ img.img-mask {
 
 /*** SINGLE STORY
 ------------------*/
+
+.breadcrumb {
+	color: black;
+	font-weight: 500 !important;
+    display: flex;
+    gap: 7px;
+}
+
 .full-container.banner-yellow {
     background-color: var(--yellow);
     background-image: url(/wp-content/uploads/2025/06/Stories_Pattern.svg);
