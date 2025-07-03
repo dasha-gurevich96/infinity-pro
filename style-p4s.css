@@ -2032,6 +2032,7 @@ img.img-mask {
     color: var(--purple);
     font-size: 27px;
     font-weight: 700 !important;
+	text-decoration: none;
 }
 
 .story-card .text-col {
