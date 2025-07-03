@@ -123,7 +123,6 @@ function custom_content() {
                         }
                         ?>
                         </div>
-                    </div>
                     <div class="custom-col-2">
                         <?php if(have_rows('facts_row_1')) {
                             ?><div class="facts">
