@@ -2305,6 +2305,14 @@ img.logo-img {
     height: 196px;
 }
 
+img.logo-img {
+    position: relative;
+    left: 47%;
+    top: 9%;
+    transform: translateX(-50%);
+    height: 234px;
+}
+
 img.bio-img {
     object-fit: cover;
 }
