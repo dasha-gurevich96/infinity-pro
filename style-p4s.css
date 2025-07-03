@@ -2126,3 +2126,23 @@ img.quote-tail {
     mask-size: 692px;
 }
 
+h2.content-title {
+    background-color: #cee9e0;
+    border-radius: 10px;
+    padding: 25px 30px;
+    padding: 9px 30px;
+    font-size: 27px;
+}
+
+h2.content-title:nth-child(2n+1) {
+	background-color: #cee9e0;
+}
+
+h2.content-title:nth-child(2n+2) {
+	background-color: #B3E1ED;
+}
+
+h2.content-title:nth-child(2n+3) {
+	background-color: #F9DCAC;
+}
+
