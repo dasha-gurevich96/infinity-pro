@@ -2041,6 +2041,13 @@ img.img-mask {
 	background-color: var(--purple);
 }
 
+.story .entry-content {
+    background-image: url(/wp-content/uploads/2025/06/Strories-page_page-detail.svg);
+    background-size: 314px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
 .intro-story {
 	margin: 0;
 	padding-top: 30px;
