@@ -153,10 +153,10 @@ function custom_content() {
             }
     }
     if(!empty($banner_text_1) && !empty($banner_text_2)) {
-        ?><p><strong>
+        ?><div class="content-cont"><div class="text"><p><strong>
             <?php echo $banner_text_1;?> - <?php echo $banner_text_2;?>
     </strong>
-        </p>
+        </p></div></div>
             <?php
     }
     ?>
