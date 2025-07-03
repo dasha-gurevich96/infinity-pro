@@ -1726,8 +1726,8 @@ img.stripes {
 
 .infographics.full-container {
     background-color: #cee9e0;
-	margin-top: -300px;
-    padding-top: 77px;
+	margin-top: -28%;
+    padding-bottom: 77px;
 }
 
 
@@ -1741,18 +1741,24 @@ img.stripes {
 
 .inner-page .site-inner .full-container.infographics .grid {
     display: grid;
-    grid-template-columns: 39% 61%;
+    grid-template-columns: 40% 61%;
+}
+
+.custom-col-1 {
+    margin-top: 41px;
 }
 
 img.img-mask {
-    height: 468px;
-    width: 550px !important;
+    height: 405px;
+    /* margin-top: 40px; */
+    width: 575px !important;
     mask: url(/wp-content/uploads/2025/06/About-Us-Image-mask.svg);
     mask-repeat: no-repeat;
     mask-size: 447px;
     -webkit-mask: url(/wp-content/uploads/2025/06/About-Us-Image-mask.svg);
     -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: 447px;
+    -webkit-mask-size: 445px;
+    position: relative;
     object-fit: cover;
 }
 
