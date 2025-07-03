@@ -1813,18 +1813,21 @@ img.img-mask {
     z-index: 4;
 }
 
+.facts .card {
+	border-color: var(--purple);
+	gap: 10px;
+	position: relative;
+    z-index: 9;
+	padding-bottom: 20px;
+}
+
 .facts .card img {
 	height: 74px;
     display: block;
     margin: 0 auto;
 }
 
-.facts .card {
-	border-color: var(--purple);
-	position: relative;
-    z-index: 9;
-	padding-bottom: 20px;
-}
+
 
 .facts .card p strong {
 	font-weight: 800 !important;
