@@ -128,8 +128,31 @@ function custom_content() {
             </div>
         </div>
 </div>
-    
         <?php
+    if(have_rows('content')) {
+        ?><div class="full-container">
+            <div class="custom-container">
+                <div class="smaller-width story-content">
+            <?php
+            while(have_rows('content')) {
+                the_row();
+                $title = get_sub_field('title');
+                $text = get_sub_field('text');
+                if(!empty($text) && !empty($title)) {
+                    ?><h2 class="content-title">
+                        <?php echo $title;?>
+                      </h2>
+                      <div class="text">
+                        <?php echo $text;?>
+                </div>
+                        <?php
+                }
+            }
+    }
+    ?>
+    </div>
+    </div>
+</div><?php
 }
 
 add_action( 'genesis_entry_content', 'custom_content');
