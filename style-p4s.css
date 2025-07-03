@@ -1522,7 +1522,7 @@ footer a.social-icon img {
 @media (min-width: 1680px) {
 	.footer-combined.d-flex {
 		top: 31px;
-		height: 31px;
+		height: 120% !important;
 	}
 }
 /*** INNER PAGES: GENERAL
