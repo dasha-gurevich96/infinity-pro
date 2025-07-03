@@ -1971,3 +1971,11 @@ img.img-mask {
 .facts-3 .card:last-of-type img {
 	height: 48px;
 }
+
+
+
+/*** POSTS
+------------------*/
+.entry-header::after {
+	display: none;
+}
