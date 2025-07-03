@@ -157,7 +157,7 @@ function custom_content() {
     </div>
     </div>
 </div>
-<div class="full-container">
+<div class="full-container mb-0">
     <div class="custom-container">
         <div class="blue-share">
         <h3>Share <?php the_title();?>'s story </h3>
