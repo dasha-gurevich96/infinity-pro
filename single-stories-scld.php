@@ -161,7 +161,7 @@ function custom_content() {
     <div class="custom-contaier">
         <div class="blue-share">
         <h3>Share <?php the_title();?>'s story </h3>
-        <?php add_social_share_buttons_global();?>
+        <?php echo add_social_share_buttons_global();?>
 </div>
 </div>
 </div>
