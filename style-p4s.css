@@ -1730,12 +1730,13 @@ img.triangle {
 
 img.img-mask {
     height: 468px;
+    width: 550px !important;
     mask: url(/wp-content/uploads/2025/06/About-Us-Image-mask.svg);
     mask-repeat: no-repeat;
-    mask-size: 426px;
-	-webkit-mask: url(/wp-content/uploads/2025/06/About-Us-Image-mask.svg);
-	-webkit-mask-repeat: no-repeat;
-	-webkit-mask-size: 426px;
+    mask-size: 447px;
+    -webkit-mask: url(/wp-content/uploads/2025/06/About-Us-Image-mask.svg);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 447px;
     object-fit: cover;
 }
 
