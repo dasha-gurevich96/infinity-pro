@@ -2024,6 +2024,7 @@ img.img-mask {
     grid-template-columns: 28% 67%;
 	max-width: 100%;
 	margin: auto;
+	overflow: hidden;
 	width: 800px; 
 }
 
