@@ -134,7 +134,7 @@ function custom_content() {
                                         $text = get_sub_field('text');
                                         if(!empty($icon) && !empty($text)) {
                                             ?><div class="card fact-card">
-                                                <img src="<?php echo $icon['url'];?>" alt="<?php echo $icon['alt'];?>" />
+                                                <img src="<?php echo $icon['url'];?>" alt="test" />
                                                 <div>
                                                     <?php echo $text;?>
                                                 </div>
