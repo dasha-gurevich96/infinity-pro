@@ -1857,3 +1857,7 @@ img.img-mask {
 .facts-3 .card:first-of-type img {
 	height: 97px;
 }
+
+.facts-3 .card:last-of-type img {
+	height: 57px;
+}
