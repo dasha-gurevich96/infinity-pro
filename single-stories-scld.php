@@ -49,7 +49,14 @@ function banner() {
                 <?php the_title();?>
             </h1>
             <?php if(!empty($banner_text_1)) {
-                ?><div class="purple-bg banner-text-1">
+                ?><div class="purple-bg banner-text-1 banner-text">
+                  <p>  <?php echo $banner_text_1;?></p>
+                  </div>
+                <?php
+            }
+            ?>
+             <?php if(!empty($banner_text_1)) {
+                ?><div class="white-bg banner-text-2 banner-text">
                   <p>  <?php echo $banner_text_1;?></p>
                   </div>
                 <?php
