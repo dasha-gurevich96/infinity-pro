@@ -1551,6 +1551,25 @@ footer a.social-icon img {
 		left: 17%;
 	}
 }
+
+@media (min-width: 2100px) {
+	.shape-diamond {
+    	top: 74px;
+	}
+	img.blue-1 {
+    	left: 37%;
+	}
+	img.green-1 {
+    	left: 5%;
+	}
+	.site-footer img.diamond {
+		transform: scale(1.4);
+		left: -25%;
+	}
+	.footer-combined.d-flex {
+		top: -48%;
+	}
+}
 /*** INNER PAGES: GENERAL
 ==========================*/
 .inner-page header.entry-header {
