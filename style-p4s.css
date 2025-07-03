@@ -1985,6 +1985,7 @@ img.img-mask {
     display: flex;
     flex-direction: column;
     gap: 10px;
+	padding-left: 100px;
 }
 
 .purple-bg.banner-text-1.banner-text {
