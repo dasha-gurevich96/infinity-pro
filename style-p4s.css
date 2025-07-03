@@ -2154,3 +2154,17 @@ h2.content-title {
 	background-color: #F9DCAC;
 }
 
+.blue-share {
+    background-color: var(--blue);
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    width: fit-content;
+}
+
+.blue-share h3 {
+	margin-bottom: 0;
+	font-size: 20px;
+}
+
