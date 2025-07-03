@@ -127,6 +127,21 @@ function custom_content() {
                     <div class="custom-col-2">
                         <?php if(have_rows('facts_row_1')) {
                             ?><div class="facts">
+                                <?php while(have_rows('facts_row_1')) {
+                                        the_row();
+                                        $icon = get_sub_field('icon');
+                                        $text = get_sub_field('text');
+                                        if(!empty($icon) && !empty($text)) {
+                                            ?><div class="card fact-card">
+                                                <img src="<?php echo $icon['url'];?>" alt="<?php echo $icon['alt'];?>" />
+                                                <div>
+                                                    <?php echo $text;?>
+                                                </div>
+                                            </div>
+                                                <?php
+                                        }
+                                }
+                                ?>
                                 </div>
                                 <?php
                         }
