@@ -2078,15 +2078,26 @@ img.purple-wave {
 	background-image: url(/wp-content/uploads/2025/06/Stories_image-decoration.svg);
 }
 
+.speech-bubble {
+	width: 291px;
+}
+
 .speech-bubble .text.position-relative {
     background-color: #e4edef;
     padding: 14px 14px;
     border-radius: 8px;
-    width: 291px;
 }
 
 .speech-bubble .text.position-relative p {
 	font-weight: 500 !important;
 	font-size: 20px;
+}
+
+img.quote-tail {
+    display: block;
+    margin-left: auto;
+    margin-right: 55px;
+    margin-top: -3px;
+    width: 70px;
 }
 
