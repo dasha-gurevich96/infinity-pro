@@ -2170,3 +2170,7 @@ h2.content-title {
 	font-weight: 800;
 }
 
+.social-media.d-flex {
+    gap: 10px;
+}
+
