@@ -2027,8 +2027,20 @@ img.img-mask {
 	width: 800px; 
 }
 
+.story-card h3,
+.story-card h3 a {
+    color: var(--purple);
+    font-size: 27px;
+    font-weight: 700 !important;
+}
+
 .story-card .text-col {
     padding: 25px;
+}
+
+.story-card p {
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 /*** SINGLE STORY
