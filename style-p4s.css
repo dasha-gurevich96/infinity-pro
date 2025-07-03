@@ -1842,3 +1842,9 @@ img.img-mask {
 .diamond-container.purple-diamond.position-relative p {
     color: white;
 }
+
+.diamond-container.purple-diamond .text {
+    width: 62%;
+    padding-left: 0px;
+    padding-right: 17px;
+}
