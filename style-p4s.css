@@ -2021,7 +2021,7 @@ img.img-mask {
     background-color: white;
 	border-radius: 25px;
 	display: grid;
-    grid-template-columns: 28% 67%;
+    grid-template-columns: 36% 64%;
 	max-width: 100%;
 	margin: auto;
 	min-height: 210px;
@@ -2044,6 +2044,11 @@ img.img-mask {
 .story-card p {
     font-size: 18px;
     line-height: 1.5;
+}
+
+.story-card .img-col {
+    display: flex;
+    align-items: flex-end;
 }
 
 /*** SINGLE STORY
