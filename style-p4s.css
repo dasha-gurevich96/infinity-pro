@@ -2024,8 +2024,8 @@ img.img-mask {
 .story-card {
     background-repeat: no-repeat;
     background-position: left;
-    background-size: contain;
-    background-position: 0px 18px;
+        background-size: 328px;
+    background-position: 0px 100%;
     background-image: url(/wp-content/uploads/2025/06/Stories_card-descoration.svg);
     background-color: white;
 	border-radius: 25px;
