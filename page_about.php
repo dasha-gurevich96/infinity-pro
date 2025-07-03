@@ -175,7 +175,7 @@ function custom_content() {
                         }
                         ?>
                         <?php if(have_rows('facts_row_3')) {
-                            ?><div class="facts">
+                            ?><div class="facts facts-3">
                                 <?php while(have_rows('facts_row_3')) {
                                         the_row();
                                         $icon = get_sub_field('icon_1');
