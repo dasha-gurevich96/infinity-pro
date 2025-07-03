@@ -2056,3 +2056,8 @@ img.img-mask {
 .inner-page.post .entry-content {
     margin-top: 0 !important;
 }
+
+.smaller-width {
+	width: 800px;
+	max-width: 100%;
+}
