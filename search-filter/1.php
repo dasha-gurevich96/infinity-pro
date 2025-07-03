@@ -49,7 +49,11 @@ if ( $query->have_posts() ) {
                 </div>
 
                 <div class="text-col">
-                    <h3><?php the_title(); ?></h3>
+                    <h3>
+						<a href="<?php the_permalink();?>">
+						<?php the_title(); ?>'s Story
+						</a>
+					</h3>
                     <div class="text">
                         <p><?php echo $desc; ?></p>
                     </div>
