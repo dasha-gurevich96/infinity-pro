@@ -55,9 +55,9 @@ function banner() {
                 <?php
             }
             ?>
-             <?php if(!empty($banner_text_1)) {
+             <?php if(!empty($banner_text_2)) {
                 ?><div class="white-bg banner-text-2 banner-text">
-                  <p>  <?php echo $banner_text_1;?></p>
+                  <p>  <?php echo $banner_text_2;?></p>
                   </div>
                 <?php
             }
