@@ -2114,5 +2114,9 @@ img.bio-img {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    bottom: 48px;
+    height: 272px;
+    width: 318px;
+    object-fit: cover;
 }
 
