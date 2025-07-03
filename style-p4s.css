@@ -2023,6 +2023,10 @@ img.img-mask {
     grid-template-columns: 1fr 3fr;
 }
 
+.story-card .text-col {
+    padding: 25px;
+}
+
 /*** SINGLE STORY
 ------------------*/
 
