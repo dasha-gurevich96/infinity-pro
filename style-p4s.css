@@ -2184,3 +2184,11 @@ h2.content-title {
 .full-container.mb-0:has(.blue-share) {
     padding-bottom: 30px;
 }
+
+img.logo-img {
+    position: relative;
+    left: 47%;
+    top: 14%;
+    transform: translateX(-50%);
+    height: 196px;
+}
