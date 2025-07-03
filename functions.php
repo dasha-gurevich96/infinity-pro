@@ -660,30 +660,22 @@ function add_social_share_buttons_global() {
 
 		// Get the current page title
 		$title = urlencode(html_entity_decode(get_the_title(), ENT_COMPAT, 'UTF-8'));
-		$bluesky_text = $title . ' ' . $url;
 		// Create an array of social networks and their respective sharing URLs
 		$social_networks = array(
-			'Facebook' => 'https://www.facebook.com/sharer/sharer.php?u=' . $url,
-			'LinkedIn' => 'https://www.linkedin.com/shareArticle?url=' . $url . '&title=' . $title,
-			'Bluesky' => 'https://bsky.app/intent/compose?text=' . $bluesky_text,
-		
-		);
+            'Facebook' => 'https://www.facebook.com/sharer/sharer.php?u=' . $url,
+            'X' => 'https://twitter.com/intent/tweet?text=' . $title . '!&url=' . $url,
+        );
 
 		// Initialize the share buttons HTML
 		$share_buttons = '<div class="social-media d-flex">';
 		foreach ($social_networks as $network => $share_url) {
 			$img = '';
 			if($network === 'Facebook') {
-				$img = '<img src="/wp-content/uploads/2025/03/facebook-f-brands.svg" alt="Share on Facebook">';
-			} elseif($network === 'LinkedIn') {
-				$img = '<img src="/wp-content/uploads/2025/03/linkedin-in-brands.svg" alt="Share on LinkedIn">';
-			} /*elseif($network === 'X (Twitter)') {
-				$img = '<img src="/wp-content/uploads/2025/03/x-twitter-brands.svg" alt="Share on X (formerly Twitter)">';
-			}*/ elseif($network === 'Bluesky') {
-				$img = '<img src="/wp-content/uploads/2025/04/bluesky-brands.svg" alt="Share on Bluesky">';
+				$img = '<img src="/wp-content/uploads/2025/06/Asset-1.svg" alt="">';
+			} elseif($network === 'X') {
+				$img = '<img src="/wp-content/uploads/2025/06/Asset-2.svg" alt="">';
 			} 
-
-			$share_buttons .= '<a class="social-icon move-up" href="' . esc_url($share_url) . '" target="_blank" rel="noopener" aria-label="Share via ' . esc_attr($network) . ' (opens in a new tab)">' . $img . '</a>';
+			$share_buttons .= '<a class="social-icon" href="' . esc_url($share_url) . '" target="_blank" rel="noopener" aria-label="Share via ' . esc_attr($network) . ' (opens in a new tab)">' . $img . '</a>';
 		}
 		// Close the share buttons HTML
 		$share_buttons .= '</div>';
