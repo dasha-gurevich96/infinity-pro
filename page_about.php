@@ -92,14 +92,14 @@ function custom_content() {
     $fact_above_image = get_field('fact_above_image');
     $fact_below_image = get_field('fact_below_image');
 
-    ?><div class="full-container infographics-container">
-        <div class="custom-container">
-            <?php if(!empty($infographics_title)) {
-                    ?><h2 class="text-center inner-page-title"><?php echo $infographics_title;?></h2><?php
+    ?><div class="infographics-container">
+          <?php if(!empty($infographics_title)) {
+                    ?><div class="info-graphics-title">
+                        <h2 class="text-center inner-page-title"><?php echo $infographics_title;?></h2>
+          </div>
+                        <?php
              }
     ?>
-        </div>
-        </div>
         <img src="https://scldw-com.stackstaging.com/wp-content/uploads/2025/07/Page_Stripes-with-green.svg" alt="" class="stripes">
         <div class="infographics full-container">
             <div class="custom-container">
@@ -198,6 +198,7 @@ function custom_content() {
                         ?>
 
                     </div>
+            </div>
             </div>
         <?php
 
