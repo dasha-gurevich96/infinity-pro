@@ -1981,6 +1981,12 @@ img.img-mask {
     padding: 20px 0;
 }
 
+.full-container.banner-yellow .custom-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .purple-bg.banner-text-1.banner-text {
     background-color: var(--purple);
     border-radius: 9px;
