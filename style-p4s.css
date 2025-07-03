@@ -2079,7 +2079,7 @@ img.purple-wave {
 }
 
 .speech-bubble {
-	width: 291px;
+	width: 417px;
 }
 
 .speech-bubble .text.position-relative {
@@ -2090,7 +2090,8 @@ img.purple-wave {
 
 .speech-bubble .text.position-relative p {
 	font-weight: 500 !important;
-	font-size: 20px;
+	font-size: 19px;
+	line-height: 1.4;
 }
 
 img.quote-tail {
