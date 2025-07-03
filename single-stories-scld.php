@@ -28,9 +28,9 @@ function infinity_add_body_class( $classes ) {
 
 }
 
-add_action( 'genesis_entry_header', 'custom_genesis_breadcrumbs' );
+add_action( 'genesis_entry_header', 'custom_genesis_breadcrumbs_post' );
 
-function custom_genesis_breadcrumbs() {
+function custom_genesis_breadcrumbs_post() {
     ?>
     <div class="screen-reader-text">You are here:</div>
     <nav aria-label="<?php esc_attr_e( 'Breadcrumbs', 'genesis' ); ?>">
@@ -55,6 +55,7 @@ function banner() {
                 <?php
             }
             ?>
+        </div>
         </div>
      <?php
 }
