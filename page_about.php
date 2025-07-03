@@ -163,7 +163,9 @@ function custom_content() {
                                 }
                                 if(get_field('fact_in_purple_diamond')) {
                                     ?><div class="diamond-container purple-diamond position-relative">
+                                        <div class="text">
                                         <?php echo get_field('fact_in_purple_diamond');?>
+                                </div>
                                         </div>
                                         <?php
                                 }
