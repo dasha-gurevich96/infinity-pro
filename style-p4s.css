@@ -1981,6 +1981,19 @@ img.img-mask {
     padding: 20px 0;
 }
 
+.purple-bg.banner-text-1.banner-text {
+    background-color: var(--purple);
+    border-radius: 9px;
+    padding: 5px 30px;
+    width: fit-content;
+}
+
+.purple-bg.banner-text-1.banner-text p {
+	color: white;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
 
 
 /*** POSTS
