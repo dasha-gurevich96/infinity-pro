@@ -2570,5 +2570,12 @@ img.arrow.icon {
 }
 
 .container-bio-card .column-2 {
+	display: flex;
 	padding-left: 20px;
+}
+
+.line {
+    height: 100%;
+    width: 2px;
+    background-color: var(--purple);
 }
