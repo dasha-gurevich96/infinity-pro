@@ -1713,6 +1713,16 @@ h2.text-center.inner-page-title  {
 	position: static;
 }
 
+.inner-banner .text-col p {
+	text-align: left;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+}
+
 @media (max-width: 1280px) {
 	.inner-page .entry-header img.plain-wave {
     	bottom: -107%;
