@@ -2527,8 +2527,8 @@ img.theme-img {
     border-radius: 30px;
 }
 
-img.logo {
-	position: absolute;
+.bio-card img.logo {
+	position: absolut !important;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
