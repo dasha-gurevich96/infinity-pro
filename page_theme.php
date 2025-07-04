@@ -113,7 +113,7 @@ function custom_content() {
                 <?php 
                 if(have_rows('support')) {
                     ?><div class="diamond-cards">
-                        <?php while(have_rows()) {
+                        <?php while(have_rows('support')) {
                              the_row();
                              $icon = get_sub_field('icon_2');
                              $text = get_sub_field('text');
