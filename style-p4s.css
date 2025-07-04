@@ -2547,6 +2547,11 @@ img.arrow.icon {
 	width: 64%;
 }
 
+.logo-diamond-container {
+	left: 33px;
+    width: 260px;
+}
+
 .bio-card img.logo {
 	position: absolute !important;
 	top: 50%;
@@ -2562,4 +2567,8 @@ img.arrow.icon {
 .container-bio-card .column-1,
 .container-bio-card .column-2 {
 	flex: 1;
+}
+
+.container-bio-card .column-2 {
+	padding-left: 20px;
 }
