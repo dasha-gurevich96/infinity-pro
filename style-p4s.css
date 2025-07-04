@@ -2466,3 +2466,7 @@ img.theme-img {
 .inclusion {
 	margin: 90px 0;
 }
+
+.inclusion .heading h2 {
+	margin-bottom: 60px;
+}
