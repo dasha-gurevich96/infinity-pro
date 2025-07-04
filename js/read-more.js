@@ -13,6 +13,7 @@ jQuery(function($) {
       var newExpanded = !expanded;
       $('#' + contentId).attr('aria-hidden', expanded);
       $('#' + contentId).slideToggle();
+      $('#' + contentId).removeClass('d-none');
       $('#' + contentId).attr('tabindex', -1).focus();
       if (newExpanded) {
         $(this).find('span.text').text('Read less');
