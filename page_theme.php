@@ -112,16 +112,18 @@ function custom_content() {
                 <?php echo $text_above;?>
                 <?php 
                 if(have_rows('support')) {
-                    ?><div class="diamond-cards">
+                    ?><div class="diamond-cards theme-diamond-cards">
                         <?php while(have_rows('support')) {
                              the_row();
                              $icon = get_sub_field('icon_2');
                              $text = get_sub_field('text');
                             if(!empty($icon) && !empty($text)) {
                                 ?><div class="diamond-card">
+                                    <div class="title-diamond-cont">
                                         <div class="title-diamond icon-diamond">
                                             <img class="icon" src="<?php echo $icon['url'];?>" alt="<?php echo $icon['alt'];?>" />
                                         </div>
+                            </div>
                                         <div class="diamond-content">
                                             <?php echo $text;?>
                             </div>
