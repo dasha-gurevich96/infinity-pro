@@ -1723,6 +1723,8 @@ h2.text-center.inner-page-title  {
 }
 
 .inner-banner .grid-container {
+	position: relative;
+    z-index: 2;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 45%));
     gap: 10px;
