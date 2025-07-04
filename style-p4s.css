@@ -1709,6 +1709,10 @@ h2.text-center.inner-page-title  {
 
 /*** BANNER
 ----------------*/
+
+.inner-page .inner-banner .custom-container {
+	width: 956px;
+}
 .inner-page .entry-header .img-logo-container img {
 	position: static;
 }
