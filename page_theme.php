@@ -109,7 +109,10 @@ function custom_content() {
     if(!empty($text_above)) {
         ?><div class="full-container">
             <div class="custom-container">
-                <?php echo $text_above;?>
+                <div class="heading">
+                    <?php echo $text_above;?>
+    </dv>
+
                 <?php 
                 if(have_rows('support')) {
                     ?><div class="diamond-cards theme-diamond-cards">
