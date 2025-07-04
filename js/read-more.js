@@ -4,7 +4,7 @@ jQuery(function($) {
   // Function to handle button click
   function handleButtonClick(button) {
     button.on('click', function() {
-      var card = $('.bio-card');
+      var card = $(this).find('.bio-card');
       console.log("Button clicked");
       var buttonId = $(this).attr('id');
       var contentId = $(this).attr('aria-controls');
