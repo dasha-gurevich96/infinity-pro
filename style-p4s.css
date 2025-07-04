@@ -1744,7 +1744,7 @@ h2.text-center.inner-page-title  {
     width: 477px;
 }
 
-.inner-page:has(.grid-container) .entry-header img {
+.inner-page:has(.grid-container) .entry-header img.banner-wave {
 	bottom: -21%;
 }
 
