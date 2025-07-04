@@ -2422,3 +2422,28 @@ img.theme-img {
     padding: 77px 30px 23px 30px;
     margin-top: -65px;
 }
+
+.theme-page .diamond-card:nth-child(3n+2) .diamond-content {
+    background-color: #E5F7F0;
+}
+
+.theme-page .diamond-card:nth-child(3n+2) .title-diamond-cont .title-diamond:before {
+    background-image: url(/wp-content/uploads/2025/06/Green-Diamond.svg);
+}
+
+.theme-page .diamond-card:nth-child(3n+3) .diamond-content {
+    background-color: #E6F8FC;
+}
+
+.theme-page .diamond-card:nth-child(3n+2) .title-diamond-cont .title-diamond:before {
+    background-image: url(/wp-content/uploads/2025/06/Blue-Diamond.svg);
+}
+
+
+.theme-page .diamond-card:nth-child(3n+4) .diamond-content {
+    background-color: #FCDDAC;
+}
+
+.theme-page .diamond-card:nth-child(3n+4) .title-diamond-cont .title-diamond:before {
+    background-image: url(/wp-content/uploads/2025/06/Artboard-68.svg);
+}
