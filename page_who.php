@@ -67,7 +67,7 @@ function custom_content() {
                                             <h3><?php echo $name;?></h3>
                                             <p><?php echo $role;?></p>
                                          </div>
-                                         <?php if(!empty($button)) {
+                                         <?php if(!empty($bio)) {
                                             ?><button id="toggleButton<?php echo $count;?>" class="d-flex custom-button dark-green bio-button" aria-contorls="bio-content<?php echo $count;?>" aria-expanded="false">
                                             <span class="text">Read more </span>
                                             <img src="/wp-content/uploads/2025/06/Arrow-right.svg" alt="" class="arrow icon"/>
