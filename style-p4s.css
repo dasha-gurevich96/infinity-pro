@@ -1691,6 +1691,12 @@ h2.text-center.inner-page-title  {
 	margin-bottom: 0;
 }
 
+@media (max-width: 1280px) {
+	.inner-page .entry-header img.plain-wave {
+    	bottom: -107%;
+	}
+}
+
 /***ACCRODION
 ------------------_*/
 .accordion-button {
