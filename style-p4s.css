@@ -2357,3 +2357,9 @@ img.bio-img {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.full-container.yellow-container {
+    background-color: var(--yellow);
+    margin-top: -137px;
+    padding-top: 113px;
+}
