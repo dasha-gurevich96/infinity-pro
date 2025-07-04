@@ -35,17 +35,26 @@ add_action( 'genesis_entry_content', 'custom_content' );
 
 function custom_content() {
 
-    if(have_rows('components')) {
-		?>
-	<?php
-		while(have_rows('components')) {
-			the_row();
-			if (get_row_layout() === 'collapsibles') {
-				get_template_part('/components/collapsibles');
-			}
-		}
-	?><?php
-	}
+    $banner_text = get_field('banner_text');
+    $banner_image = get_field('banner_image');
+
+    if(!empty($banner_text)) {
+        ?><div class="full-container yellow-container">
+            <div class="custom-container">
+                <div class="theme-container">
+                    <div class="text-col">
+                        <?php echo $text;?>
+                    </div>
+                    <div class="img-col">
+                        <img class="theme-img" src="<?php $banner_image['url'];?>" alt="<?php $banner_image['alt'];?>" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    <?php
+    }
+
+   
 ?> <div class="full-container mb-0">
 
 		<div class="custom-container">
