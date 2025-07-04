@@ -2526,3 +2526,12 @@ img.theme-img {
 img.logo {
 	width: 100px;
 }
+
+.container-bio-card {
+    display: flex;
+}
+
+.container-bio-card .column-1,
+.container-bio-card .column-2 {
+	flex: 1;
+}
