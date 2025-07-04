@@ -38,6 +38,7 @@ function custom_content() {
     $banner_text = get_field('banner_text');
     $banner_image = get_field('banner_image');
     $text_above_cards = get_field('text_above_cards');
+    $text_above = get_field("text_above");
 
     if(!empty($banner_text)) {
         ?><div class="full-container yellow-container">
@@ -103,6 +104,40 @@ function custom_content() {
         </div>
        
         <?php
+    }
+
+    if(!empty($text_above)) {
+        ?><div class="full-container">
+            <div class="custom-container">
+                <?php echo $text_above;?>
+                <?php 
+                if(have_rows('support')) {
+                    ?><div class="diamond-cards">
+                        <?php while(have_rows()) {
+                             the_row();
+                             $icon = get_sub_field('icon_2');
+                             $text = get_sub_field('text');
+                            if(!empty($icon) && !empty($text)) {
+                                ?><div class="diamond-card">
+                                        <div class="title-diamond icon-diamond">
+                                            <img class="icon" src="<?php echo $icon['url'];?>" alt="<?php echo $icon['alt'];?>" />
+                                        </div>
+                                        <div class="diamond-content">
+                                            <?php echo $text;?>
+                            </div>
+                                 </div>
+                                <?php
+                            }
+                        }
+                        ?>
+                    </div>
+                    <?php
+                }
+
+?>
+    </div>
+            </div>
+    <?php
     }
 
    
