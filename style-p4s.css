@@ -2435,7 +2435,7 @@ img.theme-img {
     background-color: #E6F8FC;
 }
 
-.theme-page .diamond-card:nth-child(3n+2) .title-diamond-cont .title-diamond:before {
+.theme-page .diamond-card:nth-child(3n+3) .title-diamond-cont .title-diamond:before {
     background-image: url(/wp-content/uploads/2025/06/Blue-Diamond.svg);
 }
 
