@@ -1680,7 +1680,7 @@ h2.text-center.inner-page-title  {
 }
 
 .inner-page .entry-content li {
-    margin-bottom: 2px;
+    margin-bottom: 5px;
 } 
 
 .inner-page .entry-content h3 {
@@ -1715,7 +1715,6 @@ h2.text-center.inner-page-title  {
 }
 
 .accordion-body {
-    width: 767px;
 	padding: 30px 42px;
     max-width: 100%;
 }
