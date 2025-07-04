@@ -34,29 +34,7 @@ add_action( 'genesis_entry_header', 'banner');
 add_action( 'genesis_entry_content', 'custom_content' );
 
 function custom_content() {
-
-    if(have_rows('components')) {
-		?>
-	<?php
-		while(have_rows('components')) {
-			the_row();
-			if (get_row_layout() === 'collapsibles') {
-				get_template_part('/components/collapsibles');
-			}
-		}
-	?><?php
-	}
-?> <div class="full-container mb-0">
-
-		<div class="custom-container">
-			<div class="transparent-share d-flex gap-3 align-items-center">
-				<h3 class="mb-0">Don’t forget to like and share!</h3>
-				<?php echo add_social_share_buttons_global();?>
-			</div>
-		</div>
-	</div>
-    <?php
-    
+       
 
 }
 
