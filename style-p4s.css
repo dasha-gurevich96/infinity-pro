@@ -2449,10 +2449,10 @@ img.theme-img {
 }
 
 .theme-page .icon {
-	position: absolute;
-	width: 84px;
-	height: 57px;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
+    position: absolute;
+    width: 84px !important;
+    height: 74px;
+    left: 48%;
+    top: 45%;
+    transform: translate(-50%, -50%);
 }
