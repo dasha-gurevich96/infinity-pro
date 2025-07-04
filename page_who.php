@@ -36,6 +36,7 @@ add_action( 'genesis_entry_content', 'custom_content' );
 function custom_content() {
     $title = get_field("title");
     $title_w = get_field('title_working_group');
+    $count = 0;
     ?><div class="full-container">
         <div class="custom-container">
             <?php if(!empty($title)) {
@@ -47,11 +48,13 @@ function custom_content() {
                     <?php if(!empty($title_w)) {
                         ?><h2 class="text-center"><?php echo $title_w;?></h2><?php
                     } 
+                    ?><div class="working-group-cards"><?php
                     while(have_rows('working_group_cards')) {
                         the_row();
                         $name = get_sub_field('name');
                         $role = get_sub_field('role');
                         $bio = get_sub_field('bio');
+                        $count++;
                         if(!empty($name) && !empty($role)) {
                             ?><div class="bio-card">
                                 <div class="column-1">
@@ -59,13 +62,38 @@ function custom_content() {
                                         <img class="diamond" src="/wp-content/uploads/2025/07/Diamond-with-purple-border.svg" alt="" />
                                         <img class="logo" src="/wp-content/uploads/2025/07/SCLD_Logo.svg" alt="" />
                                     </div>
+                                    <div class="text">
+                                        <div>
+                                            <h3><?php echo $name;?></h3>
+                                            <p><?php echo $role;?></p>
+                                         </div>
+                                         <?php if(!empty($button)) {
+                                            ?><button id="toggleButton<?php echo $count;?>" class="d-flex custom-button dark-green bio-button" aria-contorls="bio-content<?php echo $count;?>" aria-expanded="false">
+                                            <span class="text">Read more </span>
+                                            <img src="/wp-content/uploads/2025/06/Arrow-right.svg" alt="" class="arrow icon"/>
+
+                                        </button>
+                                            <?php
+                                         }
+                                         ?>
+                                    </div>
                                 </div>
+                                <?php if(!empty($bio)) {
+                                    ?>  <div class="column-2 d-none" id="bio-content<?php echo $count;?>">
+                                            <?php echo $bio;?>
+
+                                        </div>
+                                <?php
+
+                                }
+                               ?>
                                 
                                 </div>
                             <?php
                         }
                     }
                     ?>
+                    </div>
                     </div>
                 <?php
             }
