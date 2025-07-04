@@ -2360,6 +2360,7 @@ img.bio-img {
 
 .full-container.yellow-container {
     background-color: var(--yellow);
+	background-image: url(/wp-content/uploads/2025/06/2025-theme_banner-pattern_colour.svg);
     margin-top: -137px;
     padding-top: 113px;
 }
