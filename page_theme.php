@@ -107,7 +107,7 @@ function custom_content() {
     }
 
     if(!empty($text_above)) {
-        ?><div class="full-container">
+        ?><div class="full-container inclusion">
             <div class="custom-container">
                 <div class="heading">
                     <?php echo $text_above;?>
