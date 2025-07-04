@@ -28,7 +28,7 @@ $logo = $purple_banner['logo'];
             ?>
         </div>
     </div>
-    <img src="/wp-content/uploads/2025/07/banner_wave_about.svg" alt="" />
+    <img class="banner-wave" src="/wp-content/uploads/2025/07/banner_wave_about.svg" alt="" />
     <?php
 
 
