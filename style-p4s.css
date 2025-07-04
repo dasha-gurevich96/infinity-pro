@@ -1278,6 +1278,7 @@ img.card-img {
 .graphics {
 	background-size: cover;
     border-radius: 30px 30px 0 0;
+	overflow: hidden;
 	display: flex;
 	justify-content: center;
 	align-items: center;
