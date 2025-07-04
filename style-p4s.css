@@ -2392,3 +2392,8 @@ img.theme-img {
     font-size: 30px;
     margin-bottom: 40px;
 }
+
+.theme-page .card.importance-card {
+	gap: 8px;
+	justify-content: flex-start;
+}
