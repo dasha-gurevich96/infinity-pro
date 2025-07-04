@@ -43,7 +43,7 @@ function custom_content() {
             <div class="custom-container">
                 <div class="theme-container">
                     <div class="text-col">
-                        <?php echo $text;?>
+                        <?php echo $banner_text;?>
                     </div>
                     <div class="img-col">
                         <img class="theme-img" src="<?php $banner_image['url'];?>" alt="<?php $banner_image['alt'];?>" />
