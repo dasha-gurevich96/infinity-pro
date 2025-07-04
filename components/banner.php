@@ -9,7 +9,7 @@ $logo = $purple_banner['logo'];
             if(!empty($text) || !empty($logo)) {
                 ?>
                 <div class="grid-container">
-                    <dv class="text-col">
+                    <div class="text-col">
                         <?php if(!empty($text)) {
                             echo $text;
                         }
