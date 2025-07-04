@@ -2456,3 +2456,9 @@ img.theme-img {
     top: 45%;
     transform: translate(-50%, -50%);
 }
+
+.heading {
+    margin: auto;
+	mx-width: 100%;
+    width: 700px;
+}
