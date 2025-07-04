@@ -2389,6 +2389,6 @@ img.theme-img {
 }
 
 .heading h2 {
-	font-size: 27px;
-	margin: 40px 0;
+    font-size: 27px;
+    margin-bottom: 40px;
 }
