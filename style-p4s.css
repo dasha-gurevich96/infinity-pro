@@ -2365,6 +2365,7 @@ img.bio-img {
     background-repeat: no-repeat;
     background-position: right;
     margin-top: -137px;
+	margin-bottom: 0;
     padding-top: 103px;
 	padding-bottom: 30px;
 }
