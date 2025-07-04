@@ -1723,6 +1723,7 @@ h2.text-center.inner-page-title  {
     grid-template-columns: repeat(auto-fit, minmax(250px, 42%));
     gap: 10px;
     justify-content: space-between;
+	align-items: center;
 }
 
 img.logo-banner {
