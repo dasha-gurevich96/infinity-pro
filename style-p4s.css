@@ -1724,6 +1724,14 @@ h2.text-center.inner-page-title  {
     gap: 10px;
 }
 
+img.logo-banner {
+    position: absolute !important;
+    top: 50%;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+    width: 151px;
+}
+
 @media (max-width: 1280px) {
 	.inner-page .entry-header img.plain-wave {
     	bottom: -107%;
