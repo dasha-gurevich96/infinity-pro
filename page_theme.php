@@ -111,9 +111,10 @@ function custom_content() {
             <div class="custom-container">
                 <div class="heading">
                     <?php echo $text_above;?>
-    </dv>
+    </div>
 
                 <?php 
+    }
                 if(have_rows('support')) {
                     ?><div class="diamond-cards theme-diamond-cards">
                         <?php while(have_rows('support')) {
@@ -143,7 +144,7 @@ function custom_content() {
     </div>
             </div>
     <?php
-    }
+    
 
    
 ?> 
