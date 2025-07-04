@@ -62,7 +62,7 @@ function custom_content() {
                             if (!empty($name) && !empty($role)) {
                                 // Open new row if this is the first or every odd card
                                 if ($cardCount % 2 === 0) {
-                                    echo '<div class="bio-row d-flex justify-content-center gap-3">';
+                                    echo '<div class="bio-row d-flex justify-content-center">';
                                 }
 
                                 $pairIndex++;
