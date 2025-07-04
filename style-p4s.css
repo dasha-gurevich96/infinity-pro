@@ -2406,3 +2406,11 @@ img.theme-img {
     transform: translate(-50%, -50%);
     z-index: 8;
 }
+
+.theme-page .diamond-cards {
+    grid-template-columns: repeat(auto-fit, minmax(243px, 1fr));
+}
+
+.theme-page .title-diamond {
+	height: 120px;
+}
