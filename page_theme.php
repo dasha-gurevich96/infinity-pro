@@ -67,10 +67,10 @@ function custom_content() {
                  <div class="cards cards-importance slider-mobile">
                     <?php while(have_rows('cards')) {
                         the_row();
-                        $image = get_field('image');
-                        $add_background = get_field('add_background');
-                        $background_colour = get_field('background_colour');
-                        $text = get_field('text');
+                        $image = get_sub_field('image');
+                        $add_background = get_sub_field('add_background');
+                        $background_colour = get_sub_field('background_colour');
+                        $text = get_sub_field('text');
                         $class = '';
                         if(!empty($background_colour) && !$add_background) {
                             $class = $background_colour;
