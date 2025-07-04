@@ -2527,6 +2527,14 @@ img.theme-img {
     border-radius: 30px;
 }
 
+.bio-card {
+	width: 34%;
+}
+
+.bio-card:has(.bio-button[aria-expanded="true"]) {
+	width: 64%;
+}
+
 .bio-card img.logo {
 	position: absolute !important;
 	top: 50%;
