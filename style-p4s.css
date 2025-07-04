@@ -2349,3 +2349,11 @@ img.bio-img {
     margin-top: 95px !important;
     padding-bottom: 78px;
 }
+
+
+/*** THEME
+================*/
+.theme-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
