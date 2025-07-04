@@ -1728,6 +1728,7 @@ h2.text-center.inner-page-title  {
     gap: 10px;
     justify-content: space-between;
 	align-items: center;
+	margin-top: 14px;
 }
 
 img.logo-banner {
