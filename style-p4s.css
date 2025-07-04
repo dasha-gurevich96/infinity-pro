@@ -2397,3 +2397,12 @@ img.theme-img {
 	gap: 8px;
 	justify-content: flex-start;
 }
+
+.theme-page .card img.icon {
+    width: 78px;
+    position: absolute;
+    top: 42%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    z-index: 8;
+}
