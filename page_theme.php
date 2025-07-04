@@ -61,7 +61,7 @@ function custom_content() {
 
     if(have_rows('cards')) {
         ?>
-        <div class="full-container">
+        <div class="full-container mt-0">
             <div class="custom-container">
                  <?php echo $text_above_cards;?>
                  <div class="cards cards-importance slider-mobile">
