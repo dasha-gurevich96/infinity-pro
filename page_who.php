@@ -81,7 +81,7 @@ function custom_content() {
                                                 </div>
                                                 <?php if (!empty($bio)) { ?>
                                                     <button id="toggleButton<?php echo $pairIndex; ?>" class="d-flex custom-button dark-green bio-button" aria-controls="bio-content<?php echo $pairIndex; ?>" aria-expanded="false">
-                                                        <span class="text">Read more</span>
+                                                        <span class="text">Read bio</span>
                                                         <img src="/wp-content/uploads/2025/06/Arrow-right.svg" alt="" class="arrow icon"/>
                                                     </button>
                                                 <?php } ?>
@@ -90,6 +90,7 @@ function custom_content() {
 
                                         <?php if (!empty($bio)) { ?>
                                             <div class="column-2 d-none" id="bio-content<?php echo $pairIndex; ?>">
+                                                <div class="line"></div>
                                                 <p><?php echo $bio; ?></p>
                                             </div>
                                         <?php } ?>
