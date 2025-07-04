@@ -2522,6 +2522,10 @@ img.theme-img {
 	background-color: #cee9e0;
 }
 
+.bio-row {
+	gap: 20px;
+}
+
 .bio-card {
     background-color: white;
     border-radius: 30px;
