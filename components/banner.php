@@ -16,9 +16,9 @@ $logo = $purple_banner['logo'];
                         ?>
                     </div>
                     <div class="img-col">
-                        <div class="img-logo-container">
-                            <img src="/wp-content/uploads/2025/06/Graphic_whtite-diamond.svg" alt="" />
-                            <img src="<?php echo $logo['url'];?>" alt="<?php echo $logo['alt'];?>" />
+                        <div class="img-logo-container position-relative">
+                            <img class="diamond" src="/wp-content/uploads/2025/06/Graphic_whtite-diamond.svg" alt="" />
+                            <img class="logo-banner" src="<?php echo $logo['url'];?>" alt="<?php echo $logo['alt'];?>" />
                     </div>
                     </div>
                 </div>
