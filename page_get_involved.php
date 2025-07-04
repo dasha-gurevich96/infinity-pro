@@ -50,7 +50,7 @@ function custom_content() {
 
 		<div class="custom-container">
 			<div class="transparent-share d-flex gap-3 align-items-center">
-				<h3>Don’t forget to like and share!</h3>
+				<h3 class="mb-0">Don’t forget to like and share!</h3>
 				<?php echo add_social_share_buttons_global();?>
 			</div>
 		</div>
