@@ -2399,10 +2399,11 @@ img.theme-img {
 }
 
 .theme-page .card img.icon {
-    width: 78px;
+    width: 84px;
+    height: 71px;
     position: absolute;
-    top: 42%;
-    left: 48%;
+    top: 47%;
+    left: 47%;
     transform: translate(-50%, -50%);
     z-index: 8;
 }
@@ -2413,4 +2414,11 @@ img.theme-img {
 
 .theme-page .title-diamond {
 	height: 120px;
+}
+
+.theme-page .diamond-content {
+    border-radius: 14px;
+    height: 100%;
+    padding: 77px 30px 23px 30px;
+    margin-top: -65px;
 }
