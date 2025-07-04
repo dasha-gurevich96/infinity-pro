@@ -34,6 +34,45 @@ add_action( 'genesis_entry_header', 'banner');
 add_action( 'genesis_entry_content', 'custom_content' );
 
 function custom_content() {
+    $title = get_field("title");
+    $title_w = get_field('title_working_group');
+    ?><div class="full-container">
+        <div class="custom-container">
+            <?php if(!empty($title)) {
+                ?><h2 class="text-center"><?php echo $title;?></h2>
+                <?php
+            }
+            if(have_rows('working_group_cards')) {
+                ?><div class="group">
+                    <?php if(!empty($title_w)) {
+                        ?><h2 class="text-center"><?php echo $title_w;?></h2><?php
+                    } 
+                    while(have_rows('working_group_cards')) {
+                        the_row();
+                        $name = get_sub_field('name');
+                        $role = get_sub_field('role');
+                        $bio = get_sub_field('bio');
+                        if(!empty($name) && !empty($role)) {
+                            ?><div class="bio-card">
+                                <div class="column-1">
+                                    <div class="logo-diamond-container position-relative">
+                                        <img class="diamond" src="/wp-content/uploads/2025/07/Diamond-with-purple-border.svg" alt="" />
+                                        <img class="logo" src="/wp-content/uploads/2025/07/SCLD_Logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                
+                                </div>
+                            <?php
+                        }
+                    }
+                    ?>
+                    </div>
+                <?php
+            }
+            ?>
+        </div>
+    </div>
+<?php
 
 
 }
