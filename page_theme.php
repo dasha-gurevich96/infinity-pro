@@ -51,6 +51,7 @@ function custom_content() {
                 </div>
             </div>
         </div>
+        <img src="/wp-content/uploads/2025/06/2025-Theme-Banner_-wave.svg" alt="" class="wave theme-wave" />
     <?php
     }
 
