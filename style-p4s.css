@@ -2387,3 +2387,8 @@ img.theme-img {
     z-index: 9;
     width: 335px;
 }
+
+.heading h2 {
+	font-size: 27px;
+	margin: 40px 0;
+}
