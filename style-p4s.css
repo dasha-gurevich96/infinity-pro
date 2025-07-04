@@ -2368,6 +2368,11 @@ img.bio-img {
 	padding-bottom: 30px;
 }
 
+.full-container.yellow-container .text {
+	max-width: 100%;
+    width: 325px;
+}
+
 img.wave.theme-wave {
 	top: -82px;
 }
