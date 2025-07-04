@@ -1760,6 +1760,10 @@ a.accordion-button::after {
 	margin-left: 10px !important;
 }
 
+.accordion-flush>.accordion-item>.accordion-collapse {
+	background-color: white;
+}
+
 
 /*** INNER PAGE: ABOUT
 ==========================*/
@@ -2151,9 +2155,6 @@ img.story-img {
 }
 
 
-
-/*** POSTS
-------------------*/
 .purple-bg {
 	background-color: var(--purple);
 }
@@ -2321,4 +2322,11 @@ img.logo-img {
 
 img.bio-img {
     object-fit: cover;
+}
+
+
+/*** GET INVOLVED
+=======================*/
+.get-involved-page article {
+    background-color: #e4edef;
 }
