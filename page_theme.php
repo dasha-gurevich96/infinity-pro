@@ -37,6 +37,7 @@ function custom_content() {
 
     $banner_text = get_field('banner_text');
     $banner_image = get_field('banner_image');
+    $text_above_cards = get_field('text_above_cards');
 
     if(!empty($banner_text)) {
         ?><div class="full-container yellow-container">
@@ -56,6 +57,50 @@ function custom_content() {
         </div>
         <img src="/wp-content/uploads/2025/06/2025-Theme-Banner_-wave.svg" alt="" class="wave theme-wave" />
     <?php
+    }
+
+    if(have_rows('cards')) {
+        ?>
+        <div class="full-container">
+            <div class="custom-container">
+                 <?php echo $text_above_cards;?>
+                 <div class="cards cards-importance slider-mobile">
+                    <?php while(have_cards('cards')) {
+                        the_row();
+                        $image = get_field('image');
+                        $add_background = get_field('add_background');
+                        $background_colour = get_field('background_colour');
+                        $text = get_field('text');
+                        $class = '';
+                        if(!empty($background_colour) && !$add_background) {
+                            $class = $background_colour;
+                        } else {
+                            $class ='';
+                        }
+                        if(!empty($image) && !empty($text)) {
+                            ?><div class="card importance-card">
+                                <div class="graphics <?php echo $class;?>">
+                                    <img src="<?php echo $image['url'];?>" alt = "<?php echo $image['alt'];?>" />
+                                </div>
+                                <p class="card-text-imp">
+                                    <strong>
+                                        <?php echo $text;?>
+                                    </strong>
+
+                                </p>
+
+                            </div>
+
+                            <?php
+                        }
+
+                    }
+                    ?>
+                </div>
+            </div>
+        </div>
+       
+        <?php
     }
 
    
