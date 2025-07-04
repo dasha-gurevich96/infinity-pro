@@ -2574,8 +2574,15 @@ img.arrow.icon {
 	padding-left: 20px;
 }
 
+.container-bio-card .column-2 p {
+	font-weight: 400;
+}
+
 .line {
-    height: 100%;
-    width: 2px;
+    height: 65%;
+    margin-top: auto;
+    width: 22px;
     background-color: var(--purple);
+    margin-right: 25px;
+    margin-left: 20px;
 }
