@@ -2364,7 +2364,7 @@ img.bio-img {
     background-repeat: no-repeat;
     background-position: right;
     margin-top: -137px;
-    padding-top: 113px;
+    padding-top: 103px;
 	padding-bottom: 30px;
 }
 
@@ -2381,7 +2381,7 @@ img.theme-img {
     display: block;
     margin-left: auto;
     position: relative;
-    top: -135px;
+    top: -103px;
     z-index: 9;
     width: 335px;
 }
