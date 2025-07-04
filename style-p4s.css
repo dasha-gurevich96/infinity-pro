@@ -1592,6 +1592,15 @@ footer a.social-icon img {
 	position: relative;
 }
 
+.entry-content ol, .entry-content ul {
+	margin-left: 0;
+	
+}
+
+.inner-page .entry-content li {
+	padding-left: 11px;
+}
+
 .inner-banner   {
 	background-color: var(--purple);
     padding-top: 40px;
