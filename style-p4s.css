@@ -1718,10 +1718,11 @@ h2.text-center.inner-page-title  {
 	text-align: left;
 }
 
-.grid-container {
+.inner-banner .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 42%));
     gap: 10px;
+    justify-content: space-between;
 }
 
 img.logo-banner {
@@ -1730,6 +1731,11 @@ img.logo-banner {
     left: 50% !important;
     transform: translate(-50%, -50%);
     width: 151px;
+}
+
+img.diamond {
+    max-width: 100%;
+    width: 477px;
 }
 
 @media (max-width: 1280px) {
