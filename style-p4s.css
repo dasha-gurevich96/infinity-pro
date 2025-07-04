@@ -1750,7 +1750,7 @@ div.accordion {
 
 .accordion-button:not(.collapsed)::after {
 	background-image: url('/wp-content/uploads/2025/06/Arrow-right.svg') !important;
-	transform: rotate(-90deg) !important;
+	transform: rotate(90deg) !important;
 
 }
 
