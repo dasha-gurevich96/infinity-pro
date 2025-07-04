@@ -1705,8 +1705,8 @@ h2.text-center.inner-page-title  {
 }
 
 .accordion-body {
-    width: 735px;
-	padding: 30px 10px;
+    width: 767px;
+	padding: 30px 42px;
     max-width: 100%;
 }
 
