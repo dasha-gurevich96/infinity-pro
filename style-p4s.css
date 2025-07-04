@@ -1707,6 +1707,12 @@ h2.text-center.inner-page-title  {
 	margin-bottom: 0;
 }
 
+/*** BANNER
+----------------*/
+.inner-page .entry-header .img-logo-container img {
+	position: static;
+}
+
 @media (max-width: 1280px) {
 	.inner-page .entry-header img.plain-wave {
     	bottom: -107%;
