@@ -2459,6 +2459,6 @@ img.theme-img {
 
 .heading {
     margin: auto;
-	mx-width: 100%;
+	max-width: 100%;
     width: 700px;
 }
