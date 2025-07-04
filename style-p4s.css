@@ -1679,6 +1679,10 @@ h2.text-center.inner-page-title  {
 	color: black;
 }
 
+.inner-page .entry-content a {
+	color: #0E5660;
+}
+
 .inner-page .entry-content li {
     margin-bottom: 5px;
 } 
