@@ -1606,6 +1606,7 @@ footer a.social-icon img {
 	background-color: var(--purple);
     padding-top: 40px;
     padding-bottom: 20px;
+	margin-top: -2px;
 }
 
 .inner-page .entry-header img {
