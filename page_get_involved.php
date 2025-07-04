@@ -47,6 +47,7 @@ function custom_content() {
 	?><?php
 	}
 ?> <div class="full-container mb-0">
+    test
 		<div class="custom-container">
 			<div class="transparent-share">
 				<h3>Don’t forget to like and share!</h3>
