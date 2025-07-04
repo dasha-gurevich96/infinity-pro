@@ -1680,7 +1680,7 @@ h2.text-center.inner-page-title  {
 }
 
 .inner-page .entry-content a {
-	color: #0E5660 !important;
+	color: #0E5660;
 }
 
 .inner-page .entry-content li {
