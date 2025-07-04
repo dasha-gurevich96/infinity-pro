@@ -2529,10 +2529,16 @@ img.theme-img {
 .bio-card {
     background-color: white;
     border-radius: 30px;
+	width: 34%;
 }
 
-.bio-card {
-	width: 34%;
+.bio-button {
+	gap: 10px;
+	align-items: center;
+}
+
+img.arrow.icon {
+    width: 17px;
 }
 
 .bio-card:has(.bio-button[aria-expanded="true"]) {
