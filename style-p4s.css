@@ -1737,7 +1737,7 @@ div.accordion {
 }
 
 a.accordion-button {
-	background-color: var(--green);
+	background-color: var(--green) !important;
 }
 
 .accordion-button::after {
