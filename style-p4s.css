@@ -2529,6 +2529,7 @@ img.theme-img {
 .bio-card {
     background-color: white;
     border-radius: 30px;
+	padding: 30px 20px;
 	width: 34%;
 }
 
