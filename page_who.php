@@ -81,7 +81,7 @@ function custom_content() {
                                 </div>
                                 <?php if(!empty($bio)) {
                                     ?>  <div class="column-2 d-none" id="bio-content<?php echo $count;?>">
-                                            <?php echo $bio;?>
+                                           <p> <?php echo $bio;?></p>
 
                                         </div>
                                 <?php
