@@ -129,7 +129,7 @@ function custom_content() {
                                         </div>
                             </div>
                                         <div class="diamond-content">
-                                            <?php echo $text;?>
+                                         <p>   <?php echo $text;?></p>
                             </div>
                                  </div>
                                 <?php
