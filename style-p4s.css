@@ -2344,3 +2344,8 @@ img.bio-img {
 .get-involved-page article {
     background-color: #e4edef;
 }
+
+.get-involved-page.inner-page .entry-content {
+    margin-top: 95px !important;
+    padding-bottom: 78px;
+}
