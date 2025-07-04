@@ -65,7 +65,7 @@ function custom_content() {
             <div class="custom-container">
                  <?php echo $text_above_cards;?>
                  <div class="cards cards-importance slider-mobile">
-                    <?php while(have_cards('cards')) {
+                    <?php while(have_rows('cards')) {
                         the_row();
                         $image = get_field('image');
                         $add_background = get_field('add_background');
