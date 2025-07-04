@@ -4,7 +4,7 @@ jQuery(function($) {
   // Function to handle button click
   function handleButtonClick(button) {
     button.on('click', function() {
-      var card = $(this).find('.bio-card');
+      var card = $(this).closest('.bio-card');
       console.log("Button clicked");
       var buttonId = $(this).attr('id');
       var contentId = $(this).attr('aria-controls');
@@ -13,16 +13,18 @@ jQuery(function($) {
       $(this).attr('aria-expanded', !expanded);
       var newExpanded = !expanded;
       $('#' + contentId).attr('aria-hidden', expanded);
-      $('#' + contentId).slideToggle();
+      
       $('#' + contentId).removeClass('d-none');
       $('#' + contentId).attr('tabindex', -1).focus();
       
       if (newExpanded) {
         $(this).find('span.text').text('Read less');
+        $('#' + contentId).show();
         card.addClass('full');
       } else {
         $(this).find('span.text').text('Read more');
         card.removeClass('full');
+        $('#' + contentId).hide();
         $('#' + contentId).blur();
       }
     });
