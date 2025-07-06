@@ -128,6 +128,7 @@ function custom_content() {
 	$thumbnail_id = get_post_thumbnail_id($post_id);
 	$image_url = wp_get_attachment_url($thumbnail_id);
 	$image_alt = get_post_meta($thumbnail_id, '_wp_attachment_image_alt', true);
+    $date_text_with_time = get_field('date_text_with_time');
 ?>
     <div class="pattern-right">
     </div>
@@ -169,6 +170,12 @@ function custom_content() {
 						?><img class="logo org object-fit-contain" src="<?php echo $organiser_logo['url'];?>" alt="<?php echo $organiser_logo['alt'];?>" /><?php
 					}
 				?>
+            </div>
+        </div>
+        <div class="eventinfo">
+            <div class="event-details">
+                <h2>Event times</h2>
+                <?php echo $date_text_with_time;?>
             </div>
         </div>
        
