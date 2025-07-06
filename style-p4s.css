@@ -2885,12 +2885,14 @@ a.custom-button.learn-more img {
 =====================*/
 .event .entry-content {
     background-color: #38b891;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .custom-container.event-container {
     background-color: white;
     border-radius: 15px;
-    padding: 20px;
+    padding: 25px;
+    width: 951px;
 }
 
 .event-banner {
