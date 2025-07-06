@@ -2725,12 +2725,14 @@ img.logo.object-fit-contain {
 	display: inline-grid !important;
 	grid-template-columns: 30% 65%;
 	justify-content: space-between;
+	overflow: hidden;
     width: 100%;
 }
 
 .card.full-card .logo-diamond-container {
 	width: 100%;
 	margin: 0;
+	z-index: 3;
 }
 	
 .funders-cards h4 {
@@ -2743,6 +2745,7 @@ img.logo.object-fit-contain {
     display: flex;
     flex-direction: column;
     justify-content: center;
+	z-index: 3;
 }
 
 .funders-cards img.logo {
