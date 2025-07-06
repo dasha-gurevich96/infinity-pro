@@ -1631,7 +1631,7 @@ footer a.social-icon img {
 }
 
 .inner-page .entry-header img.plain-wave {
-	bottom: -177%;
+	bottom: -146%;
 }
 
 .inner-banner .custom-container h1,
@@ -1717,6 +1717,7 @@ h2.text-center.inner-page-title  {
 ----------------*/
 
 .inner-page .inner-banner .custom-container {
+	min-height: 55px;
 	width: 956px;
 }
 .inner-page .entry-header .img-logo-container img {
