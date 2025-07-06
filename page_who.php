@@ -124,6 +124,7 @@ function custom_content() {
             <?php } ?>
             <?php
             $title_partners = get_field('title_partners');
+            echo 'test';
             if(have_rows('supporting_partners')) {
                  if (!empty($title_partners)) { ?>
                         <h3 class="text-center title-w"><?php echo $title_partners; ?></h3>
