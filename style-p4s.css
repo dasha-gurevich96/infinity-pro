@@ -2842,6 +2842,10 @@ p.text-icon {
 	font-weight: 600 !important;
 }
 
+p.text-icon span {
+	font-weight: 600 !important;
+}
+
 p.text-icon .icon {
 	width: 20px !important;
 }
