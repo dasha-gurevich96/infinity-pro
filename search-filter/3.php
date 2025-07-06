@@ -62,7 +62,7 @@ if ($query->have_posts()) {
 				// Get image alt text
 				$image_alt = get_post_meta($thumbnail_id, '_wp_attachment_image_alt', true);
 
-			if(!empty($date_text) && !empty($image_url)) {
+		
 				?><div class="card full-card grid-card clickable-card">
 						<div class="img-col">
 							<img src="<?php echo $image_url;?>" alt="<?php echo $image_alt;?>" />
@@ -102,14 +102,42 @@ if ($query->have_posts()) {
 								<?php
 							}
 							?>
-							<a href="<?php the_permalink();?>" class="custom-button learn-more d-flex" aria-label="Learn more about <?php the_title();?>">
-								<span>Learn more</span>
+							<?php if(!empty($external_link)) {
+								$link_text = 'Visit Website';
+
+								// Get lowercase file extension
+								$extension = strtolower(pathinfo(parse_url($external_link, PHP_URL_PATH), PATHINFO_EXTENSION));
+
+								switch ($extension) {
+									case 'pdf':
+										$link_text = 'Download PDF';
+										break;
+									case 'doc':
+										$link_text = 'Download DOC';
+										break;
+									case 'docx':
+										$link_text = 'Download DOCX';
+										break;
+								}
+								?> <a href="<?php echo $external_link;?>" class="custom-button learn-more d-flex" aria-label="<?php echo $link_text;?> of <?php the_title();?>">
+									<span><?php echo $link_text;?></span>
 								<img class="arrow arrow-more" src="/wp-content/uploads/2025/06/Arrow-right.svg" alt=""/>
-							</a>
+								</a>
+							<?php
+								
+							} else {
+								?> <a href="<?php the_permalink();?>" class="custom-button learn-more d-flex" aria-label="Learn more about <?php the_title();?>">
+									<span>Learn more</span>
+								<img class="arrow arrow-more" src="/wp-content/uploads/2025/06/Arrow-right.svg" alt=""/>
+								</a>
+							<?php
+							}
+							?>
+							
 						</div>
 				  </div>
 					<?php
-			}
+			
 
 
 
