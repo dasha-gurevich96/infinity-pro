@@ -797,8 +797,8 @@ function update_date_number_on_init_events() {
                         $start_date_obj = DateTime::createFromFormat('Ymd', $start_date);
                         $end_date_obj   = DateTime::createFromFormat('Ymd', $end_date);
 
-                        $start_date_str = $start_date_obj ? $start_date_obj->format('d F Y') : '';
-                        $end_date_str   = $end_date_obj ? $end_date_obj->format('d F Y') : '';
+                        $start_date_str = $start_date_obj ? $start_date_obj->format('l, d F Y') : '';
+                        $end_date_str   = $end_date_obj ? $end_date_obj->format('l, d F Y') : '';
 
                         $time_range = '';
                         if (!empty($start_time) || !empty($end_time)) {
