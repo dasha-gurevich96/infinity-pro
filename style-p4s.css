@@ -2875,5 +2875,5 @@ a.custom-button.learn-more{
 }
 
 a.custom-button.learn-more img {
-	width: 20px;
+	width: 20px !important;
 }
