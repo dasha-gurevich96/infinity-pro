@@ -217,7 +217,7 @@ function custom_content() {
 
              <?php if(!empty($register_link) && !empty($register_text)) {
                 ?><div class="event-details">
-                    <a href="<?php echo $register_link;?>">
+                    <a class="custom-button dark-green" href="<?php echo $register_link;?>">
                         <?php echo $register_text;?>
                     </a>
                 </div>
