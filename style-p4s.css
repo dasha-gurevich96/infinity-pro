@@ -2595,6 +2595,13 @@ img.arrow.icon {
 	gap: 22px;
 }
 
+.text > div {
+	display: flex;
+	flex-direction: column;
+	gap: 22px;
+	margin-bottom: 22px;
+}
+
 .container-bio-card .column-2 {
 	display: flex;
 	padding-left: 0px;
