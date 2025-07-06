@@ -94,7 +94,7 @@ if ($query->have_posts()) {
 								<span>Learn more</span>
 							</a>
 						</div>
-				  </dv>
+				  </div>
 					<?php
 			}
 
