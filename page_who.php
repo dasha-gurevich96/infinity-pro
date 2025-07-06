@@ -43,7 +43,7 @@ function custom_content() {
     <div class="full-container">
         <div class="custom-container">
             <?php if (!empty($title)) { ?>
-                <h2 class="text-center"><?php echo $title; ?></h2>
+                <h2 class="text-center thanks-title"><?php echo $title; ?></h2>
             <?php }
 
             if (have_rows('working_group_cards')) { ?>
