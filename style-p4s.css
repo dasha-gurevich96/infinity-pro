@@ -2870,10 +2870,10 @@ a.custom-button.learn-more{
     background-color: #0e5660;
     color: white;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     width: fit-content;
 }
 
 a.custom-button.learn-more img {
-	width: 20px !important;
+	width: 15px !important;
 }
