@@ -2926,3 +2926,8 @@ a.custom-button.learn-more img {
     margin-bottom: 20px;
 }
 
+.event a.custom-button.dark-green {
+    color: white;
+    width: 100%;
+}
+
