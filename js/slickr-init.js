@@ -89,6 +89,34 @@ let initSlickW = function() {
 
 initSlickW();
 $(window).on('resize', initSlickW);
+
+
+//Logos - who we are 
+
+let sliderL = $('.logos-cards');
+
+let initSlickL = function() {
+  sliderG.slick({
+      dots: true,
+      infinite: false,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 890,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+    
+      ]
+  });
+}
+
+initSlickL();
+$(window).on('resize', initSlickL);
 	
 	
 	
