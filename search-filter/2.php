@@ -21,7 +21,7 @@ if ( ! isset( $query ) ) {
 if ($query->have_posts()) {
 ?>
 	<!-- Keep the `.search-filter-query-posts` class to support the load more button -->
-	<div class="search-filter-query-posts events-cards ">
+	<div class="search-filter-query-posts events-cards" id="events">
 		<?php
 		while ($query->have_posts()) {
 			$query->the_post();
