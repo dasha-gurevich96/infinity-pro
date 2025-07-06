@@ -2825,7 +2825,7 @@ img.arrow.arrow-more {
 }
 
 .card.full-card.grid-card {
-	grid-template-columns: 35% 63%;
+	grid-template-columns: 41% 55%;
 	padding: 25px;
 	width: 100% !important;
 }
