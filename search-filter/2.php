@@ -27,6 +27,15 @@ if ($query->have_posts()) {
 			$query->the_post();
 			$date_text = get_field('date_text');
 			$event_description = get_field('event_description');
+			if(!empty($event_description)) {
+				$cleaned_description = preg_replace('/<h[1-6][^>]*>.*?<\/h[1-6]>/is', '', $event_description);
+				$plain_text = strip_tags($cleaned_description);
+				$words = explode(' ', $plain_text);
+				$summary = implode(' ', array_slice($words, 0, 30));
+			} else {
+				$summary = '';
+			}
+			
 			$organiser_logo = get_field('organiser_logo');
 			$venue = get_field('venue');
 			$post_id = get_the_ID(); // or use a specific post ID
@@ -57,7 +66,8 @@ if ($query->have_posts()) {
 								<?php if(!empty($venue)) {
 									?>
 									<p class="text-icon d-flex gap-3">
-										<span><?php echo $venue['name'];?></span>
+									<img class="icon" src="/wp-content/uploads/2025/06/Icon_location.svg" alt="" />
+									<span><?php echo $venue['name'];?></span>
 									</p>
 									<?php
 								}
@@ -65,12 +75,20 @@ if ($query->have_posts()) {
 								<?php if(!empty($date_text)) {
 									?>
 									<p class="text-icon d-flex gap-3">
+										<img class="icon" src="/wp-content/uploads/2025/06/Icon_calendar.svg" alt="" />
 										<span><?php echo $date_text;?></span>
 									</p>
 									<?php
 								}
 								?>
-						</div>
+							</div>
+							<?php if(!empty($summary)) {
+								?><div class="summary">
+									<p><?php echo $summary;?></p>
+								</div>
+								<?php
+							}
+							?>
 						</div>
 				  </dv>
 					<?php
