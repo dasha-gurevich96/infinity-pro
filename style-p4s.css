@@ -2313,6 +2313,7 @@ img.quote-tail {
     position: relative;
     left: 47%;
     display: flex;
+	justify-content: center;
     transform: translateX(-50%);
     bottom: 49px;
     height: 315px;
