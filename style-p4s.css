@@ -2914,6 +2914,10 @@ a.custom-button.learn-more img {
 	margin-top: 20px;
 }
 
+.logo-text-container .text h1 {
+	margin: 20px 0;
+}
+
 .eventinfo {
     display: flex;
     flex-direction: column;
