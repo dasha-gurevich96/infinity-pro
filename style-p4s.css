@@ -2589,6 +2589,12 @@ img.arrow.icon {
 	flex: 1;
 }
 
+.container-bio-card .column-1 {
+	display: flex;
+    flex-direction: column;
+	gap: 22px;
+}
+
 .container-bio-card .column-2 {
 	display: flex;
 	padding-left: 0px;
