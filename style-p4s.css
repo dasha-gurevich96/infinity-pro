@@ -2862,6 +2862,7 @@ p.text-icon .icon {
 .card.full-card.grid-card .text-col h3 {
 	margin: 0 !important;
 	font-weight: 700 !important;
+	font-size: 35px !important;
 }
 
 a.custom-button.learn-more{
