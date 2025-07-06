@@ -941,7 +941,7 @@ nav .wrap {
 }
 
 .slick-dots li.slick-active button .slick-dot-icon {
-    color: #076442;
+    color: #076442 !important;
 }
 
 /*Custom slick slider*/
