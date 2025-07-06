@@ -2839,7 +2839,7 @@ img.arrow.arrow-more {
 
 p.text-icon {
 	color: #983320;
-	font-weight: 700;
+	font-weight: 600 !important;
 }
 
 p.text-icon .icon {
