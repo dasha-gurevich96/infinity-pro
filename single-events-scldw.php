@@ -139,10 +139,39 @@ function custom_content() {
             ?><div class="event-banner">
                 <img class="banner-img object-fit-cover" src="<?php echo $image_url;?>" alt="<?php echo $image_alt;?>" />
             </div>
-            <h2></h2>
             <?php
         }
         ?>
+        <div class="logo-text-container">
+            <div class="text">
+             <h1><?php the_title();?></h1>
+             <?php if(!empty($venue)) {
+									?>
+									<p class="text-icon d-flex gap-3">
+									<img class="icon" src="/wp-content/uploads/2025/06/Icon_location.svg" alt="" />
+									<span><?php echo $venue['address'];?></span>
+									</p>
+									<?php
+								}
+								?>
+								<?php if(!empty($date_text)) {
+									?>
+									<p class="text-icon d-flex gap-3 align-items-start">
+										<img class="icon" src="/wp-content/uploads/2025/06/Icon_calendar.svg" alt="" />
+										<span><?php echo $date_text;?></span>
+									</p>
+									<?php
+								}
+								?>
+            </div>
+            <div class="logo-col">
+                <?php if(!empty($organiser_logo)) {
+						?><img class="logo org object-fit-contain" src="<?php echo $organiser_logo['url'];?>" alt="<?php echo $organiser_logo['alt'];?>" /><?php
+					}
+				?>
+            </div>
+        </div>
+       
 </div>
        
 <?php
