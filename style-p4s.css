@@ -2602,7 +2602,7 @@ img.arrow.icon {
 .text > div {
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
+	gap: 5px;
 	margin-bottom: 10px;
 }
 
