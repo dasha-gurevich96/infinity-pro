@@ -2680,7 +2680,7 @@ img.arrow.icon {
 
 .logo-card {
     background-color: white;
-    border-radius: 2%;
+    border-radius: 15px;
     display: inline-flex !important;
     align-items: center;
 	flex-direction: column;
