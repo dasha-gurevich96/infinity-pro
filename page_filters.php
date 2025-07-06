@@ -42,7 +42,10 @@ function custom_content() {
     $selected_fields = get_field('selected_fields');
 
     if(!empty($filters) && !empty($submit_buttons)) {
-        ?><div class="filters-box">
+        ?>
+        <div class="full-container">
+            <div class="custom-container">
+        <div class="filters-box">
             <?php 
              if(!empty($title)) {
                 ?><h2><?php echo $title;?></h2><?php
@@ -63,6 +66,8 @@ function custom_content() {
             ?>
   
             </div>
+        </div>
+        </div>
             <?php
        
     }
