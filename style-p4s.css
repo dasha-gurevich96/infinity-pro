@@ -2531,6 +2531,11 @@ img.theme-img {
 	background-color: #cee9e0;
 }
 
+.thanks-title {
+	margin-bottom: 30px;
+}
+
+
 .who-page .slick-prev .slick-prev-icon:before {
 	background-image: url(/wp-content/uploads/2025/06/Slider_left.svg) !important;
 	background-size: 55px;
@@ -2540,7 +2545,6 @@ img.theme-img {
 	background-image: url(/wp-content/uploads/2025/06/Slider_right.svg) !important;
 	background-size: 55px;
 }
-
 .bio-row {
 	gap: 20px;
 }
