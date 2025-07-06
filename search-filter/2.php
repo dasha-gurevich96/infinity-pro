@@ -1,6 +1,6 @@
 <?php
 /**
- * Resources results
+ * Events results
  *
  * This template is an absolute base example showing you what
  * you can do, for more customisation see the WordPress docs
