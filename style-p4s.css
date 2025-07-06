@@ -2533,10 +2533,12 @@ img.theme-img {
 
 .who-page .slick-prev .slick-prev-icon:before {
 	background-image: url(/wp-content/uploads/2025/06/Slider_left.svg) !important;
+	background-size: 55px;
 }
 
 .who-page .slick-next .slick-next-icon:before {
 	background-image: url(/wp-content/uploads/2025/06/Slider_right.svg) !important;
+	background-size: 55px;
 }
 
 .bio-row {
