@@ -40,6 +40,9 @@ function custom_content() {
     $submit_buttons = get_field('submit_buttons');
     $results = get_field('results_shortcode');
     $selected_fields = get_field('selected_fields');
+    ?><div class="pattern-left">
+        </div>
+        <?php
 
     if(!empty($filters) && !empty($submit_buttons)) {
         ?>
