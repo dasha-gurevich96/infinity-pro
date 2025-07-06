@@ -935,6 +935,15 @@ nav .wrap {
   color: black !important;
 }
 
+.slick-dots li button .slick-dot-icon {
+    color: #591144;
+    opacity: 1;
+}
+
+.slick-dots li.slick-active button .slick-dot-icon {
+    color: #076442;
+}
+
 /*Custom slick slider*/
 
 button.slick-arrow {
