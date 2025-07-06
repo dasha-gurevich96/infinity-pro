@@ -2080,6 +2080,11 @@ img.img-mask {
 	background-image: url(/wp-content/uploads/2025/06/StoriesPattern_no-background.svg);
 }
 
+.page-id-113 .site-inner {
+    background-color: var(--yellow);
+    padding-bottom: 70px;
+}
+
 .inner-page.stories .entry-content .full-container .custom-container,
 .inner-page.stories .inner-banner .custom-container  {
     width: 860px;
@@ -2092,6 +2097,7 @@ img.img-mask {
 
 .inner-page.stories .entry-content {
     margin-top: 78px !important;
+	padding-bottom: 53px;
 }
 
 
