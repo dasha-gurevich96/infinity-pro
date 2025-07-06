@@ -2561,7 +2561,7 @@ img.arrow.icon {
 }
 
 .bio-button[aria-expanded="true"] img {
-	transform: rotate(90deg);
+	transform: rotate(180deg);
 }
 
 .bio-card:has(.bio-button[aria-expanded="true"]) {
