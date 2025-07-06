@@ -2527,6 +2527,11 @@ img.theme-img {
 
 /*** WHO WE ARE
 =====================*/
+button.slick-arrow {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
 button.slick-arrow:hover,
 button.slick-arrow:focus {
 	outline: 2px solid black;
