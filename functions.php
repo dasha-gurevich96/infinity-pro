@@ -755,178 +755,77 @@ function custom_genesis_breadcrumbs() {
     <?php
 }
 
+/** DATE NUMBER EVENTS */
 
-/*** NAVIGATION TO NEXT PAGE BASED ON MENU
----------------------------------------------*/
-//add_action('genesis_before_footer', 'adjacent_entry_nav_c', 999);
+function update_date_number_on_init_events() {
+    $args = [
+        'post_type'      => 'events-scldw',
+        'posts_per_page' => -1,
+        'post_status'    => 'publish',
+    ];
 
-function display_previous_next_page_links($menu_id) {
-    // Get the current page
-    $current_page_id = get_the_ID();
+    $query = new WP_Query($args);
 
-    // Get the menu assigned to the specified menu ID
-    $menu_items = wp_get_nav_menu_items($menu_id);
-    if (!$menu_items) {
-        return;
-    }
-	
+    if ($query->have_posts()) {
+        while ($query->have_posts()) {
+            $query->the_post();
+            $post_id = get_the_ID();
 
-    // Find the current page's position in the menu
-    $current_page_position = null;
-    foreach ($menu_items as $key => $menu_item) {
-        if ($menu_item->object_id == $current_page_id) {
-            $current_page_position = $key;
-            break;
-        }
-    }
+            $dates = [];
 
-    if ($current_page_position === null) {
-        return;
-    }
+            if (have_rows('dates', $post_id)) {
+                while (have_rows('dates', $post_id)) {
+                    the_row();
+                    //$ticket_sales_end = get_sub_field('ticket_sales_end');
+                    $start_date = get_sub_field('start_date');
 
-    // Get the IDs of the previous and next pages based on the menu order
-    $previous_page_id = ($current_page_position > 0) ? $menu_items[$current_page_position - 1]->object_id : null;
-    $next_page_id = ($current_page_position < count($menu_items) - 1) ? $menu_items[$current_page_position + 1]->object_id : null;
+                    $date_val = $start_date;
 
-    if (!$previous_page_id && !$next_page_id) {
-        return;
-    }
+                    if (!empty($date_val)) {
+                        // Normalize to integer YYYYMMDD
+                        $dates[] = (int) $date_val;
+                    }
+                }
 
-    echo '<div class="page-nav"><div class="custom-container"><nav class="pager w-100"><div class="page-footer-nav  adjacent-entry-pagination">';
+                $current_date = (int) date('Ymd');
 
-    // Output previous page link
-    if ($previous_page_id) {
-        $previous_page_title = $menu_items[$current_page_position - 1]->title;
-       	echo '<a rel="prev" class="arrow-link nav-button prev" href="' . get_permalink($previous_page_id) . '">';
-		echo '<img src="/wp-content/uploads/2025/03/Arrow_left_white.svg" alt=""/>';
-        echo '<span>Go to ' . $previous_page_title . '</span>';
-        echo '</a>';;
-    }
+                $upcoming_dates = array_filter($dates, function ($date) use ($current_date) {
+                    return $date > $current_date;
+                });
 
-    // Output next page link
-    if ($next_page_id) {
-        $next_page_title = $menu_items[$current_page_position + 1]->title;
+                if (!empty($upcoming_dates)) {
+                    $nearest_date = min($upcoming_dates);
+                    update_field('date_number', $nearest_date, $post_id);
 
-        echo '<a rel="next" class="arrow-link nav-button next" href="' . get_permalink($next_page_id) . '">';
-        echo '<span>Go to ' . $next_page_title . '</span>';
-		echo '<img src="/wp-content/uploads/2025/03/Left_Arrow.svg" alt=""/>';
-        echo '</a>';
+                    // Format upcoming dates
+                    $formattedDates = array_map(function ($dateString) {
+                        $date = DateTime::createFromFormat('Ymd', $dateString);
+                        return $date ? $date->format('d F Y') : '';
+                    }, $upcoming_dates);
 
-    }
+                    $formattedDatesString = implode(', ', array_filter($formattedDates));
+                    update_field('date_text', $formattedDatesString, $post_id);
 
-    echo '</div></div></nav></div>';
-}
+                } else {
+                    update_field('date_text', '', $post_id);
+					update_field('date_number', '', $post_id);
 
-function adjacent_entry_nav_c() {
-    // Check if the navigation function exists
-    if (!function_exists('the_post_navigation') || is_single()) {
-        return;
-    }
 
-    // Get the current page ID
-    $current_page_id = get_the_ID();
+					// Set post status to draft
+					wp_update_post([
+						'ID'          => $post_id,
+						'post_status' => 'draft',
+					]);
 
-    // Get all registered navigation menus
-    $registered_menus = get_terms('nav_menu', array('hide_empty' => true));
-    if (!$registered_menus) {
-        return;
-    }
-
-    // Initialize a variable to store the menu ID
-    $selected_menu_id = null;
-
-    // Iterate through each registered menu
-    foreach ($registered_menus as $menu) {
-     // header menu
-        if ($menu->term_id === 2) {
-            continue;
-        }
-		//main support menu
-		 if ($menu->term_id === 9 && !is_page_template('page_landing_ccvs.php')) {
-            continue;
-        }
-		//main volunteering menu
-		 if ($menu->term_id === 91 && !is_page_template('page_landing_ccvs.php')) {
-            continue;
-        }
-		
-
-        // Get the menu items for the current menu
-        $menu_items = wp_get_nav_menu_items($menu->term_id);
-        if (!$menu_items) {
-            continue;
-        }
-
-        // Check if any menu item corresponds to the current page
-        foreach ($menu_items as $item) {
-            if ($item->object == 'page' && $item->object_id == $current_page_id) {
-                $selected_menu_id = $menu->term_id;
-                break 2; // Break both the inner and outer loops
+                }
             }
         }
     }
 
-    if ($selected_menu_id) {
-        echo '<div class="entry-content"><div class="text-content">';
-        display_previous_next_page_links($selected_menu_id);
-        echo '</div></div></div>';
-    } else {
-		echo '<div class="components-below-sidebar page-nav"><div class="custom-container"></div></div>';
-	}
+    wp_reset_postdata();
 }
 
 
-/**/
-function set_featured_image_from_title($post_id) {
-    if (get_post_type($post_id) !== 'resource-articles') {
-        return;
-    }
+add_action('init', 'update_date_number_on_init_events');
 
-    $post_title = get_the_title($post_id);
-    
-    // Match the image URL and alt text
-    if (preg_match('/(https?:\/\/[^\s\|]+)\|([^\]]+)/', $post_title, $matches)) {
-        $image_url = esc_url_raw($matches[1]);
-        $alt_text = sanitize_text_field($matches[2]);
-
-        require_once(ABSPATH . 'wp-admin/includes/image.php');
-        require_once(ABSPATH . 'wp-admin/includes/file.php');
-        require_once(ABSPATH . 'wp-admin/includes/media.php');
-
-        // Download the image and add it to the media library
-        $attachment_id = media_sideload_image($image_url, $post_id, '', 'id');
-
-        if (!is_wp_error($attachment_id)) {
-            // Set alt text
-            update_post_meta($attachment_id, '_wp_attachment_image_alt', $alt_text);
-            
-            // Set as featured image
-            set_post_thumbnail($post_id, $attachment_id);
-        }
-    }
-}
-
-function clean_post_title($post_id) {
-    if (get_post_type($post_id) !== 'resource-articles') {
-        return;
-    }
-
-    $post_title = get_the_title($post_id);
-    
-    // Remove the image URL, alt text, and trailing `]`
-    $clean_title = preg_replace('/\s*https?:\/\/[^\s\|]+\|[^\]]+\]?/', '', $post_title);
-
-    // Trim to remove any extra spaces left behind
-    $clean_title = trim($clean_title, " \t\n\r\0\x0B]");
-
-    // Update the post title only if it has changed
-    if ($clean_title !== $post_title) {
-        remove_action('save_post', 'clean_post_title'); // Prevent infinite loop
-        wp_update_post([
-            'ID' => $post_id,
-            'post_title' => $clean_title,
-        ]);
-        add_action('save_post', 'clean_post_title'); // Re-add action after update
-    }
-}
 
