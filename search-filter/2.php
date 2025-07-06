@@ -90,8 +90,8 @@ if ($query->have_posts()) {
 							}
 							?>
 							<a href="<?php the_permalink();?>" class="custom-button learn-more d-flex" aria-label="Learn more about <?php the_title();?>">
-								<img class="arrow arrow-more" src="/wp-content/uploads/2025/06/Arrow-right.svg" alt=""/>
 								<span>Learn more</span>
+								<img class="arrow arrow-more" src="/wp-content/uploads/2025/06/Arrow-right.svg" alt=""/>
 							</a>
 						</div>
 				  </div>
