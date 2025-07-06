@@ -2727,7 +2727,7 @@ img.logo.object-fit-contain {
 
 .card.full-card {
 	display: inline-grid !important;
-	grid-template-columns: 30% 60%;
+	grid-template-columns: 30% 54%;
 	justify-content: space-between;
 	overflow: hidden;
 	padding: 43px 20px;
@@ -2750,6 +2750,7 @@ img.logo.object-fit-contain {
 .funders-cards .text {
     display: flex;
     flex-direction: column;
+	gap: 10px;
     justify-content: center;
 	z-index: 3;
 }
