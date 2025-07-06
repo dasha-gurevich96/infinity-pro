@@ -150,8 +150,9 @@ function custom_content() {
         }
         ?>
         <div class="logo-text-container">
+            <h1><?php the_title();?></h1>
             <div class="text">
-             <h1><?php the_title();?></h1>
+             
              <?php if(!empty($venue)) {
 									?>
 									<p class="text-icon d-flex gap-3">
