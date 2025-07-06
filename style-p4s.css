@@ -1624,7 +1624,8 @@ footer a.social-icon img {
     padding: 0;
 }
 
-.inner-banner.plain-banner  .custom-container h1 {
+.inner-banner.plain-banner  .custom-container h1,
+.inner-banner .custom-container p.banner-title  {
 	position: relative;
 	top: 28px;
 }
@@ -1633,7 +1634,8 @@ footer a.social-icon img {
 	bottom: -145%;
 }
 
-.inner-banner .custom-container h1 {
+.inner-banner .custom-container h1,
+.inner-banner .custom-container p.banner-title {
 	color: white;
 	font-weight: 800;
 	font-size: 37px;
