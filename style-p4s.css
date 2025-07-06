@@ -2744,3 +2744,11 @@ img.logo.object-fit-contain {
     flex-direction: column;
     justify-content: center;
 }
+
+.funders-cards img.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	width: 256px;
+}
