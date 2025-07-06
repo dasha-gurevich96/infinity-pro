@@ -2501,11 +2501,11 @@ img.theme-img {
 }
 
 .theme-page .slick-prev .slick-prev-icon:before {
-	background-image: url(/wp-content/uploads/2025/06/Slider_left.svg);
+	background-image: url(/wp-content/uploads/2025/06/Slider_left.svg) !important;
 }
 
 .theme-page .slick-next .slick-next-icon:before {
-	background-image: url(/wp-content/uploads/2025/06/Slider_right.svg);
+	background-image: url(/wp-content/uploads/2025/06/Slider_right.svg) !important;
 }
 
 .theme-page .icon {
