@@ -2726,6 +2726,7 @@ img.logo.object-fit-contain {
 	grid-template-columns: 30% 60%;
 	justify-content: space-between;
 	overflow: hidden;
+	padding: 40px 20px;
     width: 100%;
 }
 
@@ -2770,5 +2771,5 @@ img.logo.object-fit-contain {
 }
 
 .funders-cards img.diamond {
-    transform: scale(1.4);
+    transform: scale(1.55);
 }
