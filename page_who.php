@@ -128,7 +128,7 @@ function custom_content() {
                 ?><div class="group logos-grpup">
                     <?php
                  if (!empty($title_partners)) { ?>
-                        <h3 class="text-center title-w"><?php echo $title_partners; ?></h3>
+                        <h3 class="text-center title-p"><?php echo $title_partners; ?></h3>
                     <?php }
                     ?><div class="logos-cards">
                         <?php while(have_rows('supporting_partners')) {
