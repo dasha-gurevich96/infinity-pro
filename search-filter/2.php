@@ -52,7 +52,7 @@ if ($query->have_posts()) {
 			if(!empty($date_text) && !empty($image_url)) {
 				?><div class="card full-card grid-card clickable-card">
 						<div class="img-col">
-							<img src="<?php echo $image_url;?>" alt="<?php echo $image_alt;?>" /><
+							<img src="<?php echo $image_url;?>" alt="<?php echo $image_alt;?>" />
 						</div>
 						<div class="text-col">
 							<h3>
