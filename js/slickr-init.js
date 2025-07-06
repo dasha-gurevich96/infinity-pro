@@ -132,6 +132,48 @@ let initSlickL = function() {
 initSlickL();
 $(window).on('resize', initSlickL);
 	
+
+//Funders - who we are 
+
+let sliderF = $('.funders-cards');
+
+let initSlickF = function() {
+  sliderL.slick({
+      dots: true,
+      infinite: false,
+      speed: 300,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 890,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 700,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 390,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+    
+      ]
+  });
+}
+
+initSlickF();
+$(window).on('resize', initSlickF);
+	
 	
 	
 })
