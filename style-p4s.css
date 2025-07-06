@@ -2535,6 +2535,9 @@ h2.text-center.thanks-title {
 	margin-bottom: 30px;
 }
 
+.working-group-cards {
+    margin-top: 24px;
+}
 
 .who-page .slick-prev .slick-prev-icon:before {
 	background-image: url(/wp-content/uploads/2025/06/Slider_left.svg) !important;
