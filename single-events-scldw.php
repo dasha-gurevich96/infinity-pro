@@ -119,8 +119,8 @@ function custom_genesis_breadcrumbs_post() {
     <div class="screen-reader-text">You are here:</div>
     <nav aria-label="<?php esc_attr_e( 'Breadcrumbs', 'genesis' ); ?>">
         <div class="breadcrumb">
-            <a href="/stories">
-                Stories
+            <a href="/events">
+                Events
             </a>
             >
             <span class="breadcrumb_last" aria-current="page"><?php the_title();?></span>
