@@ -20,7 +20,7 @@ function enqueue_google_map_and_jquery() {
     // Enqueue Google Maps script
     wp_enqueue_script(
         'google-maps',
-        'https://maps.googleapis.com/maps/api/js?key=AIzaSyClkhXlN5K5UPahjImKxAg59rKKP5GoCDo',
+        'https://maps.googleapis.com/maps/api/js?key=AIzaSyDerx9WkK76XwCMQd5VTf6-hCcb2zMcZZ0',
         array('jquery'), // Set dependency on jQuery
         null,
         true // Load in footer
