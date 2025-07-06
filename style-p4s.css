@@ -2553,6 +2553,7 @@ button.slick-arrow:focus {
 
 .who-page .site-container {
     background-color: #cee9e1;
+	margin-bottom: 107px;
 }
 
 h2.text-center.thanks-title {
@@ -2718,7 +2719,7 @@ img.logo.object-fit-contain {
 /*Funders*/
 
 .funders-cards {
-	margin-top: 40px;
+	margin-top: 16px;
 }
 
 .funders-cards  .slick-slide > div {
