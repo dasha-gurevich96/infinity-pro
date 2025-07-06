@@ -779,52 +779,57 @@ function update_date_number_on_init_events() {
             $query->the_post();
             $post_id = get_the_ID();
 
-            $dates = [];
-
             if (have_rows('dates', $post_id)) {
+                $dates = [];
+                $formattedDates = [];
+
                 while (have_rows('dates', $post_id)) {
                     the_row();
-                    //$ticket_sales_end = get_sub_field('ticket_sales_end');
-                    $start_date = get_sub_field('start_date');
+                    
+                    $start_date  = get_sub_field('start_date');
+                    $end_date    = get_sub_field('end_date');
+                    $start_time  = get_sub_field('start_time');
+                    $end_time    = get_sub_field('end_time');
 
-                    $date_val = $start_date;
+                    if (!empty($start_date)) {
+                        $dates[] = (int) $start_date;
 
-                    if (!empty($date_val)) {
-                        // Normalize to integer YYYYMMDD
-                        $dates[] = (int) $date_val;
+                        $start_date_obj = DateTime::createFromFormat('Ymd', $start_date);
+                        $end_date_obj   = DateTime::createFromFormat('Ymd', $end_date);
+
+                        $start_date_str = $start_date_obj ? $start_date_obj->format('d F Y') : '';
+                        $end_date_str   = $end_date_obj ? $end_date_obj->format('d F Y') : '';
+
+                        $time_range = '';
+                        if (!empty($start_time) || !empty($end_time)) {
+                            $time_range = trim($start_time . ' - ' . $end_time);
+                        }
+
+                        if ($start_date_str && $end_date_str && $start_date !== $end_date) {
+                            $formattedDates[] = "{$start_date_str} to {$end_date_str}" . (!empty($time_range) ? " ({$time_range})" : '');
+                        } elseif ($start_date_str) {
+                            $formattedDates[] = "{$start_date_str}" . (!empty($time_range) ? " ({$time_range})" : '');
+                        }
                     }
                 }
 
                 $current_date = (int) date('Ymd');
-
-                $upcoming_dates = array_filter($dates, function ($date) use ($current_date) {
-                    return $date > $current_date;
-                });
+                $upcoming_dates = array_filter($dates, fn($date) => $date > $current_date);
 
                 if (!empty($upcoming_dates)) {
                     $nearest_date = min($upcoming_dates);
                     update_field('date_number', $nearest_date, $post_id);
 
-                    // Format upcoming dates
-                    $formattedDates = array_map(function ($dateString) {
-                        $date = DateTime::createFromFormat('Ymd', $dateString);
-                        return $date ? $date->format('d F Y') : '';
-                    }, $upcoming_dates);
-
                     $formattedDatesString = implode(', ', array_filter($formattedDates));
                     update_field('date_text', $formattedDatesString, $post_id);
-
                 } else {
+                    update_field('date_number', '', $post_id);
                     update_field('date_text', '', $post_id);
-					update_field('date_number', '', $post_id);
 
-
-					// Set post status to draft
-					wp_update_post([
-						'ID'          => $post_id,
-						'post_status' => 'draft',
-					]);
-
+                    wp_update_post([
+                        'ID'          => $post_id,
+                        'post_status' => 'draft',
+                    ]);
                 }
             }
         }
@@ -832,8 +837,7 @@ function update_date_number_on_init_events() {
 
     wp_reset_postdata();
 }
-
-
 add_action('init', 'update_date_number_on_init_events');
+
 
 
