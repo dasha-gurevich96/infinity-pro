@@ -2886,3 +2886,8 @@ a.custom-button.learn-more img {
 .event .entry-content {
     background-color: #38b891;
 }
+
+.logo-text-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
