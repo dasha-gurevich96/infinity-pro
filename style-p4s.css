@@ -2831,6 +2831,8 @@ img.arrow.arrow-more {
 }
 
 .card.full-card.grid-card .img-col img {
+	border-radius: 15px;
+	border: 1px solid var(--purple);
 	height: 100%;
 	object-fit: cover;
 }
