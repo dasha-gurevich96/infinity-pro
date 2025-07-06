@@ -2718,7 +2718,6 @@ img.logo.object-fit-contain {
 
 .funders-cards {
     margin: auto;
-    width: 87%;
 }
 
 .card.full-card {
@@ -2727,7 +2726,7 @@ img.logo.object-fit-contain {
 	justify-content: space-between;
 	overflow: hidden;
 	padding: 40px 20px;
-    width: 100%;
+    width: 90%;
 }
 
 .card.full-card .logo-diamond-container {
