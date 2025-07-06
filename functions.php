@@ -820,7 +820,7 @@ function update_date_number_on_init_events() {
                     $nearest_date = min($upcoming_dates);
                     update_field('date_number', $nearest_date, $post_id);
 
-                    $formattedDatesString = implode(', ', array_filter($formattedDates));
+                    $formattedDatesString = implode('; ', array_filter($formattedDates));
                     update_field('date_text', $formattedDatesString, $post_id);
                 } else {
                     update_field('date_number', '', $post_id);
