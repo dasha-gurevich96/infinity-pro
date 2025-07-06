@@ -2796,6 +2796,26 @@ img.logo.object-fit-contain {
     position: relative;
 }
 
+.pattern-right {
+    background-image: url(/wp-content/uploads/2025/07/side-pattern_no-backgroun.svg);
+    background-size: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: calc((100% - 1005px)/2);
+}
+
+.pattern-left{
+    background-image: url(/wp-content/uploads/2025/07/side-pattern_no-backgroun.svg);
+    background-size: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: calc((100% - 1005px)/2);
+}
+
 .page-id-117 {
 	background-color: #38B890;
 }
