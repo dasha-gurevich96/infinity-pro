@@ -122,6 +122,8 @@ add_action( 'genesis_entry_header', 'banner');
 function custom_content() {
     $date_text = get_field('date_text');
 	$event_description = get_field('event_description');
+    $accessibility = get_field('accessibility');
+    $about_organiser = get_field('about_organiser');
     $organiser_logo = get_field('organiser_logo');
 	$venue = get_field('venue');
 	$post_id = get_the_ID(); // or use a specific post ID
@@ -181,6 +183,22 @@ function custom_content() {
                 ?><div class="event-details">
                     <h2>About</h2>
                     <?php echo $event_description;?>
+                </div>
+                <?php
+            }
+            ?>
+            <?php if(!empty($accessibility)) {
+                ?><div class="event-details">
+                    <h2>Acessibility</h2>
+                    <?php echo $accessibility;?>
+                </div>
+                <?php
+            }
+            ?>
+             <?php if(!empty($about_organiser)) {
+                ?><div class="event-details">
+                    <h2>About organiser</h2>
+                    <?php echo $about_organiser;?>
                 </div>
                 <?php
             }
