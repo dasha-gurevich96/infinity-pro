@@ -88,8 +88,9 @@ add_action('wp_enqueue_scripts', 'enqueue_google_map_and_jquery', 10);
 <style type="text/css">
 .acf-map {
     width: 100%;
-    height: 550px;
+    height: 350px;
     border: #ccc solid 1px;
+    border-radius: 15px;
 }
 
 
