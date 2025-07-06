@@ -96,7 +96,7 @@ $(window).on('resize', initSlickW);
 let sliderL = $('.logos-cards');
 
 let initSlickL = function() {
-  sliderG.slick({
+  sliderL.slick({
       dots: true,
       infinite: false,
       speed: 300,
