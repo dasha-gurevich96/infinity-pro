@@ -49,7 +49,7 @@ function custom_content() {
             if (have_rows('working_group_cards')) { ?>
                 <div class="group">
                     <?php if (!empty($title_w)) { ?>
-                        <h2 class="text-center"><?php echo $title_w; ?></h2>
+                        <h3 class="text-center title-w"><?php echo $title_w; ?></h3>
                     <?php } ?>
 
                     <div class="working-group-cards">
