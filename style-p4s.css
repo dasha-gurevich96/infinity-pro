@@ -832,8 +832,9 @@ nav .wrap {
 }
 
 .search-filter-label {
+	color: black;
 	font-weight: 600 !important;
-	font-size: 20px Im !important;
+	font-size: 20px !important;
 }
 
 /*** SLICK SLIDER
