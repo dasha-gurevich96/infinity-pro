@@ -125,6 +125,8 @@ function custom_content() {
             <?php
             $title_partners = get_field('title_partners');
             if(have_rows('supporting_partners')) {
+                ?><div class="group logos-grpup">
+                    <?php
                  if (!empty($title_partners)) { ?>
                         <h3 class="text-center title-w"><?php echo $title_partners; ?></h3>
                     <?php }
@@ -161,6 +163,7 @@ function custom_content() {
                         }
                         ?>
                         </div>
+                    </div>
                     <?php
             }
 
