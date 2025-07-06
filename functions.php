@@ -808,7 +808,7 @@ function update_date_number_on_init_events() {
                         if ($start_date_str && $end_date_str && $start_date !== $end_date) {
                             $formattedDates[] = "{$start_date_str} to {$end_date_str}" . (!empty($time_range) ? " ({$time_range})" : '');
                         } elseif ($start_date_str) {
-                            $formattedDates[] = "{$start_date_str}" . (!empty($time_range) ? " ({$time_range})" : '');
+                            $formattedDates[] = "{$start_date_str}" . (!empty($time_range) ? " {$time_range}" : '');
                         }
                     }
                 }
