@@ -2865,3 +2865,11 @@ p.text-icon .icon {
 	margin: 0 !important;
 	font-weight: 700 !important;
 }
+
+a.custom-button.learn-more{
+    background-color: #0e5660;
+    color: white;
+    align-items: center;
+    gap: 20px;
+    width: fit-content;
+}
