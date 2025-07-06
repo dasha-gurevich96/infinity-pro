@@ -1637,7 +1637,7 @@ footer a.social-icon img {
 .inner-banner .custom-container h1,
 .inner-banner .custom-container p.banner-title {
 	color: white;
-	font-weight: 800;
+	font-weight: 800 !important;
 	font-size: 37px;
 	text-align:left;
 	margin-bottom: 0 !important;
