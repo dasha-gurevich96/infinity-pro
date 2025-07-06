@@ -74,7 +74,7 @@ if ($query->have_posts()) {
 								?>
 								<?php if(!empty($date_text)) {
 									?>
-									<p class="text-icon d-flex gap-3">
+									<p class="text-icon d-flex gap-3 align-items-start">
 										<img class="icon" src="/wp-content/uploads/2025/06/Icon_calendar.svg" alt="" />
 										<span><?php echo $date_text;?></span>
 									</p>
