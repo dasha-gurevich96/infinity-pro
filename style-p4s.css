@@ -56,6 +56,7 @@ main .custom-container,
 	--yellow: #F0AD21;
 	--green: #034c30;
 	--font: 'Nunito-Var';
+	--text-colour: black;
 }
 
 
@@ -2775,5 +2776,5 @@ img.logo.object-fit-contain {
 }
 
 .funders-cards img.diamond {
-    transform: scale(1.55);
+    transform: scale(1.75);
 }
