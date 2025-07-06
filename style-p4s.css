@@ -2677,3 +2677,18 @@ img.arrow.icon {
     background-color: var(--purple);
     margin-right: 23px;
 }
+
+.logo-card {
+    background-color: white;
+    border-radius: 35px;
+    display: inline-flex !important;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+img.logo.object-fit-contain {
+    width: 100px;
+    height: 140px;
+    margin-bottom: 20px;
+}
