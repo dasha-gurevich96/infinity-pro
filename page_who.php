@@ -69,6 +69,7 @@ function custom_content() {
                                 ?>
                                 <div class="bio-card">
                                     <div class="container-bio-card">
+                                        <div class="detail"></div>
                                         <div class="column-1">
                                             <div class="logo-diamond-container position-relative">
                                                 <img class="diamond" src="/wp-content/uploads/2025/07/Diamond-with-purple-border.svg" alt="" />
