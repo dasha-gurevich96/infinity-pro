@@ -84,10 +84,10 @@ if ($query->have_posts()) {
 							<h3>
 								<?php the_title();?>
 							</h3>
-							<?php if(!empty($organiser_logo)) {
+							<!--<?php if(!empty($organiser_logo)) {
 								?><img class="logo org object-fit-contain" src="<?php echo $organiser_logo['url'];?>" alt="<?php echo $organiser_logo['alt'];?>" /><?php
 							}
-							?>
+							?> -->
 							<?php if(!empty($venue) || !empty($date_text)) {
 								?>
 							<div class="event-details">
