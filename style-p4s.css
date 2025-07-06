@@ -2557,7 +2557,7 @@ img.theme-img {
 }
 
 img.arrow.icon {
-    width: 17px;
+    width: 13px;
 }
 
 .bio-card:has(.bio-button[aria-expanded="true"]) {
