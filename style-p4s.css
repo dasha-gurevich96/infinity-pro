@@ -837,6 +837,25 @@ nav .wrap {
 	font-size: 20px !important;
 }
 
+.buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+button.search-filter-input-button.search-filter-field__input {
+    background-color: var(--purple);
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 7px 34px;
+}
+
+.search-filter-field--control-type-reset button.search-filter-input-button.search-filter-field__input {
+	background-color: var(--dark-green);
+}
+
 /*** SLICK SLIDER
 =======================*/
 .slick-track {
