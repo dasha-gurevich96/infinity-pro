@@ -138,7 +138,7 @@ $(window).on('resize', initSlickL);
 let sliderF = $('.funders-cards');
 
 let initSlickF = function() {
-  sliderL.slick({
+  sliderF.slick({
       dots: true,
       infinite: false,
       speed: 300,
