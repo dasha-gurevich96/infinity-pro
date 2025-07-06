@@ -55,6 +55,7 @@ function custom_content() {
             </div>
             <?php if(!empty($selected_fields)) {
                 ?><div class="selected-fields">
+                    <p class="screen-reader-text">Select each button to remove it from filters</p>
                     <?php echo do_shortcode($selected_fields);?>
                 </div>
                 <?php
