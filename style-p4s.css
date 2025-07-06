@@ -2948,4 +2948,6 @@ a.custom-button.learn-more img {
 
 .event h1 {
 	margin-top: 20px;
+	font-size: 36px;
+	font-weight: 600 !important;
 }
