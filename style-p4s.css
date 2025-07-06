@@ -2682,9 +2682,11 @@ img.arrow.icon {
     background-color: white;
     border-radius: 35px;
     display: inline-flex !important;
-    padding: 20px;
     align-items: center;
+	flex-direction: column;
+	gap: 15px;
     justify-content: center;
+	padding: 20px;
 }
 
 img.logo.object-fit-contain {
