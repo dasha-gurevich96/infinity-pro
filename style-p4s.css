@@ -2823,3 +2823,7 @@ img.logo.object-fit-contain {
 img.arrow.arrow-more {
     width: 30px;
 }
+
+.card.full-card.grid-card {
+	width: 100%;
+}
