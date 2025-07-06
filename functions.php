@@ -758,7 +758,7 @@ function custom_genesis_breadcrumbs() {
 /*** GOOGLE MAPS API
 =======================*/
 function my_acf_init() {
-    acf_update_setting('google_api_key', 'AIzaSyClkhXlN5K5UPahjImKxAg59rKKP5GoCDo');
+    acf_update_setting('google_api_key', 'AIzaSyDerx9WkK76XwCMQd5VTf6-hCcb2zMcZZ0');
 }
 add_action('acf/init', 'my_acf_init');
 
