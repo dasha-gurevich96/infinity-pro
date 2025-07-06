@@ -939,8 +939,15 @@ nav .wrap {
 button.slick-arrow {
 	outline-offset: 2px;
     height: 60px;
+	display: flex;
+		align-items: center;
+		justify-content: center;
 	opacity: 1;
     width: 60px;
+}
+
+button.slick-prev.slick-arrow:hover {
+    outline: 2px solid black;
 }
 
 
