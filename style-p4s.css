@@ -2686,11 +2686,20 @@ img.arrow.icon {
 	flex-direction: column;
 	gap: 15px;
     justify-content: center;
-	padding: 20px;
+	height: 100%;
+	padding: 14px;
 }
 
 img.logo.object-fit-contain {
     width: 100px;
-    height: 140px;
+    height: 110px;
     margin-bottom: 20px;
+}
+
+.logo-card h3,
+.logo-card h3 a {
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600 !important;
 }
