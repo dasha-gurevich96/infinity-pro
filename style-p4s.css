@@ -2726,7 +2726,7 @@ img.logo.object-fit-contain {
 }
 
 .card.full-card {
-	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	display: inline-grid !important;
 	grid-template-columns: 30% 54%;
 	justify-content: space-between;
