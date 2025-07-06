@@ -2548,7 +2548,8 @@ img.arrow.icon {
 }
 
 .logo-diamond-container {
-	left: 33px;
+	/*left: 33px;*/
+	margin: auto;
     width: 260px;
 }
 
