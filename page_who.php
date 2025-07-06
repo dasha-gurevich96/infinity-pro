@@ -167,6 +167,47 @@ function custom_content() {
                     <?php
             }
 
+            $title_f = get_field('title_funded_by');
+            if(have_rows('funders')) {
+                ?><div class="group funders-group">
+                      <?php
+                 if (!empty($title_f)) { ?>
+                        <h3 class="text-center title-p"><?php echo $title_f; ?></h3>
+                    <?php }
+                    ?>
+                    <div class="funders-cards">
+                        <?php while(have_rows('funders')) {
+                            the_row();
+                            $logo = get_sub_field('logo');
+                            $organisation_name = get_sub_field('organisation_name');
+                            $text = get_sub_field('text');
+                            $link = get_sub_field('link');
+                            if(!empty($logo) && !empty($organisation_name)) {
+                                ?><div class="card full-card">
+                                    <div class="logo-diamond-container position-relative">
+                                        <img class="diamond" src="/wp-content/uploads/2025/07/Diamond-with-purple-border.svg" alt="">
+                                        <img class="logo" src="<?php echo $logo['url'];?>" alt="<?php echo $logo['alt'];?>" />
+                                    </div>
+                                    <div class="text">
+                                        <h4><?php echo $organisation_name;?></h4>
+                                        <?php if(!empty($text)) {
+                                            ?><p><?php echo $text;?></p><?php
+                                        }
+                                        ?>
+                                    </div>
+                                    </div>
+                                <?php
+                            }
+
+                        }
+                        ?>
+                    </div>
+                 
+                    </div>
+
+                    <?php
+            }
+
             ?>
         </div>
     </div>
