@@ -946,7 +946,8 @@ button.slick-arrow {
     width: 60px;
 }
 
-button.slick-prev.slick-arrow:hover {
+button.slick-prev.slick-arrow:hover,
+button.slick-prev.slick-arrow:focus {
     outline: 2px solid black;
 }
 
