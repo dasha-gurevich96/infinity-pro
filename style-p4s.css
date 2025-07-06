@@ -2792,6 +2792,10 @@ img.logo.object-fit-contain {
 
 /*** EVENTS
 ==================*/
+.entry-content {
+    position: relative;
+}
+
 .page-id-117 {
 	background-color: #38B890;
 }
