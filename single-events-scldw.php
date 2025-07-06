@@ -249,6 +249,7 @@ function custom_content() {
         
             </div>
             </div>
+            </div>
                    
                 <?php
             }
