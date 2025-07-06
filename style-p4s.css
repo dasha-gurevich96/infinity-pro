@@ -2595,6 +2595,10 @@ img.arrow.icon {
 	gap: 10px;
 }
 
+.container-bio-card h3 {
+	font-weight: 600;
+}
+
 .text > div {
 	display: flex;
 	flex-direction: column;
