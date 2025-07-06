@@ -112,25 +112,6 @@ function infinity_add_body_class( $classes ) {
 
 }
 
-add_action( 'genesis_entry_header', 'custom_genesis_breadcrumbs_post' );
-
-function custom_genesis_breadcrumbs_post() {
-    ?>
-    <div class="screen-reader-text">You are here:</div>
-    <nav aria-label="<?php esc_attr_e( 'Breadcrumbs', 'genesis' ); ?>">
-        <div class="breadcrumb">
-            <a href="/events">
-                Events
-            </a>
-            >
-            <span class="breadcrumb_last" aria-current="page"><?php the_title();?></span>
-        </div>
-        <?php genesis_do_breadcrumbs(); ?>
-    </nav>
-    <?php
-}
-
-
 function banner() {
 	
 }
