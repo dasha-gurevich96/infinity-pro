@@ -113,14 +113,39 @@ function infinity_add_body_class( $classes ) {
 }
 
 function banner() {
-	
+	get_template_part('/components/event-banner');
 }
 
 
 add_action( 'genesis_entry_header', 'banner');
 
 function custom_content() {
-    
+    $date_text = get_field('date_text');
+	$event_description = get_field('event_description');
+    $organiser_logo = get_field('organiser_logo');
+	$venue = get_field('venue');
+	$post_id = get_the_ID(); // or use a specific post ID
+	$thumbnail_id = get_post_thumbnail_id($post_id);
+	$image_url = wp_get_attachment_url($thumbnail_id);
+	$image_alt = get_post_meta($thumbnail_id, '_wp_attachment_image_alt', true);
+?>
+    <div class="pattern-right">
+    </div>
+    <div class="pattern-left">
+    </div>
+    <div class="custom-container event-container">
+        <a href="/events">Go back to events</a>
+        <?php if(!empty($image_url)) {
+            ?><div class="event-banner">
+                <img class="banner-img object-fit-cover" src="<?php echo $image_url;?>" alt="<?php echo $image_alt;?>" />
+            </div>
+            <h2></h2>
+            <?php
+        }
+        ?>
+</div>
+       
+<?php
 
 }
 
