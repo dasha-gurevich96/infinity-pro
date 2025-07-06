@@ -131,6 +131,9 @@ function custom_content() {
 	$image_url = wp_get_attachment_url($thumbnail_id);
 	$image_alt = get_post_meta($thumbnail_id, '_wp_attachment_image_alt', true);
     $date_text_with_time = get_field('date_text_with_time');
+    $register_text = get_field('register_text');
+    $register_link = get_field('register_link');
+    $other_details = get_field('other_details');
 ?>
     <div class="pattern-right">
     </div>
@@ -195,6 +198,14 @@ function custom_content() {
                 <?php
             }
             ?>
+            <?php if(!empty($other_details)) {
+                ?><div class="event-details">
+                    <?php echo $other_details;?>
+                </div>
+                <?php
+            }
+            ?>
+
              <?php if(!empty($about_organiser)) {
                 ?><div class="event-details">
                     <h2>About organiser</h2>
@@ -203,6 +214,17 @@ function custom_content() {
                 <?php
             }
             ?>
+
+             <?php if(!empty($register_link) && !empty($register_text)) {
+                ?><div class="event-details">
+                    <a href="<?php echo $register_link;?>">
+                        <?php echo $register_text;?>
+                    </a>
+                </div>
+                <?php
+            }
+            ?>
+            
         </div>
        
 </div>
