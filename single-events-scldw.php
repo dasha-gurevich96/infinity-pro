@@ -241,7 +241,7 @@ function custom_content() {
                                         </div>
                         
                             </div>
-                        </div>
+                        
                         <div class="address-col">
                             <p>
                                 <strong>Address: </strong> <?php  echo $venue['address'];?>. <a class="directions" href="https://www.google.com/maps?saddr=My+Location&daddr=<?php echo $venue['address']; ?>" target="_blank" aria-label="Get Directions via Google Maps - opens in a new window">Get Directions via Google Maps</a>
