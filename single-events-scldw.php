@@ -229,7 +229,13 @@ function custom_content() {
                 ?><div class="event-details" id="venue">
                     <h2>Venue</h2>
                     <div class="venue-address">
-                        <div class="map-col">
+                            <div class="map-col">
+                                <div class="address-col">
+                                <p>
+                                    <strong>Address: </strong> <?php  echo $venue['address'];?>. <a class="directions" href="https://www.google.com/maps?saddr=My+Location&daddr=<?php echo $venue['address']; ?>" target="_blank" aria-label="Get Directions via Google Maps - opens in a new window">Get Directions via Google Maps</a>
+                                </p>
+                        
+                            </div>
                             <div id="map" class="acf-map" data-zoom="16">
                                             <div class="marker" data-lat="<?php echo esc_attr($venue['lat']); ?>" data-lng="<?php echo esc_attr($venue['lng']); ?>">
                                             
@@ -242,12 +248,7 @@ function custom_content() {
                         
                             </div>
                         
-                        <div class="address-col">
-                            <p>
-                                <strong>Address: </strong> <?php  echo $venue['address'];?>. <a class="directions" href="https://www.google.com/maps?saddr=My+Location&daddr=<?php echo $venue['address']; ?>" target="_blank" aria-label="Get Directions via Google Maps - opens in a new window">Get Directions via Google Maps</a>
-                            </p>
-                    
-                        </div>
+                        
                     </div>
                 </div>
                    
