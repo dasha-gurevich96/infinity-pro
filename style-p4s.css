@@ -822,6 +822,11 @@ nav .wrap {
     gap: 22px;
 }
 
+.inner-page .filters-box h2 {
+    font-size: 31px;
+    margin-bottom: 25px;
+}
+
 
 .search-filter-field {
     display: flex;
@@ -2867,4 +2872,10 @@ a.custom-button.learn-more{
 
 a.custom-button.learn-more img {
 	width: 15px !important;
+}
+
+.search-filter-query-posts.events-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
