@@ -2755,3 +2755,16 @@ img.logo.object-fit-contain {
     transform: translate(-50%, -50%);
 	width: 256px;
 }
+
+.funders-cards .detail {
+    position: absolute;
+    top: 37%;
+    left: -41%;
+    width: 614px;
+    height: 252px;
+    background-size: 634px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-image: url(/wp-content/uploads/2025/07/diamond-purole.svg);
+    z-index: 0;
+}
