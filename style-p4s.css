@@ -2718,7 +2718,7 @@ img.logo.object-fit-contain {
 /*Funders*/
 
 .funders-cards {
-    margin: auto;
+	margin-top: 40px;
 }
 
 .funders-cards  .slick-slide > div {
