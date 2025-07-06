@@ -2945,3 +2945,7 @@ a.custom-button.learn-more img {
     flex-direction: column;
     gap: 20px;
 }
+
+.eventinfo h1 {
+	margin-top: 20px;
+}
