@@ -2715,6 +2715,12 @@ img.logo.object-fit-contain {
 }
 
 /*Funders*/
+
+.funders-cards {
+    margin: auto;
+    width: 87%;
+}
+
 .card.full-card {
 	display: inline-grid !important;
 	grid-template-columns: 30% 65%;
@@ -2725,4 +2731,15 @@ img.logo.object-fit-contain {
 .card.full-card .logo-diamond-container {
 	width: 100%;
 	margin: 0;
+}
+	
+.funders-cards h4 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.funders-cards .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
