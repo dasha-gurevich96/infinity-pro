@@ -37,7 +37,7 @@ if ($query->have_posts()) {
 				$cleaned_description = preg_replace('/<h[1-6][^>]*>.*?<\/h[1-6]>/is', '', $event_description);
 				$plain_text = strip_tags($cleaned_description);
 				$words = explode(' ', $plain_text);
-				$summary = implode(' ', array_slice($words, 0, 30));
+				$summary = implode(' ', array_slice($words, 0, 20));
 			} elseif(!empty($short_description)) {
 				$cleaned_description = preg_replace('/<h[1-6][^>]*>.*?<\/h[1-6]>/is', '', $short_description);
 				$plain_text = strip_tags($cleaned_description);
