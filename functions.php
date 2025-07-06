@@ -829,7 +829,9 @@ function update_date_number_on_init_events() {
                     update_field('date_number', $nearest_date, $post_id);
 
                     $formattedDatesString = implode('; ', array_filter($formattedDates));
-                    $formattedDatesString1 = implode('; ', array_filter($formattedDates1));
+                    $formattedDatesString1 = '<ul>' . implode('', array_map(function($date) {
+    return '<li>' . esc_html($date) . '</li>';
+}, array_filter($formattedDates1))) . '</ul>';
                     update_field('date_text', $formattedDatesString, $post_id);
                     update_field('date_text_with_time', $formattedDatesString1, $post_id);
                 } else {
