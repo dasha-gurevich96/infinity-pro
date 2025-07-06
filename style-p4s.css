@@ -2723,6 +2723,7 @@ img.logo.object-fit-contain {
 
 .funders-cards  .slick-slide > div {
 	display: flex;
+	padding: 13px;
 }
 
 .card.full-card {
