@@ -810,8 +810,23 @@ nav .wrap {
 	}
 }
 
+/**FILTERS
+====================*/
 
+.filters-box {
+    background-color: #ffffff91;
+    border-radius: 15px;
+    padding: 20px;
+}
 
+.filters {
+    display: flex;
+}
+
+.search-filter-field {
+    display: flex;
+    flex-direction: column;
+}
 
 /*** SLICK SLIDER
 =======================*/
