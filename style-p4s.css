@@ -2560,7 +2560,7 @@ img.arrow.icon {
     width: 13px;
 }
 
-.bio-button[aria-expanded="true"] {
+.bio-button[aria-expanded="true"] img {
 	transform: rotate(90deg);
 }
 
