@@ -2879,3 +2879,10 @@ a.custom-button.learn-more img {
     flex-direction: column;
     gap: 30px;
 }
+
+
+/*** SINGLE EVENT
+=====================*/
+.event .entry-content {
+    background-color: #38b891;
+}
