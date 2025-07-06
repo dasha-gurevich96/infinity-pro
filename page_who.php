@@ -122,6 +122,43 @@ function custom_content() {
                     </div>
                 </div>
             <?php } ?>
+            <?php
+            $title_partners = get_field('title_partners');
+            if(have_rows('supporting_partners')) {
+                 if (!empty($title_partners)) { ?>
+                        <h3 class="text-center title-w"><?php echo $title_partners; ?></h3>
+                    <?php }
+                    ?><div class="logos-cards">
+                        <?php while(have_rows('supporting_partners')) {
+                            the_row();
+                            $logo = get_sub_field('logo');
+                            $organisation_name = get_sub_field('organisation_name');
+                            $link = get_sub_field('link');
+                            if(!empty($logo) && !empty($organisation_name)) {
+                                ?><div class="logo-card">
+                                        <img class="logo object-fit-contain" src="" alt="" />
+                                        <h3>
+                                        <?php if(!empty($link)) {
+                                          ?><a href="<?php echo $link;?>">
+                                          <?php echo $organisation_name;?>
+                                          </a>
+                                          <?php  
+                                        } else {
+                                          ?> <?php echo $organisation_name;?>
+                                          <?php  
+                                        }
+                                        ?>
+                                        </h3>
+                                    </div>
+                                <?php
+                            }
+                        }
+                        ?>
+                        </div>
+                    <?php
+            }
+
+            ?>
         </div>
     </div>
     <?php
