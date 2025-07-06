@@ -2549,7 +2549,6 @@ img.theme-img {
 }
 
 
-
 .bio-button {
 	gap: 10px;
 	align-items: center;
@@ -2557,7 +2556,12 @@ img.theme-img {
 }
 
 img.arrow.icon {
+	transition: transform 0.2s;
     width: 13px;
+}
+
+.bio-button[aria-expanded="true"] {
+	transform: rotate(90deg);
 }
 
 .bio-card:has(.bio-button[aria-expanded="true"]) {
