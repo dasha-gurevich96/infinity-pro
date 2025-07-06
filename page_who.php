@@ -53,6 +53,10 @@ function custom_content() {
                     <?php } ?>
 
                     <div class="working-group-cards">
+                        <p class="screen-reader-text">
+                            Below is the slider with the working group members.
+                            ON desktop devicies each slide has information about two working group members. On mobueles each slide has information about one working group member.
+                    </p>
                         <?php while (have_rows('working_group_cards')) {
                             the_row();
                             $name = get_sub_field('name');
