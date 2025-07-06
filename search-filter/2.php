@@ -21,48 +21,64 @@ if ( ! isset( $query ) ) {
 if ($query->have_posts()) {
 ?>
 	<!-- Keep the `.search-filter-query-posts` class to support the load more button -->
-	<div class="search-filter-query-posts resources-cards">
+	<div class="search-filter-query-posts events-cards ">
 		<?php
 		while ($query->have_posts()) {
 			$query->the_post();
+			$date_text = get_field('date_text');
+			$event_description = get_field('event_description');
+			$organiser_logo = get_field('organiser_logo');
+			$venue = get_field('venue');
+			$post_id = get_the_ID(); // or use a specific post ID
 
-			$title = get_field('title_for_the_home_page') ? get_field('title_for_the_home_page') : get_the_title();
-            
-            // Get external link (ACF field)
-            $external_link = get_field('external_link');
-            
-            // Use external link if set, otherwise use the permalink
-            $link = $external_link ? $external_link : get_permalink();
-            
-            // Get excerpt (limit to 30 words)
-            $excerpt = wp_trim_words(get_the_excerpt(), 18, '...');
-			$terms = get_the_terms(get_the_ID(), 'resource-topics');
-            
-            ?>
-            <div class="resource-card">
-				<div>
-                <h3><a href="<?php echo esc_url($link); ?>"><?php echo esc_html($title); ?></a></h3>
-                <p><?php echo esc_html($excerpt); ?></p>
-				</div>
-                <?php if (!empty($terms) && !is_wp_error($terms)) { ?>
-                    <div class="tags">
-                        <?php foreach ($terms as $term) { ?>
-						<!--<div class="term-container">-->
-							<a class="term" href="<?php echo esc_url('/resources/?_resource-topics=' . $term->slug); ?>">
-                                <?php if($term->name === 'Beyond diversity, equity and inclusion') {
-									echo 'Beyond DEI';
-								} else {
-									echo $term->name;
+				// Get featured image ID
+				$thumbnail_id = get_post_thumbnail_id($post_id);
+
+				// Get image URL
+				$image_url = wp_get_attachment_url($thumbnail_id);
+
+				// Get image alt text
+				$image_alt = get_post_meta($thumbnail_id, '_wp_attachment_image_alt', true);
+
+			if(!empty($date_text) && !empty($image_url)) {
+				?><div class="card full-card grid-card clickable-card">
+						<div class="img-col">
+							<img src="<?php echo $image_url;?>" alt="<?php echo $image_alt;?>" /><
+						</div>
+						<div class="text-col">
+							<h3>
+								<?php the_title();?>
+							</h3>
+							<?php if(!empty($organiser_logo)) {
+								?><img class="logo org object-fit-contain" src="<?php echo $organiser_logo['url'];?>" alt="<?php echo $organiser_logo['alt'];?>" /><?php
+							}
+							?>
+							<div class="event-details">
+								<?php if(!empty($venue)) {
+									?>
+									<p class="text-icon d-flex gap-3">
+										<span><?php echo $venue['name'];?></span>
+									</p>
+									<?php
 								}
-														 ?>
-                            </a>
-						<!--</div>-->
-                            
-                        <?php } ?>
-                    </div>
-                <?php } ?>
-            </div>
-        <?php
+								?>
+								<?php if(!empty($date_text)) {
+									?>
+									<p class="text-icon d-flex gap-3">
+										<span><?php echo $date_text;?></span>
+									</p>
+									<?php
+								}
+								?>
+						</div>
+						</div>
+				  </dv>
+					<?php
+			}
+
+
+
+
         }
         ?>
 	</div>
