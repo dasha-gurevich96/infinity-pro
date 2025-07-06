@@ -2934,5 +2934,5 @@ a.custom-button.learn-more img {
 .venue-address {
     display: flex;
     flex-direction: column;
-    gap: 28px;
+    gap: 20px;
 }
