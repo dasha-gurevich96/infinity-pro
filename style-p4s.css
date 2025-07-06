@@ -2559,7 +2559,7 @@ img.arrow.icon {
 }
 
 .bio-card:has(.bio-button[aria-expanded="true"]) {
-	width: 57%;
+	width: 55%;
 }
 
 .logo-diamond-container {
@@ -2601,6 +2601,5 @@ img.arrow.icon {
     margin-top: auto;
     width: 22px;
     background-color: var(--purple);
-    margin-right: 25px;
-    margin-left: 20px;
+    margin-right: 23px;
 }
