@@ -5,7 +5,7 @@
  *
  * This file adds the main page template to the Infinity Pro Theme.
  * 
- * Template Name: Page woth filters
+ * Template Name: Page with filters
  *
  *
  * @package Infinity
