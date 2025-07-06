@@ -2678,8 +2678,13 @@ img.arrow.icon {
     margin-right: 23px;
 }
 
+.logos-cards {
+	padding: 10px;
+}
+
 .logo-card {
     background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.15) 6.95px 5.95px 9.6px;
     border-radius: 15px;
     display: inline-flex !important;
     align-items: center;
