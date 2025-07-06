@@ -73,9 +73,12 @@ function custom_content() {
     }
 
     if(!empty($results)) {
-        ?><div class="results">
+        ?><div class="full-container"><div class="custom-container">
+            <div class="results">
             <?php echo do_shortcode($results);?>
             </div>
+    </div>
+    </div>
             <?php
     }
 
