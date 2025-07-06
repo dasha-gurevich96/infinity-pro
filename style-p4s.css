@@ -816,7 +816,10 @@ nav .wrap {
 .filters-box {
     background-color: #ffffff91;
     border-radius: 15px;
+    display: flex;
     padding: 20px;
+    flex-direction: column;
+    gap: 22px;
 }
 
 
@@ -854,6 +857,19 @@ button.search-filter-input-button.search-filter-field__input {
 
 .search-filter-field--control-type-reset button.search-filter-input-button.search-filter-field__input {
 	background-color: var(--dark-green);
+}
+
+button.search-filter-input-button {
+    background-color: var(--yellow);
+	border-radius: 7px;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.search-filter-icon--destructive .search-filter-icon__svg {
+    fill: #000000;
+    color: #000000;
 }
 
 /*** SLICK SLIDER
