@@ -2854,3 +2854,14 @@ p.text-icon .icon {
 	height: auto;
     width: 166px;
 }
+
+.card.full-card.grid-card .text-col {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card.full-card.grid-card .text-col h3 {
+	margin: 0 !important;
+	font-weight: 700 !important;
+}
