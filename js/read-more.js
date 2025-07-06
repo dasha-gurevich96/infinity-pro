@@ -22,7 +22,7 @@ jQuery(function($) {
         $('#' + contentId).show();
         card.addClass('full');
       } else {
-        $(this).find('span.text').text('Read more');
+        $(this).find('span.text').text('Read bio');
         card.removeClass('full');
         $('#' + contentId).hide();
         $('#' + contentId).blur();
