@@ -29,6 +29,7 @@ if ($query->have_posts()) {
 			$event_description = get_field('event_description');
 			$short_description = get_field('short_description');
 			$description = get_field('description');
+			$intro = get_field('intro');
 
 			if(!empty($event_description)) {
 				$cleaned_description = preg_replace('/<h[1-6][^>]*>.*?<\/h[1-6]>/is', '', $event_description);
@@ -45,7 +46,12 @@ if ($query->have_posts()) {
 				$plain_text = strip_tags($cleaned_description);
 				$words = explode(' ', $plain_text);
 				$summary = implode(' ', array_slice($words, 0, 30));
-			} else {
+			} elseif(!empty($intro)) {
+				$cleaned_description = preg_replace('/<h[1-6][^>]*>.*?<\/h[1-6]>/is', '', $intro);
+				$plain_text = strip_tags($cleaned_description);
+				$words = explode(' ', $plain_text);
+				$summary = implode(' ', array_slice($words, 0, 30));
+			}  else {
 				$summary = '';
 			}
 			
