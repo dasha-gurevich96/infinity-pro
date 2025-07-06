@@ -2726,7 +2726,8 @@ img.logo.object-fit-contain {
 	justify-content: space-between;
 	overflow: hidden;
 	padding: 40px 20px;
-    width: 90%;
+    margin: auto !important;
+    width: 90% !important;
 }
 
 .card.full-card .logo-diamond-container {
