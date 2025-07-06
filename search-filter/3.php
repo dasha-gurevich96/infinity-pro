@@ -30,6 +30,7 @@ if ($query->have_posts()) {
 			$short_description = get_field('short_description');
 			$description = get_field('description');
 			$intro = get_field('intro');
+			$image_resources = get_field('image_resources');
 
 			if(!empty($event_description)) {
 				$cleaned_description = preg_replace('/<h[1-6][^>]*>.*?<\/h[1-6]>/is', '', $event_description);
@@ -71,7 +72,12 @@ if ($query->have_posts()) {
 		
 				?><div class="card full-card grid-card clickable-card">
 						<div class="img-col">
-							<img src="<?php echo $image_url;?>" alt="<?php echo $image_alt;?>" />
+							<?php if(!empty($image_url)) {
+									?> <img src="<?php echo $image_url;?>" alt="<?php echo $image_alt;?>" /><?php
+							} else {
+								?> <img src="<?php echo $image_resources['url'];?>" alt="<?php echo $image_resources['alt'];?>" /><?php
+							}
+							?>
 						</div>
 						<div class="text-col">
 							<h3>
