@@ -195,6 +195,7 @@ function custom_content() {
                                         }
                                         ?>
                                     </div>
+                                    <div class="detail"></div>
                                     </div>
                                 <?php
                             }
