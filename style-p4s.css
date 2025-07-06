@@ -2592,14 +2592,14 @@ img.arrow.icon {
 .container-bio-card .column-1 {
 	display: flex;
     flex-direction: column;
-	gap: 22px;
+	gap: 10px;
 }
 
 .text > div {
 	display: flex;
 	flex-direction: column;
-	gap: 22px;
-	margin-bottom: 22px;
+	gap: 10px;
+	margin-bottom: 10px;
 }
 
 .container-bio-card .column-2 {
