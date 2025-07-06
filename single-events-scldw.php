@@ -149,8 +149,9 @@ function custom_content() {
             <?php
         }
         ?>
+         <h1><?php the_title();?></h1>
         <div class="logo-text-container">
-            <h1><?php the_title();?></h1>
+           
             <div class="text">
              
              <?php if(!empty($venue)) {
