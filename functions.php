@@ -814,9 +814,9 @@ function update_date_number_on_init_events() {
                         }
 
                         if ($start_date_str && $end_date_str && $start_date !== $end_date) {
-                            $formattedDates1[] = "{$start_date_str} - {$end_date_str}" . (!empty($time_range_2) ? " {$time_range_2}" : '');
+                            $formattedDates1[] = "{$start_date_str} - {$end_date_str}" . (!empty($time_range_2) ? ": {$time_range_2}" : '');
                         } elseif ($start_date_str) {
-                            $formattedDates1[] = "{$start_date_str}" . (!empty($time_range_2) ? " {$time_range_2}" : '');
+                            $formattedDates1[] = "{$start_date_str}" . (!empty($time_range_2) ? ": {$time_range_2}" : '');
                         }
                     }
                 }
