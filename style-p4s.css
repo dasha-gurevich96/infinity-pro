@@ -2246,6 +2246,7 @@ img.story-img {
 
 .inner-page.post .entry-content {
     margin-top: 0 !important;
+	padding-top: 0 !important;
 }
 
 .smaller-width {
