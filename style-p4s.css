@@ -2873,3 +2873,7 @@ a.custom-button.learn-more{
     gap: 20px;
     width: fit-content;
 }
+
+a.custom-button.learn-more img {
+	width: 20px;
+}
