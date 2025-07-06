@@ -224,6 +224,27 @@ function custom_content() {
                 <?php
             }
             ?>
+
+            <?php if(!empty($venue)) {
+                ?><div class="event-details" id="venue">
+                    <h2>Venue</h2>
+                    <p class="mb-4">
+			<strong>Address: </strong> <?php  echo $venue['address'];?>. <a class="directions" href="https://www.google.com/maps?saddr=My+Location&daddr=<?php echo $venue['address']; ?>" target="_blank" aria-label="Get Directions via Google Maps - opens in a new window">Get Directions via Google Maps</a>
+		</p>
+        <div id="map" class="acf-map" data-zoom="16">
+										<div class="marker" data-lat="<?php echo esc_attr($venue['lat']); ?>" data-lng="<?php echo esc_attr($venue['lng']); ?>">
+										
+										<p>
+										<?php  echo $venue['address'];?>
+										<a class="directions" href="https://www.google.com/maps?saddr=My+Location&daddr=<?php echo $venue['address']; ?>" target="_blank" aria-label="Get Directions (Google Maps opens in a new window)">Get Directions</a>
+												</p>
+										</div>
+									</div>
+                    
+                </div>
+                <?php
+            }
+            ?>
             
         </div>
        
