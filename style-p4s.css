@@ -2713,3 +2713,16 @@ img.logo.object-fit-contain {
 	color: black;
 	font-weight: 600 !important;
 }
+
+/*Funders*/
+.card.full-card {
+	display: inline-grid !important;
+	grid-template-columns: 30% 65%;
+	justify-content: space-between;
+    width: 100%;
+}
+
+.card.full-card .logo-diamond-container {
+	width: 100%;
+	margin: 0;
+}
