@@ -88,6 +88,8 @@ if ($query->have_posts()) {
 								?><img class="logo org object-fit-contain" src="<?php echo $organiser_logo['url'];?>" alt="<?php echo $organiser_logo['alt'];?>" /><?php
 							}
 							?>
+							<?php if(!empty($venue) || !empty($date_text)) {
+								?>
 							<div class="event-details">
 								<?php if(!empty($venue)) {
 									?>
@@ -107,7 +109,11 @@ if ($query->have_posts()) {
 									<?php
 								}
 								?>
-							</div>
+								</div>
+								<?php
+							}
+							
+							?>
 							<?php if(!empty($summary)) {
 								?><div class="summary">
 									<p><?php echo $summary;?></p>
