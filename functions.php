@@ -801,9 +801,9 @@ function update_date_number_on_init_events() {
                         $end_date_str   = $end_date_obj ? $end_date_obj->format('l, d F Y') : '';
 
                         $time_range = '';
-                        if (!empty($start_time) || !empty($end_time)) {
+                        /*if (!empty($start_time) || !empty($end_time)) {
                             $time_range = trim($start_time . ' - ' . $end_time);
-                        }
+                        }*/
 
                         if ($start_date_str && $end_date_str && $start_date !== $end_date) {
                             $formattedDates[] = "{$start_date_str} - {$end_date_str}" . (!empty($time_range) ? " {$time_range}" : '');
