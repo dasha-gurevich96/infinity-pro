@@ -2535,9 +2535,13 @@ img.theme-img {
 
 
 .detail {
-	position: absolute;
-    background-size: 600px;
-    background-position: 100% -181px;
+    position: absolute;
+    top: -31%;
+    left: 0%;
+    width: 346px;
+    height: 252px;
+    background-size: 634px;
+    background-position: right bottom;
     background-repeat: no-repeat;
     background-image: url(/wp-content/uploads/2025/07/diamond-purole.svg);
 }
@@ -2585,7 +2589,7 @@ img.arrow.icon {
 
 .container-bio-card .column-2 {
 	display: flex;
-	padding-left: 20px;
+	padding-left: 0px;
 }
 
 .container-bio-card .column-2 p {
