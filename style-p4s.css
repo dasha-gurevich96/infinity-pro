@@ -2796,6 +2796,12 @@ img.logo.object-fit-contain {
     position: relative;
 }
 
+.filters-box {
+    background-color: #ffffff91;
+    border-radius: 15px;
+    padding: 20px;
+}
+
 .pattern-right {
     background-image: url(/wp-content/uploads/2025/07/side-pattern_no-backgroun.svg);
     background-size: 100%;
