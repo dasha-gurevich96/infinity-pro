@@ -2894,6 +2894,11 @@ a.custom-button.learn-more img {
     overflow: hidden;
 }
 
+.event-banner img.banner-img {
+	height: 100%;
+	width: 100%;
+}
+
 .logo-text-container {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
