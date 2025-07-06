@@ -935,14 +935,6 @@ nav .wrap {
   color: black !important;
 }
 
-.slick-dots li button .slick-dot-icon {
-    color: #591144 !important;
-    opacity: 1;
-}
-
-.slick-dots li.slick-active button .slick-dot-icon {
-    color: #076442 !important;
-}
 
 /*Custom slick slider*/
 
@@ -978,8 +970,6 @@ button.slick-prev.slick-arrow:focus {
 	background-position: center;
     background-repeat: no-repeat;
 }
-
-
 
 
 .slick-next .slick-next-icon:before {
@@ -2539,6 +2529,15 @@ img.theme-img {
 =====================*/
 .who-page article {
 	background-color: #cee9e0;
+}
+
+.who-page .slick-dots li button .slick-dot-icon {
+    color: #591144 !important;
+    opacity: 1;
+}
+
+.who-page .slick-dots li.slick-active button .slick-dot-icon {
+    color: #076442 !important;
 }
 
 .who-page .site-container {
