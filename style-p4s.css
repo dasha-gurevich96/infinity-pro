@@ -2573,6 +2573,7 @@ h2.text-center.thanks-title {
 }
 .bio-row {
 	gap: 20px;
+	padding: 20px 0;
 }
 
 .bio-card {
