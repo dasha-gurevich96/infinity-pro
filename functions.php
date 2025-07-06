@@ -755,7 +755,15 @@ function custom_genesis_breadcrumbs() {
     <?php
 }
 
-/** DATE NUMBER EVENTS */
+/*** GOOGLE MAPS API
+=======================*/
+function my_acf_init() {
+    acf_update_setting('google_api_key', 'AIzaSyClkhXlN5K5UPahjImKxAg59rKKP5GoCDo');
+}
+add_action('acf/init', 'my_acf_init');
+
+/* DATE NUMBER EVENTS 
+===========================*/
 
 function update_date_number_on_init_events() {
     $args = [
