@@ -872,6 +872,11 @@ button.search-filter-input-button {
     color: #000000;
 }
 
+/*selected filters title*/
+div#search-filter-label-3 {
+    margin-bottom: 16px;
+}
+
 /*** SLICK SLIDER
 =======================*/
 .slick-track {
