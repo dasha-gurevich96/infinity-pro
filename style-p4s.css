@@ -2832,4 +2832,5 @@ img.arrow.arrow-more {
 
 .card.full-card.grid-card .img-col img {
 	height: 100%;
+	object-fit: cover;
 }
