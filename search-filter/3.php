@@ -31,6 +31,7 @@ if ($query->have_posts()) {
 			$description = get_field('description');
 			$intro = get_field('intro');
 			$image_resources = get_field('image_resources');
+			$external_link = get_field('external_link');
 
 			if(!empty($event_description)) {
 				$cleaned_description = preg_replace('/<h[1-6][^>]*>.*?<\/h[1-6]>/is', '', $event_description);
