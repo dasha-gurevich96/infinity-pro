@@ -2912,3 +2912,16 @@ a.custom-button.learn-more img {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
+
+.eventinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 30px;
+}
+
+.inner-page .eventinfo  h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
