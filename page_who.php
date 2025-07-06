@@ -124,7 +124,6 @@ function custom_content() {
             <?php } ?>
             <?php
             $title_partners = get_field('title_partners');
-            echo 'test';
             if(have_rows('supporting_partners')) {
                  if (!empty($title_partners)) { ?>
                         <h3 class="text-center title-w"><?php echo $title_partners; ?></h3>
@@ -135,9 +134,15 @@ function custom_content() {
                             $logo = get_sub_field('logo');
                             $organisation_name = get_sub_field('organisation_name');
                             $link = get_sub_field('link');
+                            $class = '';
+                            if(!empty($link)) {
+                                $class="clickable-card";
+                            } else {
+                                $class='';
+                            }
                             if(!empty($logo) && !empty($organisation_name)) {
-                                ?><div class="logo-card">
-                                        <img class="logo object-fit-contain" src="" alt="" />
+                                ?><div class="logo-card <?php echo $class;?>">
+                                        <img class="logo object-fit-contain" src="<?php echo  $logo['url'];?>" alt="<?php echo  $logo['alt'];?>" />
                                         <h3>
                                         <?php if(!empty($link)) {
                                           ?><a href="<?php echo $link;?>">
