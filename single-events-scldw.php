@@ -177,6 +177,14 @@ function custom_content() {
                 <h2>Event times</h2>
                 <?php echo $date_text_with_time;?>
             </div>
+            <?php if(!empty($event_description)) {
+                ?><div class="event-details">
+                    <h2>About</h2>
+                    <?php echo $event_description;?>
+                </div>
+                <?php
+            }
+            ?>
         </div>
        
 </div>
