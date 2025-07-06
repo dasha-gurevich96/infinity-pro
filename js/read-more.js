@@ -12,7 +12,7 @@ jQuery(function($) {
       
       $(this).attr('aria-expanded', !expanded);
       var newExpanded = !expanded;
-      $('#' + contentId).attr('aria-hidden', expanded);
+     
       
       $('#' + contentId).removeClass('d-none');
       $('#' + contentId).attr('tabindex', -1).focus();
