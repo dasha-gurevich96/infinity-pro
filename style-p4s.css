@@ -2729,7 +2729,7 @@ img.logo.object-fit-contain {
 	grid-template-columns: 30% 60%;
 	justify-content: space-between;
 	overflow: hidden;
-	padding: 40px 20px;
+	padding: 43px 20px;
     margin: auto !important;
     width: 80% !important;
 }
