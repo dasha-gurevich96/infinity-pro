@@ -782,6 +782,7 @@ function update_date_number_on_init_events() {
             if (have_rows('dates', $post_id)) {
                 $dates = [];
                 $formattedDates = [];
+                $formattedDates1 = [];
 
                 while (have_rows('dates', $post_id)) {
                     the_row();
@@ -801,14 +802,21 @@ function update_date_number_on_init_events() {
                         $end_date_str   = $end_date_obj ? $end_date_obj->format('l jS F Y ') : '';
 
                         $time_range = '';
-                        /*if (!empty($start_time) || !empty($end_time)) {
-                            $time_range = trim($start_time . ' - ' . $end_time);
-                        }*/
+                        $time_range_2 = '';
+                        if (!empty($start_time) || !empty($end_time)) {
+                            $time_range_2 = trim($start_time . ' - ' . $end_time);
+                        }
 
                         if ($start_date_str && $end_date_str && $start_date !== $end_date) {
                             $formattedDates[] = "{$start_date_str} - {$end_date_str}" . (!empty($time_range) ? " {$time_range}" : '');
                         } elseif ($start_date_str) {
                             $formattedDates[] = "{$start_date_str}" . (!empty($time_range) ? " {$time_range}" : '');
+                        }
+
+                        if ($start_date_str && $end_date_str && $start_date !== $end_date) {
+                            $formattedDates1[] = "{$start_date_str} - {$end_date_str}" . (!empty($time_range_2) ? " {$time_range_2}" : '');
+                        } elseif ($start_date_str) {
+                            $formattedDates1[] = "{$start_date_str}" . (!empty($time_range_2) ? " {$time_range_2}" : '');
                         }
                     }
                 }
@@ -821,7 +829,9 @@ function update_date_number_on_init_events() {
                     update_field('date_number', $nearest_date, $post_id);
 
                     $formattedDatesString = implode('; ', array_filter($formattedDates));
+                    $formattedDatesString1 = implode('; ', array_filter($formattedDates1));
                     update_field('date_text', $formattedDatesString, $post_id);
+                    update_field('date_text_with_time', $formattedDatesString1, $post_id);
                 } else {
                     update_field('date_number', '', $post_id);
                     update_field('date_text', '', $post_id);
