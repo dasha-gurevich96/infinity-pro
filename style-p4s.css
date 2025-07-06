@@ -2527,10 +2527,10 @@ img.theme-img {
 }
 
 .bio-card {
-    background-color: white;
-    border-radius: 25px;
-	padding: 30px 20px;
-	width: 35%;
+    background-size: 166%;
+    background-position: 102% -784%;
+    background-repeat: no-repeat;
+    background-image: url(/wp-content/uploads/2025/07/diamond-purole.svg);
 }
 
 .bio-button {
