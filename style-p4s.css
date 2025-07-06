@@ -2500,6 +2500,10 @@ img.theme-img {
     background-image: url(/wp-content/uploads/2025/06/Artboard-68.svg);
 }
 
+.theme-page .slick-prev .slick-prev-icon:before {
+	background-image: url(/wp-content/uploads/2025/06/Slider_right.svg);
+}
+
 .theme-page .icon {
     position: absolute;
     width: 84px !important;
