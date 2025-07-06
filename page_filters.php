@@ -39,6 +39,7 @@ function custom_content() {
     $filters = get_field('filters');
     $submit_buttons = get_field('submit_buttons');
     $results = get_field('results_shortcode');
+    $selected_fields = get_field('selected_fields');
 
     if(!empty($filters) && !empty($submit_buttons)) {
         ?><div class="filters-box">
@@ -52,6 +53,13 @@ function custom_content() {
             <div class="buttons">
                 <?php echo do_shortcode($submit_buttons);?>
             </div>
+            <?php if(!empty($selected_fields)) {
+                ?><div class="selected-fields">
+                    <?php echo do_shortcode($selected_fields);?>
+                </div>
+                <?php
+            }
+            ?>
   
             </div>
             <?php
