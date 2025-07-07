@@ -2905,14 +2905,19 @@ a.custom-button.learn-more img {
 	padding-bottom: 62px;
 }
 
-
+.inner-page.event .entry-content {
+	padding-top: 115px !important;
+}
 
 .custom-container.event-container {
     background-color: white;
     border-radius: 15px;
-	margin-top: 106px;
     padding: 25px;
     width: 951px;
+}
+
+img.arrow.back {
+    width: 30px;
 }
 
 .event-banner {
