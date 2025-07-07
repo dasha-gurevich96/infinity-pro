@@ -89,7 +89,7 @@ if(!empty($text_above_cards) || have_rows('cards')) {
     <?php
 }
 ?><div class="full-container">
-    <div class="custom-container">
+    <div class="custom-container text-above-form mt-5 mb-5">
         <?php echo $text_above_form;?>
 </div>
     <div class="custom-container form-container">
