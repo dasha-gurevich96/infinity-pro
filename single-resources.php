@@ -36,6 +36,10 @@ function banner() {
 add_action( 'genesis_entry_header', 'banner');
 
 function custom_content() {
+    $post_id = get_the_ID(); // or use a specific post ID
+	$thumbnail_id = get_post_thumbnail_id($post_id);
+	$image_url = wp_get_attachment_url($thumbnail_id);
+	$image_alt = get_post_meta($thumbnail_id, '_wp_attachment_image_alt', true);
    
 ?>
     <div class="pattern-right">
