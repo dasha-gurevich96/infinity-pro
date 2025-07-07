@@ -253,10 +253,10 @@ p {
     width: 100%;
 }
 
-
-h1.white-shape {
-    margin-bottom: 30px;
+.custom-container.form-container h2 {
+	text-align: center;
 }
+
 
 .ff-el-group.ff-el-form-left {
     display: flex;
