@@ -1063,7 +1063,7 @@ div#front-page-1 .hero .diamonds {
 }
 
 .hero {
-    background-color: var(--yellow);
+    background-color: #f1b626;
     background-repeat: no-repeat;
     background-image: url(/wp-content/uploads/2025/06/Left-Diamonds.svg);
 	background-position: -7% 0;
