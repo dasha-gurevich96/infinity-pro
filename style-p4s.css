@@ -2936,7 +2936,7 @@ a.back-to:focus {
 
 a.back-to:hover img,
 a.back-to:focus img {
-	transform: translateX(5px);
+	transform: translateX(-5px);
 }
 
 .event-banner {
