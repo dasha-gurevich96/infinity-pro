@@ -9,7 +9,7 @@ if(have_rows('cards')) {
             $link = get_sub_field('link');
 
             if(!empty($image) && !empty($title) && !empty($link)) {
-                ?><div class="card importance-card resource-card">
+                ?><div class="card importance-card resource-card clickable-card">
                     <div>
                     <div class="graphics">
                         <img class="card-img" src="<?php echo $image['url'];?>" alt="<?php echo $image['alt'];?>""/>
