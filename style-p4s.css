@@ -3049,6 +3049,7 @@ a.back-to:focus img {
 
 .card.importance-card.resource-card {
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border: none;
 }
 
 @media (min-width: 1001px) {
