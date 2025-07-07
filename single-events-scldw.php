@@ -141,7 +141,11 @@ function custom_content() {
     <div class="pattern-left">
     </div>
     <div class="custom-container event-container">
-        <a href="/events">Go back to events</a>
+        <a href="/events" class="back-to d-flex align-items-center gap-3">
+            <img src="/wp-content/uploads/2025/06/Arrow-left.svg" alt="" class="arrow back" />
+            <span>Go back to events</span>
+            
+        </a>
         <?php if(!empty($image_url)) {
             ?><div class="event-banner">
                 <img class="banner-img object-fit-cover" src="<?php echo $image_url;?>" alt="<?php echo $image_alt;?>" />
