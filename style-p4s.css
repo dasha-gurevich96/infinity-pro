@@ -3051,6 +3051,10 @@ a.back-to:focus img {
 	height: 173px;
 }
 
+.resource .entry-content {
+    background-color: var(--blue);
+}
+
 .cards.cards-extra h3 {
 	font-size: 23px;
 	margin-top: 10px;
