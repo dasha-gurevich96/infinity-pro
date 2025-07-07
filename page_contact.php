@@ -35,6 +35,7 @@ add_action( 'genesis_entry_content', 'custom_content' );
 
 function custom_content() {
     $text = get_field('text');
+    $text_above_cards = get_sub_field("text_above_cards");
 
     if(!empty($text)) {
         ?><div class="full-container">
@@ -44,7 +45,39 @@ function custom_content() {
         </div>
     <?php
     }
-    
+if(!empty($text_above_cards) || have_rows('cards')) {
+    ?><div class="full-container">
+        <div class="custom-container">
+            <?php if(!$text_above_cards) {
+                ?><div class="text-cards">
+                    <?php echo $text_above_cards;?>
+                    <?php
+            }
+     
+    if(have_rows('contact_cards')) {
+        ?><div class="contact cards cards">
+            <?php while(have_rows('contact_cards')) {
+                the_row();
+                $icon = get_sub_field('icon');
+                $text = get_sub_field('text');
+                if(!empty($icon) && !empty($text)) {
+                    ?><div class="card contact-card">
+                        <img src="<?php echo $icon['url'];?>" alt="<?php echo $icon['alt'];?>" />
+                        <div>
+                            <?php echo $text;?>
+                </div>
+                        </div>
+                    <?php
+                }
+            }
+            ?>
+        </div>
+        <?php
+    }
+    ?></div>
+    </div>
+    <?php
+}
 
 }
 
