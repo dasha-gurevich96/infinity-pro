@@ -36,6 +36,7 @@ add_action( 'genesis_entry_content', 'custom_content' );
 function custom_content() {
     $text = get_field('text');
     $text_above_cards = get_field("text_above_cards");
+    $text_above_form = get_field("text_above_form");
 
 
     if(have_rows('components')) {
@@ -88,6 +89,9 @@ if(!empty($text_above_cards) || have_rows('cards')) {
     <?php
 }
 ?><div class="full-container">
+    <div class="custom-container">
+        <?php echo $text_above_form;?>
+</div>
     <div class="custom-container form-container">
         <h2>Contact form</h2>
         <?php echo do_shortcode('[fluentform id="1"]');?>
