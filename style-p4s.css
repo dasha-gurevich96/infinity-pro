@@ -1083,6 +1083,12 @@ div#front-page-1 .hero .diamonds {
 	height: 100%;
 }
 
+div#video-container {
+    position: relative;
+    z-index: 9;
+    height: 100%;
+}
+
 .placeholder-container > img {
 	height: 100%;
 	object-fit: cover;
