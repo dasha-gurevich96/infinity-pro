@@ -45,6 +45,17 @@ function custom_content() {
         </div>
     <?php
     }
+    if(have_rows('components')) {
+		?><
+	<?php
+		while(have_rows('components')) {
+			the_row();
+			if (get_row_layout() === 'collapsibles') {
+				get_template_part('/components/collapsibles');
+			}
+		}
+	?><?php
+	}
 if(!empty($text_above_cards) || have_rows('cards')) {
     ?><div class="full-container">
         <div class="custom-container">
