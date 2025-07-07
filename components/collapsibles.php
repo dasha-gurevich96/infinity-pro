@@ -1,6 +1,6 @@
 <?php
 
-$text_above = get_sub_field('text_above_collapsibles');
+$text_above = get_sub_field('text_above');
 $background_colour = get_sub_field('background_colour');
 
 
