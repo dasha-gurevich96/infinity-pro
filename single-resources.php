@@ -1,0 +1,76 @@
+<?php
+/**
+ * Infinity Pro.
+ *
+ * This file adds the single post template to the Infinity Pro Theme.
+ * 
+ * Template Name: Single Resource
+ *
+ *
+ * @package Infinity
+ * @author  StudioPress
+ * @license GPL-2.0+
+ * @link    http://my.studiopress.com/themes/infinity/
+ */
+
+
+ remove_action('genesis_entry_content', 'genesis_do_post_content');
+remove_action('genesis_entry_header', 'genesis_do_post_title');
+
+remove_action('genesis_entry_content', 'genesis_do_post_content');
+remove_action('genesis_entry_header', 'genesis_do_post_title');
+// Add landing page body class to the head.
+add_filter( 'body_class', 'infinity_add_body_class' );
+function infinity_add_body_class( $classes ) {
+	$classes[] = 'inner-page event post resource';
+
+	return $classes;
+
+}
+
+function banner() {
+	get_template_part('/components/event-banner');
+}
+
+
+add_action( 'genesis_entry_header', 'banner');
+
+function custom_content() {
+   
+?>
+    <div class="pattern-right">
+    </div>
+    <div class="pattern-left">
+    </div>
+    
+    <div class="custom-container event-container respurce-container">
+        <a href="/resources" class="back-to d-flex align-items-center gap-3">
+            <img src="/wp-content/uploads/2025/06/Arrow-left.svg" alt="" class="arrow back" />
+            <span>Go back to resources</span>
+            
+        </a>
+        <?php if(!empty($image_url)) {
+            ?><div class="event-banner">
+                <img class="banner-img object-fit-cover" src="<?php echo $image_url;?>" alt="<?php echo $image_alt;?>" />
+            </div>
+            <?php
+        }
+        ?>
+         <h1><?php the_title();?></h1>
+       
+                   
+                <?php
+            ?>
+            
+       
+       
+    </div>
+       
+<?php
+
+}
+
+add_action( 'genesis_entry_content', 'custom_content');
+
+
+genesis();
