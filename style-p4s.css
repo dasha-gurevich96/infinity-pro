@@ -1074,6 +1074,8 @@ div#front-page-1 .hero .diamonds {
 
 .hero .custom-container {
 	height: 100%;
+	position: relative;
+    z-index: 4;
 }
 
 .placeholder-container {
