@@ -3037,6 +3037,7 @@ a.back-to:focus img {
 
 .cards.cards-extra h3 {
 	font-size: 23px;
+	margin-bottom: 10px;
 }
 
 @media (min-width: 1001px) {
