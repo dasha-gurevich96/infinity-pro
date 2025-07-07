@@ -1854,6 +1854,10 @@ a.accordion-button::after {
 	background-color: white;
 }
 
+.page-id-111 .accordion-flush>.accordion-item>.accordion-collapse {
+	background-color: transparent;
+}
+
 
 /*** INNER PAGE: ABOUT
 ==========================*/
