@@ -71,6 +71,14 @@ function custom_content() {
                         </div>
                     <?php
                 }
+                if(have_rows('components')) {
+                    while(have_rows('components')) {
+                        the_row();
+                        if (get_row_layout() === 'cards') {
+				            get_template_part('/components/cards');
+			            }
+                    }
+                }
             ?>
             
        
