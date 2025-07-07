@@ -13,6 +13,8 @@ jQuery(function ($) {
         allowfullscreen></iframe>
     `;
 
+    $('..placeholder-container').hide();
+
     $container.html(iframe).show();
   });
 	
