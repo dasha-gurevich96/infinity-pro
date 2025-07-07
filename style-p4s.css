@@ -3031,10 +3031,13 @@ a.back-to:focus img {
 
 /*** SINGLE RESOURCE
 ==========================*/
-.cards.cards-extra	 .graphics {
+.cards.cards-extra	.graphics {
 	height: 173px;
 }
 
+.cards.cards-extra h3 {
+	font-size: 23px;
+}
 
 @media (min-width: 1001px) {
 	.cards.cards-extra	 {
