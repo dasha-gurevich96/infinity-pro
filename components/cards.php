@@ -7,6 +7,7 @@ if(have_rows('cards')) {
             $title = get_sub_field('title');
             $text = get_Sub_field('text');
             $link = get_sub_field('link');
+          
 
             if(!empty($image) && !empty($title) && !empty($link)) {
                 ?><div class="card importance-card resource-card clickable-card">
@@ -25,7 +26,30 @@ if(have_rows('cards')) {
                         ?>
                     </div>
                     </div>
-                    <a href="">Link text</a>
+                    <?php   if(!empty($link)) {
+				$link_text = 'Learn more';
+                // Get lowercase file extension
+				$extension = strtolower(pathinfo(parse_url($external_link, PHP_URL_PATH), PATHINFO_EXTENSION));
+
+				switch ($extension) {
+					case 'pdf':
+					$link_text = 'Download PDF';
+					break;
+					case 'doc':
+					$link_text = 'Download DOC';
+					break;
+					case 'docx':
+					$link_text = 'Download DOCX';
+					break;
+					}
+					?> <a href="<?php echo $external_link;?>" class="custom-button learn-more d-flex" aria-label="<?php echo $link_text;?> of <?php the_title();?>">
+						<span><?php echo $link_text;?></span>
+						<img class="arrow arrow-more" src="/wp-content/uploads/2025/06/Arrow-right.svg" alt=""/>
+						</a>
+						<?php
+								
+				}
+                ?>
                 </div>
                 <?php
             }
