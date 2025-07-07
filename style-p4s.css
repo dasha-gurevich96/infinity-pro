@@ -3081,3 +3081,13 @@ a.back-to:focus img {
     border: 1px solid var(--purple);
     /* margin-top: 40px; */
 }
+
+.card.contact-card h3 {
+	margin-bottom: 10px;
+}
+
+.card.contact-card a {
+	color: black;
+	font-weight: 700 !important;
+
+}
