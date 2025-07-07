@@ -2922,7 +2922,7 @@ img.arrow.back {
 }
 
 a.back-to {
-    color: #303030;
+    color: #303030 !important;
     font-size: 20px;
     text-decoration: none;
 }
