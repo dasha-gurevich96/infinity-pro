@@ -2917,6 +2917,7 @@ a.custom-button.learn-more img {
 }
 
 img.arrow.back {
+	filter: invert(100%);
     width: 30px;
 }
 
