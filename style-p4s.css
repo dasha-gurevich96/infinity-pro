@@ -2921,6 +2921,12 @@ img.arrow.back {
     width: 30px;
 }
 
+a.back-to {
+    color: #303030;
+    font-size: 20px;
+    text-decoration: none;
+}
+
 .event-banner {
 	border-radius: 15px;
 	border: 1px solid var(--purple);
