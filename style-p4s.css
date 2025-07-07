@@ -3047,6 +3047,10 @@ a.back-to:focus img {
 	margin-bottom: 10px;
 }
 
+.card.importance-card.resource-card {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 @media (min-width: 1001px) {
 	.cards.cards-extra	 {
 		display: grid;
