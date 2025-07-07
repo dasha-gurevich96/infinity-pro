@@ -75,7 +75,9 @@ function custom_content() {
                     while(have_rows('components')) {
                         the_row();
                         if (get_row_layout() === 'cards') {
+                            ?><div class='event-details'><?php
 				            get_template_part('/components/cards');
+                            ?></div><?php
 			            }
                     }
                 }
