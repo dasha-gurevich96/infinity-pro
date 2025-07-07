@@ -2979,3 +2979,7 @@ a.custom-button.learn-more img {
 .page-id-115 .site-inner {
     background-color: #4dc1dc;
 }
+
+.page-id-115.inner-page .entry-content {
+    padding-bottom: 65px;
+}
