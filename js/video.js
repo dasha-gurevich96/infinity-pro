@@ -1,5 +1,6 @@
 jQuery(function ($) {
     $('.play-btn').on('click', function () {
+        console.log('clicked');
     const $container = $('#video-container');
     const videoId = $container.data('video');
 
