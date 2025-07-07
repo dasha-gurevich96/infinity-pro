@@ -176,8 +176,8 @@ body {
 }
 
 .fluentform label {
-	font-weight: 600 !important;
-	font-size: 18px !important;
+	font-weight: 800 !important;
+    font-size: 21px !important;
 }
 
 textarea#ff_1_message {
@@ -244,20 +244,14 @@ p {
 }
 
 .ff-btn-submit:not(.ff_btn_no_style) {
-    background-color: #3d3e3c !important;
+    background-color: var(--purple) !important;
+	border-radius: 30px;
     color: #ffffff !important;
     font-size: 22px !important;
     font-weight: bold !important;
-    padding: 7px 63px !important;
-	margin-left: 14%;
+    padding: 10px 63px !important;
 }
 
-form#fluentform_1 {
-    max-width: 79%;
-    margin: 40px auto;
-
-	
-}
 
 h1.white-shape {
     margin-bottom: 30px;
@@ -3090,4 +3084,11 @@ a.back-to:focus img {
 	color: black;
 	font-weight: 700 !important;
 
+}
+
+.custom-container.form-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 30px;
+    border: 1px solid var(--purple);
 }
