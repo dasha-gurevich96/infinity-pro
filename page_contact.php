@@ -62,7 +62,7 @@ if(!empty($text_above_cards) || have_rows('cards')) {
                 $text = get_sub_field('text');
                 if(!empty($icon) && !empty($text)) {
                     ?><div class="card contact-card">
-                        <img src="<?php echo $icon['url'];?>" alt="<?php echo $icon['alt'];?>" />
+                        <img class="icon" src="<?php echo $icon['url'];?>" alt="<?php echo $icon['alt'];?>" />
                         <div>
                             <?php echo $text;?>
                 </div>
