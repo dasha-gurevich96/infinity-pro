@@ -2199,7 +2199,15 @@ img.story-img {
 }
 /*** SINGLE STORY
 ------------------*/
+.video-container-page {
+    border-radius: 15px;
+    overflow: hidden;
+}
 
+.video-container-page iframe {
+	height: 100%;
+	width: 100%;
+}
 .breadcrumb {
 	color: black;
 	font-weight: 500 !important;
