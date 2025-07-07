@@ -60,11 +60,16 @@ if(!empty($text_above_cards) || have_rows('cards')) {
                 the_row();
                 $icon = get_sub_field('icon');
                 $text = get_sub_field('text');
+                $title = get_sub_field('title');
                 if(!empty($icon) && !empty($text)) {
                     ?><div class="card contact-card">
                         <img class="icon" src="<?php echo $icon['url'];?>" alt="<?php echo $icon['alt'];?>" />
                         <div>
-                            <?php echo $text;?>
+                            <?php if(!empty($title)) {
+                                ?><h3><?php echo $title;?></h3><?php
+                            }
+                         echo $text;
+                         ?>
                 </div>
                         </div>
                     <?php
