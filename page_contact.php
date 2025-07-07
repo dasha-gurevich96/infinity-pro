@@ -46,7 +46,7 @@ function custom_content() {
     <?php
     }
     if(have_rows('components')) {
-		?><
+		?>
 	<?php
 		while(have_rows('components')) {
 			the_row();
