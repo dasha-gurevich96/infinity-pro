@@ -37,14 +37,7 @@ function custom_content() {
     $text = get_field('text');
     $text_above_cards = get_field("text_above_cards");
 
-    if(!empty($text)) {
-        ?><div class="full-container">
-            <div class="custom-container">
-                <?php echo $text;?>
-            </div>
-        </div>
-    <?php
-    }
+
     if(have_rows('components')) {
 		?>
 	<?php
