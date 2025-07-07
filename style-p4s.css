@@ -3027,3 +3027,21 @@ a.back-to:focus img {
 .page-id-115.inner-page .entry-content {
     padding-bottom: 65px;
 }
+
+
+/*** SINGLE RESOURCE
+==========================*/
+.cards.cards-extra	 .graphics {
+	height: 173px;
+}
+
+
+@media (min-width: 1001px) {
+	.cards.cards-extra	 {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+    .card.importance-card.resource-card {
+        width: 100%;
+    }
+}
