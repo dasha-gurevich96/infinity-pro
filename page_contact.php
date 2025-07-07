@@ -89,6 +89,7 @@ if(!empty($text_above_cards) || have_rows('cards')) {
 }
 ?><div class="full-container">
     <div class="custom-container form-container">
+        <h2>Contact form</h2>
         <?php echo do_shortcode('[fluentform id="1"]');?>
 </div>
 </div>
