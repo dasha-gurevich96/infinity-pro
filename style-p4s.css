@@ -1077,6 +1077,7 @@ div#front-page-1 .hero .diamonds {
 }
 
 .placeholder-container {
+	box-shadow: 1px 12px 8px 3px rgb(43 41 41 / 30%);
     position: relative;
 	z-index: 2;
 	height: 100%;
@@ -1084,7 +1085,6 @@ div#front-page-1 .hero .diamonds {
 
 .placeholder-container > img {
 	height: 100%;
-    box-shadow: 1px 12px 8px 3px rgb(43 41 41 / 30%);
 	object-fit: cover;
 	width: 100%;
 }
