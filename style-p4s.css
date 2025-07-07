@@ -2910,6 +2910,7 @@ a.custom-button.learn-more img {
 .custom-container.event-container {
     background-color: white;
     border-radius: 15px;
+	margin-top: 106px;
     padding: 25px;
     width: 951px;
 }
