@@ -35,7 +35,7 @@ add_action( 'genesis_entry_content', 'custom_content' );
 
 function custom_content() {
     $text = get_field('text');
-    $text_above_cards = get_sub_field("text_above_cards");
+    $text_above_cards = get_field("text_above_cards");
 
     if(!empty($text)) {
         ?><div class="full-container">
