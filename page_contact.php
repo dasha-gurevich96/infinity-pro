@@ -34,8 +34,16 @@ add_action( 'genesis_entry_header', 'banner');
 add_action( 'genesis_entry_content', 'custom_content' );
 
 function custom_content() {
-    $title = get_field("title");
-    $title_w = get_field('title_working_group');
+    $text = get_field('text');
+
+    if(!empty($text)) {
+        ?><div class="full-container">
+            <div class="custom-container">
+                <?php echo $text;?>
+            </div>
+        </div>
+    <?php
+    }
     
 
 }
