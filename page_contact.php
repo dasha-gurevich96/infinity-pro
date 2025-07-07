@@ -48,7 +48,7 @@ function custom_content() {
 if(!empty($text_above_cards) || have_rows('cards')) {
     ?><div class="full-container">
         <div class="custom-container">
-            <?php if(!$text_above_cards) {
+            <?php if(!empty($text_above_cards)) {
                 ?><div class="text-cards">
                     <?php echo $text_above_cards;?>
                     <?php
