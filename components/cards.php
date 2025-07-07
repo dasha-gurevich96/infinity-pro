@@ -26,10 +26,11 @@ if(have_rows('cards')) {
                         ?>
                     </div>
                     </div>
-                    <?php   if(!empty($link)) {
+                    <?php   
+                if(!empty($link)) {
 				$link_text = 'Learn more';
                 // Get lowercase file extension
-				$extension = strtolower(pathinfo(parse_url($external_link, PHP_URL_PATH), PATHINFO_EXTENSION));
+				$extension = strtolower(pathinfo(parse_url($link, PHP_URL_PATH), PATHINFO_EXTENSION));
 
 				switch ($extension) {
 					case 'pdf':
@@ -42,7 +43,7 @@ if(have_rows('cards')) {
 					$link_text = 'Download DOCX';
 					break;
 					}
-					?> <a href="<?php echo $external_link;?>" class="custom-button learn-more d-flex" aria-label="<?php echo $link_text;?> of <?php the_title();?>">
+					?> <a href="<?php echo $link;?>" class="custom-button learn-more d-flex" aria-label="<?php echo $link_text;?> of <?php the_title();?>">
 						<span><?php echo $link_text;?></span>
 						<img class="arrow arrow-more" src="/wp-content/uploads/2025/06/Arrow-right.svg" alt=""/>
 						</a>
