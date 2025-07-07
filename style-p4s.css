@@ -2199,9 +2199,12 @@ img.story-img {
 }
 /*** SINGLE STORY
 ------------------*/
+
 .video-container-page {
     border-radius: 15px;
     overflow: hidden;
+    height: 369px;
+    width: 99%;
 }
 
 .video-container-page iframe {
