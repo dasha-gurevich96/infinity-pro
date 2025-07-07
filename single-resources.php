@@ -65,6 +65,12 @@ function custom_content() {
        
                    
                 <?php
+                if(!empty($description)) {
+                    ?><div class='event-details'>
+                        <?php echo $description;?>
+                        </div>
+                    <?php
+                }
             ?>
             
        
