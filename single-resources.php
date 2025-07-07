@@ -29,7 +29,7 @@ function infinity_add_body_class( $classes ) {
 }
 
 function banner() {
-	get_template_part('/components/event-banner');
+	get_template_part('/components/resource-banner');
 }
 
 
