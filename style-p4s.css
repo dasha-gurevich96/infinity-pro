@@ -245,11 +245,12 @@ p {
 
 .ff-btn-submit:not(.ff_btn_no_style) {
     background-color: var(--purple) !important;
-	border-radius: 30px;
+    border-radius: 30px !important;
     color: #ffffff !important;
     font-size: 22px !important;
     font-weight: bold !important;
     padding: 10px 63px !important;
+    width: 100%;
 }
 
 
