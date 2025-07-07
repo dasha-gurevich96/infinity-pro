@@ -145,7 +145,7 @@ function custom_content() {
                 $title = get_sub_field('title');
                 $text = get_sub_field('text');
                 $youtube_id = get_sub_field('youtube_id');
-                if(!empty($text) && !empty($title)) {
+                if((!empty($text) || !empty($youtube_id)) && !empty($title)) {
                     ?><div class="content-cont"><h2 class="content-title">
                         <?php echo $title;?>
                       </h2>
