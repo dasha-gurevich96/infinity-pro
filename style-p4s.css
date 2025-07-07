@@ -3099,3 +3099,7 @@ a.back-to:focus img {
     margin-top: 0px;
     padding-bottom: 100px;
 }
+
+h2 + .collapsibles {
+    margin-top: 30px;
+}
