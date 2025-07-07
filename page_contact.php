@@ -94,6 +94,12 @@ if(!empty($text_above_cards) || have_rows('cards')) {
     </div>
     <?php
 }
+?><div class="full-container">
+    <div class="custom-container form-container">
+        <?php echo do_shortcode('[fluentform id="1"]');?>
+</div>
+</div>
+<?php
 
 }
 
