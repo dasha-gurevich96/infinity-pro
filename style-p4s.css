@@ -1756,7 +1756,7 @@ footer a.social-icon img {
     	display: none !important;	
 	}
 	.site-footer .details {
-		max-width: 400px;
+		max-width: 355px;
 	}
 	.site-footer img.diamond {
 		top: 13px;
@@ -1779,6 +1779,10 @@ footer a.social-icon img {
 	}
 	.site-footer .logo-col {
 		justify-content: center;
+	}
+	.social-share .custom-container.d-flex {
+		gap: 10px;
+		flex-wrap: wrap;
 	}
 }
 /*** INNER PAGES: GENERAL
