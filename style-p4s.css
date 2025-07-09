@@ -771,6 +771,9 @@ nav .wrap {
 	.fixed .mobile-menu {
 		width: 50%;
 	}
+	.front-page-3 .custom-container {
+    	max-width: 87% !important;
+	}
 }
 
 @media (max-width: 390px) {
