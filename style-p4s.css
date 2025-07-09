@@ -1777,6 +1777,9 @@ footer a.social-icon img {
 		padding-left: 18px;
     	padding-top: 36px;
 	}
+	.site-footer .logo-col {
+		justify-content: center;
+	}
 }
 /*** INNER PAGES: GENERAL
 ==========================*/
