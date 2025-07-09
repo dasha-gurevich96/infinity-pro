@@ -1403,6 +1403,13 @@ a#backToTop {
 	margin-bottom: 0 !important;
 }
 
+.front-page-4 .cards.cards-importance {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
 @media (min-width: 2000px) {
 	.front-page-1 img.wave {
 		top: -90px;
@@ -1453,6 +1460,18 @@ a#backToTop {
 @media (max-width: 990px) {
 	.diamond-content {
 		padding-top: 103px;
+	}
+	.card.importance-card {
+		width: 45%;
+	}
+	.d-flex.logo-text {
+		flex-direction: column;
+	}
+	.col.logo-col {
+		display: none;
+	}
+	.col.mobile-col.logo-col.d-none {
+    	display: flex !important;
 	}
 }
 
