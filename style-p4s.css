@@ -1842,8 +1842,8 @@ footer a.social-icon img {
 		justify-content: center;
 	}
 	.social-share .custom-container.d-flex {
-		gap: 10px;
-		flex-wrap: wrap;
+		gap: 17px;
+        row-gap: 20px;
 	}
 }
 
@@ -1859,6 +1859,7 @@ footer a.social-icon img {
 	.site-footer .logo-col {
 		justify-content: center;
 		background-color: white;
+		margin-top: 10px;
 	}
 	.logo-footer-cont.position-relative {
 		padding: 0;
@@ -1866,6 +1867,20 @@ footer a.social-icon img {
 	}
 	.site-footer img.diamond {
 		display: none;
+	}
+	img.footer-logo {
+		width: 285px;
+		padding: 20px;
+	}
+	.site-footer .details {
+		max-width: 355px;
+		flex-direction: column;
+		padding: 10px 20px;
+		gap: 20px;
+	}
+	a.social-icon {
+		height: 49px;
+		width: 49px;
 	}
 }
 /*** INNER PAGES: GENERAL
