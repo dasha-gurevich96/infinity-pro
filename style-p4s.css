@@ -553,7 +553,6 @@ nav .wrap {
     position: fixed !important;
     top: 0;
     z-index: 9999;
-    padding: 19px 0;
     margin: 0;
 	width: 100%;
 }
@@ -778,6 +777,9 @@ nav .wrap {
 	}
 	.menu-toggle, .menu-toggle:focus, .menu-toggle:hover {
 		padding: 5px 10px;
+	}
+	.mobile-menu {
+		width: 47%;
 	}
 }
 
