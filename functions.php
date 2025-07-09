@@ -502,7 +502,7 @@ function infinity_socials() {
                             $src="/wp-content/uploads/2025/07/Instagram-2.svg";
                             $class="instagram";
                         } elseif($media === 'LinkedIn') {
-                            $src = '/wp-content/uploads/2025/07/Linkedin-2.svg';
+                            $src = 'https://scldw-com.stackstaging.com/wp-content/uploads/2025/07/Linkedin-1.svg';
                             $class= "linkedin";
                         }
                         ?><a class="social-icon <?php echo $class;?>" href="<?php echo $link;?>" aria-label="<?php echo $media;?> profile - opens in a new window"><img src="<?php echo $src;?>" alt="" /></a>
