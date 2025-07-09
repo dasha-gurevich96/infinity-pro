@@ -1926,6 +1926,12 @@ footer a.social-icon img {
 		margin: auto;
 		width: 90%;
 	}
+	div#front-page-4 {
+    	padding-bottom: 20px;	
+	}
+	.slider-container.two-slide-cards .slick-list.draggable {
+		width: 100%;
+	}
 }
 /*** INNER PAGES: GENERAL
 ==========================*/
