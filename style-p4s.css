@@ -711,15 +711,22 @@ nav .wrap {
 
 
 @media (max-width: 700px) {
+	.logo-btn-container a.custom-button {
+		width: fit-content;
+		padding: 9px 51px;
+	}
+	.menu-toggle {
+		padding: 7px 59px;
+	}
 	.site-search + .buttons-header {
     	display: none;
-		}
-	.genesis-skip-link + .buttons-header {
-    display: block;
-		a.header-btn {
-			display: none;
-		}
 	}
+	.genesis-skip-link + .buttons-header {
+		display: block;
+			a.header-btn {
+				display: none;
+			}
+		}
 
     nav#genesis-nav-primary {
         ul {
@@ -727,7 +734,6 @@ nav .wrap {
         }
     }
 	.site-header {
-		margin: 24px 0;
 		padding-bottom: 0px !important;
 	}
 	.site-header > .wrap {
@@ -745,8 +751,8 @@ nav .wrap {
         margin-right: 0px !important;
 	}
 	.site-title {
-		height: 57px;
-        width: 198px;
+		height: 83px;
+        width: 254px;
 	}
 	.custom-container.d-flex.justify-content-between.align-items-center {
 		flex-direction: column !important;
