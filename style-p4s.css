@@ -645,6 +645,9 @@ nav .wrap {
 	.site-header .genesis-nav-menu > li.menu-item > a::before {
 		display: none !important;
 	}
+	.genesis-nav-menu a {
+		font-size: 19px;
+	}
 	nav#genesis-nav-primary {
 		background-color: #f1b725;
 		position: absolute;
