@@ -1,4 +1,5 @@
 jQuery(document).ready(function($) {
+    console.log('fixed');
     $(window).scroll(function() {
         let scrollTop = $(this).scrollTop();
 
