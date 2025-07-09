@@ -1588,7 +1588,10 @@ a#backToTop {
 	.front-page-4 .slick-slide {
     	max-width: 310px;
 		margin: auto;
-	}				
+	}	
+	.logo-container {
+		height: 219px;
+	}			
 }
 
 /*** FOOTER
