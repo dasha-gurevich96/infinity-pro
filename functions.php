@@ -512,7 +512,9 @@ function infinity_socials() {
 }
 
 //add_action( 'genesis_header', 'genesis_do_nav', 12 );
-add_action( 'genesis_header', 'genesis_do_nav', 2 );
+add_action( 'genesis_header', 'genesis_do_nav', 12 );
+
+add_action( 'genesis_header', 'genesis_do_nav', 3);
 
 add_action('genesis_header', 'logo_button', 2);
 
