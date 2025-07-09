@@ -1878,9 +1878,20 @@ footer a.social-icon img {
 		padding: 10px 20px;
 		gap: 20px;
 	}
+	.site-footer .social-share {
+		max-width: 100%;
+		width: 100%;
+	}
 	a.social-icon {
 		height: 49px;
 		width: 49px;
+	}
+	a.social-icon img {
+		height: 34px;
+		width: 30px;
+	}
+	.site-footer .contact {
+		gap: 15px;
 	}
 }
 /*** INNER PAGES: GENERAL
