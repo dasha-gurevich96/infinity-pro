@@ -604,6 +604,9 @@ nav .wrap {
 	nav#genesis-nav-primary {
         display: none;
     }
+	.site-header button#genesis-mobile-nav-primary {
+		display: none;
+	}
 	.site-header .genesis-nav-menu > li.menu-item.current-menu-ancestor > a
 	.site-header .genesis-nav-menu > li.menu-item.current-menu-item > a {
 		background-color: #5e5e5e !important;
