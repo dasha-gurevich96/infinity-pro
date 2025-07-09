@@ -1473,6 +1473,15 @@ a#backToTop {
 	.col.mobile-col.logo-col.d-none {
     	display: flex !important;
 	}
+	.full-container.blue {
+		background-image: none;
+	}
+	.front-page-5 .col.text-col {
+    	padding-right: 0;
+	}
+	.front-page-5 img.wave {
+		top: -41px;
+	}
 }
 
 /*** FOOTER
