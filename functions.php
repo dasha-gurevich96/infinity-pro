@@ -514,7 +514,7 @@ function infinity_socials() {
 //add_action( 'genesis_header', 'genesis_do_nav', 12 );
 add_action( 'genesis_header', 'genesis_do_nav', 12 );
 
-add_action( 'genesis_header', 'genesis_do_nav', 3);
+//add_action( 'genesis_header', 'genesis_do_nav', 3);
 
 add_action('genesis_header', 'logo_button', 2);
 
@@ -535,6 +535,9 @@ function logo_button() {
                 }
             }
             ?></div>
+            <div class="mobile-menu">
+                <?php genesis_do_nav();?>
+        </div>
 
         </div><?php
     
