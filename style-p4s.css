@@ -1893,6 +1893,9 @@ footer a.social-icon img {
 	.site-footer .contact {
 		gap: 15px;
 	}
+	.social-share .custom-container {
+		margin-top: 20px;
+	}
 }
 /*** INNER PAGES: GENERAL
 ==========================*/
