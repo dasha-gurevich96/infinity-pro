@@ -768,7 +768,9 @@ nav .wrap {
 	.site-title {
 		width: 197px;
 	}
-	
+	.fixed .mobile-menu {
+		width: 47%;
+	}
 }
 
 @media (max-width: 390px) {
@@ -779,9 +781,7 @@ nav .wrap {
 	.menu-toggle, .menu-toggle:focus, .menu-toggle:hover {
 		padding: 5px 10px;
 	}
-	.mobile-menu {
-		width: 47%;
-	}
+	
 }
 
 
