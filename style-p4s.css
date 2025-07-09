@@ -1092,8 +1092,8 @@ div#video-container {
 	box-shadow: 1px 12px 8px 3px rgb(43 41 41 / 30%);
     position: relative;
     z-index: 10;
-	width: 88%;
-    height: 89%;
+	width: 86%;
+    height: 87%;
 }
 
 div#video-container iframe {
