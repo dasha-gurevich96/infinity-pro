@@ -1746,6 +1746,35 @@ footer a.social-icon img {
 	}
 
 }
+
+@media (max-width: 990px) {
+	.full-container.footer-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.footer-combined,
+	.site-footer img.diamond  {
+    	display: none !important;	
+	}
+	.site-footer .details {
+		max-width: 400px;
+	}
+	.site-footer img.diamond {
+		top: 3px;
+		/* height: 147%; */
+		width: 400px !important;
+		transform: scale(1.4);
+		left: -34%;
+		/* object-fit: cover; */
+	}
+	.logo-footer-cont {
+		justify-content: flex-start;
+	}
+	.logo-footer-cont.position-relative {
+		padding-left: 18px;
+    	padding-top: 36px;
+	}
+}
 /*** INNER PAGES: GENERAL
 ==========================*/
 .inner-page header.entry-header {
