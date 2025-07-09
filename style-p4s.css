@@ -1405,6 +1405,11 @@ a#backToTop {
 	margin-bottom: 0 !important;
 }
 
+@media (min-width: 2000px) {
+	img.wave {
+		top: -85px;
+	}
+}
 
 /*** FOOTER
 ================*/
