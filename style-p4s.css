@@ -1856,6 +1856,14 @@ footer a.social-icon img {
 		padding-left: 0;
 		padding-right: 0;
 	}
+	.site-footer .logo-col {
+		justify-content: center;
+		background-color: white;
+	}
+	.logo-footer-cont.position-relative {
+		padding: 0;
+		justify-content: center;
+	}
 }
 /*** INNER PAGES: GENERAL
 ==========================*/
