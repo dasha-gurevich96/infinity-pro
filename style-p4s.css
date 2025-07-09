@@ -1064,13 +1064,6 @@ button.slick-prev.slick-arrow:focus {
 
 @media (max-width: 600px) {
 	
-	.slick-prev .slick-prev-icon:before, 
-	.slick-next .slick-next-icon:before,
-	button.slick-arrow
-	{
-		width: 45px !important;
-		height: 49px !important;
-	}
 	button.slick-next {
     right: -27px !important;
 }
