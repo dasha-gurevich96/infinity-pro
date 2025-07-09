@@ -1045,7 +1045,7 @@ button.slick-prev.slick-arrow:focus {
 }
 
 .slick-dots li.slick-active button .slick-dot-icon {
-    color: var(--yellow);
+    color: var(--yellow) !important;
 }
 
 .slick-dots li button .slick-dot-icon {
