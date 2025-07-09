@@ -1416,6 +1416,12 @@ a#backToTop {
 
 }
 
+@media (max-width: 1280px) {
+	div#video-container {
+		top: -19px;
+	}
+}
+
 /*** FOOTER
 ================*/
 .site-footer .full-container {
