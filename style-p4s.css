@@ -1411,7 +1411,7 @@ a#backToTop {
 }
 
 .front-page-4 .slick-dots li button .slick-dot-icon {
-		color: #591144 !important;
+		color: #591144;
 		opacity: 1;
 	}
 
