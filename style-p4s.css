@@ -543,6 +543,10 @@ nav .wrap {
 	width: 100%;
 }
 
+.mobile-menu {
+	display: none;
+}
+
 @media (min-width: 990px) {
 	ul#menu-header {
 		display: flex;
@@ -601,6 +605,9 @@ nav .wrap {
 }
 
 @media (max-width: 900px) {
+	.mobile-menu {
+		display: block;
+	}
 	nav#genesis-nav-primary {
         display: none;
     }
