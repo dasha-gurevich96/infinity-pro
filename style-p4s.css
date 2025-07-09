@@ -616,6 +616,9 @@ nav .wrap {
 }
 
 @media (max-width: 900px) {
+	.site-title {
+		height: 52px;
+	}
 	.mobile-menu {
 		display: block;
 	}
