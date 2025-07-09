@@ -1912,6 +1912,9 @@ footer a.social-icon img {
 	.fixed .title-area {
     	width: 45%;
 	}
+	.menu-toggle {
+    	padding: 6px 47px !important;
+	}
 }
 /*** INNER PAGES: GENERAL
 ==========================*/
