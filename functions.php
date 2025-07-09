@@ -534,10 +534,14 @@ function logo_button() {
                     ?><a class="custom-button dark-green" href="<?php echo $link;?>"><?php echo $text;?></a><?php
                 }
             }
-            ?></div>
+            ?>
+
             <div class="mobile-menu">
                 <?php genesis_do_nav();?>
         </div>
+            
+        </div>
+            
 
         </div><?php
     
