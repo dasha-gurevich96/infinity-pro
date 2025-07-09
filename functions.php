@@ -522,7 +522,7 @@ function logo_button() {
     $logo = get_field('logo', 'options');
     $button = get_field('button', 'options');
   
-        ?><div class="full-container logo-btn-container">
+        ?><div class="full-container logo-btn-container position-relative">
             <div class="custom-container d-flex justify-content-between align-items-center">
                <div class="title-area"><h1 itemprop="headline"><a  class="site-title" href="/"><?php bloginfo('name'); ?></a> </h1></div>  
           
