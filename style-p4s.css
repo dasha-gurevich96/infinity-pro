@@ -547,6 +547,15 @@ nav .wrap {
 	display: none;
 }
 
+.full-container.logo-btn-container.fixed {
+    background-color: white;
+    position: fixed !important;
+    top: 0;
+    z-index: 9999;
+    padding: 19px 0;
+    margin: 0;
+}
+
 @media (min-width: 990px) {
 	ul#menu-header {
 		display: flex;
