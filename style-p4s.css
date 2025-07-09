@@ -1769,6 +1769,9 @@ footer a.social-icon img {
 	.logo-footer-cont {
 		justify-content: flex-start;
 	}
+	.site-footer .logo-col {
+		width: 100%;
+	}
 	.logo-footer-cont.position-relative {
 		padding-left: 18px;
     	padding-top: 36px;
