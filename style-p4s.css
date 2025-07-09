@@ -1921,6 +1921,12 @@ footer a.social-icon img {
 	
 }
 
+@media (max-height: 390px) {
+	div#front-page-1 img.wave {
+    	top: -14px;
+	}
+}
+
 @media (max-width: 320px) {
 	.menu-toggle {
     	padding: 6px 36px !important;
