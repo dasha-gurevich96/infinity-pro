@@ -1089,9 +1089,9 @@ div#front-page-1 .hero .diamonds {
 }
 
 div#video-container {
-	/*box-shadow: 1px 12px 8px 3px rgb(43 41 41 / 30%);*/
+	box-shadow: 1px 12px 8px 3px rgb(43 41 41 / 30%);
     position: relative;
-    z-index: 2;
+    z-index: 10;
 	width: 88%;
     height: 89%;
 }
@@ -1138,10 +1138,7 @@ img.wave {
 }
 
 @media (max-width: 1440px) {
-	.hero,
-	.diamonds  {
-		background-position: -14% 0 !important;
-	}
+	
 }
 
 
