@@ -1415,6 +1415,9 @@ a#backToTop {
 	.front-page-5 img.wave {
 		top: -63px;
 	}
+	div#front-page-1 .hero .diamonds {
+		right: 7%;
+	}
 }
 
 /*** FOOTER
