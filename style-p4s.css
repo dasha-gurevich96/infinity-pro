@@ -1548,8 +1548,22 @@ a#backToTop {
 		height: 91%;
 	}
 	.front-page-3 .custom-container {
-    max-width: 74% !important;
+    	max-width: 74% !important;
+	}
 }
+
+@media (max-width: 700px) {
+	.hero {
+    height: 160px;
+}
+	div#front-page-1 img.wave {
+    	top: -17px;
+	}
+	div#front-page-1 div#video-container {
+		width: 95%;
+		height: 77%;
+		top: 0;
+	}	
 }
 
 /*** FOOTER
