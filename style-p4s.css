@@ -646,20 +646,17 @@ nav .wrap {
 		display: none !important;
 	}
 	nav#genesis-nav-primary {
-		background-color: #3d3e3c;
+		background-color: #f1b725;
 		position: absolute;
 		width: 100%;
 		top: 95%;
 		left: 0;
 		z-index: 99999;
-		ul {
-			margin: 0 40px;
-		}
 		a {
-			color: white !important;
+			color: black !important;
 		}
 		li {
-			border-bottom: 1px solid #a09e9e;
+			border-bottom: 1px solid #fbc53f;
 		}
 		li:last-child {
 			border-bottom: none;
