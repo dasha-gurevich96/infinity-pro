@@ -1918,6 +1918,9 @@ footer a.social-icon img {
 	.menu-toggle {
     	padding: 6px 47px !important;
 	}
+	.social-share .custom-container.d-flex {
+		width: 90%;
+	}
 }
 /*** INNER PAGES: GENERAL
 ==========================*/
