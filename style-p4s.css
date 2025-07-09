@@ -562,6 +562,10 @@ nav .wrap {
 		display: flex !important;
 
 	}
+	ul#menu-header-1 {
+		display: flex !important;
+		justify-content: space-between;
+	}
 }
 
 @media only screen and (max-width: 1024px) {
