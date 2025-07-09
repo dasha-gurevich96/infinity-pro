@@ -651,6 +651,9 @@ nav .wrap {
 	.nav-primary {
 		max-width: 100%;
 	}
+	.logo-btn-container .custom-container {
+		max-width: 97%;
+	}
 	nav#genesis-nav-primary {
 		background-color: #f1b725;
 		position: absolute;
