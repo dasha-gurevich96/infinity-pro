@@ -1496,6 +1496,9 @@ a#backToTop {
 		width: 84%;
 		height: 91%;
 	}
+	.front-page-3 .custom-container {
+    max-width: 74% !important;
+}
 }
 
 /*** FOOTER
