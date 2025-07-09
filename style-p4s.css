@@ -1759,10 +1759,10 @@ footer a.social-icon img {
 		max-width: 400px;
 	}
 	.site-footer img.diamond {
-		top: -16px;
-		height: 88%;
+		top: 13px;
+		height: 74%;
 		transform: scale(1.5);
-		left: -34%;
+		left: -22%;
 		object-fit: cover;
 		object-position: right;
 	}
