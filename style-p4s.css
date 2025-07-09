@@ -761,6 +761,13 @@ nav .wrap {
 	.logo-btn-container.fixed a.custom-button {
 		display: none;
 	}
+
+	.fixed .title-area {
+		width: 46%;
+	}
+	.site-title {
+		width: 197px;
+	}
 	
 }
 
