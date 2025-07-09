@@ -14,9 +14,9 @@ let initSlick = function() {
       slidesToScroll: 1,
       responsive: [
         {
-          breakpoint: 890,
+          breakpoint: 990,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 2,
             slidesToScroll: 1
           }
         }
