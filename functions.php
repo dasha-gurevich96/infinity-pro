@@ -328,7 +328,7 @@ function infinity_custom_styles() {
 	wp_enqueue_script('menu-top-js', get_stylesheet_directory_uri() . '/js/accessible-top-menu.js', array(), '1.0', true);
     wp_enqueue_script('video-js', get_stylesheet_directory_uri() . '/js/video.js', array(), '1.0', true);
 	wp_enqueue_script('read-js', get_stylesheet_directory_uri() . '/js/read-more.js', array(), '1.0', true);
-	//wp_enqueue_script('fixed-js', get_stylesheet_directory_uri() . '/js/add-fixed-class.js', array(), '1.0', true);
+	wp_enqueue_script('fixed-js', get_stylesheet_directory_uri() . '/js/add-fixed-class.js', array(), '1.0', true);
 	wp_enqueue_script('site-search-js', get_stylesheet_directory_uri() . '/js/site-search.js', array(), '1.0', true);
 	wp_enqueue_script('bootstrap-js', get_stylesheet_directory_uri() . '/bootstrap/bootstrap.min.js', array(), '1.0', true);
 }
