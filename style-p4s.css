@@ -1752,8 +1752,7 @@ footer a.social-icon img {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
-	.footer-combined,
-	.site-footer img.diamond  {
+	.footer-combined  {
     	display: none !important;	
 	}
 	.site-footer .details {
