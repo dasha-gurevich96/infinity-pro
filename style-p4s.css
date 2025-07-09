@@ -629,11 +629,10 @@ nav .wrap {
 		margin-top: 0 !important;
 	}
 	.menu-toggle, .menu-toggle:focus, .menu-toggle:hover {
-		background: #3d3e3c;
+		background: var(--purple);
 		border-radius: 7px;
 		padding: 5px 25px;
 		margin-left: auto !important;
-        margin-right: 23px !important;
 		color: white !important;
 		border-width: 0;
 		letter-spacing: normal;
