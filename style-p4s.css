@@ -648,6 +648,9 @@ nav .wrap {
 	.genesis-nav-menu a {
 		font-size: 19px;
 	}
+	.nav-primary {
+		max-width: 100%;
+	}
 	nav#genesis-nav-primary {
 		background-color: #f1b725;
 		position: absolute;
