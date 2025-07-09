@@ -1922,6 +1922,10 @@ footer a.social-icon img {
 		flex-wrap: wrap;
 		width: 90%;
 	}
+	.front-page-4 .cards.cards-importance {
+		margin: auto;
+		width: 90%;
+	}
 }
 /*** INNER PAGES: GENERAL
 ==========================*/
