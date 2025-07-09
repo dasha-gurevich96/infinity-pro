@@ -638,6 +638,13 @@ function genesis_do_custom_footer() {
                             $src="/wp-content/uploads/2025/06/Asset-3.svg";
                             $class="flickr";
                         }
+                        elseif($media === 'Instagram') {
+                            $src="/wp-content/uploads/2025/07/instagram.svg";
+                            $class="instagram";
+                        } elseif($media === 'LinkedIn') {
+                            $src = '/wp-content/uploads/2025/07/Linkedin-1.svg';
+                            $class= "linkedin";
+                        }
                         ?><a class="social-icon <?php echo $class;?>" href="<?php echo $link;?>" aria-label="<?php echo $media;?> profile - opens in a new window"><img src="<?php echo $src;?>" alt="" /></a>
                         <?php
                     }
