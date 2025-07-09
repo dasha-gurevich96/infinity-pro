@@ -543,7 +543,7 @@ nav .wrap {
 	width: 100%;
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 990px) {
 	ul#menu-header {
 		display: flex;
 		justify-content: space-between;
@@ -551,6 +551,12 @@ nav .wrap {
 		padding-left: 0;
 		max-width: 1022px;
         margin: auto;
+	}
+	div:not(.wrap) button#genesis-mobile-nav-primary {
+    	display: none;
+	}
+	div:not(.wrap) .nav-primary {
+		display: none;
 	}
 }
 
