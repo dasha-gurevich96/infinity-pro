@@ -470,7 +470,7 @@ add_filter('upload_mimes', 'add_svg_to_upload_mimes');
 ================================*/
 // Remove the default Genesis header function
 //remove_action( 'genesis_header', 'genesis_do_header' );
-add_action( 'genesis_header', 'genesis_do_nav', 12 );
+
 
 add_action('genesis_before_header', 'infinity_socials', 12 );
 
@@ -511,6 +511,8 @@ function infinity_socials() {
     }
 }
 
+//add_action( 'genesis_header', 'genesis_do_nav', 12 );
+
 add_action('genesis_header', 'logo_button', 2);
 
 function logo_button() {
@@ -529,7 +531,9 @@ function logo_button() {
                     ?><a class="custom-button dark-green" href="<?php echo $link;?>"><?php echo $text;?></a><?php
                 }
             }
-            ?></div></div><?php
+            ?></div>
+
+        </div><?php
     
 }
 
