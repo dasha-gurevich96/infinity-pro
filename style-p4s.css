@@ -1411,6 +1411,12 @@ a#backToTop {
 	}
 }
 
+@media (min-width: 2400px) {
+	img.wave {
+		top: -63px;
+	}
+}
+
 /*** FOOTER
 ================*/
 .site-footer .full-container {
