@@ -1422,6 +1422,40 @@ a#backToTop {
 	}
 }
 
+@media (max-width: 1100px) {
+	div#front-page-1 img.wave {
+		top: -43px;
+	}
+	div#front-page-1 {
+		width: 85%;
+    height: 77%;
+	}
+	.diamond-content {
+		padding-top: 76px;
+	}
+	.title-diamond h3 {
+		font-size: 18px;
+		top: 47%;
+		line-height: 1.4;
+	}
+	.front-page-1 img.wave {
+		top: -44px;
+	}
+	div#video-container {
+		width: 85%;
+    height: 77%;
+	}
+	img.card-img {
+		height: 245px;
+	}
+}
+
+@media (max-width: 990px) {
+	.diamond-content {
+		padding-top: 103px;
+	}
+}
+
 /*** FOOTER
 ================*/
 .site-footer .full-container {
