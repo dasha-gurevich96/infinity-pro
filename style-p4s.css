@@ -1864,6 +1864,9 @@ footer a.social-icon img {
 		padding: 0;
 		justify-content: center;
 	}
+	.site-footer img.diamond {
+		display: none;
+	}
 }
 /*** INNER PAGES: GENERAL
 ==========================*/
