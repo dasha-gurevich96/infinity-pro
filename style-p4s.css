@@ -558,6 +558,10 @@ nav .wrap {
 	div:not(.wrap) .nav-primary {
 		display: none;
 	}
+	.site-header .nav-primary {
+		display: block;
+
+	}
 }
 
 @media only screen and (max-width: 1024px) {
