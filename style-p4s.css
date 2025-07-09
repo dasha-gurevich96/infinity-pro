@@ -1492,6 +1492,10 @@ a#backToTop {
 	div#front-page-1 img.wave {
     	top: -32px;
 	}
+	div#front-page-1 div#video-container {
+		width: 84%;
+		height: 91%;
+	}
 }
 
 /*** FOOTER
