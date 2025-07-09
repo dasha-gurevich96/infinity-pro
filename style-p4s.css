@@ -1044,19 +1044,20 @@ h2.home-title {
 div#front-page-1   {
 	padding-top: 0 !important;
 }
-
 div#front-page-1 .hero .diamonds {
-	background-image: url(/wp-content/uploads/2025/06/Left-Diamonds.svg);
-	background-position: -7% 0;
-	height: 100%;
-	position: absolute;
-	z-index: 1;
-	top: 0;
-	right: 0;
+    background-image: url(/wp-content/uploads/2025/06/Left-Diamonds.svg);
+    background-position: 0% 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
     transform: scaleX(-1);
-	background-repeat: no-repeat;
-	width: 100%;
-}
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 19%;
+ }
 
 .hero {
     background-color: #f1b626;
