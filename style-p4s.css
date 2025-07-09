@@ -1957,6 +1957,9 @@ footer a.social-icon img {
 	div#front-page-1 img.wave {
     	top: -11px;
 	}
+	.hero {
+    	height: 120px;
+	}
 }
 /*** INNER PAGES: GENERAL
 ==========================*/
