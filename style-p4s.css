@@ -716,7 +716,7 @@ nav .wrap {
 		padding: 9px 51px;
 	}
 	.menu-toggle {
-		padding: 7px 59px;
+		padding: 7px 59px !important;
 	}
 	.site-search + .buttons-header {
     	display: none;
