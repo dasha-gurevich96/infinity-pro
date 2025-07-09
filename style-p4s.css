@@ -1768,6 +1768,7 @@ footer a.social-icon img {
 	}
 	.logo-footer-cont {
 		justify-content: flex-start;
+		width: 100%;
 	}
 	.site-footer .logo-col {
 		width: 100%;
