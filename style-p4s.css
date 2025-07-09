@@ -1845,6 +1845,9 @@ footer a.social-icon img {
 		gap: 17px;
         row-gap: 20px;
 	}
+	main .custom-container, .post-type-archive-product .page-description, .top-bar .custom-container, .full-container .custom-container {
+		width: 100%;
+	}
 }
 
 @media (max-width: 700px) {
