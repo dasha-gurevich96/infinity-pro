@@ -1458,6 +1458,9 @@ a#backToTop {
 }
 
 @media (max-width: 990px) {
+	.hero {
+		height: 214px;
+	}
 	.diamond-content {
 		padding-top: 103px;
 	}
@@ -1485,6 +1488,9 @@ a#backToTop {
 	.front-page-5 .slick-dots li button .slick-dot-icon {
 		color: #591144;
 		opacity: 1;
+	}
+	div#front-page-1 img.wave {
+    	top: -33px;
 	}
 }
 
