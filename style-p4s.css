@@ -1580,6 +1580,14 @@ a#backToTop {
 	}
 	.card h3, .card h3 a {
     	font-size: 23px;
+	}
+	.front-page-4 .slick-slide {
+    	max-width: 298px;
+		margin: auto;
+	}
+	.front-page-4 .slick-slide {
+    	max-width: 310px;
+		margin: auto;
 	}				
 }
 
