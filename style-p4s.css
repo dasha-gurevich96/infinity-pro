@@ -754,11 +754,14 @@ nav .wrap {
 		height: 83px;
         width: 254px;
 	}
-	.custom-container.d-flex.justify-content-between.align-items-center {
+	div:not(.fixed) .custom-container.d-flex.justify-content-between.align-items-center {
 		flex-direction: column !important;
 		gap: 20px;
 	}
-
+	.logo-btn-container.fixed a.custom-button {
+		display: none;
+	}
+	
 }
 
 @media (max-width: 390px) {
