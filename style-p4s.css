@@ -652,7 +652,7 @@ nav .wrap {
 		max-width: 100%;
 	}
 	.logo-btn-container .custom-container {
-		max-width: 97%;
+		max-width: 97% !important;
 	}
 	nav#genesis-nav-primary {
 		background-color: #f1b725;
