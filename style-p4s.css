@@ -559,7 +559,7 @@ nav .wrap {
 		display: none;
 	}
 	.site-header .nav-primary {
-		display: block;
+		display: flex !important;
 
 	}
 }
