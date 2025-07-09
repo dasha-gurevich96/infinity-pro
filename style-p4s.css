@@ -1918,6 +1918,13 @@ footer a.social-icon img {
 	.menu-toggle {
     	padding: 6px 47px !important;
 	}
+	
+}
+
+@media (max-width: 320px) {
+	.menu-toggle {
+    	padding: 6px 36px !important;
+	}
 	.social-share .custom-container.d-flex {
 		flex-wrap: wrap;
 		width: 90%;
@@ -1931,6 +1938,24 @@ footer a.social-icon img {
 	}
 	.slider-container.two-slide-cards .slick-list.draggable {
 		width: 100%;
+	}
+	.title-diamond {
+		width: 100%;
+	}
+	.title-diamond h3 {
+		font-size: 21px;
+		top: 44%;
+		padding: 0px 17px;
+		left: 47%;
+		line-height: 1.2;
+	}
+	.diamond-content {
+		padding-top: 85px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	div#front-page-1 img.wave {
+    	top: -11px;
 	}
 }
 /*** INNER PAGES: GENERAL
