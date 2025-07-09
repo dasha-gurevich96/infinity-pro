@@ -1898,6 +1898,21 @@ footer a.social-icon img {
 		margin-top: 15px;
 	}
 }
+
+@media (max-width: 390px) {
+	.logo-container {
+    	height: 194px;
+	}	
+	.front-page-5 img.logo {
+		height: 136px;
+	}
+	.fixed .site-title {
+    	width: 166px;
+	}
+	.fixed .title-area {
+    	width: 45%;
+	}
+}
 /*** INNER PAGES: GENERAL
 ==========================*/
 .inner-page header.entry-header {
