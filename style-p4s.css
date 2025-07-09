@@ -1406,13 +1406,13 @@ a#backToTop {
 }
 
 @media (min-width: 2000px) {
-	img.wave {
+	.front-page-1 img.wave {
 		top: -85px;
 	}
 }
 
 @media (min-width: 2400px) {
-	img.wave {
+	.front-page-5 img.wave {
 		top: -63px;
 	}
 }
