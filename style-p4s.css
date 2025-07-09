@@ -1094,6 +1094,7 @@ div#video-container {
     z-index: 10;
 	width: 86%;
     height: 87%;
+	background-color: #f1b626;
 }
 
 div#video-container iframe {
