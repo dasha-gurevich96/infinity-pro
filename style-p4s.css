@@ -1055,8 +1055,8 @@ div#front-page-1 .hero .diamonds {
     right: 0;
     transform: scaleX(-1);
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 19%;
+    background-size: 19%;
+    width: 100%;
  }
 
 .hero {
@@ -1415,9 +1415,7 @@ a#backToTop {
 	.front-page-5 img.wave {
 		top: -63px;
 	}
-	div#front-page-1 .hero .diamonds {
-		right: 7%;
-	}
+
 }
 
 /*** FOOTER
