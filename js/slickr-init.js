@@ -41,6 +41,13 @@ function initMobileSlick() {
         slidesToShow: 2,
         slidesToScroll: 1,
         responsive: [
+            {
+            breakpoint: 990,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            }
+          },
           {
             breakpoint: 700,
             settings: {
