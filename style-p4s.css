@@ -1563,6 +1563,12 @@ a#backToTop {
 	.hero {
     	height: 160px;
 	}
+	.title-diamond {
+		position: relative;
+		height: 181px;
+		width: 88%;
+		margin: auto;
+	}
 	div#front-page-1 img.wave {
     	top: -17px;
 	}
@@ -1571,6 +1577,13 @@ a#backToTop {
 		height: 77%;
 		top: 0;
 	}	
+
+	.title-diamond h3 {
+		font-size: 22px;
+		top: 50%;
+		left: 49%;
+		line-height: 1.4;
+	}
 
 	.front-page-3 .custom-container {
     	max-width: 87% !important;
@@ -1831,6 +1844,17 @@ footer a.social-icon img {
 	.social-share .custom-container.d-flex {
 		gap: 10px;
 		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 700px) {
+	.full-container.footer-container {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	.footer-widgets .wrap, .site-footer .wrap {
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
 /*** INNER PAGES: GENERAL
