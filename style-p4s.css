@@ -3818,6 +3818,12 @@ a.custom-button.learn-more img {
 	}
 }
 
+@media (max-width: 990px) {
+	.card.full-card.grid-card {
+		grid-template-columns: 1fr;
+	}
+}
+
 
 /*** SINGLE EVENT
 =====================*/
