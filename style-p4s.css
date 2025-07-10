@@ -2112,16 +2112,13 @@ footer a.social-icon img {
 }
 
 @media (max-width: 990px) {
-	.full-container.footer-container {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-	}
+
 	.site-footer .details {
 		max-width: 355px;
 	}
 }
 
-@media (max-width: 700px) {
+@media (max-width: 990px) {
 	.full-container.footer-container {
 		display: grid;
 		grid-template-columns: 1fr;
