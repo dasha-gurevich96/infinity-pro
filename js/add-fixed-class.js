@@ -12,7 +12,7 @@ jQuery(document).ready(function($) {
         if (scrollTop > 550 ) {
             $('.logo-btn-container').addClass('fixed');
         } else {
-            $('.logo-btn-container').removeClass('fixed top');
+            $('.logo-btn-container').removeClass('fixed');
         }
 		
     });
