@@ -3789,14 +3789,15 @@ img.logo.object-fit-contain {
 	.bio-card img.logo {
 		width: 93px;
 	}
-	.card.full-card {
-		width: 100% Im !important;
-	}
+	
 }
 
 @media (max-width: 990px) {
 	.bio-card {
 		width: 74% !important;
+	}
+	.card.full-card {
+		width: 100%  !important;
 	}
 	
 }
