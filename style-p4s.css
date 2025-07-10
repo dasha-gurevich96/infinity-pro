@@ -2418,6 +2418,13 @@ h2.text-center.inner-page-title  {
 		grid-template-columns: 1fr;
 		gap: 20px;
 	}
+	.img-cont.d-none.mobile-col {
+		display: block !important;
+		margin-bottom: 30px;
+	}
+	.inner-banner .grid-container .img-col {
+		display: none;
+	}
 }
 
 @media (max-width: 700px) {
