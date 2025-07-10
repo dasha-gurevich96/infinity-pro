@@ -3786,9 +3786,15 @@ img.logo.object-fit-contain {
 	}
 }
 
-@media (990px) {
+@media (max-width: 990px) {
 	.bio-card {
 		width: 74% !important;
+	}
+}
+
+@media (max-width: 990px) {
+	.bio-card {
+		width: 100% !important;
 	}
 }
 /*** EVENTS
