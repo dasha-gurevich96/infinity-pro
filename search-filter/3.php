@@ -142,7 +142,7 @@ if ($query->have_posts()) {
 							<?php 
 							if(!get_field('remove_link_to_the_page')) {
 							if(!empty($external_link)) {
-								$link_text = 'Visit Website1';
+								$link_text = 'Visit Website';
 
 								// Get lowercase file extension
 								$extension = strtolower(pathinfo(parse_url($external_link, PHP_URL_PATH), PATHINFO_EXTENSION));
@@ -157,7 +157,15 @@ if ($query->have_posts()) {
 									case 'docx':
 										$link_text = 'Download DOCX';
 										break;
-									
+									default:
+										// Check if link is internal (on the same domain)
+										$site_host = parse_url(home_url(), PHP_URL_HOST);
+										$link_host = parse_url($external_link, PHP_URL_HOST);
+
+										if (!empty($link_host) && $link_host === $site_host) {
+											$link_text = 'Learn more';
+										}
+										break;
 								}
 								?> <a href="<?php echo $external_link;?>1" class="custom-button learn-more d-flex" aria-label="<?php echo $link_text;?> of <?php the_title();?>">
 									<span><?php echo $link_text;?></span>
