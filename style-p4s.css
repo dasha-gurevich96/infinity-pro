@@ -2953,6 +2953,10 @@ img.story-img {
 		margin: auto;
     	width: 88%;
 	}
+	.pattern-right,
+	.pattern-left {
+		width: 25%;
+	}
 }
 /*** SINGLE STORY
 ------------------*/
