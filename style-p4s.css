@@ -2959,10 +2959,6 @@ img.story-img {
 		margin: auto;
     	width: 88%;
 	}
-	.pattern-right,
-	.pattern-left {
-		width: 25%;
-	}
 	.page-id-113 .site-inner {
 		padding-bottom: 0;
 	}
@@ -3699,6 +3695,13 @@ a.custom-button.learn-more img {
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+
+@media (max-width: 1100px) {
+	.pattern-right,
+	.pattern-left {
+		width: 25%;
+	}
 }
 
 
