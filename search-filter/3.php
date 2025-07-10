@@ -75,8 +75,10 @@ if ($query->have_posts()) {
 						<div class="img-col">
 							<?php if(!empty($image_url)) {
 									?> <img src="<?php echo $image_url;?>" alt="<?php echo $image_alt;?>" /><?php
-							} else {
+							} elseif(!empty($image_resources)) {
 								?> <img src="<?php echo $image_resources['url'];?>" alt="<?php echo $image_resources['alt'];?>" /><?php
+							} else {
+								?><img class="logo-img" src="/wp-content/uploads/2025/06/Stories_temporary-avatar.svg" alt="" /><?php
 							}
 							?>
 						</div>
