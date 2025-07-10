@@ -3496,7 +3496,8 @@ img.theme-img {
 
 @media (min-width: 2040px) {
 	.full-container.yellow-container {
-		margin-top: -111px;
+		margin-top: -130px;
+		padding-top: 131px;
 	}
 }
 /*** WHO WE ARE
