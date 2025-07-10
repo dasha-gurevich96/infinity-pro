@@ -3772,6 +3772,9 @@ img.logo.object-fit-contain {
 	.detail {
 		top: -100px;
 	}
+	.logo-diamond-container {
+		width: 372px;
+	}
 }
 /*** EVENTS
 ==================*/
