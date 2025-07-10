@@ -2814,6 +2814,9 @@ img.img-mask {
 		-webkit-mask-size:343px;
 		mask-size: 343px;
 	}
+	.inner-page .entry-header img {
+    	bottom: -24%;
+	}
 }
 
 @media (max-width: 330px) {
