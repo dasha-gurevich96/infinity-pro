@@ -3525,6 +3525,12 @@ img.theme-img {
     	height: 156px;
 	}
 }
+
+@media (max-width: 990px) {
+	img.wave.theme-wave {
+    	top: -29px;
+	}
+}
 /*** WHO WE ARE
 =====================*/
 button.slick-arrow {
