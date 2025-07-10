@@ -2459,7 +2459,7 @@ h2.text-center.inner-page-title  {
 
 @media (min-width: 2040px) {
 	.inner-page .entry-header img.plain-wave {
-    	bottom: -161%;
+    	bottom: -161% !important;
 	}
 }
 
