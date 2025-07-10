@@ -1,4 +1,5 @@
 <?php
+echo 'test';
 if(have_rows('links')) {
     ?><div class="links d-flex flex-column gap-3">
         <?php while(have_rows('links')) {
