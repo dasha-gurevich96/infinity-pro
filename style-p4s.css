@@ -2730,9 +2730,10 @@ img.img-mask {
 		left: -4px;
 		top: -24px;
 	}
-	.diamond-container:before {
+	.diamond-container.purple-diamond:before {
 		background-size: 88%;
 		background-position: center;
+		left: -25%;
 	}
 }
 
