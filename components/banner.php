@@ -21,6 +21,7 @@ if(!empty($logo) && !empty($text)) {
                                 <img class="diamond" src="/wp-content/uploads/2025/06/Graphic_whtite-diamond.svg" alt="" />
                                 <img class="logo-banner" src="<?php echo $logo['url'];?>" alt="<?php echo $logo['alt'];?>" />
                             </div>
+                    </div>
                     <?php
                    } ?>
                         <?php if(!empty($text)) {
