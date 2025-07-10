@@ -2700,6 +2700,9 @@ img.img-mask {
 	.inner-page .entry-header img {
 		bottom: -50%;
 	}
+	.inner-page .entry-content {
+		padding-top: 60px;
+	}
 	.full-container.what-is {
     	margin-bottom: 0;
 	}
