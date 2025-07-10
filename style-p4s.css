@@ -2680,6 +2680,18 @@ img.img-mask {
 	height: 48px;
 }
 
+@media (max-width: 1080px) {
+	.infographics-container .custom-container  {
+		 max-width: 100%;
+        position: relative;
+        left: -3%;
+	}
+	.diamond-container.purple-diamond .text {
+		position: relative;
+		top: -3%;
+		width: 77%;
+	}
+}
 
 /*** STORIES
 ====================+*/
