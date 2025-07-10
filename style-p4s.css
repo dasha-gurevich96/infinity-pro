@@ -3021,6 +3021,13 @@ img.img-mask {
 	text-decoration: none;
 }
 
+.inner-page .story-card h3 a:hover,
+.story-card:hover,
+.inner-page .story-card h3 a:focus,
+.story-card:focus {
+	text-decoration: underline;
+}
+
 .story-card .text-col {
     padding: 25px;
 }
