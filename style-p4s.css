@@ -2735,6 +2735,10 @@ img.img-mask {
 		background-position: center;
 		left: -25%;
 	}
+	.diamond-container.purple-diamond .text {
+		top: 5%;
+		width: 79%;
+	}
 }
 
 /*** STORIES
