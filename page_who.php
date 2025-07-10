@@ -59,6 +59,7 @@ function custom_content() {
                                     $role = get_sub_field('role');
                                     $bio = get_sub_field('bio');
                                     if (!empty($name) && !empty($role)) {
+                                         $pairIndex++;
                                         ?> 
                                         <div class="bio-card">
                                                 <div class="container-bio-card">
