@@ -623,6 +623,9 @@ nav .wrap {
 	.full-container.logo-btn-container.fixed .custom-container {
 		width: 96%;
 	}
+	.full-container.logo-btn-container.fixe .site-title {
+		height: 97px;
+	}
 	/*.full-container.logo-btn-container.fixed div:not(.wrap) button#genesis-mobile-nav-primary {
 		display: block;
 		visibility: visible;
