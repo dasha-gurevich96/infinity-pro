@@ -48,6 +48,8 @@ function custom_content() {
 			the_row();
 			if (get_row_layout() === 'collapsibles') {
 				get_template_part('/components/collapsibles');
+			} elseif (get_row_layout() === 'form') {
+				get_template_part('/components/form');
 			}
 		}
 	?><?php
