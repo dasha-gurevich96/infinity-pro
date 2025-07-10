@@ -2,7 +2,7 @@
 if(have_rows('links')) {
     ?><div class="links d-flex flex-column gap-3">
         <?php while(have_rows('links')) {
-            the_row('links');
+            the_row();
             $link_text = get_sub_field("link_text");
             $link = get_sub_field('link');
             if(!empty($link_text) && !empty($link)) {
