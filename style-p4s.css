@@ -3542,7 +3542,7 @@ img.theme-img {
 		background-color: #E5F7F0;
 	}
 
-	.theme-page .slick-slide::nth-child(3n+2) .diamond-card.title-diamond-cont .title-diamond:before {
+	.theme-page .slick-slide::nth-child(3n+2) .diamond-card .title-diamond-cont .title-diamond:before {
 		background-image: url(/wp-content/uploads/2025/06/Green-Diamond.svg);
 	}
 
