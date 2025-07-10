@@ -3597,13 +3597,6 @@ img.theme-img {
 		max-width: 100%;
 		width: 100%;
 	}
-}
-
-
-@media (max-width: 700px) {
-	.full-container.yellow-container {
-		background-image: none;
-	}
 	.theme-container { 
 		grid-template-columns: 1fr;
 		gap: 20px;
@@ -3624,6 +3617,14 @@ img.theme-img {
 	.full-container.yellow-container {
     	margin-top: -117px;
 	}
+}
+
+
+@media (max-width: 700px) {
+	.full-container.yellow-container {
+		background-image: none;
+	}
+	
 	.theme-page .diamond-content {
 		height: fit-content;
 	}
