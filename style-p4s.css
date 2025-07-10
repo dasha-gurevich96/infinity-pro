@@ -3795,6 +3795,10 @@ img.logo.object-fit-contain {
 	.bio-card {
 		width: 74% !important;
 	}
+	.card.full-card {
+		grid-template-columns: 1fr;
+		gap: 78px;
+	}
 }
 
 @media (max-width: 700px) {
