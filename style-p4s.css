@@ -3555,11 +3555,17 @@ img.theme-img {
 	.theme-page .title-diamond {
     	height: 156px;
 	}
+	.theme-page .yellow-container .custom-container {
+    	max-width: 80% !important;
+	}
 }
 
 @media (max-width: 990px) {
 	img.wave.theme-wave {
     	top: -29px;
+	}
+	theme-page .yellow-container .custom-container {
+    	max-width: 97% !important;
 	}
 
 	.theme .custom-container {
