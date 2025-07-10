@@ -3580,6 +3580,12 @@ img.theme-img {
 		width: 330px !important;
 		max-width: 96%;
 	}
+	.theme-page .diamond-content {
+		height: fit-content;
+	}
+	.theme-page .diamond-content {
+		padding-top: 60px;
+	}
 }
 
 
