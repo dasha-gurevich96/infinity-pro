@@ -3518,6 +3518,9 @@ img.theme-img {
 	.full-container.yellow-container {
 		margin-top: -61px;
 	}
+	img.wave.theme-wave {
+    	top: -36px;
+	}
 }
 /*** WHO WE ARE
 =====================*/
