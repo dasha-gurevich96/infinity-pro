@@ -3840,6 +3840,12 @@ img.logo.object-fit-contain {
 		background-size: 100%;
 	}
 }
+
+@media (max-width: 390px) {
+	.funders-cards img.logo {
+		width: 215px;
+	}
+}
 /*** EVENTS
 ==================*/
 .entry-content {
