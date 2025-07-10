@@ -2437,6 +2437,9 @@ h2.text-center.inner-page-title  {
 	.inner-page .entry-content {
     	padding-top: 0px !important;
 	}
+	.inner-page:has(.grid-container) .entry-header img.banner-wave {
+    	bottom: -4%;
+	}
 }
 
 @media (max-width: 390px) {
