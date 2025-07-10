@@ -3500,6 +3500,12 @@ img.theme-img {
 		padding-top: 131px;
 	}
 }
+
+@media (min-width: 2500px) {
+	.inner-page .entry-header img.plain-wave {
+    	bottom: -200% !important;
+	}
+}
 /*** WHO WE ARE
 =====================*/
 button.slick-arrow {
