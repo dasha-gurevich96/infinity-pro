@@ -3545,6 +3545,9 @@ img.theme-img {
 	.theme-container { 
 		grid-template-columns: 1fr;
 	}
+	img.wave.theme-wave {
+		top: -16px;
+	}
 }
 /*** WHO WE ARE
 =====================*/
