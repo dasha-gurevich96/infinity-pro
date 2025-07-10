@@ -2100,6 +2100,15 @@ footer a.social-icon img {
 		height: 45px;
 		width: 45px;
 	}
+	.site-footer img.diamond {
+		top: 33px;
+	}
+	footer.site-footer {
+    	overflow: hidden;
+	}
+	.site-footer .contact {
+		width: 39%;
+	}
 }
 
 @media (max-width: 990px) {
