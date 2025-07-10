@@ -635,6 +635,27 @@ nav .wrap {
 	.full-container.logo-btn-container.fixed .custom-button.dark-green.desktop-btn {
 		display: block;
 	}
+
+	.full-container.logo-btn-container.fixed .genesis-nav-menu > li.menu-item > a:hover::before, 
+	.full-container.logo-btn-container.fixed .genesis-nav-menu > li.menu-item > a:focus::before, 
+	.full-container.logo-btn-container.fixed .genesis-nav-menu > li.menu-item > a[aria-expanded="true"]::before {
+			width: 90%;
+		}
+
+	.full-container.logo-btn-container.fixed .genesis-nav-menu > li.menu-item > a::before {
+		content: "";
+		display: block;
+		margin: auto;
+		position: absolute;
+		width: 0;
+		height: 3px;
+		background: var(--purple);
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: -3px;
+		transition: all 0.4s;
+	}
+
 	/*.full-container.logo-btn-container.fixed div:not(.wrap) button#genesis-mobile-nav-primary {
 		display: block;
 		visibility: visible;
