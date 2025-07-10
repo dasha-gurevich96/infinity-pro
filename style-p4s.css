@@ -3275,11 +3275,20 @@ img.bio-img {
 	.title-img-container {
 		grid-template-columns: 1fr;
 	}
-
 	.title-img-container .diamond-container {
-		margin-top: -51px;
+		margin-top: -10px;
+		left: 33%;
 	}
 
+}
+
+@media (max-width: 700px) {
+	.full-container.banner-yellow .custom-container {
+		padding-left: 0;
+	}
+	.white-bg.banner-text-2.banner-text {
+		padding: 5px 25px;
+	}
 }
 
 /*** GET INVOLVED
