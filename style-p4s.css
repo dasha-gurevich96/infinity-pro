@@ -1831,6 +1831,9 @@ a#backToTop {
 	div#front-page-1 div#video-container {
 		height: 105px;
 	}
+	.logo-container {
+    	height: 164px;
+	}
 }
 
 /*** FOOTER
