@@ -1576,10 +1576,10 @@ a#backToTop {
 	div#front-page-1 img.wave {
     	top: -17px;
 	}
-	div#front-page-1 div#video-container {
-		width: 94.5%;
-		height: 77%;
+	div#video-container iframe {
+		height: 96%;
 		top: 0;
+		width: 100%;
 	}	
 
 	.title-diamond h3 {
