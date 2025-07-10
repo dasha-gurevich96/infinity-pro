@@ -2405,11 +2405,18 @@ h2.text-center.inner-page-title  {
 		align-items: flex-start;
 		flex-direction: column;
 	}
+	.inner-page:has(.grid-container) .entry-header img.banner-wave {
+    	bottom: -17%;
+	}
 }
 
 @media (max-width: 990px) {
 	.inner-page .entry-header img.plain-wave {
     	bottom: -50%;
+	}
+	.inner-banner .grid-container {
+		grid-template-columns: 1fr;
+		gap: 20px;
 	}
 }
 
