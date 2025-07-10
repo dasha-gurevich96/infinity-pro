@@ -3013,8 +3013,8 @@ img.img-mask {
 	width: 100%;
 }
 
-.story-card h3,
-.story-card h3 a {
+.inner-page .story-card h3,
+.inner-page .story-card h3 a {
     color: var(--purple) !important;
     font-size: 32px;
     font-weight: 700 !important;
