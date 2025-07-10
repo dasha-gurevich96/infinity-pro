@@ -3624,9 +3624,13 @@ img.theme-img {
 		height: fit-content;
 	}
 
-	
+}
 
-
+@media (max-width: 330px) {
+	img.theme-img {
+		width: 280px;
+		
+	}
 }
 /*** WHO WE ARE
 =====================*/
