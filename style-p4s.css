@@ -3272,12 +3272,11 @@ img.bio-img {
 	.title-img-container {
 		grid-template-columns: 1fr;
 	}
-	.title-img-container image.col {
-		display: none;
+
+	.title-img-container .diamond-container {
+		margin-top: -51px;
 	}
-	.title-img-container image.col.mobile-col.d-none {
-		display: block !important;
-	}
+
 }
 
 /*** GET INVOLVED
