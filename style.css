@@ -1328,12 +1328,7 @@ img.alignright,
 /* Entries
 --------------------------------------------- */
 
-.entry,
-.page.page-template-page_blog .content .entry {
-	border-bottom: 1px solid #eee;
-	margin-bottom: 60px;
-	padding-bottom: 30px;
-}
+
 
 .page .content .entry {
 	border-bottom: none;
