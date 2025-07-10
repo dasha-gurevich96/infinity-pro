@@ -3961,6 +3961,9 @@ a.back-to:focus img {
 		grid-template-columns: 1fr;
 		gap: 20px;
 	}
+	.logo-text-container .logo-col {
+		display: none;
+	}
 }
 
 @media (max-width: 700px) {
