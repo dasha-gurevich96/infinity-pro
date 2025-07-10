@@ -112,6 +112,12 @@ input[type="email"], input[type="search"], input[type="submit"], input[type="tex
     margin-bottom: 36px !important;
 }
 
+.form-container .text {
+    margin: 0 auto 32px;
+    text-align: center;
+    width: 80%;
+}
+
 .fluentform .ff-el-input--label {
     display: flex;
     margin-bottom: 5px;
