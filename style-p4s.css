@@ -2971,6 +2971,18 @@ img.story-img {
 	.results {
     	width: 100%;
 	}
+	.story-card {
+		grid-template-columns: 100%;
+		background-size: 305px;
+	}
+
+	.story-card .img-col {
+		display: none;
+	}
+
+	.story-card .img-col.mobile-col {
+		display: block !important;
+	}
 }
 
 
