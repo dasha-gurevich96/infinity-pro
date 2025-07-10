@@ -51,7 +51,7 @@ function custom_content() {
                     <?php if (!empty($title_w)) { ?>
                         <h3 class="text-center title-w"><?php echo $title_w; ?></h3>
                     <?php } ?>
-
+                    <div class="desktops-slider">
                      <p class="screen-reader-text">
                             Below is the slider with the working group members.
                             On desktop devicies each slide has information about two working group members. On mobueles each slide has information about one working group member.
@@ -121,6 +121,7 @@ function custom_content() {
                         ?>
                     </div>
                 </div>
+                    </div>
             <?php } ?>
             <?php
             $title_partners = get_field('title_partners');
