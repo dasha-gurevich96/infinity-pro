@@ -138,7 +138,7 @@ let initSlickL = function() {
         {
           breakpoint: 700,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 1,
             slidesToScroll: 1
           }
         },
