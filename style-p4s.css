@@ -707,6 +707,7 @@ nav .wrap {
 	
 	.full-container.logo-btn-container.fixed nav#genesis-nav-primary {
 		background-color: #f1b725;
+		display: none;
 		position: absolute;
 		width: 100%;
 		top: 95%;
