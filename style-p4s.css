@@ -697,15 +697,16 @@ nav .wrap {
 		width: 28%;
 	}
 	header > .wrap, .buttons-header .custom-container {
-		max-width: 93%;
-		width: 93%;
+		max-width: 97%;
+        width: 97%;
+        margin: auto;
 	}
 	button.search {
 		padding: 0;
 	}
-	full-container.logo-btn-container.fixed div:not(.wrap) button#genesis-mobile-nav-primary {
-		display: block;
-		visibility: visible;
+	full-container.logo-btn-container.fixed  button#genesis-mobile-nav-primary {
+		display: block !important;
+		visibility: visible !important;
 	}
 	.full-container.logo-btn-container.fixed nav#genesis-nav-primary {
 		background-color: #f1b725;
