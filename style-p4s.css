@@ -2115,7 +2115,7 @@ footer a.social-icon img {
 	.front-page-5 img.logo {
 		height: 136px;
 	}
-	.fixed .site-title {
+	.logo-btn-container.fixed .site-title {
     	width: 156px;
 	}
 	.menu-toggle {
