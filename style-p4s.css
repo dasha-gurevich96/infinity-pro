@@ -618,7 +618,7 @@ nav .wrap {
 		display: block;
 	}
 	.full-container.logo-btn-container.fixed .genesis-nav-menu a {
-		color: var(--dark-purple);
+		color: var(--purple);
 	}
 	.full-container.logo-btn-container.fixed .custom-container {
 		width: 96%;
