@@ -3629,7 +3629,10 @@ img.theme-img {
 @media (max-width: 330px) {
 	img.theme-img {
 		width: 280px;
-		
+	}
+
+	img.wave.theme-wave {
+    	top: -14px;
 	}
 }
 /*** WHO WE ARE
