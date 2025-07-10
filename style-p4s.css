@@ -3757,6 +3757,11 @@ img.logo.object-fit-contain {
 		display: block !important;
 		
 	}
+
+	.bio-card {
+		margin: auto;
+		width: 54%;
+	}
 	
 	.line {
 		display: none;
