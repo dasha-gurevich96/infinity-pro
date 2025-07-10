@@ -3820,7 +3820,7 @@ img.logo.object-fit-contain {
         justify-content: space-between;
 		width: 57%;
 	}
-	.logo-card.clickable-card {
+	.logo-card {
 		display: flex !important;
 		margin: auto;
 		width: 63% !important;
@@ -3854,6 +3854,9 @@ img.logo.object-fit-contain {
 	}
 	.bio-card .custom-button {
 		width: 100%;
+	}
+	.logo-card {
+		width: 80%;
 	}
 }
 /*** EVENTS
