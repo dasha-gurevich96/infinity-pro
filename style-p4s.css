@@ -547,6 +547,11 @@ nav .wrap {
 	display: none;
 }
 
+.logo-btn-container.top {
+	top: -100px;
+	transition: top 0.3s ease;
+}
+
 .full-container.logo-btn-container.fixed {
     background-color: white;
 	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -557,6 +562,7 @@ nav .wrap {
 	padding: 0;
 	width: 100%;
 }
+
 
 @media (min-width: 990px) {
 	ul#menu-header {
