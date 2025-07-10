@@ -6,7 +6,7 @@ $shortcode = get_sub_field('shortcode');
 if(!empty($shortcode)) {
     ?><div class="full-container">
         <div class="custom-container form-container">
-            <div class="form-text d-flex flex-column gap-3">
+            <div class="form-text mb-5">
         <?php if(!empty($title)) {
             ?><h2><?php echo $title;?></h2><?php
         }
