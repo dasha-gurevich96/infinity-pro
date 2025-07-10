@@ -2378,7 +2378,9 @@ h2.text-center.inner-page-title  {
 }
 
 .inner-page .entry-content a {
-	color: #0E5660;
+    color: #0E5660;
+    font-size: 18px;
+    font-weight: 700 !important;
 }
 
 .inner-page .entry-content li {
