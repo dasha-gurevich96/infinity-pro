@@ -3799,6 +3799,10 @@ img.logo.object-fit-contain {
 	.card.full-card {
 		width: 100%  !important;
 	}
+
+	.funders-cards h4 {
+		font-size: 28px;
+	}
 	
 }
 
