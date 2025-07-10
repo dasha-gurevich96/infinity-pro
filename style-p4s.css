@@ -903,6 +903,11 @@ nav .wrap {
 		height: 83px;
         width: 254px;
 	}
+	.full-container.logo-btn-container.fixed .custom-container.d-flex.justify-content-between.align-items-center {
+		display: grid !important;
+		grid-template-columns: 2fr 1fr;
+		gap: 20px;
+	}	
 	.logo-btn-container:not(.fixed) .custom-container.d-flex.justify-content-between.align-items-center {
 		flex-direction: column !important;
 		gap: 20px;
@@ -921,13 +926,13 @@ nav .wrap {
 	}
 
 	.fixed .title-area {
-		width: 46%;
+		width: 100%;
 	}
 	.site-title {
 		width: 320px;
 	}
 	.fixed .mobile-menu {
-		width: 50%;
+		width: 100%;
 	}
 	
 }
