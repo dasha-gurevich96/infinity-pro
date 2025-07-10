@@ -339,6 +339,12 @@ html {
 	transition: transform 0.2s ease;
 }
 
+main#genesis-content {
+    position: relative;
+    overflow-x: hidden;
+    width: 100%;
+}
+
 .move-up:hover,
 .move-up:focus,
 .move-up:focus-within {
