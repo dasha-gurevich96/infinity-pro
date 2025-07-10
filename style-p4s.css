@@ -3311,7 +3311,9 @@ img.bio-img {
 	}
 	.video-container-page {
 		height: 225px;
+		margin-top: 30px;
 		width: 100%;
+
 	}
 }
 
