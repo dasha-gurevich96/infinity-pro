@@ -2057,6 +2057,9 @@ footer a.social-icon img {
 		display: grid;
 		grid-template-columns: 2fr 1fr;
 	}
+	.full-container.footer-container .custom-container {
+		width: 100% !important;
+	}
 	.footer-combined  {
     	display: none !important;	
 	}
