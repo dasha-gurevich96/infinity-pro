@@ -2717,6 +2717,9 @@ img.img-mask {
 		top: -20px;
 		object-fit: cover;
 	}	
+	.diamond-container.purple-diamond .text {
+		padding-right: 9px;
+	}
 }
 
 /*** STORIES
