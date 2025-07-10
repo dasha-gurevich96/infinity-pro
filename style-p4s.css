@@ -2064,8 +2064,9 @@ footer a.social-icon img {
     	display: none !important;	
 	}
 	.site-footer .details {
-		max-width: 355px;
-	}
+    max-width: 90%;
+}
+	
 	.site-footer img.diamond {
 		top: 13px;
 		height: 74%;
@@ -2101,6 +2102,9 @@ footer a.social-icon img {
 	.full-container.footer-container {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
+	}
+	.site-footer .details {
+		max-width: 355px;
 	}
 }
 
