@@ -2096,6 +2096,10 @@ footer a.social-icon img {
 	main .custom-container, .post-type-archive-product .page-description, .top-bar .custom-container, .full-container .custom-container {
 		width: 100%;
 	}
+	.site-footer a.social-icon {
+		height: 45px;
+		width: 45px;
+	}
 }
 
 @media (max-width: 990px) {
