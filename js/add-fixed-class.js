@@ -25,7 +25,7 @@ jQuery(document).ready(function($) {
                 $('.logo-btn-container').removeClass('top');
             }
 
-            if (scrollTop > 260) {
+            if (scrollTop > 200) {
                 $('.logo-btn-container').addClass('fixed');
             } else {
                 $('.logo-btn-container').removeClass('fixed');
