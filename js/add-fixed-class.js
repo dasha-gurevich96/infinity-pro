@@ -3,7 +3,7 @@ jQuery(document).ready(function($) {
     $(window).scroll(function() {
         let scrollTop = $(this).scrollTop();
 
-        if(scrollTop > 10) {
+        if(scrollTop > 40) {
             $('.logo-btn-container').addClass('top');
         } else {
             $('.logo-btn-container').removeClass('top');
@@ -11,9 +11,9 @@ jQuery(document).ready(function($) {
 
         if (scrollTop > 150 ) {
              $('.logo-btn-container').removeClass('top');
-            $('.logo-btn-container').addClass('fixed show');
+            $('.logo-btn-container').addClass('fixed');
         } else {
-            $('.logo-btn-container').removeClass('fixed');
+            $('.logo-btn-container').removeClass('fixed top');
         }
 		
     });
