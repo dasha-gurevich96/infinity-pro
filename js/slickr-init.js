@@ -103,7 +103,19 @@ let initSlickW = function() {
 initSlickW();
 $(window).on('resize', initSlickW);
 
+let sliderWM = $('.working-group-cards-mobile');
+let initSlickWM = function() {
+  sliderWM.slick({
+      dots: true,
+      infinite: false,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+  });
+}
 
+initSlickWM();
+$(window).on('resize', initSlickWM);
 //Logos - who we are 
 
 let sliderL = $('.logos-cards');
