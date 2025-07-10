@@ -3561,6 +3561,11 @@ img.theme-img {
 	.full-container.yellow-container {
     	background-size: 58%;
 	}
+	.theme-page .diamond-cards {
+		grid-template-columns: 1fr 1fr;
+		margin: auto;
+		width: 656px;
+	}
 }
 
 @media (max-width: 990px) {
