@@ -909,7 +909,7 @@ nav .wrap {
 	}
 
 	.logo-btn-container.fixed a.custom-button {
-		display: none;
+		display: none !important;
 	}
 
 	.logo-btn-container.fixed .site-title {
