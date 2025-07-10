@@ -2452,14 +2452,7 @@ a.accordion-button::after {
 		font-size: 19px;
 		line-height: 1.4;
 	}
-	img.stripes {
-		height: 279px;
-		position: relative;
-			left: 0%;
-		margin-top: 9px;
-		object-fit: cover;
-		object-position: -66px 0px;
-	}
+	
 }
 
 /*** INNER PAGE: ABOUT
@@ -2741,6 +2734,7 @@ img.img-mask {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		margin-top: -90px;
 	}
 	img.img-mask {
 		height: 510px;
@@ -2800,6 +2794,14 @@ img.img-mask {
 	.diamond-container.purple-diamond .text {
 		top: 5%;
 		width: 79%;
+	}
+	img.stripes {
+		height: 279px;
+		position: relative;
+			left: 0%;
+		margin-top: 9px;
+		object-fit: cover;
+		object-position: -66px 0px;
 	}
 }
 
