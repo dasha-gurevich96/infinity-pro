@@ -2704,18 +2704,11 @@ img.img-mask {
 	}
 	img.img-mask {
 		height: 510px;
-		/* margin-top: 40px; */
 		width: 530px !important;
-		mask: url(/wp-content/uploads/2025/06/About-Us-Image-mask.svg);
-		mask-repeat: no-repeat;
 		mask-size: 509px;
-		-webkit-mask: url(/wp-content/uploads/2025/06/About-Us-Image-mask.svg);
-		-webkit-mask-repeat: no-repeat;
 		-webkit-mask-size: 509px;
-		position: relative;
 		left: 10px;
 		top: -20px;
-		object-fit: cover;
 	}	
 	.diamond-container.purple-diamond .text {
 		padding-right: 9px;
@@ -2723,8 +2716,19 @@ img.img-mask {
 }
 
 @media (max-width: 700px) {
+	.infographics-container .custom-container {
+		left: 0;
+	}
 	.facts {
 		grid-template-columns: 1fr;
+	}
+	img.img-mask {
+		height: 434px;
+		width: 504px !important;
+		mask-size: 309px;
+		-webkit-mask-size: 390px;
+		left: -4px;
+		top: -24px;
 	}
 }
 
