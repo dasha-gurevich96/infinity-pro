@@ -108,6 +108,13 @@ input[type="email"], input[type="search"], input[type="submit"], input[type="tex
 	margin-bottom: 0;
 }
 
+.fluentform .ff-el-input--label {
+    display: flex;
+    margin-bottom: 5px;
+    position: relative;
+    width: 100% !important;
+}
+
 button, input[type="button"], input[type="reset"], input[type="select"], input[type="submit"], .button {
     background-color: #FFFFFF;
     border: 0;
