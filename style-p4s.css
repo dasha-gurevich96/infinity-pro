@@ -2722,7 +2722,7 @@ img.img-mask {
 	.img-col.d-none.mobile-col {
 		display: block !important;
 	}
-	.grid.two-columns .img-col img {
+	.grid.two-columns .img-col > img {
 		width: 100%;
 	}
 	.yellow-box {
