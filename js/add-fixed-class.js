@@ -1,19 +1,33 @@
-jQuery(document).ready(function($) {
-    console.log('fixed');
-    $(window).scroll(function() {
-        let scrollTop = $(this).scrollTop();
+jQuery(function ($) {
+    const $logo = $('.logo-btn-container');
 
-        if(scrollTop > 40) {
-            $('.logo-btn-container').addClass('top');
-        } else {
-            $('.logo-btn-container').removeClass('top');
-        }
+    $(window).on('scroll resize', toggleClasses);   // run on scroll and when window resizes
+    toggleClasses();                                // run once on load
 
-        if (scrollTop > 150 ) {
-            $('.logo-btn-container').addClass('fixed');
+    function toggleClasses () {
+        const scrollTop   = $(this).scrollTop();         // current scroll offset
+        const winHeight   = $(this).height();            // viewport height
+        const logoTop     = $logo.offset().top;          // element’s distance from doc top
+        const logoHeight  = $logo.outerHeight();
+        const logoBottom  = logoTop + logoHeight;
+
+        /* ---------------------------------------------------------
+           1.  Is *any* part of the element outside the viewport?
+               (above top edge OR below bottom edge) → add `.top`
+         --------------------------------------------------------- */
+        const outOfView = logoBottom < scrollTop || logoTop > scrollTop + winHeight;
+        $logo.toggleClass('top', outOfView);
+
+        /* ---------------------------------------------------------
+           2.  Has the page itself been scrolled > 150 px?
+               If so → pin it with `.fixed` (and remove `.top`),
+               else → remove `.fixed`
+         --------------------------------------------------------- */
+        if (scrollTop > 150) {
+            $logo.addClass('fixed');
         } else {
-            $('.logo-btn-container').removeClass('fixed top');
+            $logo.removeClass('fixed top');
         }
-		
-    });
+    }
 });
+
