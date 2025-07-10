@@ -3964,6 +3964,17 @@ a.back-to:focus img {
 	.logo-text-container .logo-col {
 		display: none;
 	}
+	.logo-cont.d-none {
+    	display: block !important;
+	}
+	.logo-cont.d-none img.logo.object-fit-contain {
+		width: 198px;
+		height: 113px;
+	}
+	.event h1 {
+		font-size: 26px;
+		margin-top: 10px;
+	}	
 }
 
 @media (max-width: 700px) {
