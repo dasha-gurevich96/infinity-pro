@@ -58,9 +58,8 @@ if ( $query->have_posts() ) {
                         <p><?php echo $desc; ?>...</p>
                     </div>
                 </div>
-            </div> <!-- closes .story-card -->
 
-            <div class="img-col mobile-col d-none">
+                <div class="img-col mobile-col d-none">
                     <div class="img-container">
                         <?php if ( ! empty( $image ) ) { ?>
                             <img class="story-img" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
@@ -69,6 +68,9 @@ if ( $query->have_posts() ) {
                         <?php } ?>
                     </div>
                 </div>
+            </div> <!-- closes .story-card -->
+
+            
             <?php
         }
         wp_reset_postdata();
