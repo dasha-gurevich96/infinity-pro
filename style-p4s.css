@@ -2368,6 +2368,9 @@ h2.text-center.inner-page-title  {
 }
 
 @media (max-width: 1100px) {
+	.inner-page .inner-banner .custom-container {
+		width: 858px;
+	}
 	.inner-page .entry-content {
     	padding-top: 61px !important;
 	}
