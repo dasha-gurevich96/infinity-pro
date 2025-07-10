@@ -70,7 +70,7 @@ if ($query->have_posts()) {
 				// Get image alt text
 				$image_alt = get_post_meta($thumbnail_id, '_wp_attachment_image_alt', true);
 
-		
+		$post_type = get_post_type(get_the_ID());
 				?><div class="card full-card grid-card <?php if(!get_field('remove_link_to_the_page')) { echo 'clickable-card';};?>">
 						<div class="img-col">
 							<?php if(!empty($image_url)) {
@@ -85,6 +85,10 @@ if ($query->have_posts()) {
 						<div class="text-col">
 							<h3>
 								<?php the_title();?>
+								<?php if($post_type === 'stories-scld') {
+									the_title();?>'s story <?php
+								}
+								?>
 							</h3>
 							<!--<?php if(!empty($organiser_logo)) {
 								?><img class="logo org object-fit-contain" src="<?php echo $organiser_logo['url'];?>" alt="<?php echo $organiser_logo['alt'];?>" /><?php
