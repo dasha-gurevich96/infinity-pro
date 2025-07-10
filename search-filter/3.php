@@ -163,18 +163,21 @@ if ($query->have_posts()) {
 										$link_host = parse_url($external_link, PHP_URL_HOST);
 
 										if (!empty($link_host) && $link_host === $site_host) {
-											$link_text = 'Learn more';
+											$link_text = 'Learn more1';
 										}
 										break;
 								}
-								?> <a href="<?php echo $external_link;?>" class="custom-button learn-more d-flex" aria-label="<?php echo $link_text;?> of <?php the_title();?>">
+								?> <a href="<?php echo $external_link;?>1" class="custom-button learn-more d-flex" aria-label="<?php echo $link_text;?> of <?php the_title();?>">
 									<span><?php echo $link_text;?></span>
 								<img class="arrow arrow-more" src="/wp-content/uploads/2025/06/Arrow-right.svg" alt=""/>
 								</a>
 							<?php
 								
 							} else {
-								?> 
+								?> <a href="<?php the_permalink();?>" class="custom-button learn-more d-flex" aria-label="Learn more about <?php the_title();?>">
+									<span>Learn more</span>
+								<img class="arrow arrow-more" src="/wp-content/uploads/2025/06/Arrow-right.svg" alt=""/>
+								</a>
 							<?php
 							}
 						}
