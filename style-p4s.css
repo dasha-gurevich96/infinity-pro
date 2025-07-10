@@ -3957,6 +3957,10 @@ a.back-to:focus img {
 	.inner-page.event .entry-content {
     	padding-top: 36px !important;
 	}
+	.logo-text-container {
+		grid-template-columns: 1fr;
+		gap: 20px;
+	}
 }
 
 @media (max-width: 700px) {
