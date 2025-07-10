@@ -2944,7 +2944,10 @@ img.story-img {
     height: 246px;
 }
 
-
+.results {
+    position: relative;
+    z-index: 7;
+}
 
 .story-card img.logo-img {
     position: relative;
