@@ -2985,6 +2985,17 @@ img.story-img {
 	}
 }
 
+@media (max-width: 990px) and (min-width: 700px) {
+	.story-card {
+		background-size: 400px;
+	}
+	.story-card .img-container {
+		width: 100%;
+		object-fit: cover;
+		height: 305px;
+	}
+}
+
 
 /*** SINGLE STORY
 ------------------*/
