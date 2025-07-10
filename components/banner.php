@@ -15,7 +15,14 @@ if(!empty($logo) && !empty($text)) {
             if(!empty($text) || !empty($logo)) {
                 ?>
                 <div class="<?php echo $class;?>">
-                    
+                    <?php if(!empty($logo) && !empty($text)) {
+                        ?> <div class="img-col d-none mobile-col">
+                            <div class="img-logo-container position-relative">
+                                <img class="diamond" src="/wp-content/uploads/2025/06/Graphic_whtite-diamond.svg" alt="" />
+                                <img class="logo-banner" src="<?php echo $logo['url'];?>" alt="<?php echo $logo['alt'];?>" />
+                            </div>
+                    <?php
+                   } ?>
                         <?php if(!empty($text)) {
                             ?> <div class="text-col"><?php
                             echo $text;
