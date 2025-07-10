@@ -2751,6 +2751,9 @@ img.img-mask {
 	.infographics-container .custom-container {
 		left: 0;
 	}
+	.inner-page .entry-header img {
+		 bottom: -27%;
+	}
 	.facts {
 		grid-template-columns: 1fr;
 	}
