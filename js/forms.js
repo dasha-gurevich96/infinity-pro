@@ -1,4 +1,5 @@
 jQuery(function($) {
+    console.log('loded');
 	  // listen for clicks on the Manage–consent button
   $(document).on(
     'click',
