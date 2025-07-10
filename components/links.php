@@ -6,7 +6,7 @@
                             $link = get_sub_field('link');
 
                             if (!empty($link_text) && !empty($link)) : ?>
-                                <a class="d-flex download-file" href="<?= esc_url($link); ?>" target="_blank" rel="noopener noreferrer">
+                                <a class="d-flex align-items-center gap-3 download-file" href="<?= esc_url($link); ?>" target="_blank" rel="noopener noreferrer">
                                     <img class="icon" src="/wp-content/uploads/2025/07/file-solid-1.svg" alt="">
                                     <?= esc_html($link_text); ?>
                                 </a>
