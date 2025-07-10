@@ -2701,7 +2701,7 @@ img.img-mask {
 		bottom: -50%;
 	}
 	.inner-page .entry-content {
-		padding-top: 60px;
+		padding-top: 60px !important;
 	}
 	.full-container.what-is {
     	margin-bottom: 0;
