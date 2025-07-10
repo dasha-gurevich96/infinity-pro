@@ -3663,6 +3663,10 @@ img.theme-img {
 	.theme-page .diamond-cards {
 		width: 100%;
 	}
+
+	.theme-page .diamond-cards {
+		display: block;
+	}
 }
 
 
