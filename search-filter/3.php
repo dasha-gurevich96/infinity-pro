@@ -71,7 +71,7 @@ if ($query->have_posts()) {
 				$image_alt = get_post_meta($thumbnail_id, '_wp_attachment_image_alt', true);
 
 		
-				?><div class="card full-card grid-card clickable-card">
+				?><div class="card full-card grid-card <?php if(!get_field('remove_link_to_the_page')) { echo 'clickable-card';};?>">
 						<div class="img-col">
 							<?php if(!empty($image_url)) {
 									?> <img src="<?php echo $image_url;?>" alt="<?php echo $image_alt;?>" /><?php
