@@ -3966,6 +3966,7 @@ a.back-to:focus img {
 	}
 	.logo-cont.d-none {
     	display: block !important;
+		margin-top: 25px;
 	}
 	.logo-cont.d-none img.logo.object-fit-contain {
 		width: 158px;
