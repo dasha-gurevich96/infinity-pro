@@ -765,7 +765,7 @@ nav .wrap {
 
 @media (max-width: 900px) {
 	.site-title {
-		height: 52px;
+		height: 74px;
 	}
 	.full-container.logo-btn-container .custom-container.d-flex.justify-content-between.align-items-center {
 		display: grid !important;
