@@ -1576,7 +1576,7 @@ a#backToTop {
 	div#front-page-1 img.wave {
     	top: -17px;
 	}
-	div#video-container iframe {
+	div#video-container {
 		height: 96%;
 		top: 0;
 		width: 100%;
