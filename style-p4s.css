@@ -3545,6 +3545,13 @@ img.theme-img {
 	.theme-container { 
 		grid-template-columns: 1fr;
 	}
+	.theme-container .img-col {
+		display: none;
+	}
+	.theme-container .img-col.mobile-col.d-none {
+		display: block !important;
+
+	}
 	img.wave.theme-wave {
 		top: -16px;
 	}
