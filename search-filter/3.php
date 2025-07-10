@@ -167,7 +167,7 @@ if ($query->have_posts()) {
 										}
 										break;
 								}
-								?> <a href="<?php echo $external_link;?>1" class="custom-button learn-more d-flex" aria-label="<?php echo $link_text;?> of <?php the_title();?>">
+								?> <a href="<?php echo $external_link;?>" class="custom-button learn-more d-flex" aria-label="<?php echo $link_text;?> of <?php the_title();?>">
 									<span><?php echo $link_text;?></span>
 								<img class="arrow arrow-more" src="/wp-content/uploads/2025/06/Arrow-right.svg" alt=""/>
 								</a>
