@@ -3968,8 +3968,8 @@ a.back-to:focus img {
     	display: block !important;
 	}
 	.logo-cont.d-none img.logo.object-fit-contain {
-		width: 198px;
-		height: 113px;
+		width: 158px;
+		height: auto;
 	}
 	.event h1 {
 		font-size: 26px;
