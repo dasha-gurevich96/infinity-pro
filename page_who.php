@@ -51,7 +51,7 @@ function custom_content() {
                     <?php if (!empty($title_w)) { ?>
                         <h3 class="text-center title-w"><?php echo $title_w; ?></h3>
                     <?php } ?>
-                    <div class="mobile-slider">
+                    <div class="mobile-slider d-none">
                         <div class="working-group-cards-mobile">
                             <?php while (have_rows('working_group_cards')) {
                                  the_row();
