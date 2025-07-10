@@ -628,11 +628,12 @@ nav .wrap {
 	.full-container.logo-btn-container.fixed .site-title {
 		height: 97px;
 	}
-	.full-container.logo-btn-container.fixed .desktop-btn { 
-		display: block;
-	}
+
 	.full-container.logo-btn-container.fixed .custom-button.dark-green {
 		display: none;
+	}
+	.full-container.logo-btn-container.fixed .custom-button.dark-green.desktop-btn {
+		display: block;
 	}
 	/*.full-container.logo-btn-container.fixed div:not(.wrap) button#genesis-mobile-nav-primary {
 		display: block;
