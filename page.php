@@ -36,7 +36,7 @@ add_action( 'genesis_entry_content', 'custom_content' );
 function custom_content() {
 	?><div class="full-container">
 		<div class="custom-container">
-			<?php the_conent();?>
+			<?php the_content();?>
 </div>
 		</div>
 		<?php
