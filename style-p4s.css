@@ -3269,6 +3269,9 @@ img.bio-img {
 
 
 @media (max-width: 990px) {
+	.story .entry-content {
+		background-size: 218px;
+	}
 	.title-img-container {
 		grid-template-columns: 1fr;
 	}
