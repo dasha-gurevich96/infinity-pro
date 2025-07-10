@@ -123,7 +123,9 @@ if ($query->have_posts()) {
 								<?php
 							}
 							?>
-							<?php if(!empty($external_link)) {
+							<?php 
+							if(!get_field('remove_link_to_the_page')) {
+							if(!empty($external_link)) {
 								$link_text = 'Visit Website';
 
 								// Get lowercase file extension
@@ -153,6 +155,7 @@ if ($query->have_posts()) {
 								</a>
 							<?php
 							}
+						}
 							?>
 							
 						</div>
