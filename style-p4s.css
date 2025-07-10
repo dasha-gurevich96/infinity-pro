@@ -3534,6 +3534,10 @@ img.theme-img {
 	.theme .custom-container {
     	max-width: 76% !important;
 	}
+
+	.theme-page .title-diamond {
+    	height: 169px;
+	}
 }
 /*** WHO WE ARE
 =====================*/
