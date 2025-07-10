@@ -2948,7 +2948,7 @@ img.story-img {
     height: 236px;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1100px) {
 	.stories-cards {
 		margin: auto;
     	width: 88%;
