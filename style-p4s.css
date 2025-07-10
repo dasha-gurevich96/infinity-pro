@@ -621,7 +621,7 @@ nav .wrap {
 		color: var(--dark-purple);
 	}
 	.full-container.logo-btn-container.fixed .custom-container {
-		width: 100%;
+		width: 96%;
 	}
 	/*.full-container.logo-btn-container.fixed div:not(.wrap) button#genesis-mobile-nav-primary {
 		display: block;
