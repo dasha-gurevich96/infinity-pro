@@ -2052,7 +2052,7 @@ footer a.social-icon img {
 
 }
 
-@media (max-width: 990px) {
+@media (max-width: 1100px) {
 	.full-container.footer-container {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
