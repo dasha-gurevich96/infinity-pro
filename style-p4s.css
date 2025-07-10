@@ -2947,6 +2947,13 @@ img.story-img {
     transform: translateX(-50%);
     height: 236px;
 }
+
+@media (max-width: 1080px) {
+	.stories-cards {
+		margin: auto;
+    	width: 88%;
+	}
+}
 /*** SINGLE STORY
 ------------------*/
 
