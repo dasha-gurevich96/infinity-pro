@@ -130,7 +130,7 @@ input[type="email"], input[type="search"], input[type="submit"], input[type="tex
 }
 
 .fluentform .ff-el-is-error .text-danger {
-    font-size: 20px;
+    font-size: 20px !important;
     color: var(--purple) !important;
     font-weight: 700 !important;
     margin-top: 4px;
