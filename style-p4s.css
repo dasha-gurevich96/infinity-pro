@@ -3010,6 +3010,7 @@ img.img-mask {
 	margin: auto;
 	min-height: 210px;
 	overflow: hidden;
+	width: 100%;
 }
 
 .story-card h3,
