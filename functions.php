@@ -544,7 +544,16 @@ function logo_button() {
 
             <div class="mobile-menu">
                 <?php genesis_do_nav();?>
-        </div>
+            </div>
+             <?php if(!empty($button)) {
+            
+                $link = $button['link'];
+                $text = $button['text'];
+                if(!empty($link) && !empty($text)) {
+                    ?><a class="custom-button dark-green desktop-btn" href="<?php echo $link;?>"><?php echo $text;?></a><?php
+                }
+            }
+            ?>
             
         </div>
             
