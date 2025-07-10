@@ -155,6 +155,13 @@ function custom_content() {
         ?>
          <h1><?php the_title();?></h1>
         <div class="logo-text-container">
+
+        <div class="logo-col mobile-col d-none">
+                <?php if(!empty($organiser_logo)) {
+						?><img class="logo org object-fit-contain" src="<?php echo $organiser_logo['url'];?>" alt="<?php echo $organiser_logo['alt'];?>" /><?php
+					}
+				?>
+            </div>
            
             <div class="text">
              
