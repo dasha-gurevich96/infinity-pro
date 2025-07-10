@@ -4,7 +4,18 @@ $text = get_sub_field('text');
 $shortcode = get_sub_field('shortcode');
 
 if(!empty($shortcode)) {
-    ?><div class="full-container">
+    ?>
+
+    <div class="full-container">
+        <div class="custom-container">
+               <div id="error-summary" class="error-summary" role="alert"  style="display:none;">
+  <h2 id="error-summary-title">Please fix the following errors:</h2>
+  <ul></ul>
+</div>
+</div>
+</div>
+    
+    <div class="full-container">
         <div class="custom-container form-container">
             <div class="form-text mb-5">
         <?php if(!empty($title)) {
@@ -17,10 +28,7 @@ if(!empty($shortcode)) {
                 <?php
         }
         ?></div>
-        <div id="error-summary" class="error-summary" role="alert"  style="display:none;">
-  <h2 id="error-summary-title">Please fix the following errors:</h2>
-  <ul></ul>
-</div>
+     
         <?php
         echo do_shortcode($shortcode);?>
             
