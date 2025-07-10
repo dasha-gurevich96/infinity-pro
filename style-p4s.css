@@ -2399,6 +2399,12 @@ h2.text-center.inner-page-title  {
 		display: flex;
 		align-items: center;
 	}
+	.inner-page .inner-banner .custom-container:has(.grid-container) {
+		min-height: 74px;
+		display: flex;
+		align-items: flex-start;
+		flex-direction: column;
+	}
 }
 
 @media (max-width: 990px) {
