@@ -142,7 +142,7 @@ if ($query->have_posts()) {
 							<?php 
 							if(!get_field('remove_link_to_the_page')) {
 							if(!empty($external_link)) {
-								$link_text = 'Visit Website';
+								$link_text = 'Visit Website1';
 
 								// Get lowercase file extension
 								$extension = strtolower(pathinfo(parse_url($external_link, PHP_URL_PATH), PATHINFO_EXTENSION));
