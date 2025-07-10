@@ -3589,6 +3589,10 @@ img.theme-img {
 	.inclusion .heading h2 {
     	margin-bottom: 27px;
 	}	
+	img.theme-img {
+		margin-left: 0;
+		margin-right: auto;
+	}	
 }
 
 
