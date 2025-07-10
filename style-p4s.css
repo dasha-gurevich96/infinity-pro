@@ -2497,6 +2497,7 @@ h2.text-center.inner-page-title  {
 ------------------_*/
 .accordion-button {
 	border-radius: 10px !important;
+	    gap: 10px;
 	padding: 20px;
 }
 
