@@ -2958,7 +2958,7 @@ img.story-img {
 }
 
 @media (max-width: 1100px) {
-	.stories-cards {
+	.results {
 		margin: auto;
     	width: 88%;
 	}
@@ -2966,6 +2966,18 @@ img.story-img {
 		padding-bottom: 0;
 	}
 }
+
+@media (max-width: 990px) {
+	.results {
+		margin: auto;
+    	width: 100%;
+	}
+	.page-id-113 .site-inner {
+		padding-bottom: 0;
+	}
+}
+
+
 /*** SINGLE STORY
 ------------------*/
 
