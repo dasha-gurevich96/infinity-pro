@@ -2988,7 +2988,7 @@ img.story-img {
 }
 
 @media (max-width: 1100px) {
-	.results {
+	.results:has(.strory-card) {
 		margin: auto;
     	width: 88%;
 	}
@@ -2998,7 +2998,7 @@ img.story-img {
 }
 
 @media (max-width: 990px) {
-	.results {
+	.results:has(.strory-card) {
     	width: 100%;
 	}
 	.story-card {
