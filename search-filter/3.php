@@ -33,29 +33,41 @@ if ($query->have_posts()) {
 			$image_resources = get_field('image_resources');
 			$external_link = get_field('external_link');
 
-			if(!empty($event_description)) {
-				$cleaned_description = preg_replace('/<h[1-6][^>]*>.*?<\/h[1-6]>/is', '', $event_description);
-				$plain_text = strip_tags($cleaned_description);
-				$words = explode(' ', $plain_text);
-				$summary = implode(' ', array_slice($words, 0, 20));
-			} elseif(!empty($short_description)) {
-				$cleaned_description = preg_replace('/<h[1-6][^>]*>.*?<\/h[1-6]>/is', '', $short_description);
-				$plain_text = strip_tags($cleaned_description);
-				$words = explode(' ', $plain_text);
-				$summary = implode(' ', array_slice($words, 0, 30));
-			} elseif(!empty($description)) {
-				$cleaned_description = preg_replace('/<h[1-6][^>]*>.*?<\/h[1-6]>/is', '', $description);
-				$plain_text = strip_tags($cleaned_description);
-				$words = explode(' ', $plain_text);
-				$summary = implode(' ', array_slice($words, 0, 30));
-			} elseif(!empty($intro)) {
-				$cleaned_description = preg_replace('/<h[1-6][^>]*>.*?<\/h[1-6]>/is', '', $intro);
-				$plain_text = strip_tags($cleaned_description);
-				$words = explode(' ', $plain_text);
-				$summary = implode(' ', array_slice($words, 0, 30));
-			}  else {
+			if (!empty($event_description)) {
+				$source_text = $event_description;
+				$word_limit = 20;
+			} elseif (!empty($short_description)) {
+				$source_text = $short_description;
+				$word_limit = 30;
+			} elseif (!empty($description)) {
+				$source_text = $description;
+				$word_limit = 30;
+			} elseif (!empty($intro)) {
+				$source_text = $intro;
+				$word_limit = 30;
+			} else {
 				$summary = '';
+				return;
 			}
+
+			// Remove <h1>-<h6> tags
+			$cleaned_description = preg_replace('/<h[1-6][^>]*>.*?<\/h[1-6]>/is', '', $source_text);
+
+			// Strip all HTML
+			$plain_text = strip_tags($cleaned_description);
+
+			// Split into words
+			$words = preg_split('/\s+/', trim($plain_text));
+
+			// Slice and rebuild summary
+			$summary_words = array_slice($words, 0, $word_limit);
+			$summary = implode(' ', $summary_words);
+
+			// Add ellipsis if original had more words
+			if (count($words) > $word_limit) {
+				$summary .= '...';
+			}
+
 			
 			$organiser_logo = get_field('organiser_logo');
 			$venue = get_field('venue');
@@ -122,7 +134,7 @@ if ($query->have_posts()) {
 							?>
 							<?php if(!empty($summary)) {
 								?><div class="summary">
-									<p><?php echo $summary;?>...</p>
+									<p><?php echo $summary;?></p>
 								</div>
 								<?php
 							}
