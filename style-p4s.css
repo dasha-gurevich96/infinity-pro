@@ -3499,6 +3499,9 @@ img.theme-img {
 		margin-top: -130px;
 		padding-top: 131px;
 	}
+	.inner-banner.plain-banner .custom-container h1, .inner-banner .custom-container p.banner-title {
+		top: 56px;
+	}
 }
 
 @media (min-width: 2500px) {
