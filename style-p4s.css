@@ -2055,7 +2055,7 @@ footer a.social-icon img {
 @media (max-width: 1100px) {
 	.full-container.footer-container {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 2fr 1fr;
 	}
 	.footer-combined  {
     	display: none !important;	
@@ -2091,6 +2091,13 @@ footer a.social-icon img {
 	}
 	main .custom-container, .post-type-archive-product .page-description, .top-bar .custom-container, .full-container .custom-container {
 		width: 100%;
+	}
+}
+
+@media (max-width: 990px) {
+	.full-container.footer-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
 	}
 }
 
