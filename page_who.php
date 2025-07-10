@@ -75,6 +75,12 @@ function custom_content() {
                                                                 <p><?php echo $role; ?></p>
                                                             </div>
                                                             <?php if (!empty($bio)) { ?>
+                                                        <div class="column-2 d-none" id="bio-content<?php echo $pairIndex; ?>">
+                                                            <div class="line"></div>
+                                                            <p><?php echo $bio; ?></p>
+                                                        </div>
+                                                    <?php } ?>
+                                                            <?php if (!empty($bio)) { ?>
                                                                 <button id="toggleButton<?php echo $pairIndex; ?>" class="d-flex custom-button dark-green bio-button" aria-controls="bio-content<?php echo $pairIndex; ?>" aria-expanded="false">
                                                                     <span class="text">Read bio</span>
                                                                     <img src="/wp-content/uploads/2025/06/Arrow-right.svg" alt="" class="arrow icon"/>
@@ -83,12 +89,7 @@ function custom_content() {
                                                         </div>
                                                     </div>
 
-                                                    <?php if (!empty($bio)) { ?>
-                                                        <div class="column-2 d-none" id="bio-content<?php echo $pairIndex; ?>">
-                                                            <div class="line"></div>
-                                                            <p><?php echo $bio; ?></p>
-                                                        </div>
-                                                    <?php } ?>
+                                                    
                                                 </div>
                                             </div>
                                         <?php
