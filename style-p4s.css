@@ -3861,6 +3861,9 @@ img.logo.object-fit-contain {
 	.funders-cards img.logo {
     	width: 160px;
 	}
+	.inner-banner img.logo-banner {
+		width: 67px;
+	}
 }
 /*** EVENTS
 ==================*/
