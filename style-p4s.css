@@ -3846,6 +3846,16 @@ img.logo.object-fit-contain {
 		width: 215px;
 	}
 }
+
+@media (max-width: 330px) {
+	.logo-diamond-container {
+		width: 243px;
+		left: -15px;
+	}
+	.bio-card .custom-button {
+		width: 100%;
+	}
+}
 /*** EVENTS
 ==================*/
 .entry-content {
