@@ -3829,6 +3829,9 @@ img.logo.object-fit-contain {
 		grid-template-columns: 1fr;
 		gap: 78px;
 	}
+	.funders-cards img.diamond {
+		transform: none;
+	}
 }
 /*** EVENTS
 ==================*/
