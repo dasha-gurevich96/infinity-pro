@@ -592,7 +592,9 @@ nav .wrap {
     grid-template-columns: 2fr 1fr 1fr;
 }*/
 
-
+.desktop-btn { 
+	display: none;
+}
 @media (min-width: 990px) {
 	ul#menu-header,
 	ul#menu-header-1 {
@@ -625,6 +627,12 @@ nav .wrap {
 	}
 	.full-container.logo-btn-container.fixed .site-title {
 		height: 97px;
+	}
+	.full-container.logo-btn-container.fixed .desktop-btn { 
+		display: block;
+	}
+	.full-container.logo-btn-container.fixed .custom-button.dark-green {
+		display: none;
 	}
 	/*.full-container.logo-btn-container.fixed div:not(.wrap) button#genesis-mobile-nav-primary {
 		display: block;
