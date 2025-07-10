@@ -104,21 +104,7 @@ function custom_content() {
                         <span> Meet </span>
                         <span><?php the_title();?></span>
                     </h2>
-                    <div class="image-col mobile-col d-none">
-                    <div class="diamond-container position-relative img-diamond">
-                        
-                        <?php if(!empty($image)) {
-                                ?><div class="img-wrapper"><img class="bio-img" src="<?php echo $image['url'];?>" alt="<?php echo $image['alt'];?>" />
-                                </div>
-                                <?php
-                        } else {
-                            ?><img src="/wp-content/uploads/2025/06/Stories_temporary-avatar.svg" alt="" class="logo-img"/>
-                            <?php
-                        }
-                        ?>
-                    
-                    </div>
-                </div>
+                 
                     <?php
                     if(!empty($text_in_speech_bubble)) {
                         ?><div class="speech-bubble position-relative">
