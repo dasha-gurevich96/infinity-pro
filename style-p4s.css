@@ -1611,6 +1611,12 @@ a#backToTop {
 	}			
 }
 
+@media (max-width: 390px) {
+	div#front-page-1 img.wave {
+    	top: -15px;
+	}
+}
+
 /*** FOOTER
 ================*/
 .site-footer .full-container {
