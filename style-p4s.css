@@ -2754,6 +2754,13 @@ img.img-mask {
 		-webkit-mask-size: 287px;
 		mask-size: 387px;
 	}
+	.diamond-container.purple-diamond:before {
+		background-size: 116%;
+	}
+	.diamond-container.purple-diamond .text {
+		top: 2%;
+		width: 83%;
+	}	
 }
 
 /*** STORIES
