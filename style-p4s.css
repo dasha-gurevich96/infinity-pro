@@ -617,6 +617,12 @@ nav .wrap {
 	.full-container.logo-btn-container.fixed div:not(.wrap) .nav-primary  {
 		display: block;
 	}
+	.genesis-nav-menu a {
+		color: var(--dark-purple);
+	}
+	.full-container.logo-btn-container.fixed .custom-container {
+		width: 100%;
+	}
 	/*.full-container.logo-btn-container.fixed div:not(.wrap) button#genesis-mobile-nav-primary {
 		display: block;
 		visibility: visible;
