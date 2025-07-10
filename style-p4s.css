@@ -3775,6 +3775,9 @@ img.logo.object-fit-contain {
 	.logo-diamond-container {
 		width: 372px;
 	}
+	.bio-card img.logo {
+		width: 93px;
+	}
 }
 /*** EVENTS
 ==================*/
