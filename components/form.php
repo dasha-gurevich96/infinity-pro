@@ -16,7 +16,12 @@ if(!empty($shortcode)) {
                 </div>
                 <?php
         }
-        ?></div><?php
+        ?></div>
+        <div id="error-summary" class="error-summary" role="alert"  style="display:none;">
+  <h2 id="error-summary-title">Please fix the following errors:</h2>
+  <ul></ul>
+</div>
+        <?php
         echo do_shortcode($shortcode);?>
             
             </div>
