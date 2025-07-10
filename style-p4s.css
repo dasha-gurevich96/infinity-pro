@@ -2749,6 +2749,13 @@ img.img-mask {
 	}
 }
 
+@media (max-width: 330px) {
+	img.img-mask {
+		-webkit-mask-size: 287px;
+		mask-size: 387px;
+	}
+}
+
 /*** STORIES
 ====================+*/
 .stories article {
