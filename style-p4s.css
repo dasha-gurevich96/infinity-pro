@@ -3859,8 +3859,11 @@ a.custom-button.learn-more img {
 	padding-bottom: 62px;
 }
 
+
+
 .inner-page.event .entry-content {
 	padding-top: 115px !important;
+	padding-bottom: 30px;
 }
 
 .custom-container.event-container {
