@@ -720,6 +720,7 @@ nav .wrap {
 	}
 	.full-container.logo-btn-container.fixed nav#genesis-nav-primary li {
 		border-bottom: 1px solid #fbc53f;
+		padding: 8px 14px;
 	}
 	.full-container.logo-btn-container.fixed nav#genesis-nav-primary a {
 		color: black;
