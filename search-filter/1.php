@@ -49,11 +49,23 @@ if ( $query->have_posts() ) {
                 </div>
 
                 <div class="text-col">
-                    <h3>
+                    <?php if(!get_field('remove_link_to_the_page')) {
+                        ?>   <h3>
 						<a href="<?php the_permalink();?>">
 						<?php the_title(); ?>'s Story
 						</a>
 					</h3>
+                    <?php
+                    } else {
+                        ?>   <h3>
+						
+						<?php the_title(); ?>'s Story
+					
+					    </h3>
+                    <?php
+                    }
+                    ?>
+                  
                     <div class="text">
                         <p><?php echo $desc; ?>...</p>
                     </div>
