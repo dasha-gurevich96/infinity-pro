@@ -1145,7 +1145,7 @@ div#front-page-1 .hero .diamonds {
 }
 
 div#video-container {
-	box-shadow: 1px 12px 8px 3px rgb(43 41 41 / 30%);
+	/*box-shadow: 1px 12px 8px 3px rgb(43 41 41 / 30%);*/
     position: relative;
     z-index: 10;
 	width: 86%;
