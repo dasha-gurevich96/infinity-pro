@@ -982,7 +982,7 @@ nav .wrap {
         flex-direction: column;
     }
 	.logo-btn-container.fixed .menu-toggle {
-    	padding: 6px 33px !important;
+    	padding: 1px 26px !important;
 	}
 	.logo-btn-container.fixed .site-title {
 		width: 148px;
