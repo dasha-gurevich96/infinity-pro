@@ -2369,7 +2369,7 @@ h2.text-center.inner-page-title  {
 
 @media (max-width: 1080px) {
 	.inner-page .entry-header img.plain-wave {
-    	bottom: -88%;
+    	bottom: -65%;
 	}
 	.inner-banner.plain-banner  .custom-container h1, .inner-banner .custom-container p.banner-title {
 		position: relative;
