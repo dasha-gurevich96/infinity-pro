@@ -59,6 +59,16 @@ if ( $query->have_posts() ) {
                     </div>
                 </div>
             </div> <!-- closes .story-card -->
+
+            <div class="img-col mobile-col d-none">
+                    <div class="img-container">
+                        <?php if ( ! empty( $image ) ) { ?>
+                            <img class="story-img" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+                        <?php } else { ?>
+                            <img class="logo-img" src="/wp-content/uploads/2025/06/Stories_temporary-avatar.svg" alt="" />
+                        <?php } ?>
+                    </div>
+                </div>
             <?php
         }
         wp_reset_postdata();
