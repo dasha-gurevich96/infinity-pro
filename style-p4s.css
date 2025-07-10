@@ -802,15 +802,29 @@ nav .wrap {
 	.menu-toggle, .menu-toggle:focus, .menu-toggle:hover {
 		padding: 5px 10px;
 	}
+
+	.logo-btn-container.fixed .menu-toggle {
+    	padding: 6px 47px !important;
+	}
 	
 }
 
 
 @media (max-width: 330px) {
+	.site-title {
+    	width: 251px;
+	} 
     .site-header > .wrap {
         display: flex !important;
         flex-direction: column;
     }
+	.logo-btn-container.fixed .menu-toggle {
+    	padding: 6px 33px !important;
+	}
+	.logo-btn-container.fixed .site-title {
+		width: 148px;
+		height: 70px;
+	}
 }
 
 /** SUBMENU
@@ -1085,10 +1099,10 @@ button.slick-prev.slick-arrow:focus {
 @media (max-width: 600px) {
 	
 	button.slick-next {
-    right: -27px !important;
+    right: -14px !important;
 }
 	.slick-prev {
-    left: -25px !important;
+    left: -14px !important;
 }
 }
 
