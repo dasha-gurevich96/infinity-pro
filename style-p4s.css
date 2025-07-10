@@ -3766,7 +3766,7 @@ img.logo.object-fit-contain {
 	}
 
 	.bio-button[aria-expanded="true"] img {
-    	transform: rotate(90deg);
+    	transform: rotate(-90deg);
 	}
 	
 	.line {
