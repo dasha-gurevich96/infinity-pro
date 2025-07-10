@@ -3827,10 +3827,17 @@ img.logo.object-fit-contain {
 	}
 	.card.full-card {
 		grid-template-columns: 1fr;
-		gap: 78px;
+		gap: 17px;
 	}
 	.funders-cards img.diamond {
 		transform: none;
+	}
+	.funders-cards .detail {
+		top: -27%;
+		left: -41%;
+		width: 144%;
+		height: 264px;
+		background-size: 100%;
 	}
 }
 /*** EVENTS
