@@ -3615,6 +3615,7 @@ img.theme-img {
 		top: -16px;
 	}
 	.full-container.yellow-container {
+		background-image: none;
     	margin-top: -117px;
 	}
 }
