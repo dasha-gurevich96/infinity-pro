@@ -3659,6 +3659,10 @@ img.theme-img {
 		background-image: none;
     	margin-top: -117px;
 	}
+
+	.theme-page .diamond-cards {
+		width: 100%;
+	}
 }
 
 
