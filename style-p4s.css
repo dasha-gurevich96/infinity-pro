@@ -3856,7 +3856,7 @@ img.logo.object-fit-contain {
 		width: 100%;
 	}
 	.logo-card {
-		width: 80%;
+		width: 80% !important;
 	}
 }
 /*** EVENTS
