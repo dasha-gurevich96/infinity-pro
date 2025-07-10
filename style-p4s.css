@@ -727,7 +727,7 @@ nav .wrap {
 		padding: 9px 51px;
 	}
 	.menu-toggle {
-		padding: 7px 59px !important;
+		padding: 13px 76px !important;
 	}
 	.site-search + .buttons-header {
     	display: none;
@@ -754,8 +754,8 @@ nav .wrap {
         column-gap: 16px;
 	}
 	.title-area {
-		justify-content: flex-start;
-        width: 70%;
+		justify-content: center;
+        width: 100%;
 	}
 	.menu-toggle, .menu-toggle:focus, .menu-toggle:hover {
         margin-left: 0 !important;
@@ -777,7 +777,7 @@ nav .wrap {
 		width: 46%;
 	}
 	.site-title {
-		width: 197px;
+		width: 320px;
 	}
 	.fixed .mobile-menu {
 		width: 50%;
