@@ -3802,6 +3802,10 @@ img.logo.object-fit-contain {
 	.bio-card img.logo {
 		width: 65px;
 	}
+	.bio-card .custom-button {
+        justify-content: space-between;
+		width: 57%;
+	}
 }
 /*** EVENTS
 ==================*/
