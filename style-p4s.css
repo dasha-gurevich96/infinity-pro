@@ -2716,10 +2716,17 @@ img.img-mask {
 	.diamond-container.purple-diamond .text {
 		padding-right: 9px;
 	}
+
+	.grid.two-columns .img-col {
+		display: flex;
+		position: relative;
+		flex-direction: column;
+	}
 	
 	.grid.two-columns .img-col > img {
 		width: 100%;
 	}
+	
 	.yellow-box {
 		position: relative;
 		bottom: 9%;
