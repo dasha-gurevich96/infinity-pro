@@ -51,11 +51,57 @@ function custom_content() {
                     <?php if (!empty($title_w)) { ?>
                         <h3 class="text-center title-w"><?php echo $title_w; ?></h3>
                     <?php } ?>
+                    <div class="mobile-slider">
+                        <div class="working-group-cards-mobile">
+                            <?php while (have_rows('working_group_cards')) {
+                                 the_row();
+                                    $name = get_sub_field('name');
+                                    $role = get_sub_field('role');
+                                    $bio = get_sub_field('bio');
+                                    if (!empty($name) && !empty($role)) {
+                                        ?> 
+                                        <div class="bio-card">
+                                    <div class="container-bio-card">
+                                        <div class="detail"></div>
+                                        <div class="column-1">
+                                            <div class="logo-diamond-container position-relative">
+                                                <img class="diamond" src="/wp-content/uploads/2025/07/Diamond-with-purple-border.svg" alt="" />
+                                                <img class="logo" src="/wp-content/uploads/2025/07/SCLD_Logo.svg" alt="" />
+                                            </div>
+                                            <div class="text">
+                                                <div>
+                                                    <h3><?php echo $name; ?></h3>
+                                                    <p><?php echo $role; ?></p>
+                                                </div>
+                                                <?php if (!empty($bio)) { ?>
+                                                    <button id="toggleButton<?php echo $pairIndex; ?>" class="d-flex custom-button dark-green bio-button" aria-controls="bio-content<?php echo $pairIndex; ?>" aria-expanded="false">
+                                                        <span class="text">Read bio</span>
+                                                        <img src="/wp-content/uploads/2025/06/Arrow-right.svg" alt="" class="arrow icon"/>
+                                                    </button>
+                                                <?php } ?>
+                                            </div>
+                                        </div>
+
+                                        <?php if (!empty($bio)) { ?>
+                                            <div class="column-2 d-none" id="bio-content<?php echo $pairIndex; ?>">
+                                                <div class="line"></div>
+                                                <p><?php echo $bio; ?></p>
+                                            </div>
+                                        <?php } ?>
+                                    </div>
+                                </div>
+                                        <?php
+                                    }
+
+                            }
+                            ?>
+                        </div>
+                    </div>
                     <div class="desktops-slider">
-                     <p class="screen-reader-text">
-                            Below is the slider with the working group members.
-                            On desktop devicies each slide has information about two working group members. On mobueles each slide has information about one working group member.
-                    </p>
+                        <p class="screen-reader-text">
+                                Below is the slider with the working group members.
+                                On desktop devicies each slide has information about two working group members.
+                        </p>
 
                     <div class="working-group-cards">
                        
