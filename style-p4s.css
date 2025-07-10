@@ -613,10 +613,10 @@ nav .wrap {
 		display: flex !important;
 
 	}
-	/*.full-container.logo-btn-container.fixed  .mobile-menu {
+	.full-container.logo-btn-container.fixed  .mobile-menu {
 		display: block;
 	}
-	.full-container.logo-btn-container.fixed div:not(.wrap) button#genesis-mobile-nav-primary {
+	/*.full-container.logo-btn-container.fixed div:not(.wrap) button#genesis-mobile-nav-primary {
 		display: block;
 		visibility: visible;
 	}
