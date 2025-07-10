@@ -9,17 +9,23 @@ $logo = $purple_banner['logo'];
             if(!empty($text) || !empty($logo)) {
                 ?>
                 <div class="grid-container">
-                    <div class="text-col">
+                    
                         <?php if(!empty($text)) {
+                            ?> <div class="text-col"><?php
                             echo $text;
+                            ?>  </div><?php
                         }
                         ?>
-                    </div>
-                    <div class="img-col">
-                        <div class="img-logo-container position-relative">
-                            <img class="diamond" src="/wp-content/uploads/2025/06/Graphic_whtite-diamond.svg" alt="" />
-                            <img class="logo-banner" src="<?php echo $logo['url'];?>" alt="<?php echo $logo['alt'];?>" />
-                    </div>
+                   <?php if(!empty($logo)) {
+                        ?> <div class="img-col">
+                            <div class="img-logo-container position-relative">
+                                <img class="diamond" src="/wp-content/uploads/2025/06/Graphic_whtite-diamond.svg" alt="" />
+                                <img class="logo-banner" src="<?php echo $logo['url'];?>" alt="<?php echo $logo['alt'];?>" />
+                            </div>
+                    <?php
+                   }
+                   ?>
+                    
                     </div>
                 </div>
 
