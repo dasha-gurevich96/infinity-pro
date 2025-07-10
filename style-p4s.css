@@ -236,6 +236,10 @@ textarea#ff_1_message {
     margin-bottom: 25px !important;
 }
 
+h2#error-summary-title {
+    margin-bottom: 30px;
+}
+
 .fluentform .ff-el-input--label.ff-el-is-required.asterisk-right label:after {
     color: #d81966 !important;
 }
