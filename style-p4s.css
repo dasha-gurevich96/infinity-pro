@@ -860,6 +860,9 @@ nav .wrap {
 
 
 @media (max-width: 700px) {
+	.full-container.logo-btn-container .custom-container.d-flex.justify-content-between.align-items-center {
+		display: flex !important;
+	}
 	.logo-btn-container a.custom-button {
 		width: fit-content;
 		padding: 9px 51px;
