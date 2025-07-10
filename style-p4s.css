@@ -1617,6 +1617,12 @@ a#backToTop {
 	}
 }
 
+@media (max-width: 320px) {
+	div#front-page-1 div#video-container {
+		height: 105px;
+	}
+}
+
 /*** FOOTER
 ================*/
 .site-footer .full-container {
