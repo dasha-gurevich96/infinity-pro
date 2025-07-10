@@ -2717,10 +2717,10 @@ img.img-mask {
 		padding-right: 9px;
 	}
 	.img-col {
-		display: none;
+		display: none !important;
 	}
 	.img-col.d-none.mobile-col {
-		display: block;
+		display: block !important;
 	}
 }
 
