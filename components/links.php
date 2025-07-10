@@ -7,7 +7,7 @@
 
                             if (!empty($link_text) && !empty($link)) : ?>
                                 <a class="d-flex download-file" href="<?= esc_url($link); ?>" target="_blank" rel="noopener noreferrer">
-                                    <img src="/wp-content/uploads/2025/07/file-solid-1.svg" alt="">
+                                    <img class="icon" src="/wp-content/uploads/2025/07/file-solid-1.svg" alt="">
                                     <?= esc_html($link_text); ?>
                                 </a>
                             <?php endif; ?>
