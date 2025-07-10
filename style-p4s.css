@@ -2401,6 +2401,9 @@ h2.text-center.inner-page-title  {
 	.inner-banner .custom-container h1, .inner-banner .custom-container p.banner-title {
 		font-size: 28px;
 	}
+	.inner-page .entry-content {
+    	padding-top: 0px !important;
+	}
 }
 
 @media (max-width: 390px) {
