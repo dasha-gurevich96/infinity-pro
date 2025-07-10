@@ -3839,6 +3839,9 @@ img.logo.object-fit-contain {
 		height: 264px;
 		background-size: 100%;
 	}
+	.inner-banner img.logo-banner {
+		width: 67px;
+	}
 }
 
 @media (max-width: 390px) {
@@ -3861,9 +3864,7 @@ img.logo.object-fit-contain {
 	.funders-cards img.logo {
     	width: 160px;
 	}
-	.inner-banner img.logo-banner {
-		width: 67px;
-	}
+	
 }
 /*** EVENTS
 ==================*/
