@@ -3822,6 +3822,12 @@ a.custom-button.learn-more img {
 	.card.full-card.grid-card {
 		grid-template-columns: 1fr;
 	}
+	.card.full-card.grid-card .img-col {
+    	height: 250px;
+	}
+	.card.full-card.grid-card .img-col img {
+		width: 100%;
+	}
 }
 
 
