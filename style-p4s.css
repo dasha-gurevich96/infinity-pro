@@ -3626,6 +3626,12 @@ img.theme-img {
 
 }
 
+@media (max-width: 400px) {
+	.text-col {
+    	width: 75%;
+	}
+}
+
 @media (max-width: 330px) {
 	img.theme-img {
 		width: 280px;
