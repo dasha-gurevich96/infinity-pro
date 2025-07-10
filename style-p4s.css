@@ -730,7 +730,9 @@ nav .wrap {
 		gap: 20px;
 	}
 	.full-container.logo-btn-container.fixed  button#genesis-mobile-nav-primary {
-		display: block !important;
+		display: flex !important;
+        justify-content: center;
+        gap: 12px;
 		visibility: visible !important;
 		padding: 11px 20px;
 		font-weight: 700;
