@@ -3497,6 +3497,10 @@ img.theme-img {
 	margin-bottom: 60px;
 }
 
+.theme-page .slick-dots li button .slick-dot-icon {
+	color: var(--purple);
+}
+
 @media (min-width: 2040px) {
 	.full-container.yellow-container {
 		margin-top: -130px;
