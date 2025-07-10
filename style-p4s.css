@@ -3294,6 +3294,7 @@ img.bio-img {
     	width: 100%;
 	}
 	.title-img-container .diamond-container {
+		left: 0;
 		width: 83%;
 	}
 	.img-wrapper {
