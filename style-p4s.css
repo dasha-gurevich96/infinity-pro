@@ -3593,6 +3593,10 @@ img.theme-img {
 		margin-left: 0;
 		margin-right: auto;
 	}	
+	.full-container.yellow-container .text {
+		max-width: 100%;
+		width: 100%;
+	}
 }
 
 
@@ -3627,9 +3631,7 @@ img.theme-img {
 }
 
 @media (max-width: 400px) {
-	.text-col {
-    	width: 75%;
-	}
+	
 }
 
 @media (max-width: 330px) {
