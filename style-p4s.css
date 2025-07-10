@@ -739,6 +739,12 @@ nav .wrap {
 		font-weight: 700;
 		width: 100%;
 	}
+	.full-container.logo-btn-container.fixed .custom-button.dark-green {
+		display: block;
+	}
+	.full-container.logo-btn-container.fixed .custom-button.dark-green.desktop-btn {
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 1024px) {
