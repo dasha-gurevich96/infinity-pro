@@ -10,13 +10,8 @@ if(!empty($logo) && !empty($text)) {
 }
 	?><div class="inner-banner">
         <div class="custom-container">
-            <h1><?php the_title();?></h1>
-            <?php 
-            if(!empty($text) || !empty($logo)) {
-                ?>
-                <div class="<?php echo $class;?>">
-                    <?php if(!empty($logo) && !empty($text)) {
-                        ?> <div class="img-col d-none mobile-col">
+            <?php if(!empty($logo) && !empty($text)) {
+                        ?> <div class="img-cont d-none mobile-col">
                             <div class="img-logo-container position-relative">
                                 <img class="diamond" src="/wp-content/uploads/2025/06/Graphic_whtite-diamond.svg" alt="" />
                                 <img class="logo-banner" src="<?php echo $logo['url'];?>" alt="<?php echo $logo['alt'];?>" />
@@ -24,6 +19,12 @@ if(!empty($logo) && !empty($text)) {
                     </div>
                     <?php
                    } ?>
+            <h1><?php the_title();?></h1>
+            <?php 
+            if(!empty($text) || !empty($logo)) {
+                ?>
+                <div class="<?php echo $class;?>">
+                    
                         <?php if(!empty($text)) {
                             ?> <div class="text-col"><?php
                             echo $text;
