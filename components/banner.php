@@ -5,7 +5,8 @@ $logo = $purple_banner['logo'];
 $class ='';
 if(!empty($logo) && !empty($text)) {
     $class ='grid-container';
-} else {mt-5';
+} else {
+    $class ='mt-5';
 }
 	?><div class="inner-banner">
         <div class="custom-container">
