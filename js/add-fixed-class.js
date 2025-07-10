@@ -1,4 +1,5 @@
 jQuery(function ($) {
+    console.log('fixed');
     const $logo = $('.logo-btn-container');
 
     $(window).on('scroll resize', toggleClasses);   // run on scroll and when window resizes
