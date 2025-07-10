@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
         let scrollTop = $(this).scrollTop();
 
         if (scrollTop > 150 ) {
-            $('.logo-btn-container').addClass('fixed');
+            $('.logo-btn-container').addClass('fixed show');
         } else {
             $('.logo-btn-container').removeClass('fixed');
         }
