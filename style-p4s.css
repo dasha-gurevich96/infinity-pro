@@ -2447,6 +2447,21 @@ a.accordion-button::after {
 }
 
 
+@media (max-width: 700px) {
+	h2 .accordion-button {
+		font-size: 19px;
+		line-height: 1.4;
+	}
+	img.stripes {
+		height: 279px;
+		position: relative;
+			left: 0%;
+		margin-top: 9px;
+		object-fit: cover;
+		object-position: -66px 0px;
+	}
+}
+
 /*** INNER PAGE: ABOUT
 ==========================*/
 .yellow-box {
