@@ -3566,6 +3566,20 @@ img.theme-img {
 	.theme-page .slick-slide:nth-child(3n+4) .diamond-card .title-diamond-cont .title-diamond:before {
 		background-image: url(/wp-content/uploads/2025/06/Artboard-68.svg);
 	}
+
+	.theme-page .card.importance-card {
+		display: flex !important;
+		margin: auto;
+		max-width: 100% !important;
+		width: 270px !important;
+	}
+
+	.theme-page .diamond-card {
+		display: block !important;
+		margin: auto !important;
+		width: 330px !important;
+		max-width: 96%;
+	}
 }
 
 
@@ -3596,6 +3610,8 @@ img.theme-img {
 	.theme-page .diamond-content {
 		height: fit-content;
 	}
+
+	
 
 
 }
