@@ -35,7 +35,6 @@ let initSlick = function() {
 initSlick();
 $(window).on('resize', initSlick);
 
-//Home slider for why important 
 let mobileSlider = $('.slider-mobile');
 
 function initMobileSlick() {
@@ -45,18 +44,18 @@ function initMobileSlick() {
         dots: true,
         infinite: false,
         speed: 300,
-        slidesToShow: 2,
+        slidesToShow: 1, // Safe default
         slidesToScroll: 1,
         responsive: [
-            {
-            breakpoint: 990,
+          {
+            breakpoint: 990, // screens < 990
             settings: {
               slidesToShow: 2,
               slidesToScroll: 1,
             }
           },
           {
-            breakpoint: 700,
+            breakpoint: 700, // screens < 700
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
@@ -71,10 +70,10 @@ function initMobileSlick() {
     }
   }
 }
-initMobileSlick();
 
-// Re-check on resize
-$(window).on('resize', initMobileSlick);
+initMobileSlick();
+$(window).on('resize', initMobileSlick); // ← important: reinit on resize
+
 
 	
 //Working Groups - who we are 
