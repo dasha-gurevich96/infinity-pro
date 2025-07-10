@@ -703,11 +703,33 @@ nav .wrap {
 	button.search {
 		padding: 0;
 	}
+	full-container.logo-btn-container.fixed div:not(.wrap) button#genesis-mobile-nav-primary {
+		display: block;
+		visibility: visible;
+	}
+	.full-container.logo-btn-container.fixed nav#genesis-nav-primary {
+		background-color: #f1b725;
+		position: absolute;
+		width: 100%;
+		top: 95%;
+		left: 0;
+		z-index: 99999;
+	}
+	.full-container.logo-btn-container.fixed ul#menu-header, 
+	.full-container.logo-btn-container.fixed ul#menu-header-1 {
+		flex-direction: column;
+	}
+	.full-container.logo-btn-container.fixed nav#genesis-nav-primary li {
+		border-bottom: 1px solid #fbc53f;
+	}
+	.full-container.logo-btn-container.fixed nav#genesis-nav-primary a {
+		color: black;
+	}
 }
 
 @media only screen and (max-width: 1024px) {
 	.site-title {
-		width: 177px;
+		width: 263px;
 	}
 }
 
