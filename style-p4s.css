@@ -3290,6 +3290,12 @@ img.bio-img {
 		margin-left: 0;
 		padding: 5px 23px;
 	}
+	.speech-bubble {
+    	width: 100%;
+	}
+	.title-img-container .diamond-container {
+		width: 83%;
+	}
 }
 
 /*** GET INVOLVED
