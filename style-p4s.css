@@ -586,6 +586,12 @@ nav .wrap {
     width: fit-content;
 }
 
+.custom-container.d-flex.justify-content-between.align-items-center {
+    display: grid !important;
+    gap: 10px;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
 
 @media (min-width: 990px) {
 	ul#menu-header,
