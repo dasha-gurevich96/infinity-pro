@@ -2398,6 +2398,9 @@ h2.text-center.inner-page-title  {
 	.inner-page .entry-header img.plain-wave {
     	bottom: -27%;
 	}
+	.inner-banner .custom-container h1, .inner-banner .custom-container p.banner-title {
+		font-size: 28px;
+	}
 }
 
 @media (max-width: 390px) {
