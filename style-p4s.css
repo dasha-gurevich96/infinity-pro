@@ -3752,6 +3752,14 @@ img.logo.object-fit-contain {
 }
 
 
+@media (max-width: 1100px) {
+	.mobile-slider {
+		display: block !important;
+	}
+	.desktop-slider {
+		display: none;
+	}
+}
 /*** EVENTS
 ==================*/
 .entry-content {
