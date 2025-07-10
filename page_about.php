@@ -56,6 +56,15 @@ function custom_content() {
             <div class="grid two-columns">
                 <div class="img-col d-none mobile-col">
                     <img src="<?php echo $image['url'];?>" alt="<?php echo $image['alt'];?>" />
+                    <?php if(!empty($text_in_yellow_box)) {
+                        ?>
+                        <div class="yellow-box">
+                            <img alt="" src="/wp-content/uploads/2025/07/Decorative-Triangle-2_Decorative-Triangle_green.svg" class="triangle">
+                            <?php echo $text_in_yellow_box;?>
+                        </div>
+                        <?php
+                    }
+                    ?>
             </div>
                 <div class="text-col">
                     <?php echo $text_on_the_left;?>
