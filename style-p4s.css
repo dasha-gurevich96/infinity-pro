@@ -785,7 +785,7 @@ nav .wrap {
 	}
 
 	.logo-btn-container.fixed .menu-toggle {
-    	padding: 13px 67px !important;
+    	padding: 8px 65px !important;
 	}
 
 	.fixed .title-area {
@@ -1658,6 +1658,12 @@ a#backToTop {
 	}
 	.front-page-3 .custom-container {
     	max-width: 89% !important;
+	}
+	.title-diamond h3 {
+		font-size: 19px;
+		top: 47%;
+		left: 49%;
+		line-height: 1.3;
 	}
 }
 
