@@ -24,7 +24,7 @@ jQuery(function ($) {
                If so → pin it with `.fixed` (and remove `.top`),
                else → remove `.fixed`
          --------------------------------------------------------- */
-        if (scrollTop > 150) {
+        if (scrollTop > 550) {
             $logo.addClass('fixed');
         } else {
             $logo.removeClass('fixed top');
