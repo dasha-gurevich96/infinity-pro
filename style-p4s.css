@@ -3302,6 +3302,12 @@ img.bio-img {
 		height: 296px;
 		width: 358px;
 	}
+	h2.content-title {
+		font-size: 25px;
+	}
+	.content-cont .text {
+		padding: 0;
+	}
 }
 
 /*** GET INVOLVED
