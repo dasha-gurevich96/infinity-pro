@@ -34,6 +34,12 @@ add_action( 'genesis_entry_header', 'banner');
 add_action( 'genesis_entry_content', 'custom_content' );
 
 function custom_content() {
+	?><div class="full-container">
+		<div class="custom-container">
+			<?php the_conent();?>
+</div>
+		</div>
+		<?php
 
     if(have_rows('components')) {
 		?>
