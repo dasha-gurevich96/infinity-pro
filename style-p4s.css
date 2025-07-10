@@ -704,10 +704,7 @@ nav .wrap {
 	button.search {
 		padding: 0;
 	}
-	.full-container.logo-btn-container.fixed  button#genesis-mobile-nav-primary {
-		display: block !important;
-		visibility: visible !important;
-	}
+	
 	.full-container.logo-btn-container.fixed nav#genesis-nav-primary {
 		background-color: #f1b725;
 		position: absolute;
@@ -725,6 +722,18 @@ nav .wrap {
 	}
 	.full-container.logo-btn-container.fixed nav#genesis-nav-primary a {
 		color: black;
+	}
+	.custom-container.d-flex.justify-content-between.align-items-center {
+		display: grid !important;
+		grid-template-columns: 3fr 1fr 1fr;
+		gap: 20px;
+	}
+	.full-container.logo-btn-container.fixed  button#genesis-mobile-nav-primary {
+		display: block !important;
+		visibility: visible !important;
+		padding: 11px 20px;
+		font-weight: 700;
+		width: 100%;
 	}
 }
 
