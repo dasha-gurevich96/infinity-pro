@@ -78,7 +78,7 @@ if ($query->have_posts()) {
 							} elseif(!empty($image_resources)) {
 								?> <img src="<?php echo $image_resources['url'];?>" alt="<?php echo $image_resources['alt'];?>" /><?php
 							} else {
-								?><img class="logo-img" src="/wp-content/uploads/2025/06/Stories_temporary-avatar.svg" alt="" /><?php
+								?><img class="object-fit-contain" src="/wp-content/uploads/2025/06/Stories_temporary-avatar.svg" alt="" /><?php
 							}
 							?>
 						</div>
