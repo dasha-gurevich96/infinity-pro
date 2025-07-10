@@ -9,7 +9,7 @@ if(have_rows('links')) {
             if(!empty($link_text) && !empty($link)) {
                 ?> 
                 <a class = 'd-flex download-file' href="<?=$link;?>" target="_blank">
-									<img src="wp-content/uploads/2025/07/file-solid-1.svg" alt ="">
+									<img src="/wp-content/uploads/2025/07/file-solid-1.svg" alt ="">
 									<?=$link_text;?>
 								 </a>
                                  <?php
