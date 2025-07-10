@@ -2734,7 +2734,6 @@ img.img-mask {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin-top: -90px;
 	}
 	img.img-mask {
 		height: 510px;
@@ -2802,6 +2801,10 @@ img.img-mask {
 		margin-top: 9px;
 		object-fit: cover;
 		object-position: -66px 0px;
+	}
+
+	.custom-col-1 {
+		margin-top: -90px;
 	}
 }
 
