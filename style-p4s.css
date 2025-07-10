@@ -3558,6 +3558,9 @@ img.theme-img {
 	.theme-page .yellow-container .custom-container {
     	max-width: 80% !important;
 	}
+	.full-container.yellow-container {
+    	background-size: 58%;
+	}
 }
 
 @media (max-width: 990px) {
