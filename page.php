@@ -46,7 +46,7 @@ function custom_content() {
 		}
 	?><?php
 	}
-?> <div class="full-container mb-0">
+?> <!--<div class="full-container mb-0">
 
 		<div class="custom-container">
 			<div class="transparent-share d-flex gap-3 align-items-center">
@@ -54,7 +54,7 @@ function custom_content() {
 				<?php echo add_social_share_buttons_global();?>
 			</div>
 		</div>
-	</div>
+	</div> -->
     <?php
     
 
