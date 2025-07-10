@@ -89,7 +89,7 @@ let initSlickW = function() {
       slidesToScroll: 1,
       responsive: [
         {
-          breakpoint: 890,
+          breakpoint: 990,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1
