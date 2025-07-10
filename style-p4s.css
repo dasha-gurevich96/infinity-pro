@@ -3494,7 +3494,11 @@ img.theme-img {
 	margin-bottom: 60px;
 }
 
-
+@media (min-width: 2040px) {
+	.full-container.yellow-container {
+		margin-top: -111px;
+	}
+}
 /*** WHO WE ARE
 =====================*/
 button.slick-arrow {
