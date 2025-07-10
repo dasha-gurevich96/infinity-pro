@@ -745,6 +745,10 @@ nav .wrap {
 	.full-container.logo-btn-container.fixed .custom-button.dark-green.desktop-btn {
 		display: none;
 	}
+	.full-container.logo-btn-container.fixed .mobile-menu {
+		width: 100%;
+		max-width: 100%;
+	}
 }
 
 @media only screen and (max-width: 1024px) {
