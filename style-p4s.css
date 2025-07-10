@@ -3758,10 +3758,15 @@ img.logo.object-fit-contain {
 		margin-top: 30px;
 	}
 
+
 	.bio-card {
 		display: block !important;
 		margin: auto;
 		width: 54% !important;
+	}
+
+	.bio-button[aria-expanded="true"] img {
+    	transform: rotate(90deg);
 	}
 	
 	.line {
