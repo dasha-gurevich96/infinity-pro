@@ -3758,6 +3758,9 @@ img.logo.object-fit-contain {
 		margin: auto;
 		width: 64%;
 	}
+	.line {
+		display: none;
+	}
 	.container-bio-card {
 		display: flex;
 		gap: 24px;
