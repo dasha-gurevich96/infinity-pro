@@ -678,9 +678,9 @@ nav .wrap {
 	.full-container.logo-btn-container.fixed .custom-container {
 		width: 96%;
 	}
-	.full-container.logo-btn-container.fixed .site-title {
+	/*.full-container.logo-btn-container.fixed .site-title {
 		height: 97px;
-	}
+	}*/
 
 	.full-container.logo-btn-container.fixed .custom-button.dark-green {
 		display: none;
