@@ -1805,7 +1805,7 @@ a#backToTop {
 		margin: auto;
 	}	
 	.logo-container {
-		height: 192px;
+		height: 219px;
 	}			
 }
 
@@ -1813,6 +1813,9 @@ a#backToTop {
 	div#front-page-1 img.wave {
     	top: -15px;
 	}
+	.logo-container {
+		height: 192px;
+	}	
 	.front-page-3 .custom-container {
     	max-width: 89% !important;
 	}
