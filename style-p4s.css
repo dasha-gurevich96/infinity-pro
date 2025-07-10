@@ -2722,6 +2722,12 @@ img.img-mask {
 	}
 }
 
+@media (max-width: 700px) {
+	.facts {
+		grid-template-columns: 1fr;
+	}
+}
+
 /*** STORIES
 ====================+*/
 .stories article {
