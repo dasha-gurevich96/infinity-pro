@@ -1092,7 +1092,7 @@ nav .wrap {
 .filters {
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(auto-fit,minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
 }
 
 .search-filter-label {
