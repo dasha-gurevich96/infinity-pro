@@ -3530,6 +3530,10 @@ img.theme-img {
 	img.wave.theme-wave {
     	top: -29px;
 	}
+
+	.theme .custom-container {
+    	max-width: 76% !important;
+	}
 }
 /*** WHO WE ARE
 =====================*/
