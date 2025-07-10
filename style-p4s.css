@@ -3272,10 +3272,10 @@ img.bio-img {
 	.title-img-container {
 		grid-template-columns: 1fr;
 	}
-	.title-img-container img.col {
+	.title-img-container image.col {
 		display: none;
 	}
-	.title-img-container img.col.mobile-col.d-none {
+	.title-img-container image.col.mobile-col.d-none {
 		display: block !important;
 	}
 }
