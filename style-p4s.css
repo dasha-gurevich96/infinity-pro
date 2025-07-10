@@ -769,8 +769,17 @@ nav .wrap {
 		flex-direction: column !important;
 		gap: 20px;
 	}
+
 	.logo-btn-container.fixed a.custom-button {
 		display: none;
+	}
+
+	.logo-btn-container.fixed .site-title {
+		width: 176px;
+	}
+
+	.logo-btn-container.fixed .menu-toggle {
+    	padding: 13px 67px !important;
 	}
 
 	.fixed .title-area {
