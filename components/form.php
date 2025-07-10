@@ -2,7 +2,7 @@
 $title = get_sub_field('title');
 $text = get_sub_field('text');
 $shortcode = get_sub_field('shortcode');
-
+echo 'test';
 if(!empty($shortcode)) {
     ?><div class="full-container">
         <div class="custom-container form-container">
