@@ -1142,6 +1142,15 @@ div#search-filter-label-3 {
     font-weight: 600 !important;
 }
 
+@media (max-width: 700px) {
+	.buttons {
+		flex-direction: column;
+	}
+	button.search-filter-input-button.search-filter-field__input {
+		width: 100%;
+	}
+}
+
 /*** SLICK SLIDER
 =======================*/
 .slick-track {
