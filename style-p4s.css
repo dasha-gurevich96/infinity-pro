@@ -639,7 +639,7 @@ nav .wrap {
 	.full-container.logo-btn-container.fixed .genesis-nav-menu > li.menu-item > a:hover::before, 
 	.full-container.logo-btn-container.fixed .genesis-nav-menu > li.menu-item > a:focus::before, 
 	.full-container.logo-btn-container.fixed .genesis-nav-menu > li.menu-item > a[aria-expanded="true"]::before {
-			width: 90%;
+			width: 100%;
 		}
 
 	.full-container.logo-btn-container.fixed .genesis-nav-menu > li.menu-item > a::before {
