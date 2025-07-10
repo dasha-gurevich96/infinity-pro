@@ -119,7 +119,7 @@ function custom_content() {
                 <?php 
     }
                 if(have_rows('support')) {
-                    ?><div class="diamond-cards theme-diamond-cards">
+                    ?><div class="diamond-cards theme-diamond-cards mobile-slider">
                         <?php while(have_rows('support')) {
                              the_row();
                              $icon = get_sub_field('icon_2');
