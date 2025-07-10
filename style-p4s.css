@@ -3756,7 +3756,12 @@ img.logo.object-fit-contain {
 	.mobile-slider {
 		display: block !important;
 		margin: auto;
-		width: 44%;
+		width: 64%;
+	}
+	.container-bio-card {
+		display: flex;
+		gap: 24px;
+		flex-direction: column;
 	}
 	.desktops-slider {
 		display: none;
