@@ -10,7 +10,6 @@ jQuery(document).ready(function($) {
         }
 
         if (scrollTop > 150 ) {
-             $('.logo-btn-container').removeClass('top');
             $('.logo-btn-container').addClass('fixed');
         } else {
             $('.logo-btn-container').removeClass('fixed top');
