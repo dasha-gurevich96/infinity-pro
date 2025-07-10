@@ -2745,6 +2745,9 @@ img.img-mask {
 		bottom: 9%;
 		width: 92%;
 	}
+	.info-graphics-title {
+		top: 10px;
+	}
 }
 
 @media (max-width: 700px) {
