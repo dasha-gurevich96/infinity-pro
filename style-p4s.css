@@ -3769,6 +3769,9 @@ img.logo.object-fit-contain {
 	.desktops-slider {
 		display: none;
 	}
+	.detail {
+		top: -100px;
+	}
 }
 /*** EVENTS
 ==================*/
