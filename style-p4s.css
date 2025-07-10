@@ -3268,6 +3268,12 @@ img.bio-img {
 }
 
 
+@media (max-width: 990px) {
+	.title-img-container {
+		grid-template-columns: 1fr;
+	}
+}
+
 /*** GET INVOLVED
 =======================*/
 .get-involved-page article {
