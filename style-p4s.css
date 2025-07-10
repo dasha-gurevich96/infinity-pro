@@ -3703,6 +3703,7 @@ a.custom-button.learn-more img {
 @media (max-width: 1100px) {
 	.pattern-right,
 	.pattern-left {
+		top: 38px;
 		width: 25%;
 	}
 }
