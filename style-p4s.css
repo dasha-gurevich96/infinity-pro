@@ -617,7 +617,7 @@ nav .wrap {
 	.full-container.logo-btn-container.fixed div:not(.wrap) .nav-primary  {
 		display: block;
 	}
-	.genesis-nav-menu a {
+	.full-container.logo-btn-container.fixed .genesis-nav-menu a {
 		color: var(--dark-purple);
 	}
 	.full-container.logo-btn-container.fixed .custom-container {
