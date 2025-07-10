@@ -950,10 +950,27 @@ nav .wrap {
 	}
 
 	.logo-btn-container.fixed .menu-toggle {
+    	padding: 5px 36px !important;
+	}
+	
+}
+
+@media (max-width: 390px) {
+	.logo-container {
+    	height: 194px;
+	}	
+	.front-page-5 img.logo {
+		height: 136px;
+	}
+	.logo-btn-container.fixed .site-title {
+    	width: 156px;
+	}
+	.menu-toggle {
     	padding: 6px 47px !important;
 	}
 	
 }
+
 
 
 @media (max-width: 330px) {
@@ -2108,21 +2125,6 @@ footer a.social-icon img {
 	}
 }
 
-@media (max-width: 390px) {
-	.logo-container {
-    	height: 194px;
-	}	
-	.front-page-5 img.logo {
-		height: 136px;
-	}
-	.logo-btn-container.fixed .site-title {
-    	width: 156px;
-	}
-	.menu-toggle {
-    	padding: 6px 47px !important;
-	}
-	
-}
 
 @media (max-height: 390px) {
 	div#front-page-1 img.wave {
