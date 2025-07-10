@@ -80,7 +80,11 @@ function custom_content() {
                             ?><div class='event-details'><?php
 				            get_template_part('/components/cards');
                             ?></div><?php
-			            }
+			            }  elseif (get_row_layout() === 'links') {
+                            ?><div class='event-details'><?php
+				            get_template_part('/components/links');
+                            ?></div><?php
+			            } 
                     }
                 }
             ?>
