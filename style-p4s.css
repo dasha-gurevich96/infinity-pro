@@ -114,6 +114,11 @@ input[type="email"], input[type="search"], input[type="submit"], input[type="tex
 	outline-offset: 3px;
 }
 
+.fluentform .ff-el-is-error .ff-el-form-control {
+    outline: 2px dashed var(--purple);
+    outline-offset: 3px;
+}
+
 .fluentform .ff-el-group {
     margin-bottom: 36px !important;
 }
