@@ -4161,6 +4161,7 @@ a.custom-button.learn-more{
     color: white;
     align-items: center;
     gap: 10px;
+	margin-top: auto;
 	padding: 5px 20px;
     width: fit-content;
 }
