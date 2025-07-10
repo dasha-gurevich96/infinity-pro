@@ -547,9 +547,14 @@ nav .wrap {
 	display: none;
 }
 
-.logo-btn-container.top {
-	top: -100px;
+.full-container.logo-btn-container {
 	transition: top 0.3s ease;
+}
+
+
+
+.full-container.logo-btn-container.top {
+	top: -100px;
 }
 
 .full-container.logo-btn-container.fixed {
