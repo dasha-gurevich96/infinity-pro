@@ -2388,6 +2388,30 @@ h2.text-center.inner-page-title  {
 	}
 }
 
+@media (max-width: 990px) {
+	.inner-page .entry-header img.plain-wave {
+    	bottom: -50%;
+	}
+}
+
+@media (max-width: 700px) {
+	.inner-page .entry-header img.plain-wave {
+    	bottom: -27%;
+	}
+}
+
+@media (max-width: 390px) {
+	.inner-page .entry-header img.plain-wave {
+    	bottom: -24%;
+	}
+}
+
+@media (max-width: 330px) {
+	.inner-page .entry-header img.plain-wave {
+    	bottom: -20%;
+	}
+}
+
 /***ACCRODION
 ------------------_*/
 .accordion-button {
