@@ -1649,6 +1649,9 @@ a#backToTop {
 	div#front-page-1 img.wave {
     	top: -15px;
 	}
+	.front-page-3 .custom-container {
+    	max-width: 89% !important;
+	}
 }
 
 @media (max-width: 320px) {
