@@ -652,7 +652,7 @@ nav .wrap {
 		background: var(--purple);
 		left: 50%;
 		transform: translateX(-50%);
-		bottom: -3px;
+		bottom: 0px;
 		transition: all 0.4s;
 	}
 
