@@ -2969,11 +2969,7 @@ img.story-img {
 
 @media (max-width: 990px) {
 	.results {
-		margin: auto;
     	width: 100%;
-	}
-	.page-id-113 .site-inner {
-		padding-bottom: 0;
 	}
 }
 
