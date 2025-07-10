@@ -70,7 +70,7 @@ function custom_content() {
                 <div class="heading">
                  <?php echo $text_above_cards;?>
     </div>
-                 <div class="cards cards-importance">
+                 <div class="cards cards-importance slider-mobile">
                     <?php while(have_rows('cards')) {
                         the_row();
                         $image = get_sub_field('image');
