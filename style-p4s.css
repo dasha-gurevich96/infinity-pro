@@ -4417,7 +4417,8 @@ a.back-to:focus img {
 	height: 173px;
 }
 
-.resource .entry-content {
+.resource .entry-content,
+.resource .site-inner  {
     background-color: var(--blue);
 }
 
