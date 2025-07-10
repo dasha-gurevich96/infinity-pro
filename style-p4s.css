@@ -110,12 +110,12 @@ input[type="email"], input[type="search"], input[type="submit"], input[type="tex
 
  button.ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style:focus, 
 .ff-default .ff-el-form-control:focus {
-	outline: 2px solid var(--purple);
+	outline: 2px solid var(--purple) !important;
 	outline-offset: 3px;
 }
 
 .fluentform .ff-el-is-error .ff-el-form-control {
-    outline: 2px dashed var(--purple);
+    outline: 2px dashed var(--purple) !important;
     outline-offset: 3px;
 }
 
