@@ -1576,11 +1576,11 @@ a#backToTop {
 	div#front-page-1 img.wave {
     	top: -17px;
 	}
-	div#video-container {
-		height: 96%;
-		top: 0;
-		width: 100%;
-	}	
+	div#front-page-1 div#video-container {
+		width: 98.5%;
+		top; 0;
+		height: 123px;
+	}		
 
 	.title-diamond h3 {
 		font-size: 22px;
