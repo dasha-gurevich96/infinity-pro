@@ -2367,7 +2367,10 @@ h2.text-center.inner-page-title  {
 	}
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1100px) {
+	.inner-page .entry-content {
+    	padding-top: 61px !important;
+	}
 	.inner-page .entry-header img.plain-wave {
     	bottom: -65%;
 	}
