@@ -3832,7 +3832,7 @@ a.custom-button.learn-more img {
 		grid-template-columns: 1fr;
 	}
 	.card.full-card.grid-card .img-col {
-    	height: 250px;
+    	height: 200px;
 	}
 	.card.full-card.grid-card .img-col img {
 		width: 100%;
