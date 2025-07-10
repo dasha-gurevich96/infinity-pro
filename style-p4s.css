@@ -436,8 +436,8 @@ a.custom-button:hover, a.custom-button:focus {
 a.social-icon {
 	border-radius: 100%;
 	border: 1px solid black;
-    height: 35px;
-    width: 35px;
+    height: 45px;
+    width: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
