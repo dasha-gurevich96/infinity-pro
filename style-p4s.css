@@ -2741,6 +2741,14 @@ img.img-mask {
 	}
 }
 
+
+@media (max-width: 390px) {
+	img.img-mask {
+		-webkit-mask-size:343px;
+		mask-size: 343px;
+	}
+}
+
 /*** STORIES
 ====================+*/
 .stories article {
