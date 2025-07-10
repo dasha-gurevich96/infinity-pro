@@ -576,7 +576,8 @@ nav .wrap {
 
 
 @media (min-width: 990px) {
-	ul#menu-header {
+	ul#menu-header,
+	ul#menu-header-1 {
 		display: flex;
 		justify-content: space-between;
 		gap: 20px;
@@ -594,17 +595,15 @@ nav .wrap {
 		display: flex !important;
 
 	}
-	ul#menu-header-1 {
-		display: flex !important;
-		justify-content: space-between;
+	.full-container.logo-btn-container.fixed  .mobile-menu {
+		display: block;
+	}
+	.full-container.logo-btn-container.fixed div:not(.wrap) .nav-primary {
+		display: flex;
 	}
 }
 
-@media only screen and (max-width: 1024px) {
-	.site-title {
-		width: 177px;
-	}
-}
+
 .mobile-button {
     display: none !important;
 }
@@ -625,6 +624,12 @@ nav .wrap {
 	}
 	button.search {
 		padding: 0;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.site-title {
+		width: 177px;
 	}
 }
 
