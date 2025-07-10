@@ -3296,6 +3296,11 @@ img.bio-img {
 	.title-img-container .diamond-container {
 		width: 83%;
 	}
+	.img-wrapper {
+		bottom: 74px;
+		height: 296px;
+		width: 358px;
+	}
 }
 
 /*** GET INVOLVED
