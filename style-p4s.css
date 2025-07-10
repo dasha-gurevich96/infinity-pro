@@ -3832,11 +3832,18 @@ a.custom-button.learn-more img {
 		grid-template-columns: 1fr;
 	}
 	.card.full-card.grid-card .img-col {
-    	height: 200px;
+    	height: 250px;
 	}
 	.card.full-card.grid-card .img-col img {
 		width: 100%;
 	}
+}
+
+@media (max-width: 700px) {
+	.card.full-card.grid-card .img-col {
+    	height: 200px;
+	}
+
 }
 
 
