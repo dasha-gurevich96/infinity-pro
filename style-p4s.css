@@ -1563,6 +1563,10 @@ a#backToTop {
 	.hero {
     	height: 160px;
 	}
+	.hero .custom-container {
+		max-width: 100% !important;
+		width: 100% !important;
+	}
 	.title-diamond {
 		position: relative;
 		height: 181px;
