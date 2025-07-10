@@ -2697,6 +2697,12 @@ img.img-mask {
 	.inner-page .site-inner .full-container.infographics .grid {
 		grid-template-columns: 100%;
 	}
+	.full-container.what-is {
+    	margin-bottom: 0;
+	}
+	.full-container.blue-bg {
+		margin-top: 0;
+	}
 	.grid.two-columns {
 		grid-template-columns: 1fr;
 		gap: 40px;
@@ -2731,6 +2737,7 @@ img.img-mask {
 	.yellow-box {
 		position: relative;
 		bottom: 9%;
+		width: 92%;
 	}
 }
 
