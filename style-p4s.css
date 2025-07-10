@@ -704,7 +704,7 @@ nav .wrap {
 	button.search {
 		padding: 0;
 	}
-	full-container.logo-btn-container.fixed  button#genesis-mobile-nav-primary {
+	.full-container.logo-btn-container.fixed  button#genesis-mobile-nav-primary {
 		display: block !important;
 		visibility: visible !important;
 	}
