@@ -44,6 +44,9 @@ function custom_content() {
         ?><div class="full-container yellow-container">
             <div class="custom-container">
                 <div class="theme-container">
+                    <div class="img-col mobile-col d-none">
+                        <img class="theme-img" src="<?php echo $banner_image['url'];?>" alt="<?php echo $banner_image['alt'];?>" />
+                    </div>
                     <div class="text-col">
                         <div class="text">
                             <?php echo $banner_text;?>
