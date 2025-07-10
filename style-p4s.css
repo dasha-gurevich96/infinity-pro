@@ -3110,6 +3110,7 @@ img.story-img {
 .intro-story {
 	margin: 0;
 	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .intro-story p {
@@ -3307,6 +3308,10 @@ img.bio-img {
 	}
 	.content-cont .text {
 		padding: 0;
+	}
+	.video-container-page {
+		height: 225px;
+		width: 100%;
 	}
 }
 
