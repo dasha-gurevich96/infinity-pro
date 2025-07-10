@@ -3811,6 +3811,11 @@ img.logo.object-fit-contain {
         justify-content: space-between;
 		width: 57%;
 	}
+	.logo-card.clickable-card {
+		display: flex !important;
+		margin: auto;
+		width: 63% !important;
+	}
 }
 /*** EVENTS
 ==================*/
