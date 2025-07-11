@@ -96,9 +96,11 @@ if ($query->have_posts()) {
 						</div>
 						<div class="text-col">
 							<h3>
-								<?php the_title();?>
+							
 								<?php if($post_type === 'stories-scld') {
 									the_title();?>'s story <?php
+								} else {
+									the_title();
 								}
 								?>
 							</h3>
