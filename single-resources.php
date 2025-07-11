@@ -88,7 +88,7 @@ function custom_content() {
                             ?></div><?php
 			            }  elseif (get_row_layout() === 'text') {
                             ?><div class='event-details'><?php
-				            echo get_sub_field('text');?>
+				            echo get_sub_field('text_2');?>
                             </div><?php
 			            } 
                     }
