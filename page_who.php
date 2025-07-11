@@ -112,7 +112,7 @@ function custom_content() {
                             $name = get_sub_field('name');
                             $role = get_sub_field('role');
                             $bio = get_sub_field('bio');
-                            $image = get_field('image');
+                            $image = get_sub_field('image');
 
                             if (!empty($name) && !empty($role)) {
                                 // Open new row if this is the first or every odd card
