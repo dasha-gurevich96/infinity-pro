@@ -119,6 +119,7 @@ if ($query->have_posts()) {
 									</p>
 									<?php
 								} else {
+									echo 'test';
 									$online_text = get_field('online_text') ? get_field('online_text') : 'Online';
                                     ?>
 									<p class="text-icon d-flex gap-3">
