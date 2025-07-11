@@ -2760,6 +2760,10 @@ img.tab-image.object-fit-contain {
     padding: 20px;
 }
 
+a.d-flex.align-items-center.gap-3.download-file img.icon {
+	width: 20px;
+}
+
 @media (max-width: 990px) {
 	.accordion-body {
 		padding: 24px 0;
