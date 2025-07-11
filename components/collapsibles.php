@@ -89,7 +89,7 @@ if (have_rows('collapsibles')) {
 											$background_colour = get_sub_field('background_colour');
 											$image = get_sub_field('image');
 											if(!empty($image)) {
-												?><img class="<?php echo $contain_image;?>" style="background-color: <?php echo $background_colour;?> "src="<?php echo $image['url'];?>" alt="<?php echo $image['alt'];?>" />
+												?><img class="tab-image <?php echo $contain_image;?>" style="background-color: <?php echo $background_colour;?> "src="<?php echo $image['url'];?>" alt="<?php echo $image['alt'];?>" />
 												<?php
 											}
 											?>
