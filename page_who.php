@@ -240,9 +240,11 @@ function custom_content() {
                                     <div class="text">
                                         
                                             <?php if(!empty($link)) {
-                                                ?><h4><a href="<?php echo $link;?>">
+                                                ?><h4>
+                                                    <a href="<?php echo $link;?>">
                                                 <?php echo $organisation_name;?>
-                                                <h4></a>
+                                                </a>
+                                                <h4>
                                                 
                                                 <?php        
                                             } else {
