@@ -93,7 +93,7 @@ if(!empty($text_above_cards) || have_rows('cards')) {
 
         <div id="error-summary" class="error-summary" role="alert" style="" tabindex="-1">
         <h2 id="error-summary-title">Please fix the following errors:</h2>
-        <ul><li><a href="#ff_3_names_first_name_">The first name is required</a></li><li><a href="#ff_3_email">The email field is required and must contain a valid email</a></li><li><a href="#ff_3_input_text">The organisation field is required</a></li></ul>
+        <ul></ul>
         </div>
 </div>
     <div class="custom-container form-container">
