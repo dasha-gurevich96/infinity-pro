@@ -113,6 +113,7 @@ function custom_content() {
                             $role = get_sub_field('role');
                             $bio = get_sub_field('bio');
                             $image = get_sub_field('image');
+                            $add_image_mask = get_sub_field("add_image_mask");
 
                             if (!empty($name) && !empty($role)) {
                                 // Open new row if this is the first or every odd card
@@ -128,9 +129,17 @@ function custom_content() {
                                         <div class="column-1">
                                             <div class="logo-diamond-container position-relative">
                                                 <?php if(!empty($image)) {
+                                                    ?> <img class="diamond" src="/wp-content/uploads/2025/07/Diamond-with-purple-border.svg" alt="" /><?php
+                                                    if($add_image_mask) {
+                                                        ?><div class="image-wrapper">
+                                                            <img class="bio-image" src="<?php echo $image['url'];?>" alt="<?php echo $image['alt'];?>" />
+                                                            </div>
+                                                            <?php
+                                                    }
+
                                                     ?> 
-                                                    <img class="diamond" src="/wp-content/uploads/2025/07/Diamond-with-purple-border.svg" alt="" />
-                                                        <img class="logo" src="<?php echo $image['url'];?>" alt="<?php echo $image['alt'];?>" />
+                                                    
+                                                      
                                                         <?php
                                                 } else {
                                                     ?>
