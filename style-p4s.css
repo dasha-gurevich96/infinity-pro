@@ -4040,8 +4040,8 @@ img.logo.object-fit-contain {
 	margin: 0 !important;
 }
 
-.card.full-card:hover,
-.card.full-card:focus-within,
+.card.full-card:hover a,
+.card.full-card:focus-within a,
 .card.full-card a:hover,
 .card.full-card a:focus {
 	text-decoration: underline;
