@@ -244,7 +244,7 @@ function custom_content() {
                                                     <a href="<?php echo $link;?>">
                                                 <?php echo $organisation_name;?>
                                                 </a>
-                                                <h4>
+                                            </h4>
                                                 
                                                 <?php        
                                             } else {
