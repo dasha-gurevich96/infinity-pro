@@ -4031,7 +4031,15 @@ img.logo.object-fit-contain {
 	color: black !important;
     font-size: 30px !important;
     font-weight: 700;
+	text-decoration: none;
 	margin: 0 !important;
+}
+
+.card.full-card:hover,
+.card.full-card:focus-within,
+.card.full-card a:hover,
+.card.full-card a:focus {
+	text-decoration: underline;
 }
 
 .funders-cards .text {
