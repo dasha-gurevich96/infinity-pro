@@ -2480,6 +2480,7 @@ h2.text-center.inner-page-title  {
 .inner-page .entry-content a {
 	font-weight: 500 !important;
 	line-height: 1.7;
+	font-size: 20px;
 	color: black;
 }
 
