@@ -91,7 +91,7 @@ if(!empty($text_above_cards) || have_rows('cards')) {
 ?><div class="full-container">
     <div class="custom-container text-above-form mt-5 mb-5">
 
-        <div id="error-summary" class="error-summary" role="alert" style="" tabindex="-1">
+        <div id="error-summary" class="error-summary" role="alert" style="display:none;" tabindex="-1">
         <h2 id="error-summary-title">Please fix the following errors:</h2>
         <ul></ul>
         </div>
