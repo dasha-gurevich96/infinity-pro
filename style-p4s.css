@@ -1931,10 +1931,10 @@ a#backToTop {
     	top: -17px;
 	}
 	div#front-page-1 div#video-container {
-		width: 85.5%;
-		top: 0;
-		height: 175px;
-	}		
+    width: 98%;
+    top: 0;
+    height: 196px;
+}		
 
 	.title-diamond h3 {
 		font-size: 22px;
