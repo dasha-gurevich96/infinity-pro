@@ -1,6 +1,10 @@
 <?php
+$title = get_sub_field('title');
  if (have_rows('link')) : ?>
- <h2> Downloadable files</h2>
+<?php if(!empty($title)) {
+    ?><h3><?php echo $title;?></h3><?php
+}
+?>
                     <div class="links d-flex flex-column gap-3">
                         <?php while (have_rows('link')) : the_row(); 
                             $link_text = get_sub_field("link_text");
