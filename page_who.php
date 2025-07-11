@@ -238,7 +238,19 @@ function custom_content() {
                                         <img class="logo" src="<?php echo $logo['url'];?>" alt="<?php echo $logo['alt'];?>" />
                                     </div>
                                     <div class="text">
-                                        <h4><?php echo $organisation_name;?></h4>
+                                        
+                                            <?php if(!empty($link)) {
+                                                ?><h4><a href="<?php echo $link;?>">
+                                                <?php echo $organisation_name;?>
+                                                <h4></a>
+                                                
+                                                <?php        
+                                            } else {
+                                                ?> <h4><?php echo $organisation_name;?></h4><?php
+                                            }
+                                            ?>
+                                           
+                                            
                                         <?php if(!empty($text)) {
                                             ?><p><?php echo $text;?></p><?php
                                         }
