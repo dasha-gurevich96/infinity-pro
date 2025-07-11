@@ -649,6 +649,13 @@ nav .wrap {
 	display: none;
 }
 @media (min-width: 990px) {
+	.full-container.logo-btn-container.fixed .custom-container {
+        width: 96% !important;
+        display: grid !important;
+        grid-template-columns: 18% 63% 14%;
+        gap: 1px;
+        align-items: center !important;
+	}
 	ul#menu-header,
 	ul#menu-header-1 {
 		display: flex;
