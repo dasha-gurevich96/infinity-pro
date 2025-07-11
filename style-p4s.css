@@ -4298,6 +4298,7 @@ p.text-icon .icon {
 a.custom-button.learn-more{
     background-color: #0e5660;
     color: white;
+	font-size: 20px;
     align-items: center;
     gap: 10px;
 	margin-top: auto;
