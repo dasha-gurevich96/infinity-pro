@@ -232,7 +232,7 @@ function custom_content() {
                             $text = get_sub_field('text');
                             $link = get_sub_field('link');
                             if(!empty($logo) && !empty($organisation_name)) {
-                                ?><div class="card full-card">
+                                ?><div class="card full-card <?php if(!empty($link)) { echo 'clickable-card';};?>">
                                     <div class="logo-diamond-container position-relative">
                                         <img class="diamond" src="/wp-content/uploads/2025/07/Diamond-with-purple-border.svg" alt="">
                                         <img class="logo" src="<?php echo $logo['url'];?>" alt="<?php echo $logo['alt'];?>" />
