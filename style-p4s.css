@@ -3984,7 +3984,9 @@ img.arrow.icon {
 }
 
 .logo-card:hover,
-.logo-card:focus-within {
+.logo-card:focus-within,
+.bio-card:hover,
+.logo-card:focus-within  {
 	box-shadow: none;
 }
 
