@@ -58,6 +58,8 @@ function custom_content() {
                                     $name = get_sub_field('name');
                                     $role = get_sub_field('role');
                                     $bio = get_sub_field('bio');
+                                      $image = get_sub_field('image');
+                            $add_image_mask = get_sub_field("add_image_mask");
                                     if (!empty($name) && !empty($role)) {
                                          $pairIndex++;
                                         ?> 
