@@ -4582,6 +4582,10 @@ a.back-to:focus img {
     width: 100%;
 }
 
+.resource h2 {
+	margin-top: 20px;
+}
+
 .venue-address {
     display: flex;
     flex-direction: column;
