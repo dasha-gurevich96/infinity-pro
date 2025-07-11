@@ -1904,9 +1904,10 @@ a#backToTop {
     	top: -32px;
 	}
 	div#front-page-1 div#video-container {
-		width: 84%;
-		height: 91%;
-	}
+    width: 72.5%;
+    height: 89.5%;
+    top: -6px;
+}
 	.front-page-3 .custom-container {
     	max-width: 74% !important;
 	}
