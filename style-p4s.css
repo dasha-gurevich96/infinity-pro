@@ -3590,7 +3590,10 @@ img.bio-img {
 .get-involved-page.inner-page .entry-content {
     margin-top: 0px !important;
     padding-bottom: 78px;
+	padding-top: 0 !important;
 }
+
+
 
 
 /*** THEME
