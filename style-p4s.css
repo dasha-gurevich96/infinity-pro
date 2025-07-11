@@ -2587,6 +2587,9 @@ h2.text-center.inner-page-title  {
 	.inner-page:has(.grid-container) .entry-header img.banner-wave {
     	bottom: -9%;
 	}
+	.inner-page .entry-header .wave-container {
+		top: -13px;
+	}
 }
 
 @media (max-width: 700px) {
@@ -2602,9 +2605,7 @@ h2.text-center.inner-page-title  {
 	.inner-page:has(.grid-container) .entry-header img.banner-wave {
     	bottom: -4%;
 	}
-	.inner-page .entry-header .wave-container {
-		top: -13px;
-	}
+	
 }
 
 @media (max-width: 390px) {
