@@ -4034,7 +4034,7 @@ img.logo.object-fit-contain {
 	overflow: hidden;
 	padding: 43px 20px;
     margin: auto !important;
-	transition: box-shadow 0.2s ease;
+	transition: all 0.2s ease;
     width: 80% !important;
 }
 
