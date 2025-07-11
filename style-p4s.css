@@ -2729,6 +2729,10 @@ a.accordion-button::after {
 	width: 448px;
 }
 
+.page-id-111.inner-page .entry-content {
+    padding-top: 0px !important;
+}
+
 .yellow-box h3,
 .yellow-box h3 a {
 	font-size: 23px;
