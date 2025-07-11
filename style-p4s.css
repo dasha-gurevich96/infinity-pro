@@ -4414,6 +4414,10 @@ img.arrow.arrow-more {
 	object-fit: cover;
 }
 
+.card.full-card.grid-card .img-col img.object-fit-contain {
+	padding: 20px;
+}
+
 p.text-icon {
 	color: #983320;
 	font-weight: 600 !important;
