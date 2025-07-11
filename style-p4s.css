@@ -656,6 +656,9 @@ nav .wrap {
         gap: 1px;
         align-items: center !important;
 	}
+	.full-container.logo-btn-container.fixed .custom-container .nav-primary {
+		width: 100%;
+	}
 	ul#menu-header,
 	ul#menu-header-1 {
 		display: flex;
