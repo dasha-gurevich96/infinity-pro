@@ -418,7 +418,6 @@ html {
 
 main#genesis-content {
     position: relative;
-    overflow-x: hidden;
     width: 100%;
 }
 
