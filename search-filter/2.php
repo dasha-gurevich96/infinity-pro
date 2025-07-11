@@ -47,6 +47,7 @@ if ($query->have_posts()) {
 			
 			$organiser_logo = get_field('organiser_logo');
 			$venue = get_field('venue');
+			$card_image = get_field('card_image');
 			$post_id = get_the_ID(); // or use a specific post ID
 
 				// Get featured image ID
@@ -58,10 +59,17 @@ if ($query->have_posts()) {
 				// Get image alt text
 				$image_alt = get_post_meta($thumbnail_id, '_wp_attachment_image_alt', true);
 
-			if(!empty($date_text) && !empty($image_url)) {
+			if(!empty($date_text) && (!empty($image_url) || !empty($card_image))) {
 				?><div class="card full-card grid-card clickable-card">
 						<div class="img-col">
-							<img src="<?php echo $image_url;?>" alt="<?php echo $image_alt;?>" />
+							<?php if(!empty($card_image)) {
+								?> <img src="<?php echo $card_image['url'];?>" alt="<?php echo $card_image['alt'];?>" />
+								<?php
+							} else {
+								?> <img src="<?php echo $image_url;?>" alt="<?php echo $image_alt;?>" />
+								<?php
+							}
+							?>
 						</div>
 						<div class="text-col">
 							<h3>
