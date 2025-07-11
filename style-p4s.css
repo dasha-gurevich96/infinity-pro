@@ -507,6 +507,11 @@ a.social-icon:focus {
 	outline: 2px solid black;
 }
 
+.site-footer a.social-icon:hover,
+.site-footer a.social-icon:focus {
+	outline: 2px solid white;
+}
+
 
 .full-container.logo-btn-container {
     background-color: white;
