@@ -1915,7 +1915,7 @@ a#backToTop {
 
 @media (max-width: 700px) {
 	.hero {
-    	height: 160px;
+    	height: 200px;
 	}
 	.hero .custom-container {
 		max-width: 100% !important;
@@ -1931,9 +1931,9 @@ a#backToTop {
     	top: -17px;
 	}
 	div#front-page-1 div#video-container {
-		width: 91.5%;
-        top: 0;
-        height: 129px;
+		width: 85.5%;
+		top: 0;
+		height: 175px;
 	}		
 
 	.title-diamond h3 {
