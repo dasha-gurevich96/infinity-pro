@@ -1196,6 +1196,10 @@ nav .wrap {
     gap: 22px;
 }
 
+.filters-page main#genesis-content {
+    min-height: 600px;
+}
+
 .inner-page .filters-box h2 {
     font-size: 31px;
     margin-bottom: 25px;
