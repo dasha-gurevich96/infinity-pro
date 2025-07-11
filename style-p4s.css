@@ -416,7 +416,7 @@ ol, ul {
 }
 
 .entry-content ol + p, 
-.entry-content ul +p {
+.entry-content ul + p {
 	margin-top: 20px;
 }
 
