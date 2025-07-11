@@ -311,6 +311,11 @@ a.site-title:focus {
     outline: 2px dotted #591144;
 }
 
+.logo-footer-cont a:hover img.footer-logo,
+.logo-footer-cont a:hover img.footer-logo:focus  {
+    outline: 2px solid var(--purple);
+}
+
 .ff-btn-submit:not(.ff_btn_no_style) {
     background-color: var(--purple) !important;
     border-radius: 30px !important;
