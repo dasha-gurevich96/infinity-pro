@@ -300,6 +300,17 @@ p {
     margin-top: 30px;
 }
 
+a.site-title {
+    outline-offset: 2px;
+    outline: 2px dotted transparent;
+	transition: all 0.2s ease;
+}
+
+a.site-title:hover,
+a.site-title:focus {
+    outline: 2px dotted #591144;
+}
+
 .ff-btn-submit:not(.ff_btn_no_style) {
     background-color: var(--purple) !important;
     border-radius: 30px !important;
