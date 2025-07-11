@@ -3097,6 +3097,24 @@ img.img-mask {
 	}	
 }
 
+@media (min-width: 1900px) {
+	.info-graphics-title {
+		top: 52px;
+	}
+	.inner-page .entry-header .wave-container {
+		top: -68px;
+	}
+}
+
+@media (min-width: 2000px) {
+	.info-graphics-title {
+		top: 60px;
+	}
+	.inner-page .entry-header .wave-container {
+		top: -73px;
+	}
+}
+
 @media (min-width: 2400px) {
 	.info-graphics-title {
 		top: 75px;
