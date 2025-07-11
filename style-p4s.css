@@ -415,6 +415,11 @@ ol, ul {
 	margin: 0;
 }
 
+.entry-content ol + p, 
+.entry-content ul +p {
+	margin-top: 20px;
+}
+
 li#search-filter-input-combobox-listbox-0-option--uncategorised {
     display: none;
 }
