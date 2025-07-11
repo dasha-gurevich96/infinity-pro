@@ -68,7 +68,7 @@ if ($query->have_posts()) {
 				$summary .= '...';
 			}
 
-			
+			$date_text_with_time = get_field('date_text_with_time');
 			$organiser_logo = get_field('organiser_logo');
 			$venue = get_field('venue');
 			$post_id = get_the_ID(); // or use a specific post ID
@@ -128,11 +128,14 @@ if ($query->have_posts()) {
 									<?php
 								}
 								?>
-								<?php if(!empty($date_text)) {
+								<?php 
+								
+								if(!empty($date_text_with_time)) {
+									 
 									?>
 									<p class="text-icon d-flex gap-3 align-items-start">
 										<img class="icon" src="/wp-content/uploads/2025/06/Icon_calendar.svg" alt="" />
-										<span><?php echo $date_text;?></span>
+										<span><?php echo $date_text_with_time;?></span>
 									</p>
 									<?php
 								}
