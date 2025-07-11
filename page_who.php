@@ -131,7 +131,7 @@ function custom_content() {
                                                 <?php if(!empty($image)) {
                                                     ?> <img class="diamond" src="/wp-content/uploads/2025/07/Diamond-with-purple-border.svg" alt="" /><?php
                                                     if($add_image_mask) {
-                                                        ?><div class="image-wrapper">
+                                                        ?><div class="img-wrapper">
                                                             <img class="bio-image" src="<?php echo $image['url'];?>" alt="<?php echo $image['alt'];?>" />
                                                             </div>
                                                             <?php
