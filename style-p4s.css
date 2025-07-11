@@ -246,6 +246,10 @@ textarea#ff_1_message {
 	padding: 15px 11px !important;
 }
 
+.fluentform span {
+    font-weight: 500;
+}
+
 .fluentform .ff-el-group {
     margin-bottom: 25px !important;
 }
