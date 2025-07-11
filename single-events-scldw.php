@@ -172,7 +172,14 @@ function custom_content() {
 									<span><?php echo $venue['address'];?></span>
 									</p>
 									<?php
-								}
+								} else {
+                                    ?>
+									<p class="text-icon d-flex gap-3">
+									<img class="icon" src="/wp-content/uploads/2025/06/Icon_location.svg" alt="" />
+									<span>Online</span>
+									</p>
+									<?php
+                                }
 								?>
 								<?php if(!empty($date_text)) {
 									?>
