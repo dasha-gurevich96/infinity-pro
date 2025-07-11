@@ -41,7 +41,6 @@ function custom_content() {
     $results = get_field('results_shortcode');
     $selected_fields = get_field('selected_fields');
     $hide_filters = get_field('hide_filters');
-    $text_in_filters = get_field('text_in_filters');
     ?>
     <div class="pattern-right">
         </div>
@@ -49,7 +48,7 @@ function custom_content() {
         </div>
         <?php
 
-    if(!empty($filters) && !empty($submit_buttons)) {
+    if(!empty($filters) && !empty($submit_buttons) && !$hide_filters) {
         ?>
         <div class="full-container">
             <div class="custom-container">
@@ -58,18 +57,7 @@ function custom_content() {
              if(!empty($title)) {
                 ?><h2><?php echo $title;?></h2><?php
             }
-            if(!empty($text_in_filters)) {
-                ?><div class="text mt-5 mb-5">
-                    <?php echo $text_in_filters;?>
-                    </div>
-                <?php
-            }
-            ?>
-            <?php if(!$hide_filters) {
-
-            
-            ?>
-            <div class="filters">
+            ?><div class="filters">
                 <?php echo do_shortcode($filters);?>
             </div>
             <div class="buttons">
@@ -82,7 +70,6 @@ function custom_content() {
                 </div>
                 <?php
             }
-        }
             ?>
   
             </div>
