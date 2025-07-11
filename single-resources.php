@@ -41,6 +41,8 @@ function custom_content() {
 	$image_url = wp_get_attachment_url($thumbnail_id);
 	$image_alt = get_post_meta($thumbnail_id, '_wp_attachment_image_alt', true);
     $description = get_field('description');
+    $contain_image = get_field('contain_image') ? 'object-fit-contain' : 'object-fit-cover';
+			$background_colour = get_field('background_colour') ? get_field('background_colour') : 'white';
    
 ?>
     <div class="pattern-right">
@@ -56,7 +58,7 @@ function custom_content() {
         </a>
         <?php if(!empty($image_url)) {
             ?><div class="event-banner">
-                <img class="banner-img object-fit-cover" src="<?php echo $image_url;?>" alt="<?php echo $image_alt;?>" />
+                <img style="background-color: <?php echo $background_colour;?>" class="banner-img <?php echo $contain_image;?>"  src="<?php echo $image_url;?>" alt="<?php echo $image_alt;?>" />
             </div>
             <?php
         }
