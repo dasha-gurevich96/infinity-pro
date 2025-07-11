@@ -102,7 +102,14 @@ function custom_content() {
                 <div class="title-quote">
                     <h2 class="meet">
                         <span> Meet </span>
-                        <span><?php the_title();?></span>
+                        <span>
+                            <?php if(!empty($name)) {
+                                echo $name;
+                            } else {
+                              the_title();
+                            }
+                            ?>
+                    </span>
                     </h2>
                  
                     <?php
