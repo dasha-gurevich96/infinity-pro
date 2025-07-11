@@ -64,14 +64,13 @@ if ($query->have_posts()) {
 							?>
 							<div class="event-details">
 								<?php if(!empty($venue)) {
-									
 									?>
 									<p class="text-icon d-flex gap-3">
 									<img class="icon" src="/wp-content/uploads/2025/06/Icon_location.svg" alt="" />
 									<span><?php echo $venue['name'];?></span>
 									</p>
 									<?php
-								} else {
+								}  else {
 									
 									$online_text = get_field('online_text') ? get_field('online_text') : 'Online';
                                     ?>
@@ -82,19 +81,16 @@ if ($query->have_posts()) {
 									<?php
 								}
 								?>
-								<?php 
-								
-								if(!empty($date_text_with_time)) {
-									 
+								<?php if(!empty($date_text)) {
 									?>
 									<p class="text-icon d-flex gap-3 align-items-start">
 										<img class="icon" src="/wp-content/uploads/2025/06/Icon_calendar.svg" alt="" />
-										<span><?php echo $date_text_with_time;?></span>
+										<span><?php echo $date_text;?></span>
 									</p>
 									<?php
 								}
 								?>
-								</div>
+							</div>
 							<?php if(!empty($summary)) {
 								?><div class="summary">
 									<p><?php echo $summary;?></p>
