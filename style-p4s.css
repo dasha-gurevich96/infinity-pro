@@ -4299,6 +4299,7 @@ a.custom-button.learn-more{
     background-color: #0e5660;
     color: white;
 	font-size: 20px;
+	text-decoration: none;
     align-items: center;
     gap: 10px;
 	margin-top: auto;
