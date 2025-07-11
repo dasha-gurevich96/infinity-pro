@@ -86,9 +86,8 @@ function custom_content() {
                             ?><div class='event-details'><?php
 				            get_template_part('/components/links');
                             ?></div><?php
-			            }  elseif (get_row_layout() === 'text') {
+			            }  elseif (get_row_layout() === 'components') {
 
-                            echo 'test';
                             ?><div class='event-details'><?php
 				            echo get_sub_field('text_2');?>
                             </div><?php
