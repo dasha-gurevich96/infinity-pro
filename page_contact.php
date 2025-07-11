@@ -97,7 +97,11 @@ if(!empty($text_above_cards) || have_rows('cards')) {
         </div>
 </div>
     <div class="custom-container form-container">
-        <h2>Contact form</h2>
+        <div class="form-text mb-5">
+        <h2>Contact form</h2><div class="text">
+        <?php echo $text_above_form;?>
+        </div>
+         </div>
         <?php echo do_shortcode('[fluentform id="1"]');?>
 </div>
 </div>
