@@ -3906,6 +3906,14 @@ button.slick-arrow {
 	justify-content: center;
 }
 
+.bio-card img.logo.uni {
+    position: absolute !important;
+    top: 52%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    width: 97px;
+}
+
 .page-id-121 .entry-content {
     padding-bottom: 50px;
 }
