@@ -83,6 +83,7 @@ function custom_content() {
     $intro = get_field("intro");
     $text_in_speech_bubble = get_field('text_in_speech_bubble');
     $image = get_field('image');
+    $name = get_field('name');
     if(!empty($intro)) {
             ?><div class="full-container purple-bg position-relative intro-story">
                 <div class="custom-container">
