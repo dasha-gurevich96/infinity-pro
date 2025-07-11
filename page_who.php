@@ -112,6 +112,7 @@ function custom_content() {
                             $name = get_sub_field('name');
                             $role = get_sub_field('role');
                             $bio = get_sub_field('bio');
+                            $image = get_field('image');
 
                             if (!empty($name) && !empty($role)) {
                                 // Open new row if this is the first or every odd card
@@ -126,8 +127,19 @@ function custom_content() {
                                         <div class="detail"></div>
                                         <div class="column-1">
                                             <div class="logo-diamond-container position-relative">
-                                                <img class="diamond" src="/wp-content/uploads/2025/07/Diamond-with-purple-border.svg" alt="" />
-                                                <img class="logo" src="/wp-content/uploads/2025/07/SCLD_Logo.svg" alt="" />
+                                                <?php if(!empty($image)) {
+                                                    ?> 
+                                                    <img class="diamond" src="/wp-content/uploads/2025/07/Diamond-with-purple-border.svg" alt="" />
+                                                        <img class="logo" src="<?php echo $image['url'];?>" alt="<?php echo $image['alt'];?>" />
+                                                        <?php
+                                                } else {
+                                                    ?>
+                                                     <img class="diamond" src="/wp-content/uploads/2025/07/Diamond-with-purple-border.svg" alt="" />
+                                                        <img class="logo" src="/wp-content/uploads/2025/07/SCLD_Logo.svg" alt="" />
+                                                <?php
+                                                }
+                                                ?>
+                                               
                                             </div>
                                             <div class="text">
                                                 <div>
