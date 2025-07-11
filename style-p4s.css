@@ -3101,6 +3101,9 @@ img.img-mask {
 	.info-graphics-title {
 		top: 75px;
 	}
+	.inner-page .entry-header .wave-container {
+		top: -85px;
+	}
 }
 
 /*** STORIES
