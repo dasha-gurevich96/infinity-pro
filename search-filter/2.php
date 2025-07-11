@@ -30,7 +30,7 @@ if ($query->have_posts()) {
 			 $date_text_with_time = get_field('date_text_with_time');
 			 if (!empty($date_text_with_time)) {
     // Replace <li> and </li> with semicolons
-    $date_text_with_time = str_replace(['</li>'], ';', $date_text_with_time);
+    $date_text_with_time = str_replace(['</li>'], '; ', $date_text_with_time);
 
     // Strip any remaining HTML tags
     $date_text_with_time = strip_tags($date_text_with_time);
