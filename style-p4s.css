@@ -721,6 +721,9 @@ nav .wrap {
 	.full-container.logo-btn-container.fixed .genesis-nav-menu > li.menu-item.current-menu-item > a:focus::before  {
 			width: 100%;
 		}
+		.current-menu-item a::before {
+    		width: 100% !important;
+		}
 
 	.full-container.logo-btn-container.fixed .genesis-nav-menu > li.menu-item > a::before {
 		content: "";
