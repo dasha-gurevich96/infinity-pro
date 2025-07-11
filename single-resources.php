@@ -86,6 +86,10 @@ function custom_content() {
                             ?><div class='event-details'><?php
 				            get_template_part('/components/links');
                             ?></div><?php
+			            }  elseif (get_row_layout() === 'text') {
+                            ?><div class='event-details'><?php
+				            echo get_sub_field('text');?>
+                            </div><?php
 			            } 
                     }
                 }
