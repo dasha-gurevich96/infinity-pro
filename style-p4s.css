@@ -3979,7 +3979,7 @@ img.arrow.icon {
 	flex-direction: column;
 	gap: 15px;
     justify-content: center;
-	transition: box-shadow 0.2s ease;
+	transition: all 0.2s ease;
 	height: 100%;
 	padding: 14px;
 }
