@@ -110,7 +110,7 @@ if ($query->have_posts()) {
 							</div>
 							<?php if(!empty($summary)) {
 								?><div class="summary">
-									<p><?php echo $summary;?></p>
+									<p><?php echo $summary;?>...</p>
 								</div>
 								<?php
 							}
