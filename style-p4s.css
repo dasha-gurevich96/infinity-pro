@@ -4417,7 +4417,8 @@ p.text-icon .icon {
 }
 
 .card.full-card.grid-card img.logo.object-fit-contain {
-	height: auto;
+    height: 70px;
+    object-position: left;
     width: 166px;
 }
 
