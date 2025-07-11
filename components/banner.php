@@ -49,7 +49,10 @@ if(!empty($logo) && !empty($text)) {
             ?>
         </div>
     </div>
-    <img class="banner-wave" src="/wp-content/uploads/2025/07/banner_wave_about.svg" alt="" />
+     <div class="wave-container position-relative">
+             <img class="banner-wave" src="/wp-content/uploads/2025/07/banner_wave_about.svg" alt="" />
+    </div>
+   
     <?php
 
 
