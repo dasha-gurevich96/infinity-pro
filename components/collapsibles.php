@@ -53,16 +53,16 @@ if (have_rows('collapsibles')) {
 										$text = get_sub_field('text');
 										if(!empty($text)) {
 											?>
-												<div class="custom-container">
+												
 													<?php echo $text;?>
-												</div>	
+											
 											
 										<?php
 										}
 									} elseif(get_row_layout() === 'buttons') {
 										if(have_rows('buttons')) {
 											?>
-											<div class="custom-container">
+										
 														<div class="buttons-container d-flex">
 																	<?php while(have_rows('buttons')) {
 																		the_row();
@@ -79,36 +79,21 @@ if (have_rows('collapsibles')) {
 																	}
 																?>
 																</div>
-											</div>
+											
 											
 										<?php
 										}
-									} elseif(get_row_layout() === 'images') {
-										if(have_rows('images')) {
+									} elseif(get_row_layout() === 'image') {
+										if(have_rows('image')) {
+											$contain_image = get_sub_field('contain_image') ? 'object-fit-contain' : 'object-fit-cover' ;
+											$background_colour = get_sub_field('background_colour');
+											$image = get_sub_field('image');
+											if(!empty($image)) {
+												?><img class="<?php echo $contain_image;?>" style="background-color: <?php echo $background_colour;?> "src="<?php echo $image['url'];?>" alt="<?php echo $image['alt'];?>" />
+												<?php
+											}
 											?>
-											<div class="custom-container">
-												<div class="d-flex images-container justify-content-center align-items-stretch gap-5">
-																<?php while(have_rows('images')) {
-																	the_row();
-																	$img = get_sub_field('image_tab');
-																	$link = get_sub_field('link');
-																	$logo = get_sub_field('is_image_a_logo');
-																	$class = $logo ? 'logo object-fit-contain' : '';
-																	if(!empty($img) && !empty($link)) {
-																		?>
-																		<a href="<?php echo $link;?>" class="clickable-link">
-																			<img class="img <?php echo $class;?>" src="<?php echo $img['url'];?>" alt="<?php echo $img['alt'];?>" />
-																		</a>
-																<?php
-																	} elseif(!empty($img)) {
-																		?>
-																		<img class="img <?php echo $class;?>" src="<?php echo $img['url'];?>" alt="<?php echo $img['alt'];?>" />
-																	<?php
-																	}
-																}
-													?>
-													</div>
-											</div>
+											 
 										<?php
 										}
 										
