@@ -871,6 +871,9 @@ nav .wrap {
 	.site-title {
 		height: 74px;
 	}
+	.inner-page .site-header {
+		display: none;
+	}
 	.full-container.logo-btn-container .custom-container.d-flex.justify-content-between.align-items-center {
 		display: grid !important;
         grid-template-columns: 2fr 1fr 1fr;
