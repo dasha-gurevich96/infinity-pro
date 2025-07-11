@@ -4407,6 +4407,10 @@ img.arrow.arrow-more {
 	width: 100% !important;
 }
 
+.card.full-card.grid-card .img-col {
+    min-height: 273px;
+}
+
 .card.full-card.grid-card .img-col img {
 	border-radius: 15px;
 	border: 1px solid var(--purple);
