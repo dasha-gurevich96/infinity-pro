@@ -127,7 +127,7 @@ let errors = [];
     const $firstInvalid = $form.find('[aria-invalid="true"]').first();
 
 	  
-	  $form.find('input.ff-el-form-control[aria-invalid="true"]').each(function() {
+	  $form.find('input[aria-invalid="true"], select[aria-invalid="true"], textarea[aria-invalid="true"]').each(function() {
   const $input = $(this);
   const inputId = $input.attr('id') || null;
   // Locate the sibling error div
