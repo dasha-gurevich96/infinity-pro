@@ -2374,8 +2374,10 @@ footer a.social-icon img {
 }
 
 .inner-page .entry-header .wave-container {
-	overflow: hidden;
-	top: -2px;
+    overflow: hidden;
+    top: -28px;
+    padding-bottom: 10px;
+    /* z-index: 99999; */
 }
 
 .inner-page .entry-header .wave-container img {
