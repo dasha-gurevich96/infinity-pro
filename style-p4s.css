@@ -4029,7 +4029,7 @@ img.logo.object-fit-contain {
 .funders-cards h4,
 .funders-cards h4 a {
 	color: black !important;
-    font-size: 30px;
+    font-size: 30px !important;
     font-weight: 700;
 	margin: 0 !important;
 }
