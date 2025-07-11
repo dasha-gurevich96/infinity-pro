@@ -32,6 +32,8 @@ if ($query->have_posts()) {
 			$intro = get_field('intro');
 			$image_resources = get_field('image_resources');
 			$external_link = get_field('external_link');
+			$contain_image = get_field('contain_image') ? 'object-fit-contain' : 'object-fit-cover';
+			$background_colour = get_field('background_colour') ? get_field('background_colour') : 'white';
 
 			if (!empty($event_description)) {
 				$source_text = $event_description;
@@ -86,9 +88,9 @@ if ($query->have_posts()) {
 				?><div class="card full-card grid-card <?php if(!get_field('remove_link_to_the_page')) { echo 'clickable-card';};?>">
 						<div class="img-col">
 							<?php if(!empty($image_url)) {
-									?> <img src="<?php echo $image_url;?>" alt="<?php echo $image_alt;?>" /><?php
+									?> <img style="background-color: <?php echo $background_colour;?>" class="<?php echo $contain_image;?>" src="<?php echo $image_url;?>" alt="<?php echo $image_alt;?>" /><?php
 							} elseif(!empty($image_resources)) {
-								?> <img src="<?php echo $image_resources['url'];?>" alt="<?php echo $image_resources['alt'];?>" /><?php
+								?> <img class="<?php echo $contain_image;?>" style="background-color: <?php echo $background_colour;?>" src="<?php echo $image_resources['url'];?>" alt="<?php echo $image_resources['alt'];?>" /><?php
 							} else {
 								?><img class="object-fit-contain" src="/wp-content/uploads/2025/06/Stories_temporary-avatar.svg" alt="" /><?php
 							}
