@@ -57,8 +57,8 @@ function custom_content() {
             
         </a>
         <?php if(!empty($image_url)) {
-            ?><div class="event-banner">
-                <img style="background-color: <?php echo $background_colour;?>" class="banner-img <?php echo $contain_image;?>"  src="<?php echo $image_url;?>" alt="<?php echo $image_alt;?>" />
+            ?><div class="event-banner" style="background-color: <?php echo $background_colour;?>">
+                <img class="banner-img <?php echo $contain_image;?>"  src="<?php echo $image_url;?>" alt="<?php echo $image_alt;?>" />
             </div>
             <?php
         }
