@@ -262,6 +262,10 @@ h2#error-summary-title {
     color: #d81966 !important;
 }
 
+.fluentform .ff-el-is-error .ff-el-form-check-label, .fluentform .ff-el-is-error .ff-el-form-check-label a {
+	color: var(--purple) !important;
+}
+
 ::placeholder {
 	color: var(--text-colour-grey) !important;
 	font-size: 15px !important;
