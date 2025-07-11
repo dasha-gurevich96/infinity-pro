@@ -51,7 +51,7 @@ function custom_content() {
         <?php
     if(!empty($text_above_filters)) {
         ?><div class="full-container">
-             <div class="custom-container">
+             <div class="custom-container event-container">
             <?php echo $text_above_filters;?>
            
             
