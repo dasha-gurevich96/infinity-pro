@@ -84,7 +84,7 @@ if (have_rows('collapsibles')) {
 										<?php
 										}
 									} elseif(get_row_layout() === 'image') {
-										if(have_rows('image')) {
+									
 											$contain_image = get_sub_field('contain_image') ? 'object-fit-contain' : 'object-fit-cover' ;
 											$background_colour = get_sub_field('background_colour');
 											$image = get_sub_field('image');
@@ -95,7 +95,7 @@ if (have_rows('collapsibles')) {
 											?>
 											 
 										<?php
-										}
+									
 										
 									}
                                 } 
