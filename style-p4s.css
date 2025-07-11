@@ -3991,6 +3991,12 @@ img.logo.object-fit-contain {
 	font-weight: 600 !important;
 }
 
+.inner-page .logo-card h3 a:hover,
+.inner-page .logo-card h3 a:focus,
+.inner-page .logo-card:hover h3 a {
+	text-decoration: underline;
+}
+
 /*Funders*/
 
 .funders-cards {
