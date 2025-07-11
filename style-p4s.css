@@ -2661,6 +2661,12 @@ h2.text-center.inner-page-title  {
 	}
 }
 
+/***LINKS
+----------------_*/
+.links.d-flex.flex-column.gap-3 {
+
+    gap: 24px !important;
+}
 /***ACCRODION
 ------------------_*/
 .accordion-button {
@@ -3170,6 +3176,7 @@ img.img-mask {
 		top: -85px;
 	}
 }
+
 
 /*** STORIES
 ====================+*/
