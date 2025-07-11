@@ -4567,7 +4567,6 @@ a.back-to:focus img {
 .eventinfo {
     display: flex;
     flex-direction: column;
-    gap: 32px;
     margin-top: 30px;
 }
 
