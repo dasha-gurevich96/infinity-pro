@@ -3804,6 +3804,11 @@ button.slick-arrow {
 	flex-direction: column;
 	justify-content: center;
 }
+
+.page-id-121 .entry-content {
+    padding-bottom: 50px;
+}
+
 button.slick-arrow:hover,
 button.slick-arrow:focus {
 	outline: 2px solid black;
