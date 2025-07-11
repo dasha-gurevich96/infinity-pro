@@ -2373,6 +2373,18 @@ footer a.social-icon img {
     z-index: 1;
 }
 
+.inner-page .entry-header .wave-container {
+	position: absolute;
+	width: 100%;
+    left: 0;
+    bottom: -66%;
+    z-index: 1;
+}
+
+.inner-page .entry-header .wave-container img {
+	position: relative;
+}
+
 .inner-banner.plain-banner {
     padding: 0;
 }
