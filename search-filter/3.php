@@ -112,6 +112,7 @@ if ($query->have_posts()) {
 								?>
 							<div class="event-details">
 								<?php if(!empty($venue)) {
+									echo 'test';
 									?>
 									<p class="text-icon d-flex gap-3">
 									<img class="icon" src="/wp-content/uploads/2025/06/Icon_location.svg" alt="" />
