@@ -302,7 +302,7 @@ p {
 
 a.site-title {
     outline-offset: 2px;
-    outline: 2px dotted transparent;
+    outline: 2px  solid transparent;
 	transition: all 0.2s ease;
 }
 
