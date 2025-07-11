@@ -118,6 +118,14 @@ if ($query->have_posts()) {
 									<span><?php echo $venue['name'];?></span>
 									</p>
 									<?php
+								} else {
+									$online_text = get_field('online_text') ? get_field('online_text') : 'Online';
+                                    ?>
+									<p class="text-icon d-flex gap-3">
+									<img class="icon" src="/wp-content/uploads/2025/06/Icon_location.svg" alt="" />
+									<span><?php echo $online_text;?></span>
+									</p>
+									<?php
 								}
 								?>
 								<?php if(!empty($date_text)) {
