@@ -701,6 +701,7 @@ function add_social_share_buttons_global() {
 		// Create an array of social networks and their respective sharing URLs
 		$social_networks = array(
             'Facebook' => 'https://www.facebook.com/sharer/sharer.php?u=' . $url,
+            'LinkedIn' => 'https://www.linkedin.com/sharing/share-offsite/?url=' . urlencode($url),
             //'X' => 'https://twitter.com/intent/tweet?text=' . $title . '!&url=' . $url,
         );
 
@@ -712,6 +713,8 @@ function add_social_share_buttons_global() {
 				$img = '<img src="/wp-content/uploads/2025/06/Asset-1.svg" alt="">';
 			} elseif($network === 'X') {
 				$img = '<img src="/wp-content/uploads/2025/06/Asset-2.svg" alt="">';
+			} elseif($network === 'LinkedIn') {
+				$img = '<img src="/wp-content/uploads/2025/07/Linkedin-1.svg" alt="">';
 			} 
 			$share_buttons .= '<a class="social-icon" href="' . esc_url($share_url) . '" target="_blank" rel="noopener" aria-label="Share via ' . esc_attr($network) . ' (opens in a new tab)">' . $img . '</a>';
 		}
