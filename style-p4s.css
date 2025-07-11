@@ -2602,6 +2602,10 @@ h2.accordion-header a {
 	font-weight: 700;
 }
 
+h2.accordion-header a {
+    font-size: 27px !important;
+}
+
 div.accordion {
     display: flex;
     flex-direction: column;
