@@ -4031,7 +4031,7 @@ img.logo.object-fit-contain {
 	color: black !important;
     font-size: 30px !important;
     font-weight: 700;
-	text-decoration: none;
+	text-decoration: none !important;
 	margin: 0 !important;
 }
 
