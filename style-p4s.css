@@ -4341,6 +4341,9 @@ img.logo.object-fit-contain {
 	.bio-card {
 		width: 90% !important;
 	}
+	.bio-card .img-wrapper {
+		height: 164px;
+	}
 	.logo-diamond-container {
 		width: 260px;
 	}
