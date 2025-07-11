@@ -598,7 +598,8 @@ a span {
 }
 
 .genesis-nav-menu a:hover,
-.genesis-nav-menu .menu-item a:focus {
+.genesis-nav-menu .menu-item a:focus,
+.genesis-nav-menu  .current-menu-item  a {
 	color: #F2BA53;
 }
 
