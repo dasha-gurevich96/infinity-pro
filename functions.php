@@ -701,7 +701,7 @@ function add_social_share_buttons_global() {
 		// Create an array of social networks and their respective sharing URLs
 		$social_networks = array(
             'Facebook' => 'https://www.facebook.com/sharer/sharer.php?u=' . $url,
-            'X' => 'https://twitter.com/intent/tweet?text=' . $title . '!&url=' . $url,
+            //'X' => 'https://twitter.com/intent/tweet?text=' . $title . '!&url=' . $url,
         );
 
 		// Initialize the share buttons HTML
