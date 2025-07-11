@@ -3097,6 +3097,12 @@ img.img-mask {
 	}	
 }
 
+@media (min-width: 2400px) {
+	.info-graphics-title {
+		top: 75px;
+	}
+}
+
 /*** STORIES
 ====================+*/
 .stories article {
