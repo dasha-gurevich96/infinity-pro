@@ -4026,7 +4026,9 @@ img.logo.object-fit-contain {
 	z-index: 3;
 }
 	
-.funders-cards h4 {
+.funders-cards h4,
+.funders-cards h4 a {
+	color: black !important;
     font-size: 30px;
     font-weight: 700;
 	margin: 0 !important;
