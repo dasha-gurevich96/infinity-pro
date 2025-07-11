@@ -2374,15 +2374,12 @@ footer a.social-icon img {
 }
 
 .inner-page .entry-header .wave-container {
-	position: absolute;
-	width: 100%;
-    left: 0;
-    bottom: -66%;
-    z-index: 1;
+	overflow: hidden;
 }
 
 .inner-page .entry-header .wave-container img {
 	position: relative;
+	transform: scale(1.1);
 }
 
 .inner-banner.plain-banner {
