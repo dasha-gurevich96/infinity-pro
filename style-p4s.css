@@ -2594,7 +2594,8 @@ h2.text-center.inner-page-title  {
     max-width: 100%;
 }
 
-h2 .accordion-button {
+h2 .accordion-button,
+h2 .accordion-button a {
 	color: white !important;
 	text-decoration: none;
 	font-size: 27px;
