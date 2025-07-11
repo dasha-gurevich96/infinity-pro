@@ -42,6 +42,7 @@ function custom_content() {
     $selected_fields = get_field('selected_fields');
     $hide_filters = get_field('hide_filters');
     $text_above_filters = get_field('text_above_filters');
+    $hide_results = get_field('hide_results');
 
     ?>
     <div class="pattern-right">
@@ -90,7 +91,7 @@ function custom_content() {
        
     }
 
-    if(!empty($results)) {
+    if(!empty($results) && !$hide_results) {
         ?><div class="full-container"><div class="custom-container">
             <div class="results">
             <?php echo do_shortcode($results);?>
