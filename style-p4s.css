@@ -331,6 +331,10 @@ a.site-title:focus {
 	margin-bottom: 32px;
 }
 
+.fluentform .ff-el-is-error .ff-el-form-check-label, .fluentform .ff-el-is-error .ff-el-form-check-label a {
+    color: #950808;
+}
+
 
 .ff-el-group.ff-el-form-left {
     display: flex;
