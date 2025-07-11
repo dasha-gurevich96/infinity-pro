@@ -1226,7 +1226,8 @@ div#search-filter-label-3 {
 }
 
 .search-filter-component-combobox:focus,
-.search-filter-component-combobox:hover {
+.search-filter-component-combobox:hover,
+.search-filter-component-combobox:focus-within {
 	outline: 2px solid black !important;
 }
 
