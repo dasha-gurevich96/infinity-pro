@@ -459,7 +459,8 @@ main#genesis-content {
 	color: white;
 }
 
-a.custom-button:hover, a.custom-button:focus {
+.custom-button:hover, 
+.custom-button:focus {
     transform: none;
     outline: 2px solid  black !important;
 }
