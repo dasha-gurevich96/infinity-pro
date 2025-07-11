@@ -2961,7 +2961,12 @@ img.img-mask {
 	height: 48px;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1100px) {
+	.inner-banner {
+		padding-top: 14px;
+		padding-bottom: 13px;
+		margin-top: -2px;
+	}
 	.infographics-container .custom-container  {
 		 max-width: 100%;
         position: relative;
