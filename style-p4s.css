@@ -3914,6 +3914,20 @@ button.slick-arrow {
     width: 97px;
 }
 
+.bio-card .img-wrapper {
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    transform: translateX(-50%);
+    bottom: 0px;
+    height: 169px;
+    width: 200px;
+    object-fit: cover;
+    mask-repeat: no-repeat;
+    mask-position: bottom;
+    mask-size: 209px;
+}
+
 .page-id-121 .entry-content {
     padding-bottom: 50px;
 }
