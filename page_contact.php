@@ -98,7 +98,7 @@ if(!empty($text_above_cards) || have_rows('cards')) {
 </div>
     <div class="custom-container form-container">
         <div class="form-text mb-5">
-        <h2>Contact form</h2><div class="text">
+        <div class="text">
         <?php echo $text_above_form;?>
         </div>
          </div>
