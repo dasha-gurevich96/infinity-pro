@@ -2678,6 +2678,9 @@ a.accordion-button::after {
 		font-size: 19px;
 		line-height: 1.4;
 	}
+	h2.accordion-header a {
+    	font-size: 19px !important;
+	}
 	
 }
 
