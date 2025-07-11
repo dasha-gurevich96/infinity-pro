@@ -35,6 +35,10 @@ main .custom-container,
 	width: 1090px; 
 }
 
+html {
+    margin-top: -16px !important;
+}
+
 .wrap:before,
 .wrap:after {
 	display: none;
