@@ -173,10 +173,11 @@ function custom_content() {
 									</p>
 									<?php
 								} else {
+                                    $online_text = get_field('online_text') ? get_field('online_text') : 'Online';
                                     ?>
 									<p class="text-icon d-flex gap-3">
 									<img class="icon" src="/wp-content/uploads/2025/06/Icon_location.svg" alt="" />
-									<span>Online</span>
+									<span><?php echo $online_text;?></span>
 									</p>
 									<?php
                                 }
