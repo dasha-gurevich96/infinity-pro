@@ -2747,6 +2747,15 @@ a.accordion-button::after {
 	background-color: transparent;
 }
 
+img.tab-image {
+    width: 100%;
+    border: 1px solid var(--purple);
+    border-radius: 15px;
+    height: 300px;
+	margin-bottom: 20px;
+	display: block;
+}
+
 @media (max-width: 990px) {
 	.accordion-body {
 		padding: 24px 0;
