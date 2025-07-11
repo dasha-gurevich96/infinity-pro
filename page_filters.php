@@ -41,13 +41,22 @@ function custom_content() {
     $results = get_field('results_shortcode');
     $selected_fields = get_field('selected_fields');
     $hide_filters = get_field('hide_filters');
+    $text_above_filters = get_field('text_above_filters');
+
     ?>
     <div class="pattern-right">
         </div>
     <div class="pattern-left">
         </div>
         <?php
-
+    if(!empty($text_above_filters)) {
+        ?><div class="full-container">
+            </div class="custom-container">
+            <?php echo $text_above_filters;?>
+    </div>
+    </div>
+    <?php
+    }
     if(!empty($filters) && !empty($submit_buttons) && !$hide_filters) {
         ?>
         <div class="full-container">
