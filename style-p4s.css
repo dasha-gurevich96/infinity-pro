@@ -293,7 +293,15 @@ h2.white-container {
 }
 
 p {
-	font-size: 19px;
+	font-size: 20px;
+}
+
+.inner-pages li {
+	font-size: 20px;
+}
+
+.inner-pages a {
+	font-size: 20px;
 }
 
 .inner-page p:last-of-type {
