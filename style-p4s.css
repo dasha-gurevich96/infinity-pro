@@ -4279,6 +4279,16 @@ img.logo.object-fit-contain {
 		margin-top: 30px;
 	}
 
+	.bio-card .img-wrapper {
+
+    bottom: 0px;
+    height: 216px;
+    width: 205px;
+
+    mask-size: 284px;
+	-webkit-mask-size: 284px;
+}
+
 
 	.bio-card {
 		display: block !important;
