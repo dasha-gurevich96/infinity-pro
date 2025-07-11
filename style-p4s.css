@@ -2667,6 +2667,10 @@ h2.text-center.inner-page-title  {
 
     gap: 24px !important;
 }
+
+.link img.icon {
+    width: 26px;
+}
 /***ACCRODION
 ------------------_*/
 .accordion-button {
