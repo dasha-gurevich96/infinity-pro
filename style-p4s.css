@@ -3860,6 +3860,7 @@ h2.text-center.thanks-title {
 	padding: 25px 20px;
 	position: relative;
 	overflow: hidden;
+	transition: box-shadow 0.2s ease;
 	width: 35%;
 }
 
