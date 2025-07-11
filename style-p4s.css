@@ -3978,9 +3978,16 @@ img.arrow.icon {
 	flex-direction: column;
 	gap: 15px;
     justify-content: center;
+	transition: box-shadow 0.2s ease;
 	height: 100%;
 	padding: 14px;
 }
+
+.logo-card:hover,
+.logo-card:focus-within {
+	box-shadow: none;
+}
+
 
 img.logo.object-fit-contain {
     width: 100px;
@@ -4012,6 +4019,8 @@ img.logo.object-fit-contain {
 	display: flex;
 	padding: 13px;
 }
+
+
 
 .card.full-card {
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
