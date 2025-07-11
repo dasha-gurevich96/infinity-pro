@@ -90,7 +90,7 @@ if(!empty($text_above_cards) || have_rows('cards')) {
 }
 ?><div class="full-container">
     <div class="custom-container text-above-form mt-5 mb-5">
-        <?php echo $text_above_form;?>
+
         <div id="error-summary" class="error-summary" role="alert" style="" tabindex="-1">
         <h2 id="error-summary-title">Please fix the following errors:</h2>
         <ul><li><a href="#ff_3_names_first_name_">The first name is required</a></li><li><a href="#ff_3_email">The email field is required and must contain a valid email</a></li><li><a href="#ff_3_input_text">The organisation field is required</a></li></ul>
