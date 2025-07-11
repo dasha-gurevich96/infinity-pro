@@ -494,11 +494,17 @@ a.social-icon {
     display: flex;
     align-items: center;
     justify-content: center;
+	outline-offset: 2px;
 }
 
 a.social-icon img {
 	height: 25px;
 	width: 25px;
+}
+
+a.social-icon:hover,
+a.social-icon:focus {
+	outline: 2px solid black;
 }
 
 
